@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.810 --> 00:06.120
+Well have gone through and added some materials to the rest of the objects in the scene and it looks
+
+00:06.120 --> 00:07.010
+pretty good.
+
+00:07.260 --> 00:13.860
+But if we look here at the metal of the paper towel holder we can see that the reflections of it are
+
+00:13.860 --> 00:17.780
+kind of blurred or they're not very interesting.
+
+00:17.820 --> 00:24.610
+In other words we're not getting a reflection of what the room might look like outside of the frame.
+
+00:24.750 --> 00:29.450
+And the reason for that is because there isn't really anything outside the frame at all.
+
+00:29.640 --> 00:37.980
+If we come down here and choose rendered viewport shading in this view we can see that everything outside
+
+00:37.980 --> 00:43.620
+our frame is pretty much black and that's because early on if you remember we came over here to the
+
+00:43.620 --> 00:48.570
+world panel and we changed our color at Horizon to black.
+
+00:48.720 --> 00:52.590
+So there wasn't any ambient light bleeding into our scene.
+
+00:52.650 --> 00:56.570
+We wanted to use just the lights that we were creating.
+
+00:56.610 --> 00:59.930
+However there's another way to light your scene.
+
+01:00.000 --> 01:07.230
+We can use what's called HDR images or high dynamic range images and we can put one of those images
+
+01:07.500 --> 01:13.330
+back here in the environment have the light from the image light are seen.
+
+01:13.380 --> 01:19.880
+But more importantly I think have something to reflect in our metallic objects.
+
+01:20.100 --> 01:29.310
+Metal is oftentimes very hard to set up because so much of it relies on what is being reflected rather
+
+01:29.310 --> 01:31.350
+than the material itself.
+
+01:31.350 --> 01:39.360
+So if we wanted to add an HDR image to our scene here we would do it here in the world panel or over
+
+01:39.360 --> 01:41.000
+here in the node editor.
+
+01:41.010 --> 01:46.180
+So I can come over here and change to the world nodes for our node Ed..
+
+01:46.200 --> 01:50.970
+But as you can see there isn't anything here we don't have use nodes checked.
+
+01:51.270 --> 01:58.920
+And this use node's button is here we just need to click on this and now we can see our nodes and you
+
+01:58.920 --> 02:02.560
+see here that use nodes has been selected.
+
+02:02.580 --> 02:07.860
+Now what we can do is bring in an HDR image as an environment texture.
+
+02:07.890 --> 02:15.360
+So let's go ahead and press shift A and I'll choose texture and environment.
+
+02:15.360 --> 02:19.560
+And now we need to open it here and bring in an HDR image.
+
+02:19.560 --> 02:30.240
+Now I've gone ahead and searched google images and found an image of a kitchen here right here and if
+
+02:30.240 --> 02:39.010
+I click open image and then connect the node up to the background here you can see that in our background
+
+02:39.010 --> 02:41.170
+we now have this image.
+
+02:41.200 --> 02:49.740
+And I can tumble around in here and you can see the whole thing.
+
+02:50.010 --> 02:59.730
+So now we have both light and reflection coming from this image and you can see the change in our render
+
+02:59.730 --> 03:00.720
+over here.
+
+03:01.200 --> 03:10.290
+So actually let me change this to solid and I'll go ahead and increase the size of this.
+
+03:10.560 --> 03:16.080
+I'll hit the zero key to switch to camera view and let's zoom in a bit here.
+
+03:17.820 --> 03:24.210
+So that image has brightened up our scene a bit and we can of course adjust the lights to get the image
+
+03:24.210 --> 03:25.460
+the way we want it.
+
+03:25.470 --> 03:35.040
+We can also adjust the background strength here if we want to reduce the effect of the HDR image.
+
+03:35.040 --> 03:37.470
+We can always do that as well.
+
+03:37.470 --> 03:41.700
+I'll just type in one again here to the background strength.
+
+03:41.700 --> 03:44.670
+Now let's take a look at this paper towel holder.
+
+03:44.780 --> 03:47.360
+I'll selected and frame it up.
+
+03:47.640 --> 03:50.530
+I'll switch back over to the object nodes.
+
+03:50.790 --> 03:54.130
+Here's our nodes for the paper towel material.
+
+03:54.210 --> 03:58.700
+Come over here to the materials panel and switch over to the metal.
+
+03:59.160 --> 04:05.220
+And now if we take a look at this I'm going to zoom in and let's play with the settings of our material
+
+04:05.220 --> 04:08.810
+and see if we can get the reflection from our image in here.
+
+04:08.820 --> 04:18.120
+So if I take the glossy down to zero you can immediately see the reflection of our HDR image in the
+
+04:18.120 --> 04:19.710
+metal material.
+
+04:19.710 --> 04:23.540
+So now I think we get a better sense of what that metal can look like.
+
+04:23.580 --> 04:30.450
+Maybe I'll take the roughness back to point 1 let's see about that and maybe I'll take the mix Shater
+
+04:30.450 --> 04:33.660
+up two point seven.
+
+04:33.720 --> 04:37.440
+So we get a little bit more of the shine in there.
+
+04:37.440 --> 04:39.360
+Maybe I'll take it down to point 0 5.
+
+04:39.360 --> 04:44.400
+Let's try that every go so I think now we're getting a little bit more of the reflections that I really
+
+04:44.400 --> 04:48.360
+would want to have from that particular material.
+
+04:48.360 --> 04:54.030
+All right I'm going to hit zero again to go back to the camera of you now while we're here.
+
+04:54.030 --> 05:01.560
+I wanted to point out another possible material that we could use for say the ball in the scene.
+
+05:01.560 --> 05:02.600
+I'm going to select that.
+
+05:02.610 --> 05:06.720
+And here we have a diffuse Shater and a glossy.
+
+05:06.810 --> 05:11.920
+Over here you can see the diffuse and the glossy in the materials panel as well.
+
+05:12.000 --> 05:19.570
+We could maybe change this to just to see how it's going to look to say a glass shader.
+
+05:19.770 --> 05:22.070
+And let's see how that looks.
+
+05:22.080 --> 05:28.190
+I'm going to go ahead and zoom into it and tumble around to get a better look at it.
+
+05:28.440 --> 05:30.990
+Well right now it's not looking too good.
+
+05:30.990 --> 05:37.360
+We have our glass and we have a glossy but sometimes those two don't work well together.
+
+05:37.410 --> 05:43.220
+Let's take the factor in the mix Shater all the way down.
+
+05:43.590 --> 05:48.890
+And then I will reduce the color in our glass here.
+
+05:50.710 --> 05:52.850
+Something like that.
+
+05:52.880 --> 05:56.120
+So now we're beginning to see through that glass.
+
+05:56.120 --> 06:04.630
+Now maybe I'll bring the roughness down 2.1 and then bring the factor back up to maybe point two and
+
+06:04.640 --> 06:07.080
+let's see what happens here.
+
+06:07.100 --> 06:10.890
+So now we have a glass bowl with a bit of reflection in it.
+
+06:10.940 --> 06:19.680
+You can see the fruit reflected in it and you can also see through the bowl a bit to the fruit inside.
+
+06:19.960 --> 06:27.250
+So that glass shaker does a very good job of very quickly giving you a nice glass material.
+
+06:27.250 --> 06:38.170
+Now the I.O. are setting here is an actual real world setting a number that describes how light moves
+
+06:38.170 --> 06:39.990
+through a particular object.
+
+06:40.000 --> 06:47.140
+So I've come to Wikipedia here and I'm going to scroll down and you can see here that we've got real
+
+06:47.140 --> 06:58.660
+world IO our indices of refraction for say light soda lime glass is 1.4 six crown glass is 1.5 to water
+
+06:58.780 --> 07:00.050
+1.3.
+
+07:00.070 --> 07:09.190
+So these are real world settings that can help your materials react like and look like real world materials.
+
+07:09.190 --> 07:19.070
+So if we come back to Blendr here this IO are is 1.4 5 which is a very standard index for glass.
+
+07:19.120 --> 07:21.360
+So this is just a good starting point.
+
+07:21.370 --> 07:29.260
+If this were ice or water or anything else you could begin adjusting this Iowa bar to get it to look
+
+07:29.260 --> 07:32.170
+like that particular material.
+
+07:32.170 --> 07:37.610
+So in the next video I want to talk about one more shade or node that we haven't dealt with yet.
+
+07:37.630 --> 07:39.400
+The emission Shater.
+
+07:39.640 --> 07:44.350
+And also let's talk about a few things that we can do to clean up our renderers.
+
+07:44.350 --> 07:52.240
+You can see that we've got some grain here and some little fireflies going on around the reflective
+
+07:52.240 --> 07:53.290
+objects.
+
+07:53.290 --> 07:55.720
+Let's take a look at how we might clean those up.

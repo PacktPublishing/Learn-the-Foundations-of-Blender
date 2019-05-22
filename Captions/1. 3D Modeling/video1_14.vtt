@@ -1,0 +1,463 @@
+WEBVTT
+
+00:00.920 --> 00:06.890
+Let's now take a look at how we might create one of these Lego arms it looks like we need to begin with
+
+00:06.950 --> 00:08.300
+a cylinder.
+
+00:08.300 --> 00:16.470
+So let's go over to the Create tab and let's just create a cylinder now once again we don't need this
+
+00:16.470 --> 00:25.200
+many sides so I'll take the vertices down to 12 and I'll make sure that the cap Phil is Triangle fan.
+
+00:25.200 --> 00:31.530
+So now let's move it up and put it in place and scale it to the right size that the s key and scale
+
+00:31.530 --> 00:41.490
+this down until it's about the right diameter and then go to the scale tool and just drag this out so
+
+00:41.490 --> 00:47.950
+we can kind of get a sense of how long it should be something like that.
+
+00:48.110 --> 00:54.650
+I'm going to go ahead and press the period key on the number pad and zoom in and let's insert an edge
+
+00:54.650 --> 00:58.460
+loop where this elbow would be.
+
+00:58.460 --> 01:01.570
+So tab into edit mode and press control are.
+
+01:01.820 --> 01:08.360
+And maybe I'll put the elbow a little bit down here it kind of looks like that the upper arm is a little
+
+01:08.630 --> 01:15.260
+longer than the lower arm so I'll put that down there and it looks like there's just a slight bend in
+
+01:15.260 --> 01:17.260
+the arm so to get that.
+
+01:17.270 --> 01:26.120
+What we could do is go into say face mode press control tab press the three key to go into face mode.
+
+01:26.120 --> 01:33.380
+I'll hit the Z key to go into wireframe and now I can hold the control key down and click and drag a
+
+01:33.380 --> 01:37.510
+lasso around the faces I want.
+
+01:37.710 --> 01:40.010
+And there I have them selected.
+
+01:40.110 --> 01:41.850
+Now hit the Z key.
+
+01:41.940 --> 01:47.410
+Go to the rotate tool and maybe I can just rotate this just a hair.
+
+01:47.850 --> 01:51.090
+And while I'm at it I'll pull it forward some as well.
+
+01:51.090 --> 01:54.400
+So I get just a little bit of a bend there.
+
+01:54.400 --> 01:56.630
+Now here's the interesting part.
+
+01:56.850 --> 02:01.580
+How are we going to get this flat piece this curved piece and this flat area.
+
+02:01.590 --> 02:07.150
+So it fits right along the torso of the character well to do that.
+
+02:07.170 --> 02:14.340
+Let's grab these faces up here so I'll press the A key to de-select the ones I had selected press the
+
+02:14.340 --> 02:18.570
+C key to enable the circle select tool.
+
+02:18.570 --> 02:26.130
+And now I can scroll the mouse wheel to change the size of the brush and then I can click and select
+
+02:26.220 --> 02:27.340
+those faces.
+
+02:27.540 --> 02:29.860
+All right click to get out of that tool.
+
+02:30.120 --> 02:37.290
+And now what we can do is go to the rotate tool and I'm just going to in global axes I'm just going
+
+02:37.290 --> 02:44.620
+to rotate this around the y axis till it's almost flat like that.
+
+02:44.770 --> 02:47.960
+That looks terrible I know but bear with me here.
+
+02:48.220 --> 02:57.690
+I'll switch back to the move manipulator and just move that over so it's line with the side of our cylinder.
+
+02:57.700 --> 03:04.240
+Now I can always hit the one key and the five key to go into orthographic mode just to make sure that
+
+03:04.240 --> 03:08.300
+this is lined up as best as I can get it.
+
+03:08.320 --> 03:12.260
+All right I'll tumble out of that and press the five key again.
+
+03:12.640 --> 03:17.500
+Now we need to get this bulge on the shoulder to do that.
+
+03:17.500 --> 03:21.570
+I'll just insert another couple of edge loops with control are.
+
+03:21.850 --> 03:29.080
+And this one click and then drag up near that shoulder area and this is going to give us edges that
+
+03:29.080 --> 03:32.510
+we can pull out for the shoulder here.
+
+03:33.730 --> 03:42.270
+So sometimes you've just got to grab some edges or some vertices and just pull them around.
+
+03:42.280 --> 03:49.950
+And that's what I'm going to do here just pull these around until I get the beginning of that shoulder.
+
+03:49.950 --> 03:54.880
+Now let's insert another edge loop here and pull it up a bit too.
+
+03:55.240 --> 04:02.090
+And now we can use maybe these four edges to pull out a little bit more like this.
+
+04:02.260 --> 04:11.940
+So I'm just using this extra geometry to have something to pull on so I can kind of arrange or or mold
+
+04:11.940 --> 04:13.540
+the arm the way I need it.
+
+04:14.400 --> 04:17.650
+All right so that's looking pretty good.
+
+04:17.910 --> 04:24.120
+What let's do is let's add a subdivision surface modifier and see how much it collapses see where we
+
+04:24.120 --> 04:26.910
+need to add some edges.
+
+04:27.000 --> 04:30.160
+So I'll come over here to the modifiers panel.
+
+04:31.040 --> 04:35.840
+And I'll click add a modifier and let's add a subdivision surface.
+
+04:36.680 --> 04:37.800
+And then we go.
+
+04:38.030 --> 04:40.280
+I'm going to increase the used to.
+
+04:40.700 --> 04:46.850
+And I'll also come over here to the Tools panel tab out of edit mode.
+
+04:46.850 --> 04:51.350
+So I have access to this smooth shading and I'll click this here.
+
+04:51.410 --> 04:51.710
+All right.
+
+04:51.710 --> 04:54.960
+So let's go back into edit mode with the tab key.
+
+04:55.400 --> 05:02.870
+And now with our cage still visible Let's go ahead and see what we can do by adding some edge loops
+
+05:02.870 --> 05:04.100
+here.
+
+05:04.100 --> 05:10.900
+So for this all press control are and click and drag down to get that edge a little tighter.
+
+05:12.100 --> 05:18.360
+I'd like this elbow to be a little tighter as well so maybe control our insert in Edge loop here.
+
+05:19.150 --> 05:23.740
+And maybe one up here as well get that edge a little bit tighter.
+
+05:25.490 --> 05:33.570
+Let's take a look at our edge up here I might just take this edge and move it back a little bit.
+
+05:33.590 --> 05:34.460
+Let's try that.
+
+05:34.460 --> 05:42.080
+I'll also press shift and click of this one and just move these this way just a hair to spread those
+
+05:42.080 --> 05:44.390
+out a bit.
+
+05:44.510 --> 05:53.010
+And now I'll press control are and insert and loop up here and that's still not tight enough I don't
+
+05:53.010 --> 05:55.190
+think it's still not quite what we want.
+
+05:55.230 --> 06:02.580
+So what we could do is we could insert an edge loop up here but recall that we can't insert a loop through
+
+06:02.850 --> 06:05.930
+a triangle through anything but a quad.
+
+06:06.000 --> 06:15.840
+So to do that let's go back to face mode and with our c key our circle select tool click and drag these
+
+06:15.960 --> 06:17.330
+faces.
+
+06:17.880 --> 06:27.240
+And now let's hit the e key and click and the esky and scale those in and what we've done is effectively
+
+06:27.330 --> 06:34.100
+inserted an edge loop in triangles and that tightens up that edge a little better.
+
+06:35.150 --> 06:42.910
+All right so all tab out of that mode and here is the beginnings of our arm what we can do now is we
+
+06:42.910 --> 06:48.380
+can take this arm and move it over to our character.
+
+06:48.490 --> 06:53.850
+We can drag this over and move it down a bit.
+
+06:54.070 --> 07:00.370
+It looks like it's a little too long and that's OK for now but we can always do is tab into edit mode
+
+07:00.400 --> 07:02.740
+and go into wireframe.
+
+07:03.370 --> 07:11.500
+And then what we can do is just press the key for border select drag select the bottom of our arm maybe
+
+07:11.500 --> 07:12.950
+just move that up a bit.
+
+07:13.810 --> 07:15.300
+We can try that.
+
+07:15.360 --> 07:19.020
+I'll hit the Z key again and tab.
+
+07:19.470 --> 07:26.730
+Now let's see if we can get this placed on the arm and we can always come in here and go to the rotate
+
+07:26.730 --> 07:34.670
+tool and rotate this so it lines up with the arm here like so maybe move it out of here.
+
+07:34.860 --> 07:36.240
+Something like that.
+
+07:38.810 --> 07:44.520
+Now what I'd like to be able to do is rotate this arm at the shoulder.
+
+07:44.750 --> 07:52.280
+But right now if I go to the rotate tool you can see it's going to rotate at the elbow and we don't
+
+07:52.280 --> 07:53.360
+want that.
+
+07:53.360 --> 07:59.540
+So one thing we can do is move the pivot point up to the center of the shoulder and then the arm can
+
+07:59.540 --> 08:01.340
+rotate around that point.
+
+08:01.790 --> 08:10.940
+So let me just move this out again I'll just press g and X and drag it out and the x axis and then in
+
+08:10.940 --> 08:19.350
+the here I'll tab into edit mode and I'll press control tab and the one key to go to vertex mode.
+
+08:19.760 --> 08:27.320
+And if I select that point right there I can snap the cursor to that point by pressing shift s and cursor
+
+08:27.320 --> 08:28.810
+to selected.
+
+08:29.120 --> 08:34.820
+And now if I tab back into object mode I can move this pivot point to the cursor.
+
+08:34.820 --> 08:41.900
+So now all under the Tools tab select set origin and origin 2 3D cursor.
+
+08:41.960 --> 08:42.840
+And there we go.
+
+08:43.640 --> 08:46.210
+Now we can move this back into place
+
+08:48.850 --> 08:55.520
+and when we hit the rotate manipulator we can rotate our arm around that point.
+
+08:55.540 --> 08:57.190
+All right so we have one arm.
+
+08:57.190 --> 09:01.000
+Now how do we get this arm over to the other side.
+
+09:01.450 --> 09:07.930
+Now to mirror this over I'm going to have to undo what I just did with the shoulder because we're going
+
+09:07.930 --> 09:13.180
+to have to move this pivot point into the center of the grid and then mirror the arm over along the
+
+09:13.180 --> 09:16.950
+x axis and then we can always put the pivot point back.
+
+09:17.260 --> 09:17.590
+All right.
+
+09:17.590 --> 09:18.730
+So let's try this.
+
+09:18.730 --> 09:25.300
+Now I'm going to move the pivot point down to the center by pressing shift s and moving the cursor to
+
+09:25.330 --> 09:26.990
+the center of the grid.
+
+09:28.190 --> 09:32.140
+And then I'm going to move the origin to the 3D cursor.
+
+09:32.160 --> 09:40.530
+Now before I add a mirror modifier to this I want to point out that the rotation over here has values
+
+09:40.530 --> 09:42.340
+in it other than zero.
+
+09:42.360 --> 09:50.290
+In other words these rotations are not the way they were when this object was first created at 0 0 0.
+
+09:50.760 --> 09:56.870
+And these rotations are going to be applied to the mirror when we mirror this object.
+
+09:56.880 --> 10:05.550
+So let me show you what I mean if I click the Add modifier menu and click mirror you can see that the
+
+10:05.550 --> 10:07.580
+arm is kind of way out here.
+
+10:07.590 --> 10:12.290
+We do have the x x is selected and that's correct.
+
+10:12.480 --> 10:23.280
+But because of the non uniform nature of our rotations of our transformations here the mirror isn't
+
+10:23.280 --> 10:25.170
+doing what we'd hope it would do.
+
+10:25.170 --> 10:29.330
+So let me go back and remove this mirror modifier.
+
+10:29.610 --> 10:36.510
+And with this arm selected Let's go ahead and apply the rotation of the object to do that I'm going
+
+10:36.510 --> 10:44.130
+to press control a that brings up the Apply menu and I'm going to just choose to apply the rotation.
+
+10:44.130 --> 10:47.440
+And let's see what that does click rotation.
+
+10:47.740 --> 10:51.630
+And then we go now our rotation is all zeroes.
+
+10:51.630 --> 11:00.370
+All right so now let's come over here and click add modifier mirror and notice what happened it now
+
+11:00.370 --> 11:04.270
+mirrors the way we want it to the way we would expect.
+
+11:04.270 --> 11:10.720
+All right so now quickly what let's do is let's move the pivot point back to where it needs to be so
+
+11:10.720 --> 11:14.200
+that we can rotate these arms at the shoulder to do that.
+
+11:14.200 --> 11:19.850
+We're going to need to apply the mirror modifier click apply.
+
+11:19.940 --> 11:25.670
+I then want to separate these pieces out into two separate objects.
+
+11:25.670 --> 11:32.960
+Currently it's all one object if I hit the tab key you can see we go into edit mode for both arms.
+
+11:32.960 --> 11:36.400
+I need each arm to be its own individual object.
+
+11:36.440 --> 11:38.990
+So in edit mode I can press the L key.
+
+11:38.990 --> 11:45.320
+I can hover over one of these components and press the L key and that will select all linked components
+
+11:45.950 --> 11:50.990
+and now to separate this out into its own object I'll press the peaky.
+
+11:51.200 --> 11:57.320
+And this brings up the separate menu and I'll choose to separate it by selection.
+
+11:57.560 --> 12:00.680
+So I click selection and there we go.
+
+12:00.710 --> 12:07.130
+Now we can see that if we choose this arm individually here it is.
+
+12:07.220 --> 12:09.890
+And if we choose this arm individually here it is.
+
+12:09.890 --> 12:22.380
+So I'll call this arm underscore our and I'll call this one arm underscore L for left and then we go.
+
+12:22.380 --> 12:26.400
+Now we can work individually with these objects.
+
+12:26.580 --> 12:30.110
+So now I'm going to select one of these and press shift H.
+
+12:30.150 --> 12:32.150
+And that will hide everything.
+
+12:32.160 --> 12:42.810
+But this one object Alt-Tab into edit mode select that vertex move the cursor to it with shift s and
+
+12:42.810 --> 12:45.800
+press cursor to selected.
+
+12:46.110 --> 12:55.110
+And now if I tab back into object mode I can set the origin to the 3D cursor to bring everything else
+
+12:55.140 --> 12:55.610
+back.
+
+12:55.620 --> 13:01.780
+I'm going to press alt H and I'll select the other arm press shift.
+
+13:01.800 --> 13:02.530
+H.
+
+13:03.330 --> 13:13.590
+And do the same thing over here so select that point press shift as cursor to selected TAB back into
+
+13:13.590 --> 13:18.430
+edit mode and change the origin to the 3D cursor.
+
+13:18.430 --> 13:24.530
+Now if I bring everything back again with old age I can select an arm and rotate it.
+
+13:25.400 --> 13:30.170
+Around the shoulder and there we go.
+
+13:30.180 --> 13:36.190
+So in the next video what let's do is let's work on creating one of these hands.

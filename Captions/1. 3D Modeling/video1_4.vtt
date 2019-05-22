@@ -1,0 +1,283 @@
+WEBVTT
+
+00:01.050 --> 00:05.880
+All right let's bring our books back and put them on top of the table.
+
+00:05.910 --> 00:12.190
+So if I shift click of this display layer the books will come back here.
+
+00:12.210 --> 00:16.860
+Now what I'd like to do is place these books up on top of the table.
+
+00:17.130 --> 00:24.610
+I can just select these and then move them straight up to sit on the table.
+
+00:24.620 --> 00:30.800
+I can do that easy enough looks like this one book is a little bit off.
+
+00:30.800 --> 00:35.940
+I can move that up some and maybe even rotate it a bit.
+
+00:36.170 --> 00:40.960
+I'll press the our key and just rotate that.
+
+00:41.290 --> 00:48.620
+Now if your books are too large or too small you can scale them together as one object.
+
+00:48.630 --> 00:57.220
+So if I select all of these books and let's scale these objects using different settings for our pivot
+
+00:57.220 --> 00:57.840
+point.
+
+00:58.060 --> 01:06.210
+So if I scale this with the median point selected I'll hit s and scale it would scale it all around
+
+01:06.210 --> 01:10.040
+and the median point of all of those objects.
+
+01:10.180 --> 01:17.650
+But also I could change this to individual origins and scale and we'll scale them all down individually
+
+01:18.310 --> 01:19.000
+as well.
+
+01:21.270 --> 01:27.240
+Now if I chose to scale this from the 3D cursor that pivot point would go down to the 3D cursor and
+
+01:27.240 --> 01:29.980
+it would scale from there.
+
+01:32.220 --> 01:38.580
+So a couple of different options for you as you move and place the books on your table.
+
+01:38.940 --> 01:41.640
+So I'll go back to the median point here.
+
+01:41.640 --> 01:49.620
+Now another option is if I'm sure that these books are going to stay in this configuration I can combine
+
+01:49.620 --> 01:52.490
+all of these objects together into one.
+
+01:52.590 --> 01:59.070
+So to do that once again I can select all the books and press control J and that will combine them all
+
+01:59.070 --> 02:00.530
+into one object.
+
+02:00.660 --> 02:04.610
+I can then come over here and call this looks.
+
+02:04.950 --> 02:12.360
+Now if I needed to split one of these books out from the others make it an individual object again I
+
+02:12.360 --> 02:21.150
+can go into edit mode and select just one of these books by hovering over it and pressingly L key when
+
+02:21.150 --> 02:29.220
+you press the L key you're selecting the component face edge or vertex that the cursor is hovering over
+
+02:29.670 --> 02:33.320
+as well as all the other components that are linked to it.
+
+02:33.330 --> 02:39.580
+So L for linked that split this out as its own object I can press the P key.
+
+02:39.690 --> 02:48.780
+And that brings up the separate menu so I can choose to separate these things by loose parts by material
+
+02:48.780 --> 02:50.370
+or by a selection.
+
+02:50.400 --> 02:53.880
+And since I've selected a particular one I'll just choose selection.
+
+02:54.180 --> 02:56.280
+And now it's its own object.
+
+02:56.280 --> 03:02.790
+I can tab out of edit mode and select this as its own things so books so the book
+
+03:05.580 --> 03:10.530
+something like that too.
+
+03:10.530 --> 03:16.570
+Now let's take a look at actually creating a bookshelf to go in our scene to do that.
+
+03:16.590 --> 03:19.630
+I begin by going to a new layer here.
+
+03:19.770 --> 03:26.430
+So I don't have any of the existing objects in my way or go to the Create tab create a cube.
+
+03:27.450 --> 03:35.120
+And I'll begin scaling this up with the Eski and moving it up onto the grid here.
+
+03:38.020 --> 03:46.090
+Now I'll use the scale manipulator to make this a little bit narrower and maybe my book shelf needs
+
+03:46.090 --> 03:47.260
+to be a little bit taller.
+
+03:47.260 --> 03:51.920
+Let me bring back the table just to get a sense of scale here.
+
+03:52.360 --> 03:54.540
+Yeah let me make this a little bigger.
+
+03:56.530 --> 04:07.320
+I'll bring it up in the Z-axis by pressing G and then Z and moving the mouse go and what I'll do is
+
+04:07.320 --> 04:15.240
+alt tab into edit mode select a face on top and just move that up until it looks to be about the right
+
+04:15.240 --> 04:16.320
+size.
+
+04:16.830 --> 04:19.820
+And let's go like that.
+
+04:20.120 --> 04:21.990
+We can always scale it up or down.
+
+04:22.040 --> 04:23.470
+Once we're done.
+
+04:23.600 --> 04:29.170
+So tab back into object mode all de-select this layer by pressing shift and clicking it.
+
+04:29.180 --> 04:32.340
+So now we just have our bookshelf layer.
+
+04:32.600 --> 04:40.260
+So to create this bookshelf what I need is first to define the walls and the shelves of the thing.
+
+04:40.340 --> 04:46.340
+So I'll tab into edit mode and I'll press control our.
+
+04:46.520 --> 04:54.770
+And let's see I think maybe this one I'll put up near the top that'll be the top piece I'll put another
+
+04:54.770 --> 05:02.840
+one down near the bottom I'll put two edge loops vertically so I'll hover over this edge and then scroll
+
+05:02.840 --> 05:08.160
+the mouse wheel one time and that will allow me to create extra edges.
+
+05:08.250 --> 05:12.560
+I can scroll it many times insert however many I want.
+
+05:12.560 --> 05:16.060
+I just want to hear saw click click again.
+
+05:16.280 --> 05:25.300
+And now I'm going to use the scale tool to widen those out for the walls on the side and then I think
+
+05:25.360 --> 05:35.430
+I want to use control are again and create four edges here I want to create one two three four and click
+
+05:35.460 --> 05:36.960
+and click again.
+
+05:36.960 --> 05:44.400
+Now I'm going to select with the Alt key and click that edge and that selects that entire edge all the
+
+05:44.400 --> 05:51.600
+way around and then I'm going to press shift and alt and click and that selects that whole edge all
+
+05:51.600 --> 06:00.130
+the way around as well and I'll just collapse these down with a scale tool and I'll do the same thing
+
+06:00.130 --> 06:00.770
+here.
+
+06:00.820 --> 06:05.950
+Alt select shift alt select and scale those down.
+
+06:09.610 --> 06:17.210
+All right so there is the beginnings of a bookshelf and I think I want to move that edge up just a hair
+
+06:17.230 --> 06:25.300
+so I'm going to go to the move tool and move this up some like so now to create the actual shelves.
+
+06:25.320 --> 06:34.350
+I'm going to take these faces and extrude them in so I'll press control tab and choose face mode and
+
+06:34.350 --> 06:39.810
+then I'll select this phase shift select this one and shift select this one.
+
+06:39.810 --> 06:44.780
+And now I'll just press the e key for extrude and push those back.
+
+06:45.650 --> 06:51.720
+Now if I push back too far it will go through so I just want it to go right about there.
+
+06:52.030 --> 06:52.970
+And there we are.
+
+06:53.020 --> 06:59.650
+Now I compress the achy to de-select and tab to tab back into object mode.
+
+07:00.250 --> 07:06.010
+Now I can begin to arrange my scene I'm going to bring back the table with shift select this letter
+
+07:06.040 --> 07:09.450
+and shift select that letter.
+
+07:09.730 --> 07:16.230
+And now I can begin moving the bookshelf where it needs to be.
+
+07:16.400 --> 07:19.200
+Maybe it's going to be over here in this corner
+
+07:23.660 --> 07:27.050
+and I can move the table and the books
+
+07:29.860 --> 07:33.080
+and move those over say next to here.
+
+07:35.280 --> 07:39.450
+Now I've still got the camera and the point light here in the seam.
+
+07:39.480 --> 07:48.180
+I can move these or delete them either way but I can move these to a new layer down here by selecting
+
+07:48.180 --> 07:55.100
+them and then pressing the M key forward move to layer and selecting a layer for them to go on.
+
+07:55.320 --> 07:56.220
+And then they go.
+
+07:56.220 --> 07:57.350
+So they're down here now.
+
+07:59.290 --> 08:03.060
+So I bring all these back and there is the beginning of my scene.
+
+08:03.280 --> 08:12.360
+I could create a floor for this by creating a plain and then scaling it out with the ASCII.
+
+08:12.450 --> 08:19.950
+And now you're beginning to see a scene come together so I could take this book let's say and duplicate
+
+08:19.950 --> 08:28.260
+it with shift D and begin moving it over and rotating it and placing it on my shelves and then duplicating
+
+08:28.260 --> 08:31.410
+it and scaling and arranging them all here.
+
+08:31.770 --> 08:39.420
+So with nothing more than simple navigation and selection tools as well as the extrude and the loob
+
+08:39.420 --> 08:43.920
+cut and slide modeling tools we've got the beginning of a scene.
+
+08:44.130 --> 08:50.310
+It really is amazing the amount that you can do with just these simple tools but in the next video we'll
+
+08:50.310 --> 08:57.090
+begin expanding our toolset and talking about processes and techniques that can make our lives a little
+
+08:57.090 --> 09:00.100
+easier as we're creating more complex scenes.

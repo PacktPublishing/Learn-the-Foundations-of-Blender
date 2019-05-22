@@ -1,0 +1,391 @@
+WEBVTT
+
+00:01.160 --> 00:04.740
+Now what if I wanted to make a pile of books.
+
+00:05.000 --> 00:10.490
+Well I'm going to go ahead and drag this up so it's sitting on the grid like so I can press the three
+
+00:10.490 --> 00:18.170
+key again and the five key to look at this and see if it's sitting right on the grid or not.
+
+00:18.200 --> 00:22.320
+There we go and I'll press the five key again.
+
+00:23.340 --> 00:30.630
+Now to duplicate it I can press shift D and now I'm going to move the mouse and I can move the mouse
+
+00:30.630 --> 00:35.900
+here and then left click to confirm the operation like so.
+
+00:37.390 --> 00:40.990
+And I'll move it down so it's sitting on the book there.
+
+00:41.120 --> 00:45.660
+I can also press the R key and rotate it.
+
+00:45.680 --> 00:52.640
+Now it's rotating and kind of a strange way here I can press the Z key and now it will only rotate around
+
+00:52.640 --> 00:55.090
+the z axis.
+
+00:55.190 --> 01:01.340
+Maybe I can press shift D again and click and then drag up with the move tool.
+
+01:02.660 --> 01:06.630
+Maybe I could scale in with the S.
+
+01:06.820 --> 01:09.300
+Bring it down so it is sitting on that book.
+
+01:12.840 --> 01:21.550
+I could press R and Z and rotate it a bit and then we have the beginnings of a pile of books.
+
+01:21.560 --> 01:28.880
+Now one thing I feel I should mention right up front here is this 3D cursor the 3D cursor is a great
+
+01:28.880 --> 01:34.440
+tool it's a little different than just about any other program out there.
+
+01:34.520 --> 01:43.810
+I'm selecting the objects in the scene with my right mouse button and if I click outside of these objects
+
+01:43.870 --> 01:52.030
+with the left mouse button I'll move that little red circle around everywhere I click.
+
+01:52.040 --> 02:01.670
+Now this is the 3D cursor and it allows you to move and snap pivot points origins and objects to it.
+
+02:01.850 --> 02:06.840
+So you can snap it to an object and then snap another object to it.
+
+02:07.040 --> 02:12.100
+Or you can snap a pivot point or an origin of an object.
+
+02:12.110 --> 02:13.900
+So let me give you an example here.
+
+02:13.940 --> 02:22.700
+Let's say I was going to duplicate this book and lay it down at an angle against this pile of books.
+
+02:23.360 --> 02:29.180
+So I'm going to go ahead and select that book and press shift D and then I'm going to click and I'm
+
+02:29.180 --> 02:31.580
+going to drag this out like this.
+
+02:31.580 --> 02:37.360
+Now what I want to be able to do is rotate the book at the spine.
+
+02:37.520 --> 02:46.850
+If I rotated from this point let me switch to my rotate tool if I switch from this point that spine
+
+02:46.850 --> 02:48.820
+moves out away from the books.
+
+02:48.830 --> 02:50.820
+I'd like to keep it right there.
+
+02:50.990 --> 02:53.570
+That's where I want the spine to be.
+
+02:53.630 --> 02:55.970
+I just want it to rotate down.
+
+02:56.180 --> 03:06.140
+So what I can do is actually tab into edit mode and I'm already in face mode and I'll select that face.
+
+03:06.260 --> 03:10.340
+And now I can snap that cursor to the face so I'll press shift.
+
+03:10.340 --> 03:18.500
+As for the snap tools and then choose cursor to selected and the cursor snaps to the center of that
+
+03:18.500 --> 03:19.680
+face.
+
+03:19.850 --> 03:23.590
+Now that the cursor is there I can go back to object mode.
+
+03:23.780 --> 03:30.950
+And one of the great things about Blendr is that you can move and place the pivot point separately from
+
+03:30.950 --> 03:32.660
+the origin of the object.
+
+03:32.810 --> 03:39.650
+For many programs I'd have to move the origin of this object to there to be able to rotate around this
+
+03:39.650 --> 03:40.440
+point.
+
+03:40.850 --> 03:48.470
+But for Blendr I can come down here to the pivot point menu and change the pivot point of the object
+
+03:48.470 --> 03:49.800
+to the 3D cursor.
+
+03:51.120 --> 03:53.360
+Now see the origin is still here.
+
+03:53.550 --> 04:00.300
+That's great but the pivot point where it rotates from has moved to where the 3D cursor is.
+
+04:00.300 --> 04:06.540
+So now I can take that and I can rotate it down at this point like that.
+
+04:07.290 --> 04:09.580
+So that gives you a lot of power.
+
+04:09.810 --> 04:16.200
+A lot of control over how you scale and rotate objects.
+
+04:16.200 --> 04:16.440
+All right.
+
+04:16.440 --> 04:21.530
+So I'll go ahead and come back to this pivot point menu and change to medium point.
+
+04:21.540 --> 04:24.160
+That's the default setting.
+
+04:24.510 --> 04:32.370
+And now that I don't need that pivot point anymore I can press shift s and snap the cursor to the center
+
+04:32.370 --> 04:34.040
+of the grid.
+
+04:34.050 --> 04:40.110
+Now if your cursor is ever out here on your way out on one end of the scene or something like that you
+
+04:40.110 --> 04:41.350
+can always press shift.
+
+04:41.350 --> 04:47.880
+See and that will center the cursor and frame up everything in your scene.
+
+04:47.880 --> 04:50.580
+All right so I have a pile of books here.
+
+04:50.970 --> 04:55.640
+What I'd like to do is create a table for them to do that.
+
+04:55.650 --> 05:02.990
+I'll go ahead and begin on a new layer so I'll click right here to select a new layer.
+
+05:03.090 --> 05:09.030
+The objects in Layer 1 go away and I've got a clean new layer here.
+
+05:09.140 --> 05:15.180
+Now I can always go back to it but I'm going to work here so I don't have any objects in my way as I
+
+05:15.180 --> 05:16.470
+create the table.
+
+05:16.620 --> 05:21.630
+I'm thinking that it's going to be a little table that would go at the side of a couch or something
+
+05:21.630 --> 05:22.500
+like that.
+
+05:22.740 --> 05:26.900
+So let's come over here to the Create tab and click on cube.
+
+05:27.390 --> 05:35.550
+And what I'd like to do is scale this up so I press the s key and drag the mouse out about like this.
+
+05:35.550 --> 05:40.230
+Now this is going to be the top of the table so I'd like it to be thinner than this.
+
+05:40.230 --> 05:42.330
+So there are two ways I can do that one.
+
+05:42.360 --> 05:50.620
+I can go to the scale tool and click and drag on the z axis or another way is I can press the s key
+
+05:51.010 --> 05:56.680
+and then the Z key to control the scale to the z axis.
+
+05:56.680 --> 05:58.390
+Either one is fine.
+
+05:58.390 --> 05:59.870
+So I'll go with that.
+
+06:00.860 --> 06:04.670
+And I'll move this up to about here.
+
+06:04.730 --> 06:06.480
+So that's the top of my table.
+
+06:06.830 --> 06:09.890
+Currently I'm pivoting around the center of the grid.
+
+06:09.890 --> 06:14.900
+What I'd like to do is pivot around this table to do that.
+
+06:14.900 --> 06:21.320
+I can press the period key on the number pad and that will zoom in to the selected object and also frame
+
+06:21.320 --> 06:21.860
+it up.
+
+06:23.090 --> 06:31.520
+So now I'll tab into edit mode select the face at the bottom here and I want to drag a piece down an
+
+06:31.760 --> 06:35.160
+in set piece where the legs will fit into.
+
+06:35.180 --> 06:44.060
+So press the e key and then I'll click and then I'll press the s key and I'll scale in a bit and then
+
+06:44.060 --> 06:51.450
+once again I'll press C and I'll drag straight down with the mouse and then I'll press the and click
+
+06:52.350 --> 07:00.520
+press asked for scale and scale this in a bit and then once again I'll press the end drag straight up
+
+07:01.450 --> 07:08.590
+to insert underneath the table now if I pull too far it'll come up out of the top of the table.
+
+07:08.590 --> 07:11.410
+I just want to bring it up a little bit underneath here.
+
+07:12.570 --> 07:16.980
+And there we go there is the beginnings of our table.
+
+07:16.980 --> 07:20.090
+So now I want to put legs in the table.
+
+07:20.240 --> 07:22.250
+Alt-Tab back into object mode.
+
+07:22.470 --> 07:31.740
+And so I can stay organized I better come over here and call this table top something like that just
+
+07:31.740 --> 07:38.440
+so I can stay organized I should go back and name all of these book objects as well.
+
+07:38.670 --> 07:45.020
+But for now let's go ahead and keep working on the table to create a table leg.
+
+07:45.090 --> 07:53.360
+Use another cube and for this I think I'll scale it down just a little bit so it's not quite as thick
+
+07:55.200 --> 08:02.900
+and I'll also come over here to the scaled tool and dragged that up in the Z-axis now I need to be able
+
+08:02.900 --> 08:06.820
+to see where I'm placing these and how tall they are.
+
+08:06.830 --> 08:17.080
+One method I like is the quad view panel you can press control alt Q and see your scene from four different
+
+08:17.080 --> 08:23.020
+viewpoints so you have the standard perspective window that we've been using over here.
+
+08:23.200 --> 08:27.600
+And then you've got the right front and top cameras.
+
+08:27.610 --> 08:33.670
+Now I also like to work in wireframe when I've got the four views here so when I pressed the Z key so
+
+08:33.670 --> 08:36.190
+I can see in wireframe.
+
+08:36.190 --> 08:42.980
+Now I can see if I come over here to the move tool I can see that I can drag this up.
+
+08:43.220 --> 08:50.300
+Maybe it's still a little too tall so I'll press S and Z and scale this down a bit.
+
+08:51.900 --> 09:01.270
+I like that and I'll press the G key in the side view here and just move it to where it needs to be.
+
+09:01.280 --> 09:06.910
+Now you can see although I've moved it to the side of the table here it isn't yet in the corner.
+
+09:06.980 --> 09:09.610
+You can see it up here in the top view.
+
+09:09.770 --> 09:17.360
+So I can drag it over in the top view and line it up with one of the corners I'll hit Z again so he
+
+09:17.360 --> 09:18.600
+can see it.
+
+09:18.860 --> 09:20.160
+And there you are.
+
+09:20.780 --> 09:23.600
+I'll toggle back into wireframe with a Z key again.
+
+09:23.620 --> 09:32.880
+And now that this is in place we can just press shift D and drag over to the other corner here.
+
+09:32.890 --> 09:41.860
+Now I can shift select this one so those selected I'll press shift d to duplicate click to confirm the
+
+09:41.860 --> 09:47.500
+tool and then I'll just use the Move manipulator to drag these over to the other corners.
+
+09:48.360 --> 09:54.640
+And then we have it a table or press control alt cue again to get back to the perspective view.
+
+09:54.810 --> 10:01.140
+Press the Z key to go to shaded view again and there we have it.
+
+10:01.180 --> 10:05.110
+Now currently it's all individual pieces.
+
+10:05.160 --> 10:08.880
+I think we should combine all of these into one object.
+
+10:09.120 --> 10:18.080
+So to do that I'm going to select all the pieces with shift's select and then press control J to combine
+
+10:18.080 --> 10:18.890
+them.
+
+10:18.890 --> 10:24.850
+Now our object here is the table top still depending on the order of selection.
+
+10:25.190 --> 10:32.030
+This name may have changed so you may have to rename this back to table top but now what I'd like to
+
+10:32.030 --> 10:34.940
+do is to place this in the scene better.
+
+10:34.940 --> 10:40.440
+I'd like the pivot point to be at the bottom center of the object.
+
+10:40.520 --> 10:47.210
+And since I've been modeling my object in the center of the grid here the 3D cursor is at a perfect
+
+10:47.210 --> 10:48.640
+point to do this.
+
+10:48.650 --> 10:54.140
+So with the 3D cursor in the center of the scene and if it isn't remember you can press shift s and
+
+10:54.140 --> 10:56.310
+then cursor to center.
+
+10:56.570 --> 11:04.040
+I'm going to come over to the tools tab and click the set origin pull down menu and now I can set the
+
+11:04.040 --> 11:07.450
+origin to the 3D cursor.
+
+11:07.590 --> 11:12.830
+And now this object will move at this point.
+
+11:13.870 --> 11:19.360
+I can even rotate it all press the Archey and rotate it around that point.
+
+11:21.000 --> 11:24.480
+So I'll do this.
+
+11:24.480 --> 11:29.740
+So the 3D cursor is really handy for moving origins and moving pivot points.

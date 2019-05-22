@@ -1,0 +1,358 @@
+WEBVTT
+
+00:01.020 --> 00:08.570
+Now quite a lot of 3D modeling is about looking at a complex shape and trying to figure out what primitive
+
+00:08.660 --> 00:13.640
+object what primitive shape we can build from to make that.
+
+00:13.640 --> 00:16.480
+So let's take a look at the legs here.
+
+00:17.250 --> 00:20.210
+One might think well it's a rectangle.
+
+00:20.400 --> 00:21.410
+And that's true.
+
+00:21.450 --> 00:24.940
+We could use a cube here and extrude off of that.
+
+00:25.200 --> 00:33.390
+But if you look at here this piece here is really more cylindrical and it's kind of harder to extrude
+
+00:33.390 --> 00:40.790
+a curved edge off of a cube than it is to extrude a straight edge off of the cylinder.
+
+00:40.810 --> 00:44.440
+So let's try a cylinder here and see what we can do.
+
+00:44.470 --> 00:52.450
+So to begin with I'll go over to the Create tab and click on cylinder and I'm going to click here and
+
+00:52.450 --> 00:57.960
+drag this up so I can see the input settings for this new cylinder.
+
+00:58.030 --> 01:05.820
+Let's change the number of sides from 32 to 12 and let's change the cap.
+
+01:05.830 --> 01:10.340
+Fill from an Injun to a triangle fan.
+
+01:10.900 --> 01:11.280
+OK.
+
+01:11.290 --> 01:17.430
+Now what let's try is let's rotate this in which axis.
+
+01:17.500 --> 01:21.920
+Well I would say we should rotate it around the y axis here.
+
+01:21.940 --> 01:34.060
+So what we could do is we could type in our Y and then type in 9 0 and enter and that will rotate the
+
+01:34.060 --> 01:38.470
+object around the y axis 90 degrees.
+
+01:38.490 --> 01:46.260
+All right so now that scale it down a bit and try and put it in place I'll press g and Z and bring it
+
+01:46.260 --> 01:55.490
+up and I can also come down here to the move manipulator click and drag over to look at this from the
+
+01:55.490 --> 02:01.770
+front view I'll press the one key and then I'll press the five key to look at it in orthographic view
+
+02:02.780 --> 02:06.920
+and what I'd like to do is get this positioned.
+
+02:06.920 --> 02:11.040
+So it's probably a little bit smaller here.
+
+02:12.980 --> 02:20.700
+Something like this and also we need to leave room for that Center's cylindrical piece right here.
+
+02:20.750 --> 02:24.450
+So I think that's probably enough room right there.
+
+02:25.880 --> 02:31.850
+Maybe I'll make it a little bit bigger and bring it down some.
+
+02:32.010 --> 02:38.820
+And then if we tumble around here I can select these faces I'll press control tab and then I'll hit
+
+02:38.820 --> 02:41.590
+the three key to go to face mode.
+
+02:41.960 --> 02:48.840
+And now if I hit the A key to de-select I can select these faces fairly easily by pressing the C key
+
+02:48.840 --> 02:55.310
+to turn on the circle select tool and I can scroll the mouse wheel to make it bigger or smaller than
+
+02:55.350 --> 02:58.800
+I can just click and select these faces.
+
+02:58.800 --> 03:04.860
+Now I go back to the front view by pressing the one key on the numpad and just drag these out until
+
+03:04.860 --> 03:08.910
+it lines up with that hip block right up there.
+
+03:08.920 --> 03:11.600
+I'll tab out of edit mode and there we are.
+
+03:11.610 --> 03:20.350
+We've got the beginnings of our leg but we need to extrude down for the leg and the foot.
+
+03:20.430 --> 03:24.580
+I want to press the five key to go back to perspective view.
+
+03:25.050 --> 03:29.920
+And also it looks like the back of the leg is flat.
+
+03:29.940 --> 03:31.700
+So how do we do that.
+
+03:32.250 --> 03:40.140
+Well I'll tell you what we can do is tab into edit mode and select these faces here let's say let's
+
+03:40.470 --> 03:48.210
+select four of the faces and one trick to flattening these up is using the scale tool.
+
+03:48.240 --> 03:50.790
+So don't go to this scale manipulator.
+
+03:50.790 --> 03:59.490
+And if I click and drag in the Y-axis you can see I can bulge it out but I can also flatten it up like
+
+03:59.490 --> 04:00.020
+that.
+
+04:01.070 --> 04:07.430
+If I press the three key on the keyboard and then the five key you can see I'm beginning to flatten
+
+04:07.430 --> 04:11.740
+these up and I'm right about there.
+
+04:11.870 --> 04:13.350
+That looks pretty good.
+
+04:13.370 --> 04:21.920
+Now I can move these back to the back of the leg and maybe even move them up so they snug right up against
+
+04:22.070 --> 04:23.260
+that block there.
+
+04:23.480 --> 04:24.440
+OK.
+
+04:24.860 --> 04:31.790
+Now if we take a look at this we can see what we need to extrude down to get the leg.
+
+04:31.790 --> 04:34.580
+Probably these two faces right here.
+
+04:34.760 --> 04:42.180
+So I'll select these go back to the side view the three key and let's extrude these down.
+
+04:42.530 --> 04:49.910
+So hit the e key and click and then I'm just going to drag straight down with the Z axis and there we
+
+04:49.910 --> 04:51.190
+go.
+
+04:51.740 --> 04:55.060
+I'm going to press the five key to go to perspective view.
+
+04:56.060 --> 04:57.120
+And that's about right.
+
+04:57.120 --> 05:00.320
+I think maybe a little tall but I think that's OK.
+
+05:00.600 --> 05:05.720
+Now once again these faces down here are need to be flattened.
+
+05:06.060 --> 05:13.200
+So I'll go to the side view with the three key and the number pad five key to go to orthographic view.
+
+05:13.200 --> 05:19.170
+And now once again you go to the scale tool and this time we scale on the Z-axis and that'll flatten
+
+05:19.170 --> 05:22.400
+those up and there we go.
+
+05:22.450 --> 05:29.620
+Now we've got that rounded piece up front and the flat straight piece of the leg.
+
+05:29.620 --> 05:32.800
+Now the foot here is just an extrusion.
+
+05:32.800 --> 05:39.550
+We just need a face defined here to extrude out and to do that we can just press control r and insert
+
+05:39.610 --> 05:48.310
+an edge loop and drag it down to about I don't know felt right there and now we go back to face mode
+
+05:48.310 --> 05:55.280
+with control tab select that face hit the key and pull straight out.
+
+05:55.670 --> 05:57.500
+And there we go.
+
+05:57.500 --> 05:59.980
+Now we've got the basis of our leg.
+
+06:00.140 --> 06:04.180
+I'll hit the five key to go back to perspective view.
+
+06:04.400 --> 06:10.970
+And I think before we go any further we should probably go ahead and insert some loops and add a subdivision
+
+06:10.970 --> 06:12.810
+surface modifier to it.
+
+06:13.310 --> 06:22.160
+So I'll go ahead and add a modifier subdivision surface and of course it looks awful.
+
+06:22.280 --> 06:30.120
+Click the view arrow here to turn the view up to to go to the tools tab and click smooth shading.
+
+06:30.140 --> 06:35.180
+I'll hit the tab key so we can see the cage around the smooth object.
+
+06:35.180 --> 06:41.120
+I'll insert a couple of edge loops vertically with control r and I'll scroll the mouse wheel and click
+
+06:41.210 --> 06:42.560
+and click again.
+
+06:42.560 --> 06:45.390
+And now I can scale these out to the edges.
+
+06:46.260 --> 06:56.350
+And we go I can tighten up the edge down here at the toe by pressing control r and inserting an edge
+
+06:56.360 --> 06:58.740
+loop right up here.
+
+06:59.010 --> 07:05.490
+I can get a tighter edge around the ankle by inserting an edge loop right in here let's say.
+
+07:05.700 --> 07:08.200
+And of course another one right in here.
+
+07:09.470 --> 07:16.250
+And I can tighten up this heel by inserting a horizontal edge loop down here and dragging it down.
+
+07:17.160 --> 07:18.000
+Like that.
+
+07:18.240 --> 07:22.430
+And it looks like we're gonna need one up here there's kind of a bulge out here.
+
+07:22.440 --> 07:31.370
+We need to tighten that edge up so I'll press control our and bring that up in to hear that.
+
+07:31.540 --> 07:38.880
+Now that we have this one leg let's duplicated or mirror it over to the other side to mirror an object
+
+07:38.890 --> 07:44.800
+we need to move the origin or the pivot point of the object into the center of the grid so that when
+
+07:44.800 --> 07:49.630
+we mirror it over it mirrors around that center point.
+
+07:49.630 --> 07:55.550
+So if we were to mirror this leg now it would simply mirror around the point here.
+
+07:55.690 --> 08:01.300
+We need to move this down to the center of the grid or where the 3D cursor is already.
+
+08:01.300 --> 08:06.550
+If your 3D cursor is somewhere else we need to move it into the center of the grid so I'll just press
+
+08:06.550 --> 08:13.450
+shift s and choose cursor to center and that will move it to the center of the grid.
+
+08:13.450 --> 08:19.930
+Now to move this origin to there we need to come over here to the tools tab and click Set origin or
+
+08:19.950 --> 08:21.580
+to 3D cursor.
+
+08:22.090 --> 08:27.470
+Now when we add a mirror modifier it will mirror around that point.
+
+08:27.490 --> 08:30.710
+So let's come over here to add modifiers.
+
+08:30.790 --> 08:32.200
+Click on mirror.
+
+08:32.590 --> 08:37.290
+Now you can see it's a mirrored around the x axis but going down.
+
+08:37.390 --> 08:38.950
+And why would that be.
+
+08:38.950 --> 08:45.520
+Well the reason why is because our rotation has a value in the y axis.
+
+08:45.700 --> 08:51.090
+We need to zero out that rotation before we can measure it over to the other side.
+
+08:51.400 --> 09:00.560
+So here let me remove the mirror modifier and we need to apply the transformations we need to make sure
+
+09:00.660 --> 09:02.990
+our rotations are all zeroes.
+
+09:03.180 --> 09:08.350
+So to do that we want to select the object in Object mode and press control a.
+
+09:08.640 --> 09:11.700
+And that will bring up the Apply menu.
+
+09:11.700 --> 09:14.150
+Now we want to apply the rotation.
+
+09:14.190 --> 09:20.220
+We can also apply the location and the scale and we can also apply the rotation and the scale at the
+
+09:20.220 --> 09:21.050
+same time.
+
+09:21.210 --> 09:27.700
+So notice the scale over here is point 4 6 and the rotation is 90 degrees.
+
+09:27.750 --> 09:36.090
+If we press control a and choose rotation and scale that will put the rotation at zero and the scale
+
+09:36.180 --> 09:37.490
+all at once.
+
+09:37.500 --> 09:43.760
+So now if we come back to the modifiers panel click add modifier mirror.
+
+09:44.010 --> 09:53.050
+Now it mirrors along the x axis in the way that we'd want it to here and now if I hit apply that will
+
+09:53.050 --> 09:55.010
+make it all one object.
+
+09:55.390 --> 09:56.080
+And there they are.
+
+09:56.080 --> 09:57.550
+There are legs.
+
+09:57.730 --> 10:00.560
+So I'll tap back and object there.
+
+10:01.300 --> 10:01.650
+All right.
+
+10:01.660 --> 10:08.830
+In the next video let's take a look at creating an arm and mirroring it over to the other side as well.

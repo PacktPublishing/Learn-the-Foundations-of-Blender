@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.630 --> 00:07.260
+Well let's take a few minutes and see if we can set up some sort of a lighting scheme for our set here
+
+00:08.390 --> 00:10.590
+for this light up here.
+
+00:10.590 --> 00:18.810
+I think maybe let's change this to sunlight and let's think about this in terms of maybe there's a window
+
+00:18.810 --> 00:24.900
+to the right of this scene maybe there's a window in the room.
+
+00:24.900 --> 00:26.640
+Sunlight is coming in.
+
+00:26.700 --> 00:33.060
+But in addition we have maybe a couple of lights on under the countertops here or under the cabinets
+
+00:33.060 --> 00:33.720
+here.
+
+00:33.720 --> 00:34.710
+So let's think about that.
+
+00:34.710 --> 00:39.490
+I always like to kind of think about what's happening in the scene.
+
+00:39.510 --> 00:41.550
+Where are the light sources.
+
+00:41.550 --> 00:47.050
+Is there a window in this scene and what time of day is it because that matters too.
+
+00:47.070 --> 00:53.790
+If it's early morning or late in the evening and we have sun coming in the window it's going to be one
+
+00:53.790 --> 00:58.640
+at a lower angle and two it's also going to be a different color.
+
+00:58.650 --> 01:04.440
+Maybe it'll be more of an orange since the sunlight is coming through the atmosphere and we have a kind
+
+01:04.440 --> 01:07.810
+of an orange sunrise or sunset.
+
+01:07.830 --> 01:14.280
+So thinking about time of day and where the light sources are really helps you as you begin to think
+
+01:14.280 --> 01:16.420
+about lighting scheme.
+
+01:16.590 --> 01:27.780
+So maybe it's like about like this let's say the sun is coming in to the windows about like this and
+
+01:27.780 --> 01:33.510
+I'll go ahead and turn on the rendered viewport and shading over here so we can kind of see what's going
+
+01:33.510 --> 01:34.390
+on.
+
+01:34.480 --> 01:41.940
+And of course since we have the sunlight it looks like there's a nuclear holocaust going on outside.
+
+01:41.940 --> 01:43.920
+So we need to change that.
+
+01:43.950 --> 01:48.640
+Let's take it down to one for now and see how that works for us.
+
+01:48.760 --> 01:57.060
+Now even with the sunlight I can change the size of the light and if I take this down quite a bit I
+
+01:57.060 --> 02:03.740
+can sharpen up those shadows and bring it down to like point five.
+
+02:03.800 --> 02:09.530
+And now the shadows should be a little sharper now as if it's coming from sunlight.
+
+02:10.220 --> 02:13.890
+Well maybe take it down a little bit more maybe to point one.
+
+02:13.900 --> 02:14.810
+Let's try that.
+
+02:15.780 --> 02:16.920
+There we go.
+
+02:17.550 --> 02:21.950
+Now that we have that in place let's also think about the color of the light.
+
+02:22.050 --> 02:26.040
+We have a color value here it's currently at white.
+
+02:26.040 --> 02:29.610
+Maybe it's a little bit.
+
+02:29.710 --> 02:32.440
+Let's take it to the blue in just a hair.
+
+02:32.530 --> 02:40.390
+Now you don't really need a lot of color when it comes to a light if you swing it way over here if it
+
+02:40.390 --> 02:48.310
+can really be disconcerting so let's just barely give it any blue at all almost so we can't tell it's
+
+02:48.790 --> 02:50.200
+there we go.
+
+02:50.200 --> 02:57.080
+So maybe we've got blue light coming from the sky since the sun is kind of high in the sky there.
+
+02:57.160 --> 03:01.560
+And now let's think about some of these lights underneath the cabinets.
+
+03:01.570 --> 03:06.770
+Maybe these are more incandescent and therefore a little bit more orange.
+
+03:06.790 --> 03:11.440
+So for these Let's create an area light I'll come back over here.
+
+03:11.440 --> 03:17.030
+Create an area and that's going to pop into the center of the grid there.
+
+03:17.200 --> 03:26.260
+I'll raise it up a bit and I'll also increase its size so we can kind of see it a little better there.
+
+03:26.410 --> 03:34.810
+Now perhaps I could go to my scale tool and scale this in just a little bit so it's kind of the shape
+
+03:34.810 --> 03:38.560
+of what an under the counter light would be.
+
+03:38.560 --> 03:46.640
+I'll switch to my move tool and just bring this up underneath right in here right under the counter.
+
+03:51.830 --> 03:52.790
+There you go.
+
+03:54.250 --> 03:59.610
+So now you can see we've got this light coming in from the top of the frame.
+
+03:59.620 --> 04:04.090
+It's once again pretty bright so I'm going to take this down to maybe 10.
+
+04:04.090 --> 04:06.160
+Let's see how that works.
+
+04:06.160 --> 04:13.150
+All right so we can see that there are go ahead and duplicate this with shift D and I'll move this out
+
+04:13.150 --> 04:24.370
+here and rotate it around the z axis so I'll press R Z 9 0 and rotate that and move it over here underneath
+
+04:24.370 --> 04:25.840
+the counter as well.
+
+04:27.930 --> 04:30.130
+Something like that.
+
+04:30.200 --> 04:35.980
+And now you can see we've got these lights coming down from where those would be.
+
+04:35.990 --> 04:41.630
+Maybe I'll move them out just a bit so we kind of center them underneath the counter just a little bit
+
+04:41.630 --> 04:46.670
+more something like that yes you can kind of see that coming down.
+
+04:46.700 --> 04:55.100
+And for the color of these Let's let's say we want it to be a little bit orange ish maybe something
+
+04:55.100 --> 05:00.580
+like this just a little bit orange ish.
+
+05:00.880 --> 05:07.360
+And this one as well I'll just move that to the Orange side of the spectrum.
+
+05:07.610 --> 05:09.060
+And there we go.
+
+05:09.080 --> 05:16.730
+So now we've got a light coming in from the right side of our screen so maybe that's an open window
+
+05:17.150 --> 05:22.490
+and then we've got a couple of lights shining down from under the cabinets.
+
+05:22.500 --> 05:26.580
+Let's go ahead and render this out and see how it looks.
+
+05:26.580 --> 05:29.670
+I'll turn the render viewport shading off.
+
+05:29.670 --> 05:31.610
+Change it to solid.
+
+05:31.630 --> 05:35.780
+Now come over here to the render panel and then click on the render button
+
+05:38.540 --> 05:41.440
+and there we are.
+
+05:41.480 --> 05:47.130
+Now we talked a little bit before about resolution and the quality of the image.
+
+05:47.150 --> 05:49.650
+We're getting a lot of grain here.
+
+05:49.820 --> 05:51.160
+So let's try two things.
+
+05:51.170 --> 05:58.250
+Let's one take the resolution up from 50 to 100 and hit render.
+
+05:58.400 --> 06:02.020
+So that looks a little bit better but we've still got quite a bit of grain.
+
+06:02.350 --> 06:09.260
+Well we can take care of that by scrolling down here and looking in the sampling area.
+
+06:09.260 --> 06:15.230
+And if we scroll that open we can see that our samples here are 10 and 10.
+
+06:15.230 --> 06:21.010
+So we're getting a preview of 10 samples and a render of 10 samples.
+
+06:21.020 --> 06:27.870
+Now yours may be a bit different here depending on if you've done any work here previously.
+
+06:27.950 --> 06:37.880
+So the preview is for our rendered viewport shading mode and the Render is for our final render here.
+
+06:37.880 --> 06:44.190
+So I'm going to bring that render up from 10 to say one hundred and let's see how this helps.
+
+06:44.300 --> 06:49.600
+I'll scroll back up and render and let's see how it looks.
+
+06:50.800 --> 06:51.940
+And there we go.
+
+06:52.300 --> 06:55.920
+Well that looks considerably better now doesn't it.
+
+06:55.930 --> 07:03.430
+But there's one thing we need to make sure and keep in mind now I have collapsed time here a bit because
+
+07:03.940 --> 07:11.290
+this rendered took almost three minutes whereas the last one took only 20 seconds.
+
+07:11.290 --> 07:20.290
+So increasing the quality or the sampling of your render drastically changes how long it takes to render
+
+07:20.320 --> 07:21.520
+each frame.
+
+07:21.520 --> 07:25.030
+So that's something to keep in mind as we move forward.
+
+07:25.090 --> 07:32.560
+Now if you're just creating a still image probably not a problem but if you're creating an animation
+
+07:32.560 --> 07:41.320
+where you have hundreds if not thousands of individual frames to render thinking about render time may
+
+07:41.320 --> 07:44.090
+be an important issue for your project.
+
+07:44.110 --> 07:51.610
+So now that we have our basic lighting setup here for our scene in the next video let's talk about scene
+
+07:51.610 --> 07:58.040
+scale how the size and scale of our objects affects the lighting in our scene.

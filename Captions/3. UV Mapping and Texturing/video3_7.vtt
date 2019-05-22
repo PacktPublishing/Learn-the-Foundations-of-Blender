@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.890 --> 00:07.910
+Well now back in Blender Let's bring that texture map and assign it to our material here so we can see
+
+00:07.910 --> 00:10.000
+it on our 3D object.
+
+00:10.040 --> 00:16.580
+First of all what I'll do is create a whole new material for this door so we can keep our U-V test material
+
+00:16.610 --> 00:20.320
+as is and apply it to other objects when we need it.
+
+00:20.360 --> 00:24.420
+I'll go ahead and click the plus here to add new material.
+
+00:24.530 --> 00:32.510
+I'll call this door and let's press shift A and bring in a new image texture.
+
+00:33.610 --> 00:40.990
+And I'll go ahead and connect it up to the diffuse node and from here I'll click open and browse to
+
+00:41.380 --> 00:47.790
+my textures folder where I've put that door underscore see image right there.
+
+00:48.010 --> 00:52.550
+Open that up and there we go Alt-Tab into object mode.
+
+00:53.010 --> 00:58.580
+And now we can see our texture has been applied to our door and there we go.
+
+00:59.130 --> 01:06.600
+So just like we talked about at the very beginning essentially what we've done is cut this open laid
+
+01:06.600 --> 01:14.880
+it down flat applied our images to it and now we're bringing it back and wrapping those images around
+
+01:14.880 --> 01:17.120
+the 3D object itself.
+
+01:17.190 --> 01:21.870
+So really that is U-V mapping and texturing in a nutshell.
+
+01:22.350 --> 01:25.930
+But of course there are a couple of other things that we can talk about.
+
+01:26.430 --> 01:32.000
+One of them is having different materials for our objects here.
+
+01:32.100 --> 01:40.320
+So there are two basic surfaces here one is the wood and the other is the metal on the door knob and
+
+01:40.320 --> 01:41.610
+plate.
+
+01:41.610 --> 01:48.210
+What I'd like is to have a different type of material a different type of surface for each of those
+
+01:48.210 --> 01:49.980
+two objects.
+
+01:50.070 --> 01:54.630
+But currently we only have control over the one material here.
+
+01:54.660 --> 02:05.320
+Now we could add a glossy Noad here pressing shift A and Shater and glossy and then add a mix.
+
+02:05.310 --> 02:13.410
+No just like we did in the introduction to materials and lighting course I'll add this here and connect
+
+02:13.410 --> 02:14.240
+these two up.
+
+02:14.250 --> 02:21.240
+And now we have control over the glossy anus and the specular highlights and even the roughness of this
+
+02:21.240 --> 02:22.200
+material.
+
+02:22.410 --> 02:25.470
+But it's going to apply to the whole object.
+
+02:25.470 --> 02:33.250
+I need to have individual control of the surface of the wood separate from the surface of the door knob.
+
+02:33.360 --> 02:43.230
+So I'm going to click here and drag a new panel out into this interface and change this from a 3D view
+
+02:43.260 --> 02:45.770
+to propertys view.
+
+02:46.200 --> 02:52.120
+And now I can come over and look at the materials for our object.
+
+02:52.560 --> 02:57.620
+So I'd like to add material slot to this I'll just click plus.
+
+02:57.900 --> 03:07.500
+And now we have a new material slot and click new and for this let's call this door knob and let's call
+
+03:07.500 --> 03:12.930
+that first one let's call that door would.
+
+03:12.930 --> 03:20.700
+Now if I select that door knob material and tab into edit mode I'm going to come in here and with the
+
+03:20.700 --> 03:21.810
+L key again
+
+03:24.330 --> 03:32.070
+select these pieces right here and assign that material to the door knobs.
+
+03:32.190 --> 03:32.970
+OK.
+
+03:33.330 --> 03:40.190
+Now we have independent control of the surface quality or material of that object.
+
+03:40.410 --> 03:43.980
+And from here I can go ahead and press shift a.
+
+03:44.280 --> 03:48.420
+Add that image texture in once again.
+
+03:48.420 --> 03:56.350
+I'll just pull down this menu here and add that door color map and connect it up here.
+
+03:56.350 --> 04:05.550
+So now the color map is being fed into both the door knob material and the door would material but they're
+
+04:05.560 --> 04:10.380
+only picking up the texture from their particular U-V Islands.
+
+04:10.390 --> 04:19.480
+OK now we need to see the door as we're going to see it in a render so we can adjust the materials settings
+
+04:19.480 --> 04:21.010
+the way we'd like.
+
+04:21.010 --> 04:30.790
+I think what I'll do is add a light to the scene I'll press shift a and add a lamp and maybe I kind
+
+04:30.790 --> 04:37.210
+of like an area light so I'll add that and I'll pull it out in front of the door here.
+
+04:38.180 --> 04:45.110
+In the light panel increase the size of the light so I can see it here.
+
+04:45.600 --> 04:50.230
+And I'll also rotate it so it points down at the door.
+
+04:51.720 --> 05:01.720
+Now come down here and change our viewport shading method from textured rendered now we can see the
+
+05:01.720 --> 05:12.210
+door right here now it looks kind of shiny for wood here so I'll select that door and come back up here
+
+05:12.210 --> 05:15.650
+to the material slots and slide that door would.
+
+05:15.930 --> 05:24.900
+And I'll drag the mics Shater so will we see more of the diffuse and maybe even increase the roughness
+
+05:24.900 --> 05:27.630
+of the diffuse as well.
+
+05:27.630 --> 05:31.130
+So now that's not quite as shiny as it was.
+
+05:31.440 --> 05:34.690
+In addition let's take a look at this door knob.
+
+05:34.710 --> 05:40.600
+I think even though it's kind of dirty and Rusty it still needs a little more shine.
+
+05:40.860 --> 05:52.770
+So once again I'll add a glossy and a mix and let's see how this works.
+
+05:52.770 --> 05:55.620
+Now that's a little bit too much I think.
+
+05:55.620 --> 05:57.420
+So let's take it down some
+
+06:00.210 --> 06:04.530
+let's try point three.
+
+06:04.530 --> 06:10.110
+All right so now we have the surface of the door also like this.
+
+06:10.110 --> 06:13.090
+I have the mix factor down to that.
+
+06:13.100 --> 06:17.650
+Let's put that at point 1 and the roughness too.
+
+06:17.670 --> 06:21.630
+And I guess we could put this to two here as well.
+
+06:21.780 --> 06:30.630
+And then for the door knob I have the mix factor at three the roughness in the glossy at point two.
+
+06:30.630 --> 06:33.240
+And in the diffuse zero.
+
+06:33.480 --> 06:39.920
+So now we've got I think a better representation of the materials here on our object.
+
+06:39.960 --> 06:47.190
+Now there is more we could do of course we could go back into Gamp and add new layers to our document
+
+06:47.280 --> 06:52.620
+overlaying dirt or some other colors on the door.
+
+06:52.680 --> 06:57.030
+We could even put text on the door if we wanted.
+
+06:57.030 --> 07:02.250
+In fact in the next video let's go ahead and try something with text on it.
+
+07:02.310 --> 07:04.480
+That's maybe a little bit different shape.

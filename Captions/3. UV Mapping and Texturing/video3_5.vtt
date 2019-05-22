@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.710 --> 00:06.500
+Now let's think about how we might create a U.V. map of all of the objects at once.
+
+00:06.630 --> 00:16.950
+So instead of having just the door here with its own U-V map and the door knob and the plate with their
+
+00:16.950 --> 00:24.780
+own U-V maps we can combine them all together so that all of the U.V. islands are here all within the
+
+00:24.780 --> 00:26.250
+0 to 1 space.
+
+00:26.250 --> 00:31.680
+So what I'll do is go into object mode and just select everything with the 8 key and then I'll press
+
+00:31.680 --> 00:35.900
+control J to combine everything into one object.
+
+00:36.180 --> 00:43.350
+So now if we tab into edit mode and select all of our faces you can see that here all the U-V islands
+
+00:43.770 --> 00:47.720
+all compressed into the zero to one space but overlapping each other.
+
+00:47.880 --> 00:50.320
+And this is a problem we can't have that.
+
+00:50.760 --> 00:58.710
+So as we saw previously what we can do is select all of the U-V islands and press control a to average
+
+00:58.710 --> 00:59.790
+Island scale.
+
+00:59.790 --> 01:08.130
+I'll do that and then press control P to pack Islands and there we go.
+
+01:08.130 --> 01:15.630
+Now what this has done is this has made all of our U-V islands proportionally the same size as they
+
+01:15.630 --> 01:24.060
+are here in the 3D view we can of course adjust this a bit if we want say the door knobs to take up
+
+01:24.060 --> 01:31.590
+more of the resolution space in our U.V. map with U-V islands selection enabled.
+
+01:31.590 --> 01:38.970
+We could come through and select our islands representing the door and we could scale those down with
+
+01:38.970 --> 01:45.410
+the key and maybe move those into a corner and then scale these up as well.
+
+01:45.740 --> 01:57.090
+But let's talk about these door knobs now do we really need to take up space for both of the door knobs.
+
+01:57.150 --> 02:04.260
+I'm thinking that we're only ever going to see one door knob or the other.
+
+02:04.340 --> 02:08.770
+We aren't really ever going to see both of them at the same time.
+
+02:08.930 --> 02:17.250
+So what we could do is optimize our U-V map a little bit better and have just one collection of U-V
+
+02:17.300 --> 02:20.940
+islands representing both of the door knobs.
+
+02:21.020 --> 02:22.110
+So how to do that.
+
+02:22.130 --> 02:28.460
+Well first of all I think what we should do is now that we've combined all of our objects together into
+
+02:28.460 --> 02:29.410
+one.
+
+02:29.510 --> 02:38.140
+Let's go ahead and select this door knob here just one of them and select this with the L key.
+
+02:38.150 --> 02:45.260
+Now we should also mention when we're using this LTE key select We have the ability to the limit our
+
+02:45.260 --> 02:49.950
+selection by material or seam or Uvas.
+
+02:49.970 --> 02:58.370
+Let me show you what that means if we selected this part of the door knob here with the L key and then
+
+02:58.370 --> 03:00.470
+turned on seam.
+
+03:00.590 --> 03:05.720
+You can see that what happens is only the part within that seam has been selected.
+
+03:05.720 --> 03:13.010
+Now I can press shift and click to turn that off but if you're selecting areas with the L key and it
+
+03:13.010 --> 03:20.600
+isn't all being selected check the delimit buttons here and you can always turn them off by pressing
+
+03:20.660 --> 03:23.570
+shift and then clicking the button.
+
+03:23.600 --> 03:27.850
+All right so I'm going to hover over this piece and press the key.
+
+03:27.860 --> 03:33.170
+And now I'm going to hit X and delete faces.
+
+03:33.170 --> 03:40.850
+Now that that is gone let's go ahead and remove the map this I'll press you and unwrap.
+
+03:40.880 --> 03:42.250
+Now there we go.
+
+03:42.410 --> 03:50.870
+We can test out the unwrap by switching to conformal and that changes it a little bit but not much.
+
+03:51.140 --> 03:59.390
+We can adjust the margin between the U-V islands here and maybe I'll take this down to point 0 1 and
+
+03:59.390 --> 04:07.840
+we can also if we want select all of these U-V islands and press our 9:0 and rotate them around a bit
+
+04:07.930 --> 04:13.150
+to if we want all of our door U-V islands going up and down.
+
+04:13.310 --> 04:15.510
+But what about that door knob.
+
+04:15.890 --> 04:20.870
+Well what we can do now is just select this piece here.
+
+04:21.790 --> 04:34.960
+And if we duplicate it shift D and enter now we can use the mesh mirror y global to flip that piece
+
+04:35.050 --> 04:37.390
+around and then move it over here.
+
+04:40.000 --> 04:42.590
+And put it right on the door on this side.
+
+04:44.440 --> 04:45.860
+And look at what's happened.
+
+04:46.000 --> 04:52.070
+There isn't any new U-V islands in our U-V map.
+
+04:52.120 --> 05:01.090
+In fact if we zoom in here and take a look at say this piece here I'll just select it with U-V Island
+
+05:01.090 --> 05:10.210
+selection and then if I hit the G key and move it aside you can see that the U.V. map for the duplicate
+
+05:10.210 --> 05:15.730
+door knob has been placed exactly on top of the U-V map for the original.
+
+05:15.940 --> 05:21.980
+So in texturing one we automatically texture the other.
+
+05:22.240 --> 05:29.580
+You'll see this used quite a bit in game texturing where to maximize the resolution within the 0 to
+
+05:29.590 --> 05:37.750
+1 space they will just the map one side of a symmetrical character and then when textures are applied
+
+05:37.750 --> 05:42.580
+to that one side they're also applied to the other as well.
+
+05:42.580 --> 05:49.540
+All right so now that we have the U-V map for our door we need to think about how we're going to apply
+
+05:49.540 --> 05:51.880
+our textures and to do that.
+
+05:51.880 --> 05:54.750
+I'll go ahead and use GIMP.
+
+05:54.750 --> 06:01.900
+The free open source image editing program to lay down some woodgrain texture and texture for the door
+
+06:01.900 --> 06:11.650
+knobs and plate and to do that we'll need a copy of our U-V map here to take into gimp so to export
+
+06:11.650 --> 06:23.210
+this U-V map out of Blendr we just need to come down here to Uvas export lay out and here we can choose
+
+06:23.210 --> 06:25.400
+a place for our U-V map.
+
+06:25.400 --> 06:39.920
+So I'm going to create a folder called textures and in here I will put our door Uvas down here we can
+
+06:39.920 --> 06:41.540
+choose what size we want.
+
+06:41.540 --> 06:43.330
+Are you the map to be.
+
+06:43.470 --> 06:46.310
+I'll go ahead and begin with 2048.
+
+06:46.370 --> 06:54.430
+We usually create our textures in powers of two like 2048 or 10:24 or 5:12.
+
+06:54.620 --> 07:00.650
+So they can be processed more quickly and things like a game engine and it's good to create your textures
+
+07:00.650 --> 07:01.330
+big.
+
+07:01.580 --> 07:08.810
+And then if needed be able to save out a lower resolution of them this is better than beginning small
+
+07:08.810 --> 07:15.330
+and trying to increase the size of a texture because that would just make it blurry and pixilated.
+
+07:15.680 --> 07:23.790
+So I'll go ahead and export this out and in the next video will open up Gimp and begin laying down our
+
+07:23.790 --> 07:24.330
+textures.

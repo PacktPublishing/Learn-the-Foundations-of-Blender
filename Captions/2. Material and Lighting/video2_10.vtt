@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.970 --> 00:07.330
+Another useful Shater in our materials enlighting tool toolbox is the emission Shater.
+
+00:07.570 --> 00:13.260
+This allows you to create an object and have that object emit light in the scene.
+
+00:13.270 --> 00:17.210
+But this only works in the cycles render engine.
+
+00:17.200 --> 00:22.400
+So let's say I wanted to light this scene with an object.
+
+00:22.780 --> 00:27.170
+So I'm going to go ahead and delete this sunlight here.
+
+00:27.190 --> 00:30.390
+I'll just hit X and delete.
+
+00:30.400 --> 00:37.170
+I'll also change from local to global in my transform orientation there.
+
+00:37.360 --> 00:44.890
+I'll bring the cursor back to the center with shift s and cursor to center so that when I create a polygon
+
+00:44.890 --> 00:52.930
+play it'll pop there into the center so now I'll press shift A and create that polygon plane I'll scale
+
+00:52.930 --> 01:03.350
+it up a bit and I'll move it up and over to here in the scene and what I'm going to do is use this polygon
+
+01:03.350 --> 01:04.200
+object.
+
+01:04.940 --> 01:11.020
+As a light source I'll hit R and y to rotate around the y axis.
+
+01:11.250 --> 01:20.030
+Maybe I'll move it up and even rotate it a bit so it points down into the scene like that.
+
+01:20.050 --> 01:21.370
+So let's give this a try.
+
+01:21.370 --> 01:28.840
+Now that I've created it let's go over to the material panel click new to create a new material and
+
+01:28.840 --> 01:31.430
+let's call this light.
+
+01:31.750 --> 01:39.550
+And now I'll just change the diffuse Shater from diffuse to emission.
+
+01:39.560 --> 01:43.260
+Now we don't see a whole lot of change here yet.
+
+01:43.310 --> 01:47.640
+Let's take the strength up to maybe 100 and see what happens.
+
+01:47.660 --> 01:52.160
+Now you can see that we're getting quite a bit of light from that object.
+
+01:52.220 --> 01:53.980
+That of course is a bit too much.
+
+01:53.990 --> 01:59.600
+But let's let's take it down to 20 let's say and see how that looks.
+
+02:00.500 --> 02:03.730
+Still maybe a little bit too bright let's take it down to 10.
+
+02:04.100 --> 02:08.450
+Let's try that yeah let's see how that works.
+
+02:08.490 --> 02:18.300
+If I switch to the rendered viewport shading over here you can see now that that polygon plane is emitting
+
+02:18.390 --> 02:21.240
+light into the same.
+
+02:21.470 --> 02:30.590
+All right let me switch back to my solid view and as we reduce the size of the light we can take a look
+
+02:30.590 --> 02:38.060
+at how that effects are seen and the actual size of the object affects directly the strength of the
+
+02:38.060 --> 02:39.080
+light.
+
+02:39.110 --> 02:47.830
+So I'll scale that back up maybe to about their so now maybe we've come to the point where we say OK
+
+02:47.830 --> 02:50.610
+this is the way I want my scene to look.
+
+02:50.620 --> 02:58.800
+Now I've got the materials the lighting set up the way I want I'm ready to do my final render test.
+
+02:58.810 --> 03:06.590
+So what we can do is go ahead and come back to the render panel and click on render.
+
+03:06.610 --> 03:15.640
+Now I'm rendering the image out at full resolution 1920 by 10 A.D. at 100 percent to get a sense of
+
+03:15.640 --> 03:23.510
+how it's going to look at full size and full resolution Well Rynders looking pretty good.
+
+03:23.510 --> 03:28.910
+We can see some reflections here in the metal of the paper towel holder.
+
+03:28.910 --> 03:33.200
+We can also see some of the texture on the paper towels and on the orange.
+
+03:33.320 --> 03:40.910
+Now we still see some grain appear in the shadows and down here under the bowl and that can often be
+
+03:40.910 --> 03:44.150
+remedied by just increasing the samples.
+
+03:44.150 --> 03:47.180
+Let me zoom out a bit here.
+
+03:47.180 --> 03:55.100
+Just increasing the samples in the render window under sampling here.
+
+03:55.100 --> 04:01.860
+So currently we only have 100 samples for the render and it doesn't look too bad.
+
+04:01.880 --> 04:07.450
+The problem is that it's taken us almost four minutes to render this one frame.
+
+04:07.880 --> 04:14.820
+And if it is a single frame image that you're going to use that may not be a problem if it's an animation.
+
+04:14.870 --> 04:22.240
+And as I've said if you have hundreds or thousands of frames maybe four minutes of frame is not acceptable.
+
+04:22.640 --> 04:25.770
+This is all very much a balancing act.
+
+04:25.820 --> 04:32.070
+How much quality do you want to get balanced with how much time you have to render.
+
+04:33.250 --> 04:42.160
+So to clean up some of the grain in the shadows here we could turn up our sampling to 200 500 1000 but
+
+04:42.190 --> 04:47.290
+any increase in our samples will also increase the render time.
+
+04:47.300 --> 04:55.200
+Now if you have reflective objects like this paper towel holder you can see here right in here there
+
+04:55.310 --> 05:03.070
+are these little Firefly's little sparklies that happen because of the reflections coming off the material.
+
+05:03.400 --> 05:05.970
+Now these may be acceptable.
+
+05:05.980 --> 05:12.590
+However if you are interested in trying to reduce those there are a couple of things that you can do.
+
+05:12.670 --> 05:20.200
+First of all since we have an HDR image in the background or being used for reflections and lighting
+
+05:20.440 --> 05:28.090
+we may need to come back to our world settings here and under settings we could turn on this multiple
+
+05:28.090 --> 05:29.820
+importance setting.
+
+05:29.950 --> 05:36.970
+I'll just click that there and you can see here it says use multiple important sampling for the environment
+
+05:37.540 --> 05:41.750
+and that can help clean up some of those Firefly's.
+
+05:41.860 --> 05:43.230
+That's one thing to try.
+
+05:43.660 --> 05:53.650
+Another over here in the render panel and under light paths you have a filter glossy setting if you
+
+05:53.650 --> 06:01.500
+increase this just a bit it can help filter some of the artifacts we're getting from that glossy node.
+
+06:01.810 --> 06:09.400
+And in addition we could turn off caustic completely here under refractive and reflective caustic caustic
+
+06:09.430 --> 06:16.150
+are the light patterns that can happen when light bounces off or through an object.
+
+06:16.150 --> 06:21.550
+We can turn these off completely and reduce some of that Firefly effect.
+
+06:21.550 --> 06:23.910
+But Cossack's are kind of nice.
+
+06:24.040 --> 06:29.790
+So you may want to give it a try to see if you can get the effects that you're looking for.
+
+06:30.220 --> 06:36.190
+And lastly if need be you can come up here and adjust the clamp indirect setting.
+
+06:36.220 --> 06:42.730
+This will clamp the high end or the brightest parts of the scene and so it can actually reduce some
+
+06:42.730 --> 06:45.670
+of the quality or the highlights in your scene.
+
+06:45.670 --> 06:51.220
+If I took this and maybe entered 10 let's say and tried that.
+
+06:51.220 --> 06:57.460
+That may be able to get rid of some of those fireflies but it also may reduce the brightness or the
+
+06:57.460 --> 07:01.800
+highlights in my scene but we'll give it a shot and see how it looks.
+
+07:01.810 --> 07:02.080
+All right.
+
+07:02.080 --> 07:05.580
+So I'm going to scroll back up and let's render again.
+
+07:07.030 --> 07:09.610
+Well our image has rendered and it's looking pretty good.
+
+07:09.790 --> 07:13.160
+I've increased the samples up to 500.
+
+07:13.240 --> 07:17.990
+And you can see because of that the render time is over 20 minutes.
+
+07:18.190 --> 07:26.020
+But in addition the few settings we changed has really helped eliminate those fireflies coming off of
+
+07:26.020 --> 07:27.680
+our reflective surfaces.
+
+07:28.090 --> 07:33.460
+So now that we have our render the way we want it we can go ahead and save it out by coming down here
+
+07:33.460 --> 07:41.220
+to the image menu and we can click save image and save it out to wherever we want.
+
+07:41.230 --> 07:44.140
+Maybe I'll call this render one.
+
+07:44.140 --> 07:52.660
+Maybe I'll want to test different lighting scenarios different colors materials etc. so I'll just save
+
+07:52.660 --> 07:53.550
+that out.
+
+07:53.710 --> 08:00.770
+And now I have my rendered image Well thank you for watching this materials and lighting course.
+
+08:00.770 --> 08:02.340
+I hope it's been helpful.
+
+08:02.390 --> 08:07.030
+Please check out the other great courses we have here at Blendr 101 dot com.
+
+08:07.130 --> 08:08.450
+So thanks again.
+
+08:08.450 --> 08:10.710
+I'll see you next time and take care.

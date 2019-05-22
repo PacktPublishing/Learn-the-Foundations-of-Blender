@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.420 --> 00:07.040
+In this course we'll ask and hopefully answer the fundamental questions of what is U-V mapping.
+
+00:07.390 --> 00:08.670
+And why do we need it.
+
+00:09.010 --> 00:10.700
+What is it used for.
+
+00:10.960 --> 00:14.330
+So let's begin right off with what is U-V mapping.
+
+00:14.680 --> 00:22.240
+Well it's really the process of creating a two dimensional representation of our 3D object.
+
+00:22.330 --> 00:24.430
+That's really all it is.
+
+00:24.520 --> 00:32.650
+It's almost as if we would take a cereal box and cut it along an edge and open it up and lay it flat
+
+00:32.980 --> 00:35.140
+down on a kitchen counter.
+
+00:35.260 --> 00:37.750
+That's really what U-V mapping is.
+
+00:38.140 --> 00:45.490
+And we do this so that we can apply images and photographs and textures to our object in the same way
+
+00:45.490 --> 00:51.380
+that this cereal box has had designs and images applied to it here.
+
+00:51.490 --> 00:59.740
+And then once those images are applied the cereal box is assembled into its three dimensional form.
+
+00:59.740 --> 01:01.830
+So that's really all we're doing.
+
+01:01.930 --> 01:08.470
+We're cutting the three dimensional object apart laying it flat so we can apply two dimensional images
+
+01:08.470 --> 01:09.190
+to it.
+
+01:09.460 --> 01:17.180
+And then we're reconstructing or wrapping those images back around that three dimensional object.
+
+01:17.590 --> 01:21.980
+So blender gives us a lot of tools to go through this process.
+
+01:22.030 --> 01:28.780
+One of the great tools I think is over here in the screen layout menu we can choose this U-V editing
+
+01:28.780 --> 01:30.180
+screen layout.
+
+01:30.550 --> 01:38.980
+And if we do that we get a very nice layout of our object and the U-V editor you come down here to this
+
+01:38.980 --> 01:39.400
+menu.
+
+01:39.400 --> 01:45.820
+You can see that the U.V. image editor is right here and that's what we're taking a look at here.
+
+01:45.850 --> 01:53.770
+Now what I like to do as well to add to this particular screen layout is to grab this tab here and drag
+
+01:53.770 --> 01:58.680
+it down a bit and create a node editor window.
+
+01:58.690 --> 02:06.550
+So I'm going to come over here to this menu and click on Node Ed. And that gives me a view of the node
+
+02:06.570 --> 02:07.230
+Ed..
+
+02:07.490 --> 02:13.840
+The U-V image editor and the 3D view all in one screen layout.
+
+02:13.840 --> 02:18.750
+Now I also should point out that I'm using the cycle's render engine here.
+
+02:18.850 --> 02:25.300
+If you're just opening Blendr up you may see that it's set to the Blendr render engine and that's an
+
+02:25.330 --> 02:32.320
+older render engine from the original versions of Blendr the cycle's render engine I think is a more
+
+02:32.530 --> 02:34.010
+modern render engine.
+
+02:34.030 --> 02:36.200
+And I think it's more realistic.
+
+02:36.220 --> 02:39.310
+So I'm going to go ahead and use this here.
+
+02:39.310 --> 02:45.070
+The reason why I bring that up is because the nodes in the node editor may look a little different if
+
+02:45.400 --> 02:48.600
+you're using the blender render engine.
+
+02:48.620 --> 02:55.220
+So let's first off just begin by trying to U-V unwrap this cube just like that cereal box.
+
+02:55.250 --> 03:01.330
+Let's see if we can open it up and lay it flat here in our U-V image Ed..
+
+03:01.880 --> 03:03.960
+There are a couple of ways to do that.
+
+03:04.010 --> 03:11.420
+I'm going to tap into edit mode and here in the U-V editing screen layout you can see that we can kind
+
+03:11.420 --> 03:18.440
+of see through our object in edit mode and that's because we have this turned off right down here this
+
+03:18.770 --> 03:21.560
+limit selection to visible.
+
+03:21.560 --> 03:24.900
+If I turn that on you can see we can't see through it.
+
+03:24.980 --> 03:31.180
+And this is the way I like to work if you would like to keep this so that you can see through it.
+
+03:31.220 --> 03:32.900
+That's fine too.
+
+03:32.900 --> 03:34.540
+So I get to go and turn that on.
+
+03:34.880 --> 03:40.180
+So here in edit mode the first thing I'm going to do is press the key on the keyboard.
+
+03:40.190 --> 03:44.120
+And that brings up this the mapping menu.
+
+03:44.120 --> 03:52.600
+We have several selections here we have unwrap smart U-V project like map pack.
+
+03:52.660 --> 03:59.900
+There's quite a few others down here but I think the main ones we're going to be using is unwrap and
+
+03:59.900 --> 04:01.750
+smart U-V project.
+
+04:01.970 --> 04:09.080
+Let's go ahead and try smart U.V. project click on that and then click OK.
+
+04:09.180 --> 04:10.820
+And this is what happens.
+
+04:10.830 --> 04:18.480
+So what blender has done for us is it's taken each of the faces of this object and laid them out flat
+
+04:18.660 --> 04:20.620
+in our U-V image editor.
+
+04:20.700 --> 04:26.880
+I'm going to come over here to this little checkbox and turn on this stretch colourations So I'll turn
+
+04:26.880 --> 04:27.530
+that on.
+
+04:27.690 --> 04:30.140
+And that we can see these a little better.
+
+04:30.150 --> 04:34.980
+So what would this look like now if we were to apply images to this object.
+
+04:35.220 --> 04:43.380
+Well Blendr has a nice U-V test pattern that we can use to lay onto our object and kind of get a sense
+
+04:43.380 --> 04:47.560
+of how the images will be applied to our object.
+
+04:47.580 --> 04:51.110
+So I come down here and I'll click new.
+
+04:51.420 --> 04:57.910
+And here we can choose what kind of image we want to apply to our U.V. image editor.
+
+04:57.990 --> 04:59.360
+I'm going to change the name here.
+
+04:59.370 --> 05:09.600
+I'll call it U-V test and currently 10:24 by 10:24 is just fine for the resolution but right down here
+
+05:09.630 --> 05:16.410
+under generated type I want to change this from blank to U-V grid and if I click that and then click
+
+05:16.440 --> 05:23.560
+OK you can see here that we've created a U-V grid underneath our U-V islands.
+
+05:23.610 --> 05:32.550
+If I come over here and turn off the stretch coloration here you can see it underneath those U-V islands.
+
+05:32.580 --> 05:35.100
+All right I'll turn that back on.
+
+05:35.250 --> 05:40.820
+Now what I'd like to do is apply that checker pattern to my object here.
+
+05:41.070 --> 05:47.130
+So to do that I'm going to have to apply that texture to the material of the object and you can see
+
+05:47.130 --> 05:50.840
+up here in the node Ed. that it does have a material.
+
+05:50.880 --> 05:55.790
+This is just the default cube that is present when you open up a scene in blender.
+
+05:55.890 --> 06:03.000
+I'm going to click used node's right here and now we can see the diffuse and material output nodes for
+
+06:03.000 --> 06:05.580
+this particular material.
+
+06:05.580 --> 06:13.350
+Now if you're new to materials and the node Ed. Please check out Blendr 201 materials and lighting where
+
+06:13.350 --> 06:20.080
+we go into more detail about how to create and adjust material settings in Blender.
+
+06:20.190 --> 06:27.420
+But now that I have the nodes here I want to apply that image texture here that U-V test pattern so
+
+06:27.420 --> 06:34.430
+I'll press shift day and under texture I'll choose image texture.
+
+06:34.440 --> 06:43.160
+Now I can pull down this little menu right here and choose my U-V test pattern I'll hook it up to the
+
+06:43.160 --> 06:44.930
+diffuse node.
+
+06:45.140 --> 06:52.760
+And now if I come over here and change my viewport shading from solid to texture we can see it here
+
+06:52.850 --> 06:54.100
+in the viewport.
+
+06:54.670 --> 06:57.240
+All right you say but what good does that do us.
+
+06:57.260 --> 07:05.030
+Well if we come over here we can see we have different ways to select our UVA's we can select them by
+
+07:05.030 --> 07:11.720
+U-V island by U-V face edge or vertex with vertex selected.
+
+07:11.720 --> 07:18.200
+I'll go ahead and just select one of these and I'll hit the G key and move it around and you can see
+
+07:18.200 --> 07:27.780
+as I do the stretch color changes from blue to green and the more I pull it the more stretched it gets.
+
+07:28.310 --> 07:34.580
+But if we tumble around on our cube here we can see that here is that face.
+
+07:34.710 --> 07:38.930
+I'll hit the G key again and move that vertex around.
+
+07:39.170 --> 07:48.230
+So it's pretty clear with this that the position and the layout of our U-V islands is very important
+
+07:48.230 --> 07:52.250
+for how our textures are going to lay down on our object.
+
+07:52.340 --> 07:58.060
+If we just wanted this checker pattern on our object this is definitely not what we would want.
+
+07:58.520 --> 08:06.450
+So I will undo this if we choose say an edge or go to edge display and select an edge.
+
+08:06.470 --> 08:14.900
+I can hit the G key and move that around and you can see how stretched that face will get as well.
+
+08:14.900 --> 08:23.060
+So the purpose of U-V unwrapping is to allow us to put images on our 3D object.
+
+08:23.150 --> 08:30.380
+However what we can see here is that the lay out of our U-V map is very important to how the textures
+
+08:30.410 --> 08:32.390
+are applied to our objects.
+
+08:32.510 --> 08:38.490
+So in the next video we'll talk about other ways of U-V unwrapping our objects.

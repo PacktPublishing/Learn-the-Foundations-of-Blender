@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.920 --> 00:08.360
+This is Deren Lisl and welcome to an introduction to 3D modeling in Blendr I've been teaching 3D animation
+
+00:08.420 --> 00:14.360
+at the college level for quite a few years now and I've noticed that many people complain about the
+
+00:14.360 --> 00:20.410
+complexity or the difficulty of learning Blendr or learning 3-D modeling.
+
+00:20.510 --> 00:26.510
+And oftentimes I feel that it's simply because they didn't have that kind of fundamental foundation
+
+00:26.960 --> 00:31.840
+before they took off and they started trying to model an F-16 or something like that.
+
+00:31.880 --> 00:37.280
+I think there are certain fundamental things that it's good to know and I hope to go over those in this
+
+00:37.280 --> 00:38.330
+series.
+
+00:38.330 --> 00:44.870
+So first of all if you're new to Blendr let me just quickly go over the navigation and the interface.
+
+00:44.870 --> 00:51.540
+It looks a lot more complex than it is but let's just begin with navigating in 3D space.
+
+00:51.860 --> 00:57.470
+I'm just going to use the middle mouse button and I'm going to click and drag and in doing that I can
+
+00:57.470 --> 01:03.890
+tumble around if I hold the shift key down and press the middle mouse button and click and drag I can
+
+01:03.890 --> 01:11.120
+pan and if I hold the control button down and hold the middle mouse button and move the mouse up and
+
+01:11.120 --> 01:17.170
+down like that I can zoom in and out and I can also zoom in and out with the scroll wheel.
+
+01:17.210 --> 01:24.390
+The next thing is selecting objects and by default this is done with the right mouse button.
+
+01:24.410 --> 01:32.180
+So usually with most programs you select things with the left mouse button with Blender it's the complete
+
+01:32.180 --> 01:32.690
+opposite.
+
+01:32.690 --> 01:34.160
+It's the right one.
+
+01:34.520 --> 01:40.310
+However if this seems very strange to you you can always change that by going over to the File menu
+
+01:40.730 --> 01:50.610
+coming over the user preferences and you can change the select with from right to the left mouse button.
+
+01:50.630 --> 01:57.110
+I suggest that if you're new to Blender go ahead and switch this and then click on Save user settings
+
+01:57.620 --> 01:59.500
+and then close the window here.
+
+01:59.540 --> 02:05.810
+I'm going to stick with the right because I've been doing it for years and I'm kind of old school here.
+
+02:05.810 --> 02:12.350
+Now when you first open blender you've got a default cube here on the grid you can view this cube in
+
+02:12.350 --> 02:13.400
+a couple of ways.
+
+02:13.400 --> 02:18.490
+One is if you hit the Z key on the keyboard it'll change to wireframe.
+
+02:18.650 --> 02:22.400
+And if you hit the Z key again it'll change back to shaded view.
+
+02:22.400 --> 02:23.450
+Now you can change that.
+
+02:23.480 --> 02:32.150
+Also down here as well with the viewport shading menu to move this cube around we can use the manipulator
+
+02:32.150 --> 02:33.100
+gizmo's here.
+
+02:33.110 --> 02:36.830
+The move manipulator is currently active.
+
+02:36.830 --> 02:46.400
+I can change it here to rotate and scale but I can also use the shortcut keys g to move and then click
+
+02:46.400 --> 02:53.660
+with the left mouse button I can press R and move the mouse to rotate it and then click again with the
+
+02:53.660 --> 03:01.440
+left mouse button to complete the tool or click with the right mouse button to activate it.
+
+03:01.610 --> 03:07.310
+And of course I can press the s key and scale the object in and out as well and I'll press the left
+
+03:07.310 --> 03:10.730
+mouse button to confirm the tool.
+
+03:10.730 --> 03:17.960
+Now you can also constrain the movement to a particular axis so let's say I wanted to move this object
+
+03:18.290 --> 03:22.850
+only in the y axis or this green axis here you can see the axes.
+
+03:22.970 --> 03:28.560
+Down here the x y and z x is red y as green Z is blue.
+
+03:28.760 --> 03:35.230
+But if I wanted to move this in the y axis I could just press g and then immediately hit the y axis.
+
+03:35.330 --> 03:43.160
+And now I can move it in only the y axis and I'll click to confirm it in the same way I can press the
+
+03:43.220 --> 03:46.010
+R key and press the Y key.
+
+03:46.010 --> 03:51.240
+And now I can only rotate that object around the y axis.
+
+03:53.030 --> 03:58.250
+And scaling works in much the same way say I wanted to scale this in the y axis as well so I can hit
+
+03:58.280 --> 04:00.190
+s and press Y.
+
+04:00.350 --> 04:05.690
+And now I can scale it in that axis only.
+
+04:05.760 --> 04:13.260
+Now you may find in other programs that the x y and z axis is a little bit differently configured in
+
+04:13.260 --> 04:16.190
+Blendr the z axis is the up axis.
+
+04:16.380 --> 04:20.590
+In many other programs the y axis is the axis.
+
+04:20.730 --> 04:27.370
+And that really only gets confusing if you're trying to export objects and move them to another program.
+
+04:27.540 --> 04:33.170
+If you're going to be staying in Blendr for pretty much all your three-D work it really won't matter.
+
+04:33.180 --> 04:36.030
+Now there are a couple of other shortcut keys that she should know.
+
+04:36.120 --> 04:37.900
+One is the T key.
+
+04:37.950 --> 04:44.910
+If I press the T key on the keyboard you can see that the Tools panel over here closes and opens.
+
+04:44.910 --> 04:47.340
+So that's an easy way to hide that.
+
+04:47.340 --> 04:52.870
+Another keyboard shortcut that opens up a panel is the N key on the keyboard.
+
+04:52.980 --> 04:59.370
+And if I press the end key and then open up the properties panel over here and one of the most important
+
+04:59.400 --> 05:07.320
+features of the properties panel is the transform fields here the location rotation scale and even the
+
+05:07.320 --> 05:08.530
+dimensions.
+
+05:08.700 --> 05:15.870
+So you can even input values here into these fields to move rotate and scale your object.
+
+05:15.870 --> 05:21.240
+So let's say I wanted to get the scale of the object back to the way it was when it was a cube.
+
+05:21.510 --> 05:29.340
+I can click and drag these fields here and change all of the scale fields back to one I can zero out
+
+05:29.340 --> 05:30.370
+the rotation.
+
+05:30.390 --> 05:38.430
+So I had rotated it in the y axis 0 0 0 that out here and I can take the location back to zero as well
+
+05:38.660 --> 05:43.080
+with the X Y and Z click and drag those hit the zero key and hit enter.
+
+05:43.080 --> 05:48.420
+And now my cube is back to the way it was when it was first created.
+
+05:48.420 --> 05:54.090
+Notice that even though the scale is at one the dimensions are two two and two and that refers to the
+
+05:54.090 --> 06:00.600
+grid units or the default grid units in Blendr these grid units don't really coincide with anything
+
+06:00.600 --> 06:01.660
+in the real world.
+
+06:01.720 --> 06:06.260
+However they most closely resemble meters I should say.
+
+06:06.450 --> 06:13.930
+If I come over here to this button here the scene button on the properties window you can see I've got
+
+06:13.930 --> 06:21.530
+units and right now there is none which means we're just using the Blendr default units.
+
+06:21.700 --> 06:29.980
+We can change it to metric and you can see not much changes here except meters up here and two meters
+
+06:29.980 --> 06:36.670
+here or we can change it to the imperial system of inches and feet and then you can see the grid has
+
+06:36.670 --> 06:42.960
+shrunk quite a bit and we've changed the feet here and feet and inches here.
+
+06:42.970 --> 06:49.030
+Now Actually these aren't quite inches they're just decimals but I can change this to separate units
+
+06:49.030 --> 06:49.370
+here.
+
+06:49.390 --> 06:51.440
+And now you can see it's got six feet.
+
+06:51.460 --> 06:53.530
+Six point seven inches.
+
+06:53.590 --> 06:59.230
+But generally speaking I usually work with just the blender default units.
+
+06:59.230 --> 07:01.900
+Now another couple of shortcut keys we should talk about.
+
+07:01.900 --> 07:04.390
+I'm going to switch to the move tool here.
+
+07:04.450 --> 07:11.800
+If I move this cube up I can always undo it by pressing control or command Z to undo if I hit the period
+
+07:11.800 --> 07:14.140
+key on the number pad.
+
+07:14.140 --> 07:21.820
+I'll zoom in to the selected object and that object will now become the center of rotation around which
+
+07:21.820 --> 07:28.390
+I tumble so if I zoom out here select the camera press the period key on the number pad.
+
+07:28.600 --> 07:33.860
+I'll now zoom or excuse me tumble around that camera.
+
+07:34.450 --> 07:39.390
+Now if you do not have a number pad if you're working on a laptop.
+
+07:39.490 --> 07:47.170
+One thing you can do is come over here to the file user preferences menu option and you can turn on
+
+07:47.290 --> 07:48.880
+emulate numpad.
+
+07:48.880 --> 07:55.240
+I have this turned on as it is just in case I don't have my little external number pad with me.
+
+07:55.270 --> 08:03.010
+I work on a laptop as well and so I keep this turned on so I can use either the numbers at the top of
+
+08:03.010 --> 08:10.030
+the keyboard or I can use my external number pad and then be sure and click save user settings.
+
+08:10.030 --> 08:16.180
+Now the reason why you may need a number pad is so that you can use the different views in Blender.
+
+08:16.180 --> 08:23.980
+So if I press the one key on the numpad I switch over to the front perspective view and I can switch
+
+08:23.980 --> 08:32.140
+to the front orthographic view by pressing the five key so I can toggle between perspective and orthographic.
+
+08:32.200 --> 08:38.200
+Now I can click the middle mouse button and tumble out of this and notice that I'm still in orthographic
+
+08:38.200 --> 08:42.540
+I can hit the five key to then come back to perspective.
+
+08:42.670 --> 08:50.930
+I can hit the three key to go to the side view and the seven key to go to the top you.
+
+08:50.980 --> 08:59.780
+So those are the main buttons you'll use on the number pad the period key and then the 1 3 5 and 7 keys.
+
+09:00.330 --> 09:04.980
+Well in the next video we'll take a look at the differences between object mode and edit mode.
+
+09:05.290 --> 09:07.210
+And we'll talk about the transform tools.

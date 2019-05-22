@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.810 --> 00:06.270
+Now before we create our two top Lego piece I'd like to do a little bit of housekeeping here.
+
+00:06.540 --> 00:14.140
+What I want to do is make sure that this block is resting on the grid here as if the grid is a floor
+
+00:14.220 --> 00:15.820
+or a table top.
+
+00:15.840 --> 00:21.450
+And I also want to take the origin of the object that you can see right here and place it right down
+
+00:21.450 --> 00:27.760
+in the bottom center of the object and that will help us move and snap and stack the blocks.
+
+00:27.990 --> 00:35.850
+So to move this up to the grid I want to go to one of my orthographic views I'm going to press the one
+
+00:35.850 --> 00:43.510
+key on the numpad and there we go and then I'll press the five key to go to orthographic view.
+
+00:43.860 --> 00:51.750
+And what I want to do is just drag this up and tell it sits right on the grid right there.
+
+00:51.760 --> 00:58.840
+Now I'm gonna use the middle mouse button to tumble out of that and then I'll press the five key to
+
+00:58.840 --> 01:02.260
+go back to perspective mode.
+
+01:02.270 --> 01:07.470
+Now what I want to do is make sure that this 3-D cursor is in the center of the grid.
+
+01:07.480 --> 01:08.980
+It looks like it is.
+
+01:09.020 --> 01:12.030
+I want to press the Z key to go to wireframe.
+
+01:12.030 --> 01:15.060
+Just take a look at it and you can see it there.
+
+01:15.280 --> 01:17.070
+Well hit the Z key again.
+
+01:17.530 --> 01:23.530
+But just to make sure that that 3-D cursor is in the center of the grid I'm going to press shift s and
+
+01:23.530 --> 01:29.430
+I'm going to choose cursor to center from the snap menu here.
+
+01:29.470 --> 01:33.130
+Now I'm sure that that cursor is in the center of the grid.
+
+01:33.130 --> 01:39.550
+Now what I want to do is take that origin of this object and snap it to the 3D cursor.
+
+01:39.550 --> 01:46.900
+So come over here under the Tools tab and click Set origin and change the origin to the 3D cursor.
+
+01:47.650 --> 01:49.000
+And there we go.
+
+01:49.000 --> 01:54.630
+All right so now that we have that taken care of let's take a look at creating one of these two tops.
+
+01:54.640 --> 02:01.070
+So once again I'll go back to my template layer that I put way out here to keep it safe.
+
+02:01.090 --> 02:05.410
+I'll select that and I'll press shift d to duplicate it.
+
+02:05.420 --> 02:08.140
+Shift D and enter.
+
+02:08.140 --> 02:12.970
+Now over here in the outliner you can see that duplicate is called template 0 0 1.
+
+02:12.970 --> 02:21.730
+I'll change the name of that and call that two top and I'll move this I'll press the end key to bring
+
+02:21.730 --> 02:29.470
+up the moved to layer menu and I'll move it to layer number 2 cents though one top is on the first layer.
+
+02:29.530 --> 02:30.860
+Click that.
+
+02:30.880 --> 02:35.670
+And now we go over to layer Number two there is our template.
+
+02:35.950 --> 02:40.980
+So now what we need to do is create a duplicate of this.
+
+02:40.990 --> 02:44.400
+Move it to one side and then connect the vertices up.
+
+02:44.410 --> 02:46.230
+So it's all one object.
+
+02:46.240 --> 02:46.870
+So here we go.
+
+02:46.870 --> 02:55.000
+Let's press shift d to duplicate it and I'll press enter and then I want to slide this over so it's
+
+02:55.000 --> 02:58.340
+right next to the original one.
+
+02:58.360 --> 03:02.810
+Now I could try and move it over just right so they just overlap.
+
+03:03.310 --> 03:10.780
+But I think an easier way is just for me to come in here to the X location and just type in two and
+
+03:10.780 --> 03:18.880
+then we go since the scale of this plane is it 1 and its dimension is 2.
+
+03:18.980 --> 03:23.700
+I can just type in a location of two and it a line that up exactly.
+
+03:23.720 --> 03:29.510
+Now if I hit the tab key to go into edit mode I can either go into edit mode for this object or I can
+
+03:29.510 --> 03:35.150
+go into edit mode for this object but I can't really do it for both at the same time and we need to
+
+03:35.150 --> 03:38.210
+do that to be able to connect the vertices up.
+
+03:38.450 --> 03:42.410
+So what we need to do is be able to join these objects again.
+
+03:42.410 --> 03:48.010
+So to do that if you recall I'll select both of these and press control.
+
+03:49.780 --> 03:54.400
+And that will join these two together into one object.
+
+03:54.400 --> 03:59.370
+Now if I hit the tab key you can see they all go into edit mode.
+
+03:59.410 --> 04:06.190
+So now what we can do is choose these vertices and merge them together but we won't actually use the
+
+04:06.190 --> 04:09.420
+merge tool per say here let me show you what I mean.
+
+04:09.640 --> 04:17.320
+If we I'm going to kind of line this up and I'll press can troll tab to go to the next select menu and
+
+04:17.320 --> 04:19.250
+I'll choose Virtex.
+
+04:19.270 --> 04:26.190
+And now we can see the vertices here and just select these border select them with the Beaky press the
+
+04:26.500 --> 04:33.460
+key and then click and drag these right there to select all of those.
+
+04:33.490 --> 04:35.580
+But did I really select all of those.
+
+04:35.620 --> 04:40.620
+Let's go up to here and take a look at the vertices number.
+
+04:40.660 --> 04:43.790
+There's 114 vertices in this object.
+
+04:43.990 --> 04:49.570
+But look I only have five selected which means I didn't select all of them there should be 10 there.
+
+04:49.720 --> 04:56.860
+So let me hit the A key again to de-select and this time I'm going to press the Z key to go into wireframe.
+
+04:56.860 --> 05:02.890
+Now I'll press the be key to border select and border select all of these vertices again.
+
+05:02.890 --> 05:07.000
+And now this time take a look at how many I got 10.
+
+05:07.390 --> 05:15.310
+So my point is when your in solid mode and use something like the borders select tool the tool doesn't
+
+05:15.310 --> 05:18.370
+select anything behind what's in the front.
+
+05:18.370 --> 05:27.310
+So it only selects the vertices or the components in front and nothing in back of those to select overlapping
+
+05:27.310 --> 05:30.460
+components you need to go into wireframe.
+
+05:30.460 --> 05:37.780
+All right so now that I have all of those selected I can press control V for the vertex menu control
+
+05:37.810 --> 05:38.540
+the.
+
+05:38.770 --> 05:42.190
+And then I can come down here and choose remove doubles.
+
+05:42.310 --> 05:47.920
+So if I click that look at what happened it says removed five vertices.
+
+05:47.980 --> 05:53.070
+So now there are only five selected because there are only five there.
+
+05:53.080 --> 05:58.220
+Now I hit Control V to bring up the vertex menu like this.
+
+05:58.480 --> 06:06.520
+But you can also press control e to bring up the edges menu that has a lot of edge tools in it and you
+
+06:06.520 --> 06:11.530
+can also press control f to bring up the faces menu.
+
+06:11.590 --> 06:19.420
+So control the control E and control f bring up the menu and tools for those specific components.
+
+06:19.450 --> 06:22.270
+Virtex edge and face.
+
+06:22.270 --> 06:22.750
+All right.
+
+06:22.750 --> 06:27.610
+So let's hit the Z key to go back to solid mode.
+
+06:27.760 --> 06:34.310
+And now what we can do is move this object up the tab key to go to object mode.
+
+06:34.330 --> 06:40.030
+And I'm just going to drag straight up until it's about where I think it should be.
+
+06:40.160 --> 06:42.180
+I'll go with that.
+
+06:42.180 --> 06:43.810
+For now let's try that.
+
+06:44.810 --> 06:47.730
+I'll go ahead and type 2 into the Z-axis here.
+
+06:47.740 --> 06:50.370
+Let's just go with that and see how that works.
+
+06:50.650 --> 06:56.650
+And now if I tab into edit mode I'm going to hit the A key to de-select everything I'll hit control
+
+06:56.650 --> 07:00.440
+tab to go to the select menu and I'll choose edges.
+
+07:00.760 --> 07:09.540
+And this time I'll once again press alt and click to choose an edge shift alt and click to add another
+
+07:09.540 --> 07:16.930
+one and the same all the way around and we go into extrude these edges down.
+
+07:16.940 --> 07:24.440
+I'll just press e and then I'll click and I'll drag straight down down to the grid and you can see here
+
+07:24.440 --> 07:31.610
+that I'm coming back down to the grid I'm a little over negative to go ahead and type in negative 2
+
+07:31.610 --> 07:35.400
+there so I should hit the grid exactly now.
+
+07:35.690 --> 07:44.380
+And then once again I'll come down here and hit extrude or click Presti Eski to scale and scale in a
+
+07:44.390 --> 07:54.710
+bit and then off hit the click and drag straight up to finish off the bottom of the block there.
+
+07:54.770 --> 08:01.490
+Now if I turn on the subdivisions surface modifier again right over here so we can see it you can see
+
+08:01.490 --> 08:06.530
+that it's kind of gloppy it curves those edges way too much.
+
+08:06.530 --> 08:13.130
+So what I'm going to do is turn that view off again and begin inserting some edge loops with control
+
+08:13.160 --> 08:20.210
+are so control r and hover over an edge and click and then I'll drag it over here to where I want it
+
+08:20.270 --> 08:23.530
+and click and same thing all the way around
+
+08:29.160 --> 08:31.410
+and I'll add some horizontal edge loops.
+
+08:31.410 --> 08:39.180
+In fact what I can do is scroll the mouse wheel 1 time to get to edge loops and click and click again
+
+08:39.720 --> 08:45.680
+and then I'll switch to my scale tool here and just scale those up in the Z-axis.
+
+08:45.870 --> 08:54.070
+So they move up to the top and bottom edges and like that and then I can insert a few down here as well
+
+08:54.070 --> 09:02.110
+so control are same thing scroll the mouse wheel click and click again and maybe one down in here as
+
+09:02.110 --> 09:02.690
+well.
+
+09:04.610 --> 09:05.320
+All right.
+
+09:05.630 --> 09:14.090
+So now if we go back to object mode with the tab key turn our subdivision surface modifier back on there
+
+09:14.090 --> 09:22.570
+is are two top one the next video will take a look at creating one more type of Lego block and then
+
+09:22.570 --> 09:28.710
+we'll work on stacking and arranging them and will even begin adding some basic colors to them.

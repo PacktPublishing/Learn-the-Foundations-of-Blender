@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.940 --> 00:09.010
+Back in Blendr Let's go ahead and bring that image in back into object mode and create a whole new material
+
+00:09.010 --> 00:18.700
+for our can here call it beer can now bring in an image texture Noad here and I'll go ahead and connect
+
+00:18.700 --> 00:27.460
+it up and then bring in that image I'll go to my textures folder and here it is that beer can underscore
+
+00:27.460 --> 00:28.190
+see.
+
+00:28.450 --> 00:31.110
+I'll open it up and here it is.
+
+00:31.180 --> 00:37.390
+Now the main problem I see here is that this particular top this particular tab is just a little too
+
+00:37.390 --> 00:38.470
+big.
+
+00:38.530 --> 00:41.030
+It feels like it's too wide.
+
+00:41.100 --> 00:48.030
+So there are some adjustments that we can do here in blender in the U-V map so I'll tab back into edit
+
+00:48.030 --> 00:53.670
+mode and I'll select this piece right here.
+
+00:54.150 --> 01:02.430
+I'll change what we're seeing underneath the U.V. map by coming down here and selecting that beer can
+
+01:02.570 --> 01:03.640
+here.
+
+01:03.930 --> 01:11.970
+Now you can see that if we turn off our stretch we've got the images underneath our U-V map.
+
+01:11.980 --> 01:17.530
+What I'd like to do is try and scale this a bit to see if I can get it to be a little bit smaller on
+
+01:17.650 --> 01:18.850
+the object.
+
+01:18.850 --> 01:22.380
+I feel like that tab and the opening is just too big.
+
+01:22.690 --> 01:26.210
+So I'll hit the s key here and scale this down a bit.
+
+01:26.210 --> 01:28.170
+Now that's not going to work.
+
+01:28.340 --> 01:32.030
+But if I scale this up a bit like this.
+
+01:32.120 --> 01:36.300
+Well that helps with the size of the image.
+
+01:36.580 --> 01:43.280
+But now we can see that black bleeding over into the texture of our model.
+
+01:43.360 --> 01:45.710
+And we don't want that.
+
+01:45.800 --> 01:54.770
+So now that I feel like this is about the right size for our object what I need to do is come back and
+
+01:54.890 --> 01:56.540
+adjust this image.
+
+01:56.540 --> 01:59.870
+So it works a little better with our object.
+
+01:59.990 --> 02:03.950
+So I'll tab back into edit mode and I just want to move this.
+
+02:03.950 --> 02:11.660
+Now I'll hit the G key and the x key and I'll move it so it isn't overlapping the other circular image.
+
+02:11.810 --> 02:16.830
+And now I need to take this back into Gimp and adjust that image.
+
+02:16.940 --> 02:26.510
+So let's do that quickly I'll go to Uvas export image and I'll call this beer can you use to call it
+
+02:27.470 --> 02:33.560
+2 and export it out back here in Gamp I can go ahead and open that image up.
+
+02:34.550 --> 02:36.270
+Here's the movies too.
+
+02:36.340 --> 02:44.990
+I'll open it up here selected and copy it into our main document and there it is.
+
+02:44.990 --> 02:48.000
+All right click and choose two new layer.
+
+02:48.050 --> 02:52.320
+Now I can come in here and adjust the image a bit.
+
+02:52.580 --> 03:01.700
+So I'll go to my move to and with the arrow key I'll just nudge this over maybe press shift and arrow
+
+03:01.700 --> 03:04.250
+and nudge it over a bit.
+
+03:04.370 --> 03:07.520
+So it's kind of in the center of that U-V island.
+
+03:07.580 --> 03:13.140
+Now perhaps what I can do is take this piece here and duplicate it.
+
+03:13.160 --> 03:18.890
+So with this lair selected I'll press shift command D and that will duplicate the layer.
+
+03:19.280 --> 03:21.780
+And now I can go to my move tool.
+
+03:21.890 --> 03:30.620
+And once again with my arrow keys I can begin to move this over and slide it in underneath this piece
+
+03:30.620 --> 03:31.530
+right here.
+
+03:31.970 --> 03:38.630
+Looks like I'm gonna need to scale it up a bit and then I'll use the Move tool again just to try and
+
+03:38.630 --> 03:39.990
+get it into place.
+
+03:40.430 --> 03:45.920
+And it looks to me like it might be overlapping the beer can label.
+
+03:45.980 --> 03:50.490
+So what I can do is just take that and drag it down underneath the label.
+
+03:50.720 --> 03:53.300
+So it's hidden down beneath that.
+
+03:53.330 --> 03:56.110
+So let's export it and see how it looks.
+
+03:57.580 --> 04:01.800
+And now back in blender with this image texture node's selected.
+
+04:01.810 --> 04:08.770
+Now you just come over here to this button right here and reload that image from disk.
+
+04:08.880 --> 04:09.500
+And there we go.
+
+04:09.500 --> 04:13.140
+So now you can see we've taken care of that black.
+
+04:13.320 --> 04:17.610
+That was happening along the edge of the can top.
+
+04:17.650 --> 04:24.100
+Now the last thing I want to do is adjust this material so it looks a little better it looks a little
+
+04:24.340 --> 04:26.760
+shiny or more like metal.
+
+04:27.040 --> 04:34.910
+So I will bring in a glossy Shater and a mix note as well.
+
+04:37.250 --> 04:40.000
+And put those together.
+
+04:40.070 --> 04:44.980
+Now I need to set up my scene so I can see it in a render.
+
+04:45.050 --> 04:51.350
+The first thing I'll do is create a polygon play and I just want to have something that the can is sitting
+
+04:51.350 --> 04:51.820
+on.
+
+04:52.880 --> 04:58.970
+And another thing I'll do is duplicate this plane and bring it up.
+
+05:00.030 --> 05:04.420
+Maybe scale it down a bit and this is going to be our light.
+
+05:04.540 --> 05:07.810
+Now rotate it around the x axis just a bit.
+
+05:08.750 --> 05:15.580
+And now we can create an emission material for this object and have it be a light.
+
+05:15.770 --> 05:19.100
+So I click new call this light
+
+05:21.890 --> 05:23.490
+right up here in the node Ed..
+
+05:23.490 --> 05:32.650
+I'm going to grab this tab and pull out a new window and make this Properties window right here and
+
+05:32.650 --> 05:41.360
+now I can choose my material and I can change my diffuse node here from diffuse to emission.
+
+05:41.740 --> 05:46.260
+I'll change from textured viewport shading to rendered.
+
+05:47.200 --> 05:52.000
+I'll zoom in here and here is what we have so far.
+
+05:52.000 --> 05:59.530
+Now I can change the strength of the emission node here say bring it up to 3 and that brightens up the
+
+05:59.530 --> 06:00.840
+scene quite a bit.
+
+06:01.330 --> 06:03.890
+But we're getting a little too much shine off of the can.
+
+06:03.890 --> 06:10.990
+Here I'll select the cam and I can bring that mix shader down so it's bringing in more of the diffuse
+
+06:11.080 --> 06:13.720
+material than the glossy.
+
+06:13.780 --> 06:19.720
+But the challenge of creating a metal material oftentimes isn't the settings itself.
+
+06:19.720 --> 06:22.900
+It's actually what the metal is reflecting.
+
+06:22.900 --> 06:28.000
+Currently there isn't anything for the metal to reflect.
+
+06:28.120 --> 06:36.070
+We're just seeing this gray background reflected in the can what we can do is bring in an HDR image
+
+06:36.520 --> 06:43.890
+an image in the background here that will help us gauge how the reflections are working on our material.
+
+06:44.350 --> 06:50.590
+So to do that let's come over here in this property window that I've kind of squeezed into the node
+
+06:50.710 --> 06:55.240
+window and hit the end key to close that panel up.
+
+06:55.240 --> 07:01.890
+But over here in the Properties window what let's do is come over to the world settings and click on
+
+07:01.900 --> 07:03.620
+use nodes.
+
+07:03.640 --> 07:11.060
+Now if we come over to the world settings here and take a look at the nodes for the world here it is.
+
+07:11.620 --> 07:19.420
+We can now bring in an image for our background I'll press shift a and a good texture and instead of
+
+07:19.420 --> 07:26.230
+bringing in an image texture I'm going to bring in an environment texture so I'll click that and I'll
+
+07:26.230 --> 07:31.540
+open it up and bring in an image I have here of an apartment.
+
+07:31.690 --> 07:38.210
+Click Open and now are connected to the back ground node.
+
+07:38.650 --> 07:45.550
+Now if we zoom out we can see heres the whole apartment projected in our background.
+
+07:45.550 --> 07:53.930
+Now I can zoom in and we can begin to see as a reflection some of that apartment in our material.
+
+07:53.950 --> 08:03.880
+So let me just go back to our object nodes and if I take this mix shader all the way up to the glossy
+
+08:04.630 --> 08:07.690
+you can begin to see some of the reflections in the can.
+
+08:07.780 --> 08:11.410
+Now take the roughness of the glossy down to zero here.
+
+08:12.000 --> 08:16.330
+And now you can really see it its almost like a mirror.
+
+08:16.630 --> 08:19.640
+So I dont think we need it quite that shiny.
+
+08:19.660 --> 08:22.180
+Maybe I'll take the roughness back.
+
+08:22.180 --> 08:34.400
+Point one is try that up point 0 5 and then bring the mic shader down something like this.
+
+08:34.470 --> 08:37.030
+Maybe we'll take it down to Point three.
+
+08:38.260 --> 08:38.860
+So there we go.
+
+08:38.860 --> 08:45.260
+Now we've got some of that reflection happening in our can.
+
+08:45.330 --> 08:48.020
+So now we've taken a look at U.V. mapping.
+
+08:48.020 --> 08:55.890
+A couple of objects taking that U-V map out to Gimp and creating an image texture for it.
+
+08:55.890 --> 09:03.090
+We then brought it in and combine that image texture with some material settings within blender.
+
+09:03.090 --> 09:08.660
+Now what let's do is let's take a look at texturing completely in Blender.
+
+09:08.670 --> 09:15.240
+We'll look at some of Blender's texture painting tools and how we can save out and bake our textures
+
+09:15.450 --> 09:20.190
+to be used here in blender and in external programs like the unity game engine.

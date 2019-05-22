@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.910 --> 00:04.690
+So now let's create the cross-bars behind here.
+
+00:04.870 --> 00:12.820
+I'll create a cube with the cube button in the create tab and for this I would just like to scale it
+
+00:13.150 --> 00:14.090
+or stretch it.
+
+00:14.110 --> 00:18.910
+So it lines up with the length of our pickets here.
+
+00:18.910 --> 00:25.750
+So what I'm going to do is use one of my orthographic views I'll press the three key on the number pad
+
+00:25.780 --> 00:30.270
+and that takes me to the right view and that's not the one I want.
+
+00:30.270 --> 00:31.830
+How about the one key.
+
+00:32.110 --> 00:38.070
+And we go that takes us to the front view and then I'll hit the five key and that will take us into
+
+00:38.080 --> 00:39.750
+orthographic view.
+
+00:39.760 --> 00:47.370
+Now I can slide this over go to the scale tool and begin just scaling this out until it's about the
+
+00:47.370 --> 00:51.420
+right width something like that.
+
+00:51.420 --> 00:55.060
+Now if I tumble around like this I can see it.
+
+00:55.110 --> 01:01.150
+Notice that even though I'm tumbling in 3D view here I'm still in the orthographic view.
+
+01:01.320 --> 01:05.770
+I need to press the five key to get back to perspective.
+
+01:07.240 --> 01:13.180
+So if this is going to be the horizontal brace at the back of the picket fence it's a little bit thick.
+
+01:13.180 --> 01:16.030
+Now what I need to do is scale it.
+
+01:16.030 --> 01:17.220
+But the problem is is fine.
+
+01:17.260 --> 01:23.260
+If I just hit the s key and scale it down like that it would scale in all the axes I'm going to press
+
+01:23.260 --> 01:32.500
+the right mouse button to get out of that what I want to do is scale in the Y and Z and keep the x axis
+
+01:32.500 --> 01:36.700
+the same so it maintains the width to do that.
+
+01:36.700 --> 01:44.020
+I can press the shift key and click on the access that I do not want to scale and drag.
+
+01:44.050 --> 01:56.260
+Now I can scale in the Y and Z without scaling in the X so I'll make it about like that and I'll also
+
+01:56.260 --> 01:57.550
+scale it now in the Y.
+
+01:57.550 --> 02:09.040
+So it's a little bit flatter like that every go so I'll go to the move tool and let's put that in place.
+
+02:09.230 --> 02:16.280
+Now I think I want this side to be the front so I'll move it to the back and move it up into place
+
+02:21.660 --> 02:23.820
+and we go.
+
+02:24.310 --> 02:27.140
+So now I can take that and duplicate it.
+
+02:27.140 --> 02:34.670
+Shift the click and drag up with my move manipulator.
+
+02:35.020 --> 02:36.030
+And there we go.
+
+02:36.280 --> 02:40.740
+So now we have a picket fence with our two horizontal braces.
+
+02:40.810 --> 02:48.670
+The last thing I need is a post here that will go between each of the fence segments.
+
+02:48.670 --> 02:53.590
+Now I'd like to create this object in the center of the grid because I think it's more convenient and
+
+02:53.590 --> 02:55.770
+easier to work with if I do.
+
+02:55.840 --> 03:04.920
+So I'm going to select this whole piece to select these by chefs selecting them and I'm going to combine
+
+03:04.920 --> 03:10.950
+them all into one object so I can move it aside so to combine or join objects together I'm going to
+
+03:10.950 --> 03:12.600
+press control J.
+
+03:13.080 --> 03:14.710
+And there we go.
+
+03:14.730 --> 03:20.180
+Now I'll just take that one object and move it to the side here.
+
+03:20.580 --> 03:22.480
+I'll de-select it with the key.
+
+03:22.560 --> 03:25.270
+And now let's create another cube here.
+
+03:25.620 --> 03:30.300
+And for this I think I'm going to scale it down so it's a little bit smaller.
+
+03:30.510 --> 03:35.470
+Something like that I'll move it up to sit on the grid here.
+
+03:37.330 --> 03:43.060
+And now I want to take this and raise it up so it's a little bit taller than the fence segment.
+
+03:43.060 --> 03:45.880
+We've already created to do that.
+
+03:45.880 --> 03:53.410
+I'm just going to go into edit mode by hitting the tab key all press control tab and select face and
+
+03:53.410 --> 04:04.780
+then I'll just like this top face and drag it straight up something like that so this will be our post
+
+04:04.810 --> 04:07.980
+that the fence will connect to.
+
+04:08.120 --> 04:11.070
+Maybe I want it to be about this tall here.
+
+04:11.380 --> 04:14.140
+All right I'll tab back into object mode.
+
+04:14.230 --> 04:19.000
+I'll take this fence segment and bring it over so it's a little bit tighter against that.
+
+04:19.270 --> 04:24.980
+And the last thing I want to do is create a couple of little ornamental pieces on the top here.
+
+04:25.200 --> 04:29.000
+Something to click on the cube button in the create tab.
+
+04:29.320 --> 04:37.820
+Move that up and I'm going to frame it up with the period key on the numpad and then I think what I
+
+04:37.820 --> 04:40.640
+want to do is scale it.
+
+04:40.850 --> 04:42.050
+So it's a little bit flatter
+
+04:45.850 --> 04:47.830
+maybe scale it up so it's a little bit bigger
+
+04:52.180 --> 04:59.110
+and for this I'm just going to tab into Edit Mode go to face mode select that face and I'm just going
+
+04:59.110 --> 05:04.670
+to scale this down like this just a little ornamental piece that's all.
+
+05:04.750 --> 05:13.630
+And then I'll just duplicate this shifty and click switch to my move manipulator and move this up and
+
+05:13.630 --> 05:19.450
+then scale this down a bit like this just place that all on the top.
+
+05:19.450 --> 05:24.470
+So there we go it's just a little ornamental piece and move that down.
+
+05:24.550 --> 05:29.700
+So it sits right there.
+
+05:29.860 --> 05:31.330
+All right.
+
+05:31.330 --> 05:39.460
+So since I've got some beveling on these I think I better make a few bevels on this one as well.
+
+05:40.270 --> 05:41.350
+All selected.
+
+05:41.440 --> 05:47.020
+And once again I'll press the end key to bring up the properties panel and I'll make sure that my scale
+
+05:47.020 --> 05:48.510
+is all uniform.
+
+05:48.580 --> 05:56.890
+So I press control a and click scale and now come into edit mode with the tab key press control tab
+
+05:56.890 --> 05:58.260
+and go to edge.
+
+05:58.300 --> 06:08.210
+Now just select these edges all the way around and then press control and bevel and maybe if I give
+
+06:08.210 --> 06:10.250
+it just a little bit like that
+
+06:13.340 --> 06:20.010
+and let's see about these pieces as well they should probably be all one object so I'll select both
+
+06:20.010 --> 06:23.890
+of them and press control J.
+
+06:24.060 --> 06:33.370
+And now I'll apply the scale again control a and if I tap into edit mode I can select the edges I'd
+
+06:33.370 --> 06:36.800
+like to bevel an.
+
+06:37.090 --> 06:39.730
+Really it's just about all of them I think.
+
+06:39.730 --> 06:40.810
+Let me try.
+
+06:40.970 --> 06:48.570
+Just select all of the edges and then press control me and devil and let's see what happens.
+
+06:49.330 --> 06:49.710
+Yeah.
+
+06:49.750 --> 06:51.130
+Why not.
+
+06:51.130 --> 06:52.310
+There we go.
+
+06:52.360 --> 07:00.970
+Now we have it all bevelled all right we have a picket fence segment here so I'll press the end key
+
+07:00.970 --> 07:07.960
+to get out of the properties panel and what I'd like to do is combine all of these objects into one.
+
+07:07.960 --> 07:11.970
+So I want to press the A key to select everything press control.
+
+07:12.030 --> 07:14.580
+Jay and there we are.
+
+07:14.590 --> 07:20.000
+I'll call this fence segment one.
+
+07:20.640 --> 07:29.940
+Now before I begin using the array modifier to duplicate this I'd like to take this pivot point and
+
+07:30.030 --> 07:34.680
+move it right down to the bottom of that post.
+
+07:34.680 --> 07:41.730
+Currently the 3D cursor is just about where I want that pivot point to be so I'll go ahead and snap
+
+07:41.730 --> 07:43.260
+it to the 3D cursor.
+
+07:43.350 --> 07:50.560
+I'll come over here to the tools tab go to set origin and I want to set the origin to the 3D cursor
+
+07:51.410 --> 07:52.300
+and there it is.
+
+07:53.500 --> 08:03.700
+So now what we can do is use the array modifier once again to begin creating a fence around say a yard
+
+08:03.700 --> 08:04.620
+or something.
+
+08:04.690 --> 08:12.230
+So I click add a modifier click array and there we have our new fence segment.
+
+08:12.370 --> 08:18.130
+And what I can do is just begin increasing the count and there it goes.
+
+08:18.660 --> 08:25.820
+So I create maybe four of these now to create the rest of our little yard here.
+
+08:25.820 --> 08:32.060
+I'm going to go to the top view by pressing the seven key on the number pad and then I'm going press
+
+08:32.060 --> 08:37.630
+the five key and that'll take us to the orthographic view for the top camera.
+
+08:38.030 --> 08:44.310
+And what I want to do is I'm going to duplicate this whole piece by using shifty and then I'm going
+
+08:44.310 --> 08:52.320
+to right click to put it back to where it originally was and I'm going to drag this out to the end of
+
+08:52.320 --> 08:55.140
+my original fence segment.
+
+08:55.140 --> 09:03.030
+Now I want to rotate this 90 degrees so what I can do is I can press R and I can tell it I want to rotate
+
+09:03.030 --> 09:08.130
+around the z axis and I want it to rotate 90 degrees.
+
+09:08.130 --> 09:10.450
+And there it is.
+
+09:10.530 --> 09:11.990
+So I'll do that again.
+
+09:12.000 --> 09:23.670
+I'm going to press shift D and click drag it up here put it just at the end of this piece press R Z
+
+09:23.840 --> 09:33.180
+9 0 and click and then one more time shift d click drag to the end of this segment.
+
+09:34.720 --> 09:41.970
+RC 9 0 and enter and then we have our fence around the yard.
+
+09:42.080 --> 09:48.980
+So one of the things to remember about 3D modeling is that everything is made up every complex object
+
+09:48.980 --> 09:53.990
+is made up of basic shapes basic components.
+
+09:54.020 --> 10:00.590
+So if you can take a look at that complex object and begin to break it down to its component shapes
+
+10:01.190 --> 10:08.830
+you can then begin building each of those parts and putting together the object from its basic components.

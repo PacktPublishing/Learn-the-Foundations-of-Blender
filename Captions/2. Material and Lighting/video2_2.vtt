@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.900 --> 00:04.640
+For this video I've brought in this model of the kitchen counter.
+
+00:04.860 --> 00:10.980
+You can download the project files for this course by clicking on the project file button here on the
+
+00:10.980 --> 00:15.650
+main page of this course and you can open this up and follow along.
+
+00:15.660 --> 00:22.920
+The first thing I'd like to do is take a look at what Blendr gives us in terms of lighting options and
+
+00:22.920 --> 00:28.070
+if we go over here to the Create tab where we can see that right down here under lamp.
+
+00:28.200 --> 00:33.300
+We've got Pointe sun spot Hemmy and area lights.
+
+00:33.540 --> 00:39.420
+And I'd like to just go through what each of these are and how each of these look in the scene.
+
+00:39.420 --> 00:47.290
+If I come over here to the render panel and click on the render button it says no camera found in scene.
+
+00:47.310 --> 00:53.400
+So that's another reason why Blendr puts that camera that cube in that point light in the scene because
+
+00:53.400 --> 00:56.580
+if you were to open it up and hit render you would get an error.
+
+00:56.760 --> 01:00.710
+So what we need to do is add a camera to the scene.
+
+01:00.810 --> 01:06.990
+You can tell that as I began modeling this particular scene I deleted those initial objects the camera
+
+01:06.990 --> 01:10.510
+cube and point light out of the scene so I could work.
+
+01:10.620 --> 01:13.300
+But since I did that I need to add it back.
+
+01:13.440 --> 01:18.100
+So let's come over here to the Create tab and way down here at the bottom.
+
+01:18.120 --> 01:23.790
+We have cameras so let's click on that and there is our camera right there.
+
+01:23.790 --> 01:31.470
+So let me kind of spin around here and move it back so it kind of points at the scene here.
+
+01:32.490 --> 01:41.890
+And we go and now let's hit the render button ok we can kind of see what's going on in there although
+
+01:41.890 --> 01:44.780
+it's pretty dim and grainy.
+
+01:44.890 --> 01:51.920
+You may be wondering now why can we see anything since there aren't any lights in the scene at all.
+
+01:52.300 --> 01:58.600
+Well that's because of the world settings over here so let me click on the world and if you go to the
+
+01:58.720 --> 02:02.290
+surface area you can see this color at Horizon.
+
+02:02.350 --> 02:08.590
+If I take this and take it all the way down to black Let's take that all the way all the way down and
+
+02:08.590 --> 02:13.370
+then come back to the render panel and hit render.
+
+02:13.370 --> 02:14.650
+Now we have nothing.
+
+02:15.050 --> 02:24.230
+So what this world panel is doing for us is giving us a kind of ambient background light coming from
+
+02:24.230 --> 02:25.790
+the horizon of the scene.
+
+02:26.210 --> 02:31.850
+So if we don't want any of that we should come in here to the world and turn that all the way down to
+
+02:31.850 --> 02:32.770
+black.
+
+02:32.810 --> 02:39.380
+So I'm going to go ahead and do that just so we can see exactly what each of the lights are doing in
+
+02:39.380 --> 02:44.120
+our scene without any interference from ambient light.
+
+02:44.120 --> 02:45.000
+All right.
+
+02:45.650 --> 02:50.770
+So let's come back over here to our main view all hit the escape key.
+
+02:50.880 --> 02:58.910
+And one thing I'd like to do is frame up my shot a little better now I can actually go and look through
+
+02:58.910 --> 03:00.080
+this camera.
+
+03:00.170 --> 03:09.380
+If I come down here to view and cameras I can choose to look through the active camera by clicking here
+
+03:09.410 --> 03:13.150
+or hitting zero on the numpad click that.
+
+03:13.190 --> 03:14.650
+And there's my view.
+
+03:14.720 --> 03:18.380
+The problem is is how do I move the camera.
+
+03:18.380 --> 03:23.920
+I can move the whole view and I can tumble around and it comes out of the camera.
+
+03:23.930 --> 03:29.800
+How do I move my camera so that I can see and compose my shot within the frame.
+
+03:29.810 --> 03:36.560
+Well you really kind of need another viewport or another window here on the interface so you can see
+
+03:36.560 --> 03:38.020
+through the camera.
+
+03:38.030 --> 03:43.470
+So what I'm going to do for the time being just to give us some extra screen room without adding no
+
+03:43.790 --> 03:45.270
+new window in here.
+
+03:45.320 --> 03:53.060
+I'm going to change the outliner view to the camera view since I'm pretty much done with my modeling.
+
+03:53.060 --> 03:55.220
+I don't really need this currently.
+
+03:55.340 --> 04:04.580
+So I'm going to come up here and change it from the outliner to a 3-D view and there it is going to
+
+04:04.580 --> 04:06.680
+tumble around here.
+
+04:06.680 --> 04:13.460
+So now with my cursor hovering over that screen I'm going to press the zero key on the numpad and that
+
+04:13.460 --> 04:14.330
+will change.
+
+04:14.330 --> 04:17.150
+So we're looking through the camera.
+
+04:17.240 --> 04:21.260
+Now let me zoom in just a little bit so we can see that.
+
+04:21.350 --> 04:28.310
+And now I can begin moving the camera around here to frame up my shot.
+
+04:28.310 --> 04:32.720
+Now I think I want it a little bit more like this.
+
+04:32.930 --> 04:38.570
+And another thing you can do to make it a little easier to move the camera around it to change from
+
+04:38.570 --> 04:41.340
+global to local transformations.
+
+04:41.600 --> 04:42.840
+And that's right down here.
+
+04:42.890 --> 04:52.340
+So we can change this from global to local and now you can see that the transform gizmos are inline
+
+04:52.430 --> 04:57.460
+with the object so we can move that in now and lift it up.
+
+04:57.470 --> 05:05.090
+We can rotate it I'll change to the rotate manipulator and rotate it up a bit.
+
+05:06.250 --> 05:08.750
+Now move it down some like this.
+
+05:08.750 --> 05:19.700
+We can look at it like that maybe I'll rotate it back like this at something like that so I get a better
+
+05:19.700 --> 05:22.070
+view of my scene.
+
+05:23.590 --> 05:26.080
+There we go that's not too bad.
+
+05:26.080 --> 05:33.730
+So now that we have that let's go ahead and add a light now as I was moving the camera around I accidentally
+
+05:33.730 --> 05:40.840
+clicked and move the cursor so the cursor is over here instead of in the center of the grid wherever
+
+05:40.840 --> 05:45.160
+the cursor is is where a new object is going to come into the scene.
+
+05:45.160 --> 05:52.300
+So I'm going to move this cursor into the center of the grid with shift s and I'll say cursor to center
+
+05:53.050 --> 05:55.450
+and then I'll create a point light.
+
+05:55.870 --> 05:56.570
+And then we go.
+
+05:56.570 --> 06:02.190
+Now I'm going to move it up and into the scene say right about.
+
+06:02.300 --> 06:02.840
+Let's move it.
+
+06:02.840 --> 06:10.030
+So it's the right kind of over here kind of above the camera maybe to the right of the camera here.
+
+06:10.490 --> 06:13.600
+Now let's hit that render button and see how we're doing.
+
+06:16.070 --> 06:16.430
+All right.
+
+06:16.430 --> 06:18.050
+We can see things now.
+
+06:18.080 --> 06:21.610
+That's good and we can see our shadows here.
+
+06:21.650 --> 06:28.820
+We're getting a little grain in the image and that's OK for now we'll talk about increasing the samples
+
+06:28.820 --> 06:30.660
+here in a minute but ok.
+
+06:30.680 --> 06:34.930
+We can kind of see what that point light is doing now.
+
+06:34.940 --> 06:40.850
+It's a little difficult sometimes or a little inconvenient to always come over here and hit the render
+
+06:40.910 --> 06:41.300
+button.
+
+06:41.300 --> 06:49.770
+Time and time again we have down here under this little menu the viewport shading we have a rendered
+
+06:49.790 --> 06:51.490
+viewport shading mode.
+
+06:51.500 --> 06:57.820
+And what this is is just an approximation of what you're going to see in the final render.
+
+06:57.830 --> 07:00.560
+So let me click on that.
+
+07:00.750 --> 07:07.350
+And now you can kind of get a sense of what the final render is going to look like from your normal
+
+07:07.980 --> 07:10.030
+viewport view here.
+
+07:10.050 --> 07:18.060
+Now I want to caution you that you should not use this and assume that this is the final way it's going
+
+07:18.060 --> 07:18.890
+to look.
+
+07:18.960 --> 07:26.790
+You should always do a final render with the render button over here at full resolution to make sure
+
+07:26.790 --> 07:30.380
+that what you think you're getting is actually what you're getting.
+
+07:31.360 --> 07:38.090
+Now I can come over here to this screen and go ahead and change this to the rendered viewport shading.
+
+07:38.260 --> 07:47.320
+And now I can come and change this back to solid so now as I work this view here is going to update
+
+07:47.440 --> 07:48.500
+automatically.
+
+07:48.550 --> 07:55.160
+So as I move the light around you can see the shadows move.
+
+07:55.390 --> 08:00.340
+You can see the difference in the lighting in real time.
+
+08:00.340 --> 08:08.020
+And this is going to be really handy as we begin to set up materials and the lighting of the scene.
+
+08:09.280 --> 08:14.620
+All right so I'm going to move this over just a little bit so that's kind of what we get with a point
+
+08:14.620 --> 08:18.790
+light or kind of open this up a little bit more and make it a little bit bigger.
+
+08:18.790 --> 08:24.040
+Let's do that if we wanted to make this light a little brighter in the scene we could come over to this
+
+08:24.040 --> 08:30.640
+panel right here with the point light selected I have a new panel here and I can click that and here's
+
+08:30.700 --> 08:37.970
+the point light and I can increase the intensity or the strength of the illumination here.
+
+08:38.350 --> 08:45.850
+So if I click and drag I can increase the amount of light or I can actually just plug in a number I'll
+
+08:45.970 --> 08:48.920
+type in 300 and there we go.
+
+08:48.940 --> 08:52.660
+So now we have a nice bright scene with our point light.
+
+08:53.070 --> 08:57.340
+Let's take a look at another kind of light with this in here.
+
+08:57.340 --> 09:04.180
+I could delete it and create a sun light or spotlight or any of these others but I can also come over
+
+09:04.180 --> 09:09.010
+here and you can see we've got these different buttons for sunspot himi and area.
+
+09:09.010 --> 09:12.760
+And I can just click on this and change it to sunlight.
+
+09:12.850 --> 09:15.870
+And now we've got a very bright sunlight.
+
+09:15.880 --> 09:24.580
+Let me turn it down back to 100 here and we go we've got a very bright sunlight shining down into our
+
+09:24.590 --> 09:26.080
+scene.
+
+09:26.090 --> 09:36.370
+Sunlight is basically an infinitely wide light object that is casting parallel rays down into the scene.
+
+09:36.400 --> 09:45.310
+It's like the sun in that the sun is just so big and so far away that the rays of light coming from
+
+09:45.310 --> 09:48.960
+it are virtually parallel when they hit the Earth.
+
+09:48.970 --> 09:51.620
+So that's what this is kind of imitating.
+
+09:51.940 --> 09:57.630
+So I could take this and I'll just move it up out here like this just so we can kind of see it.
+
+09:57.850 --> 10:06.220
+And the only thing that you can really adjust or alter with a sunlight is its rotation.
+
+10:06.220 --> 10:08.380
+So let me take this down.
+
+10:08.380 --> 10:11.680
+Let me take this down to say 30 so it isn't quite so bright.
+
+10:12.150 --> 10:15.840
+And if I hit R I can rotate it into the scene like this.
+
+10:15.850 --> 10:23.620
+And now it's shining directly into the scene let me take a strength down to one let me try that.
+
+10:23.620 --> 10:24.590
+There we go.
+
+10:24.880 --> 10:31.760
+So now you can see that it's just shining directly into the scene where we move this.
+
+10:31.980 --> 10:37.170
+You can see I can hit G and move it all around the scene and it doesn't do anything because it's just
+
+10:37.170 --> 10:39.630
+an infinitely wide object.
+
+10:39.840 --> 10:44.300
+And the only transfer we can adjust in the scene is the rotation.
+
+10:44.310 --> 10:50.700
+So it really doesn't matter where you put it so much as how you rotate it.
+
+10:50.700 --> 10:57.530
+So let me change from local to global and change to rotation.
+
+10:57.540 --> 11:07.310
+And if I move this around you can see now I'm pointing at this way and I can turn it like this and see
+
+11:07.310 --> 11:11.170
+the shadows change as I rotated around.
+
+11:11.230 --> 11:15.340
+Right.
+
+11:15.480 --> 11:20.280
+And we go but where I put it doesn't matter at all.
+
+11:21.690 --> 11:28.320
+All right well I'm going to put it back in the scene because I want to switch to a new light here.
+
+11:29.920 --> 11:37.360
+Move back over here and with that there I will switch to a spotlight now with a spotlight.
+
+11:37.360 --> 11:42.710
+I'm going to have to increase the intensity or the strength up quite a bit.
+
+11:42.750 --> 11:48.530
+Let me take this up to say 500 and I'll bring it down into the scene.
+
+11:50.160 --> 11:53.750
+Get it a little bit closer like this.
+
+11:53.780 --> 11:59.660
+OK so for this particular light it matters where you put it.
+
+11:59.660 --> 12:05.020
+So it's position and the rotation will affect how it looks in the scene.
+
+12:05.060 --> 12:09.780
+We have a couple of extra settings here for the spot shape.
+
+12:09.860 --> 12:19.040
+If I click and drag the size I can extend or increase the size of the cone or narrow it down very small
+
+12:19.040 --> 12:24.400
+so it's just pointing at one particular object like say just the bowl of fruit there.
+
+12:25.890 --> 12:34.650
+And in addition we have the blim that changes how the edge of the cone fades out or how sharp it is.
+
+12:34.650 --> 12:44.290
+So if I grab that blend and pull it up a bit you can see that that dissolve or fade is a lot softer
+
+12:44.830 --> 12:52.570
+or if I take it all the way back to zero it gives us a pretty hard edge on that spot.
+
+12:52.570 --> 12:53.900
+Now the Hami light.
+
+12:54.100 --> 12:56.150
+Let's take a look at that.
+
+12:56.170 --> 13:00.760
+If we switch to the Hami this is an odd kind of a light.
+
+13:00.820 --> 13:10.810
+It is as if there is a huge half sphere over the scene shining light into this scene from every point
+
+13:10.870 --> 13:12.150
+on that sphere.
+
+13:12.460 --> 13:19.620
+So let me take this down to maybe one again and let's see where we go for my taste.
+
+13:19.810 --> 13:24.830
+The Hami light is not something that looks realistic.
+
+13:25.210 --> 13:33.430
+It's a light that I mainly use say when I'm texture painting in Blendr and I need to see the colors
+
+13:33.460 --> 13:38.230
+or the textures that I'm painting on the object in the viewport.
+
+13:38.530 --> 13:44.530
+If I'm looking for realistic lighting the Hemmy light doesn't really do it for me.
+
+13:44.530 --> 13:47.480
+So just a warning about that.
+
+13:47.500 --> 13:51.430
+And lastly the area light is one of my favorites.
+
+13:51.430 --> 13:55.460
+Let's go to that and once again I'll turn up the strength.
+
+13:55.460 --> 13:57.620
+I mean turn up to say 400.
+
+13:57.670 --> 14:04.960
+Now the area light I like because it allows you to adjust the quality of the shadows in the seams so
+
+14:04.990 --> 14:13.450
+if you notice here these shadows are pretty sharp but if I increase the size of the area light I can
+
+14:13.450 --> 14:21.310
+just click in the size field and increase it you can see here's the actual shape of the light as I increase
+
+14:21.400 --> 14:22.390
+the light.
+
+14:22.510 --> 14:26.010
+These shadows get softer and softer.
+
+14:26.170 --> 14:34.510
+And so this allows you to really tweak how these shadows look in your seam because if it's a scene where
+
+14:34.810 --> 14:43.060
+sunlight is streaming into a room the direct shadows from the sunlight are going to be pretty sharp.
+
+14:43.150 --> 14:51.100
+But the other shadows in the room that are being affected or being cast by more ambient soft light the
+
+14:51.100 --> 14:53.140
+edges will be a lot softer.
+
+14:53.140 --> 15:01.240
+So you can really detail the shadows in your scene based on the particular kinds of light.
+
+15:01.240 --> 15:04.460
+So I personally like the area of light quite a bit.
+
+15:04.480 --> 15:04.770
+All right.
+
+15:04.780 --> 15:12.010
+So now that we've taken a look at the different kinds of lights in the next video let's work on setting
+
+15:12.010 --> 15:15.700
+up a basic lighting scheme for our scene here.

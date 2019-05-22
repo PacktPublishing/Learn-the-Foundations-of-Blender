@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.660 --> 00:05.390
+So now let's work on a slightly different object this beer can here.
+
+00:05.730 --> 00:14.100
+What I'd like it to look like let me come back over here and create a new window and create a U.V. image
+
+00:14.100 --> 00:22.650
+editor and I'll bring in an image that I'd like this to ultimately be something like this.
+
+00:22.810 --> 00:29.750
+We can see we've got some chrome or metal material down at the bottom here and up at the top and then
+
+00:29.750 --> 00:32.970
+we've got the label of the can here.
+
+00:33.110 --> 00:40.640
+So to get that label on there we're going to need to use the map or object to lay it flat once again
+
+00:40.820 --> 00:42.450
+and apply that texture.
+
+00:42.680 --> 00:54.210
+Now the texture I'd like to apply is this one here so I've found this out on google images and it matches
+
+00:54.210 --> 00:57.270
+pretty well to the image here of the beer can.
+
+00:57.270 --> 01:02.070
+It's just one year off in terms of the Super Bowl and the date.
+
+01:02.070 --> 01:09.860
+In addition I have some images of the tops of cans we could use one of these for the top.
+
+01:09.900 --> 01:17.700
+But before we can do any of that we need to U-V map this so I'll switch over to my U-V editing screen
+
+01:17.840 --> 01:18.960
+lay.
+
+01:19.100 --> 01:25.990
+I'll go ahead and pull this window down and switch it over to node Ed. The way we've done before.
+
+01:26.370 --> 01:33.980
+And for this I'll tab into edit mode and the first thing I'll do is split out the top and the bottom
+
+01:33.990 --> 01:42.320
+so I think from what I could tell it looks like we could mark a scene here with control E and Mark.
+
+01:42.660 --> 01:50.630
+And also we could mark a seam down here maybe this one control key and Mark seam.
+
+01:50.760 --> 02:02.490
+Now we need to split that label out so it will lay flat press alt and click this edge here and we'll
+
+02:02.490 --> 02:07.480
+go ahead and de-select the edges along the top here.
+
+02:07.500 --> 02:10.470
+We don't need these.
+
+02:10.480 --> 02:11.670
+There we go.
+
+02:12.060 --> 02:15.230
+And all de-select the edges down here as well.
+
+02:15.510 --> 02:24.250
+To do that I can hit the C key and then middle mouse button click and drag to de-select those edges.
+
+02:25.340 --> 02:34.030
+All press control E and Mark seam and now we have the seams of our object marked and ready to go.
+
+02:34.030 --> 02:41.060
+One thing I'll do before I unwrap it is press control a and I'll go ahead and apply this scale.
+
+02:41.260 --> 02:49.020
+And now Alt-Tab into Edit Mode hit a and you and unwrap and there we go.
+
+02:49.060 --> 02:52.000
+Now this is a little bit curved here.
+
+02:52.090 --> 02:56.530
+The image I have is very rectangular and straight.
+
+02:56.530 --> 02:59.400
+This is not quite what I'd want.
+
+02:59.410 --> 03:07.960
+I can try switching from angle based to conformal and see if that helps switch that here.
+
+03:08.720 --> 03:10.860
+And that helps a good deal.
+
+03:10.880 --> 03:19.250
+We're still fighting against this area here that curves in and that's just the nature of this particular
+
+03:19.370 --> 03:20.260
+object.
+
+03:20.600 --> 03:22.500
+So what can we do about this.
+
+03:22.820 --> 03:28.970
+Well we can come over here and I'm going to go ahead and select just this object with the U-V Island
+
+03:29.000 --> 03:36.290
+selection mode and I'm going to go to full screen here all press control up arrows so we can see it
+
+03:36.500 --> 03:38.090
+full screen.
+
+03:38.090 --> 03:47.160
+I'll rotate it with our 9:0 and that didn't work so I'll hit escape and press are negative 9:0.
+
+03:47.630 --> 03:49.770
+And that did a little better.
+
+03:50.280 --> 03:58.550
+I'll move this to one side to work on it and zoom in some what I'd like to do is make these edges perfectly
+
+03:58.550 --> 04:07.340
+straight so I can use the tools under this Uvas menu right up here under weld line and I can use these
+
+04:07.470 --> 04:09.920
+line x and y.
+
+04:09.950 --> 04:13.640
+Notice that the shortcut key is the W key.
+
+04:13.760 --> 04:21.650
+If I switch over here to edge select click on this edge right here I'll press alt and then click on
+
+04:21.650 --> 04:23.810
+it just like that whole edge.
+
+04:23.810 --> 04:31.770
+Now I can press w and align Y and that straightens that whole edge out.
+
+04:31.780 --> 04:36.430
+So now let's see if I can do that for these other edges as well.
+
+04:36.430 --> 04:46.510
+I'll select this one here w and if you look real close you can see that the short cut for a line Y is
+
+04:46.510 --> 04:47.350
+the key.
+
+04:47.350 --> 04:48.880
+So I'll just hit.
+
+04:49.240 --> 04:54.920
+And that will straighten that edge up once again Allt w I.
+
+04:55.240 --> 04:56.670
+And I'll do those up here.
+
+04:56.740 --> 04:59.920
+Alt WSI Alt.
+
+04:59.920 --> 05:01.360
+Click.
+
+05:01.370 --> 05:08.470
+W-why and I'll just keep doing that for every horizontal edge.
+
+05:08.470 --> 05:10.400
+And lastly one more up here.
+
+05:10.720 --> 05:11.770
+W and.
+
+05:12.790 --> 05:13.150
+All right.
+
+05:13.150 --> 05:16.810
+So I have all the horizontal edges in line.
+
+05:16.870 --> 05:21.300
+Now I need to do the vertical so I'll press alt and click an edge here.
+
+05:21.520 --> 05:25.920
+Press the W key and for the align x.
+
+05:25.930 --> 05:29.150
+The shortcut key is l.
+
+05:29.350 --> 05:34.770
+So I'll hit L and that will align that vertical edge straight up and down.
+
+05:34.760 --> 05:43.210
+So Allt click W.L. alt click W.L. and I'll go through and do all of these as well.
+
+05:45.940 --> 05:47.400
+And one more here.
+
+05:47.470 --> 05:56.740
+OK so now we have that whole area straightened up and aligned all press control up arrow and we can
+
+05:56.740 --> 06:00.300
+click on the stretch here to see if we have any stretching.
+
+06:00.450 --> 06:01.830
+Not bad.
+
+06:01.830 --> 06:06.480
+We've got some here but I don't think this is going to be a problem because this isn't going to have
+
+06:06.480 --> 06:12.300
+any text applied to it or anything it's going to be a uniform metallic color.
+
+06:12.600 --> 06:15.600
+So I think we should be fine with this.
+
+06:15.870 --> 06:24.420
+Now go ahead and select all of the U-V islands with the achy press control a and press control.
+
+06:24.750 --> 06:29.710
+Now I'd like to rotate these so the label is aligned horizontally.
+
+06:29.760 --> 06:33.320
+Uncheck this and there we go.
+
+06:33.530 --> 06:42.370
+Maybe I'll take the margin from point 0 0 1 to point 1 to spread those out just a little bit.
+
+06:42.800 --> 06:45.160
+And even so that may still be a little snug.
+
+06:45.170 --> 06:53.750
+So I'll select the U-V Island selection mode and move these out just a little bit give them some room
+
+06:53.750 --> 06:54.600
+to breathe.
+
+06:55.830 --> 06:56.210
+All right.
+
+06:56.220 --> 06:59.490
+And there we go we've got our U-V map done.
+
+06:59.730 --> 07:06.540
+Let's go ahead and assign that U-V grid test pattern just to make sure we're doing all right.
+
+07:07.020 --> 07:15.780
+So to create a new test grid texture I'll click on new and I'll call this U-V test and I'll change the
+
+07:15.780 --> 07:24.560
+generated type to U-V grid and I'll go ahead and leave it at 10:24 by 10:24 and click OK.
+
+07:24.960 --> 07:26.240
+And there it is.
+
+07:26.250 --> 07:32.360
+Now let's come up here and create a material that we can apply that new texture to create new and I'll
+
+07:32.470 --> 07:35.810
+call this material U-V test as well.
+
+07:36.240 --> 07:47.250
+I'll press shift A and bring in an image texture node and now we can pull this menu down and select
+
+07:47.250 --> 07:49.290
+our U-V test grid.
+
+07:49.290 --> 07:55.900
+Now come over here and change our viewport shading to textured and there we are.
+
+07:56.000 --> 07:57.310
+Let's take a look at it.
+
+07:58.740 --> 08:01.120
+It doesn't look too bad actually.
+
+08:01.350 --> 08:02.920
+The top looks good.
+
+08:03.210 --> 08:10.320
+The bottom looks good and all the checkers on the sides look square and uniform.
+
+08:10.530 --> 08:11.880
+I think that looks pretty good.
+
+08:12.990 --> 08:14.430
+All right.
+
+08:14.430 --> 08:22.110
+So now we can take this U-V map and export it out and take it into gimp just like we did before.
+
+08:22.140 --> 08:26.630
+Click Uvas export U-V lay out.
+
+08:26.630 --> 08:34.260
+I'll go ahead and choose 10:24 by 10:24 this time I'll put it in my textures folder and I'll call this
+
+08:34.260 --> 08:41.500
+one beer can underscore Uvas and there it goes.
+
+08:41.940 --> 08:45.880
+So now let's once again open it up and get up and lay the textures out.

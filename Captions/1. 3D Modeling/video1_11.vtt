@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.750 --> 00:07.350
+Now that we've created a one stop and a two top Lego block let's now work on this eight top.
+
+00:07.440 --> 00:07.760
+All right.
+
+00:07.770 --> 00:14.220
+I'm going to go back to the template layer that I have way over here and select it.
+
+00:14.580 --> 00:21.780
+And this time of press shift d click and now let's call this eight top
+
+00:26.250 --> 00:27.750
+now with this still selected.
+
+00:27.750 --> 00:33.780
+I'll press the key and move this to layer number three.
+
+00:33.780 --> 00:34.250
+All right.
+
+00:34.260 --> 00:39.560
+So let's go to Larry number three and here is the beginning of the eight top.
+
+00:39.600 --> 00:42.360
+Now we go through the same process once again.
+
+00:42.870 --> 00:54.570
+Let's press shift D and click and go to the move tool and let's make sure and move this exactly to unit
+
+00:54.600 --> 01:01.740
+in the x 2 and we go and I'll go ahead and seal these up.
+
+01:01.790 --> 01:08.090
+I'll select one shifts like the other press control J so they become all one object.
+
+01:08.090 --> 01:10.950
+I'll go into edit mode by pressing the tab key.
+
+01:11.540 --> 01:18.360
+And then I'll switch to vertex mode by pressing control tab and choosing vertex.
+
+01:18.740 --> 01:25.510
+I'll press the Z key to go to wireframe and the B key to board or select.
+
+01:25.820 --> 01:31.750
+I got an extra point in there so I'll try again I'll hit the A key to de-select B.
+
+01:32.120 --> 01:34.210
+And border select just those.
+
+01:34.400 --> 01:39.030
+And now press control V and remove doubles.
+
+01:39.040 --> 01:39.560
+There we go.
+
+01:39.560 --> 01:42.200
+It says removed five vertices.
+
+01:42.350 --> 01:46.280
+So now we have those connected.
+
+01:46.420 --> 01:47.900
+Let's do that again.
+
+01:49.440 --> 01:51.240
+Let's take this entire piece.
+
+01:51.240 --> 01:52.480
+Duplicate it.
+
+01:52.560 --> 01:59.640
+Shift D and move it to units in the Y.
+
+01:59.770 --> 02:01.100
+Now we go.
+
+02:01.710 --> 02:03.540
+So now we do the same thing.
+
+02:03.570 --> 02:07.530
+Select this piece and that piece control J.
+
+02:07.710 --> 02:09.730
+And now and we go into edit mode.
+
+02:09.750 --> 02:16.770
+We should be able to see that these pieces are these vertices are not connected.
+
+02:16.800 --> 02:18.110
+You can see that here.
+
+02:18.180 --> 02:21.220
+So I'll undo that with control or command Z.
+
+02:21.450 --> 02:27.210
+So now we need to take all of these vertices and connect them together.
+
+02:27.210 --> 02:37.250
+So once again I'll go into wireframe by hitting the Z key be for border select and click and drag.
+
+02:37.260 --> 02:45.000
+Now if you wanted to select those by just dragging a lasso around those points you can also just hold
+
+02:45.000 --> 02:54.000
+the control key down and click and drag and notice I can just create a lasso around these points like
+
+02:54.000 --> 03:01.850
+this so control click and drag will also allow you to select multiple points.
+
+03:01.850 --> 03:07.430
+All right so now that I have those I'll press control V and remove doubles.
+
+03:07.430 --> 03:11.450
+So now we have four nubs on our way to 8 here.
+
+03:11.450 --> 03:16.300
+So now all we need to do is select this piece shift d to duplicate.
+
+03:16.310 --> 03:19.730
+I'm going to hit enter and it looks like I moved it just a bit.
+
+03:19.730 --> 03:24.380
+I'm going to hit undo and make sure that this is correct.
+
+03:24.410 --> 03:28.870
+So I think I moved it just a little bit with my mouse.
+
+03:28.880 --> 03:33.160
+I could see some values up in here so I'm going to try that again.
+
+03:33.260 --> 03:37.300
+I'll press shift D and this time so I'm sure I don't move anything.
+
+03:37.310 --> 03:39.480
+I'm just going to press the enter key.
+
+03:39.950 --> 03:42.970
+Not even going to touch the mouse.
+
+03:43.010 --> 03:50.660
+Now if I move this over in the x axis you can see that I'm going to be moving at negative 4 instead
+
+03:50.660 --> 03:52.570
+of 2 or negative 2.
+
+03:52.600 --> 03:55.470
+I want to be moving at negative 4.
+
+03:55.760 --> 03:56.570
+And here we go.
+
+03:58.410 --> 04:02.260
+Select these two pieces press control J.
+
+04:02.430 --> 04:12.360
+And now let's connect them up press the tab key and this time press Z for wire frame and I'll press
+
+04:12.360 --> 04:24.250
+the control key and click and drag a lasso around all of these like this where you go and then control
+
+04:24.250 --> 04:26.410
+the and remove doubles.
+
+04:27.540 --> 04:28.960
+All right.
+
+04:29.680 --> 04:35.300
+So now we have our eight top.
+
+04:35.300 --> 04:40.870
+Now let's turn on this subdivision surface modifier and see if there's any polling or if there's any
+
+04:40.870 --> 04:41.890
+problems.
+
+04:41.890 --> 04:47.220
+I'll turn this on and it looks like it's pretty good.
+
+04:47.250 --> 04:56.150
+We would see some sort of polling or stretching if there were any vertices that weren't connected.
+
+04:56.190 --> 05:01.680
+So a good way to test that is to turn on this subdivision surface modifier.
+
+05:01.830 --> 05:04.220
+So I'll go ahead and turn that off for now.
+
+05:05.330 --> 05:16.060
+While we continue now I'm going to take this piece and move it up to units you can see here in the Z
+
+05:16.330 --> 05:19.550
+I'll type in two and enter.
+
+05:19.700 --> 05:26.970
+And now if I tab into Edit Mode press control tab and go to edge mode right here.
+
+05:27.110 --> 05:35.520
+Now I can press Alt click and select that edge and then I'll press shift alt and click this.
+
+05:35.810 --> 05:37.570
+The same with this.
+
+05:37.940 --> 05:41.540
+And over here as well.
+
+05:41.560 --> 05:46.040
+Now if I hit the e key and I'll hit the enter key.
+
+05:46.090 --> 05:52.990
+Now I can drag this down and the Z-axis and once again we're up two units high so I can just type in
+
+05:53.320 --> 06:01.570
+negative two here in the z and then down beneath here let's go ahead and finish up the edge.
+
+06:01.570 --> 06:10.450
+So we hit the and click and S and scale these in a bit and then I'll press e for extrude click and drag
+
+06:10.450 --> 06:11.650
+straight up again.
+
+06:12.510 --> 06:14.130
+And there we go.
+
+06:14.130 --> 06:16.470
+Now we have our eight top.
+
+06:16.650 --> 06:21.900
+The last thing we need to do is insert some edge loops because if we turn on the subdivision surface
+
+06:21.930 --> 06:24.760
+modifier again it'll get all gloppy.
+
+06:24.870 --> 06:26.640
+That's a technical term of course.
+
+06:26.640 --> 06:35.740
+So I'll turn the modifier off just for a minute while I do this and then I'll press control our add
+
+06:35.740 --> 06:39.880
+an edge loop around each of these corners.
+
+06:40.070 --> 06:40.580
+This
+
+06:45.270 --> 06:48.690
+to hold those edges so they don't collapse.
+
+06:48.720 --> 06:53.780
+Press Control are insert two edges horizontally.
+
+06:53.970 --> 06:55.290
+Click again.
+
+06:55.530 --> 06:59.580
+Go to the scale tool and scale those in the Z-axis
+
+07:02.780 --> 07:10.190
+And lastly down here in the bottom I'll do the same thing two edges and click and click again and then
+
+07:10.340 --> 07:15.890
+an edge down here on the inside right there.
+
+07:15.980 --> 07:17.080
+All right.
+
+07:17.510 --> 07:23.920
+So now let's turn on the subdivision surface modifier and there we have our eight top.
+
+07:24.170 --> 07:29.450
+So now we have an eight top two top one top.
+
+07:29.450 --> 07:32.500
+Now let's turn all of these layers on.
+
+07:32.570 --> 07:35.900
+And now there we can see they're overlapping.
+
+07:35.900 --> 07:46.800
+Maybe I'll take the 8 top here and go to the move tool and slide it aside and maybe I'll select that
+
+07:47.370 --> 07:53.440
+one top from the outliner here and move that to one side as well.
+
+07:54.930 --> 08:02.730
+Now if we wanted to begin building something with our Legos we would want an easy way to snap them one
+
+08:02.730 --> 08:04.200
+to another.
+
+08:04.200 --> 08:10.170
+Now we can of course take each one of these pieces and press the G key and move them and try and put
+
+08:10.170 --> 08:12.020
+them on top of each other.
+
+08:12.180 --> 08:16.150
+But it be good if we had a way to snap one to the other.
+
+08:16.200 --> 08:22.040
+So what we can do is actually move the pivot point to one of the corners.
+
+08:22.160 --> 08:24.970
+One of the bottom corners of the objects.
+
+08:25.140 --> 08:29.600
+And then use Blender's snapping tools to snap them together.
+
+08:29.610 --> 08:30.990
+So here let me show you what I mean.
+
+08:30.990 --> 08:35.380
+Let's take this origin point and move it to the corner.
+
+08:35.400 --> 08:40.420
+So what I'll do is alt tab into edit mode and I select this very corner vertex.
+
+08:40.890 --> 08:48.990
+And now I use the snap menu shift to move that cursor to the selected component so I'll just choose
+
+08:48.990 --> 08:50.880
+cursor to selected.
+
+08:50.880 --> 08:58.980
+And now if I tab back into object mode I can come over to the tools tab and select the set origin menu
+
+08:59.010 --> 09:01.920
+and choose origin to 3D cursor.
+
+09:01.920 --> 09:09.060
+So now that puts that origin point right on the corner there now we can do is come down to our snapping
+
+09:09.060 --> 09:16.860
+tools right down here turn on snapping and we couldn't change our type of snapping or the element we're
+
+09:16.860 --> 09:26.320
+going to snap to to Virtex and we can change the snap target to active.
+
+09:26.330 --> 09:32.660
+So now if I press the G key and move this piece you can see it's going to snap to one of our objects
+
+09:32.660 --> 09:40.550
+so I can snap this piece to that or maybe I can take it and snap it over here to here.
+
+09:40.700 --> 09:43.740
+And this one now I need to do the same thing.
+
+09:43.910 --> 09:53.060
+So I'll just tab into edit mode select a corner point press shift ass and move that cursor to that component
+
+09:53.060 --> 09:55.430
+to that selected point.
+
+09:55.430 --> 09:58.760
+Now I'll come over and move the origin to that 3D cursor.
+
+09:58.760 --> 10:03.030
+And now the origin is right there on the corner of that block.
+
+10:03.050 --> 10:08.680
+So now I can hit the G key and move this around and snap it up top here.
+
+10:08.690 --> 10:16.310
+So now if I wanted to build more I could just press shift D and click and now I can move this up and
+
+10:16.430 --> 10:23.750
+snap it to here and maybe shift d here and I could snap it up.
+
+10:24.790 --> 10:32.110
+Here so you can see once you turn on that snapping tool you can really begin to build and construct
+
+10:32.140 --> 10:33.790
+these a lot quicker.
+
+10:33.790 --> 10:37.290
+Now the last thing I'd like to do is just add color to these.
+
+10:37.330 --> 10:39.710
+We haven't really talked about that at all.
+
+10:39.970 --> 10:44.220
+We can add color to these in the materials panel right over here.
+
+10:44.320 --> 10:52.350
+So click this and with one of our objects selected we can create a new material so I'll just click new.
+
+10:52.840 --> 10:58.630
+And now you can see that material has been created and it's given that selected objects in a different
+
+10:58.630 --> 11:01.460
+color of gray a different shade of gray.
+
+11:01.690 --> 11:04.120
+So let's make this one red.
+
+11:04.300 --> 11:11.320
+I'll call the material red and we'll scroll down here and in the color palette we can just click that
+
+11:11.320 --> 11:18.040
+color and move our point in the color wheel down to a red and there we go.
+
+11:18.050 --> 11:24.640
+Now we don't see it change here because we're not looking at it in the material viewport shading so
+
+11:24.640 --> 11:27.790
+let's click material here and there we go.
+
+11:27.790 --> 11:29.140
+We can see it now.
+
+11:30.270 --> 11:31.800
+In the viewport.
+
+11:31.800 --> 11:36.480
+So let's give this one a color now I'll select that one.
+
+11:36.480 --> 11:39.960
+Come up here create a new material for it.
+
+11:40.190 --> 11:46.420
+I'll call this one green and let's give this one a green color as well.
+
+11:46.420 --> 11:48.200
+And here we go.
+
+11:48.720 --> 11:50.270
+Maybe a little bit darker.
+
+11:50.280 --> 11:52.590
+Let me pull this down some.
+
+11:52.590 --> 11:54.260
+So that's a little bit darker.
+
+11:56.110 --> 12:07.720
+Every go and maybe this one could be blue We'll call that material blue and we'll give it blue color
+
+12:07.720 --> 12:10.590
+over here maybe a little bit darker like that.
+
+12:13.390 --> 12:20.640
+Now if we wanted to we could even come over here to the sample button click there and sample a color
+
+12:20.700 --> 12:22.560
+right off this blue block.
+
+12:22.980 --> 12:24.370
+Maybe that's a little too dark.
+
+12:24.390 --> 12:28.710
+But anyway you can see how you can sample colors off of an image.
+
+12:28.710 --> 12:32.160
+Now maybe this one is going to be green as well.
+
+12:32.160 --> 12:34.030
+Let's select this block.
+
+12:34.320 --> 12:40.230
+And what I can do if I want this one to be green I can just come to this menu here pull that out and
+
+12:40.230 --> 12:49.790
+choose from one of my existing materials so I'll just make that one green and I'll make this one red.
+
+12:49.910 --> 12:50.820
+And there we go.
+
+12:51.110 --> 12:53.330
+We've got our Lego blocks.
+
+12:53.690 --> 13:00.380
+Well in the next video we'll talk about using the tools we've gone over so far to create something a
+
+13:00.380 --> 13:01.810
+little bit more complex.

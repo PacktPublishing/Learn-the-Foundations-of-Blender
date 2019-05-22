@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.630 --> 00:03.240
+Well we have our camera and lights in the scene.
+
+00:03.240 --> 00:09.990
+Now there's one more thing I want to talk about regarding lighting using the cycle's render engine the
+
+00:09.990 --> 00:12.870
+lights for cycles are Ray lights.
+
+00:12.900 --> 00:20.490
+And that means that they use real world scale real world measurements for their calculations about how
+
+00:20.550 --> 00:22.730
+the light bounces around the scene.
+
+00:22.920 --> 00:28.260
+So for your scene to look its best you really need to have the scene be real world scale.
+
+00:28.330 --> 00:31.690
+So let's take a look and see if we're there.
+
+00:31.740 --> 00:39.990
+I'm going to come over here to the scene panel and under here you can see we've got a unit's panel and
+
+00:40.140 --> 00:46.310
+under the length we can change our system of unit from none which is just a blender.
+
+00:46.350 --> 00:53.060
+Standard units or metric or the imperial system of feet and inches.
+
+00:53.070 --> 00:59.100
+Now I'm here in the United States where the Imperial system is king as it were.
+
+00:59.280 --> 01:01.990
+So I'm going to choose that for now.
+
+01:02.010 --> 01:09.600
+Now if I hit the End key I can come over here and let's select say this counter-top these cabinets and
+
+01:09.600 --> 01:10.750
+countertop.
+
+01:10.980 --> 01:19.860
+And if we take a look at its transformations we can see that it is rotated 90 degrees in the x axis.
+
+01:19.980 --> 01:25.910
+That's going to be problematic in terms of figuring out how big our scene is.
+
+01:25.920 --> 01:33.340
+So what I need to do is make sure that all of these transforms are zeroed out or we have all ones in
+
+01:33.340 --> 01:38.820
+the scale here that will help us figure out how big things should be.
+
+01:38.820 --> 01:44.200
+So to do that I'm going to press control a and apply the rotation here.
+
+01:44.250 --> 01:49.380
+If I click this you can see that my rotations now are all zeroes.
+
+01:49.620 --> 01:57.560
+If we would have had anything but the ones in the scale I could have chosen rotation and scale.
+
+01:57.570 --> 01:59.790
+All right so now let's take a look at this.
+
+01:59.790 --> 02:08.580
+I'm going to create a cube here in another layer and scale it to the size that my cabinets need to be.
+
+02:08.580 --> 02:12.660
+Now my cabinets need to be about 36 inches high.
+
+02:12.660 --> 02:19.950
+I've gone out to Google and just googled what the standard height for kitchen counters are and it's
+
+02:19.950 --> 02:26.400
+about thirty four and a half inches for this and maybe if we add the backsplash let's call it 36 inches
+
+02:26.460 --> 02:27.840
+or three feet.
+
+02:27.840 --> 02:36.220
+So I'm going to come over here to a new layer and I will create a cube here.
+
+02:36.270 --> 02:40.730
+Now notice this cube is two feet by two feet.
+
+02:40.740 --> 02:43.290
+I need it to be three feet tall.
+
+02:43.290 --> 02:49.230
+So in the Z dimension I'll just type three and hit enter.
+
+02:49.230 --> 02:51.610
+And now we've got three feet.
+
+02:51.630 --> 02:56.150
+Now if I had wanted three inches I would type in three.
+
+02:56.160 --> 03:00.320
+And then the double quotes and that would be three inches.
+
+03:00.450 --> 03:03.420
+But let's go back to three feet.
+
+03:03.420 --> 03:11.790
+Now if I hit my three key and five key on my number pad and my period keyed to zoom in.
+
+03:11.790 --> 03:19.330
+Let's now move this up so it sits on the grid and we can see how tall three feet is.
+
+03:19.330 --> 03:21.670
+So there we go all tumble around.
+
+03:21.670 --> 03:29.230
+Hit the five key and now let's bring back the other part of the scene I'll shift click here on that
+
+03:29.590 --> 03:35.130
+layer and we can see now that this scene is really way too big.
+
+03:35.530 --> 03:41.080
+So what let's do is let's move this cube over here.
+
+03:42.200 --> 03:46.620
+And let's scale our scene to fit this height.
+
+03:46.790 --> 03:52.310
+So I'll just choose this one layer and I'll hit the A key to select everything.
+
+03:52.310 --> 04:00.350
+Now if I scale down if I hit the esky you'll see that it scales from the center of all of the objects
+
+04:00.530 --> 04:08.270
+and I don't want that so I'll hit escape what I want to do is scale from the center of the grid right
+
+04:08.270 --> 04:16.620
+down here I can move the cursor to the center of the grid pressing shift s and cursor to center.
+
+04:17.180 --> 04:21.800
+And now I can change my pivot point to the 3D cursor.
+
+04:21.800 --> 04:27.710
+You can see that that transform gizmo moved down to the 3D cursor there.
+
+04:27.710 --> 04:32.960
+And now as I hit s and scale it scales in there from that point.
+
+04:32.990 --> 04:37.680
+All right so now what we can do is bring back our cube.
+
+04:37.740 --> 04:45.290
+Yet the three key the five key I'll even hit the Z key here and it looks like my cube is still selected.
+
+04:45.290 --> 04:49.960
+So I need to de-select that won't let me come over here and hit the A key.
+
+04:49.970 --> 04:55.660
+Now I'll shift select that layer and everything is still selected there.
+
+04:55.670 --> 05:03.600
+Now I just need to scale it down until the countertops are the same size as my cube.
+
+05:03.610 --> 05:04.000
+All right.
+
+05:04.000 --> 05:04.730
+Here we go.
+
+05:04.780 --> 05:05.810
+Hit the s key.
+
+05:05.830 --> 05:10.850
+Scale it down until about right there.
+
+05:11.870 --> 05:13.000
+Move this over.
+
+05:13.000 --> 05:14.890
+Let me move this over.
+
+05:14.890 --> 05:19.670
+Change the median point move it over to the side just so I can see it a little bit better.
+
+05:22.340 --> 05:24.300
+Select all of those again.
+
+05:26.120 --> 05:29.450
+Change the cursor back to 3-D.
+
+05:29.840 --> 05:33.040
+And I want to scale it down just a little bit more here.
+
+05:33.840 --> 05:38.330
+Read about there yeah that will work.
+
+05:38.340 --> 05:46.560
+So now that we've done that all of the lights in the scene are going to interact with the scene in a
+
+05:46.560 --> 05:49.370
+more realistic way.
+
+05:49.410 --> 05:50.450
+So let's try it.
+
+05:50.640 --> 05:54.910
+Let's come over here to the render panel and hit the render button.
+
+05:57.340 --> 05:59.670
+Well now there quite a difference isn't there.
+
+05:59.710 --> 06:04.150
+And the reason why everything is a bit brighter is because everything's closer.
+
+06:04.510 --> 06:09.480
+The illumination or the intensity of the lights is still the same.
+
+06:09.550 --> 06:12.730
+It's just that now everything is closer to the lights.
+
+06:12.970 --> 06:16.180
+So therefore we need to reduce the intensity of the lights.
+
+06:16.210 --> 06:22.120
+And this is what I mean by it is reacting as if everything is real world scale.
+
+06:22.390 --> 06:28.360
+So whereas the lighting setup looked fine when the scene was very big.
+
+06:28.360 --> 06:32.260
+We need to do a little adjusting now that it has real world signs.
+
+06:32.470 --> 06:39.640
+And keep in mind you can model as you go is you're creating a scene you can model each of the objects
+
+06:39.820 --> 06:47.180
+in real world scale making sure each object in each thing is exactly the size it should be.
+
+06:47.500 --> 06:54.100
+Or like we did here you can model your scene at any size you want.
+
+06:54.100 --> 06:59.280
+Making sure however that everything is in proportion to everything else in the scene.
+
+06:59.620 --> 07:04.230
+But then at the very end you can just select it all and scale it down.
+
+07:04.630 --> 07:13.450
+So what I do is I usually model pretty big keeping everything in proportion and then simply selecting
+
+07:13.450 --> 07:16.740
+it all scaling it down to the correct size.
+
+07:16.900 --> 07:24.310
+Then I add the lines but I wanted to do it like this just to show you the difference that scale can
+
+07:24.310 --> 07:25.180
+make.
+
+07:25.180 --> 07:30.920
+So let's go back in and adjust the intensity of the lights here.
+
+07:31.000 --> 07:35.910
+I'll just turn on the rendered viewport shading mode here.
+
+07:36.010 --> 07:41.720
+Select one of my area lights and let's reduce the intensity here.
+
+07:41.770 --> 07:42.710
+I'll take the strength.
+
+07:42.790 --> 07:45.050
+Let's just take it down to one for now.
+
+07:45.310 --> 07:46.830
+I'll do the same over here.
+
+07:49.240 --> 07:56.420
+And for the sunlight maybe this will work out just fine let's go in and keep it at one and see how that
+
+07:56.510 --> 07:58.060
+works.
+
+07:58.070 --> 08:03.520
+In addition while I'm here I'm going to change the name of the light sensor to sunlight.
+
+08:03.530 --> 08:09.200
+I will change it to Sun and down here I'll change these lights.
+
+08:09.200 --> 08:13.420
+The name of these lights to maybe cabinet one.
+
+08:14.080 --> 08:21.180
+And let's change this one to say cabinet to.
+
+08:21.300 --> 08:22.740
+All right.
+
+08:22.740 --> 08:26.720
+Now let's re render our scene and see how it looks.
+
+08:26.730 --> 08:32.480
+Come back over here and render and then we have our render.
+
+08:32.740 --> 08:33.700
+Not too bad.
+
+08:33.880 --> 08:35.050
+OK.
+
+08:35.050 --> 08:41.280
+So now that we've talked about seeing scale we can move on to the next step and begin adding our materials.

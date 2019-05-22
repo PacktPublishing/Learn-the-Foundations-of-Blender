@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.750 --> 00:07.110
+Continuing on with our introduction to modeling in Blendr series I'd like to talk a little bit about
+
+00:07.200 --> 00:16.680
+how to create more complex objects out of basic shapes just like in drawing you can build up complex
+
+00:16.680 --> 00:23.770
+objects beginning with the basic shapes of cubes cylinder cone Taurus etc..
+
+00:24.030 --> 00:26.790
+So let's look at an example of that.
+
+00:26.850 --> 00:29.890
+First of all I'm going to collapse these windows together.
+
+00:30.080 --> 00:36.390
+I'm going to right click in between the windows choose join area and you see I can move this arrow up
+
+00:36.480 --> 00:41.770
+and down I'm going to collapse this up into the top window.
+
+00:41.910 --> 00:50.490
+So I get back to this main window here I'm going to start on a brand new layer over here and with an
+
+00:50.490 --> 00:58.230
+empty scene what I'd like to do is begin working on a picket fence and a picket fence is a classic example
+
+00:58.230 --> 01:04.740
+of a relatively complex object that is built up with just multiple basic shapes.
+
+01:04.740 --> 01:13.590
+So you find in that complex object the basic shape and then duplicate it or expand upon it to create
+
+01:13.590 --> 01:15.720
+the larger object.
+
+01:16.020 --> 01:23.880
+So to create a picket fence we're going to begin with a cube and I'm going to just go to my scale tool
+
+01:23.880 --> 01:29.850
+here and scale this up a bit until we get it to be about the right size.
+
+01:31.180 --> 01:41.640
+Maybe go like this and maybe like yes I'm going to go ahead and hit the period key on the number pad
+
+01:41.640 --> 01:46.130
+to frame that up and center the tumble of rotation around that point.
+
+01:46.500 --> 01:50.610
+And so this will be my first piece of the fence.
+
+01:50.970 --> 01:58.000
+Move this up and have it sit up here on the grid.
+
+01:58.020 --> 02:04.580
+Now what I'd like to do is create a little curved piece at the top of this to do that.
+
+02:04.590 --> 02:08.870
+I'm going to insert a few edge loops so I'll tab into edit mode.
+
+02:08.880 --> 02:12.040
+I'll hit the A key to de-select everything.
+
+02:12.410 --> 02:19.080
+And now once again I'm going to use the loop cut and slide tool with control r and I'm going to hover
+
+02:19.080 --> 02:24.580
+over this edge and scroll the mouse wheel one time to get to edges.
+
+02:24.630 --> 02:29.410
+I can scroll more to get more but I think I'll just create two.
+
+02:29.520 --> 02:33.500
+So I click and then click again to confirm that.
+
+02:33.630 --> 02:42.000
+Now I'm going to press control tab to go to face mode here and select this one face and I'm just going
+
+02:42.000 --> 02:43.440
+to move up in the Z.
+
+02:43.440 --> 02:46.940
+So I'll just press g for grab and move.
+
+02:47.190 --> 02:55.690
+And then Z for the z axis and just move that up just a hair so now we have the beginnings of a picket
+
+02:55.690 --> 02:57.810
+fence I'll tab out of that.
+
+02:57.820 --> 03:01.840
+And there's our ticket now.
+
+03:01.900 --> 03:06.890
+Nothing in the real world has exactly 90 degree edges.
+
+03:07.000 --> 03:16.570
+This object here has very sharp edges and to make this a little more realistic we can curve or bevelled
+
+03:16.570 --> 03:22.030
+these edges so that they catch the light and don't look so perfectly sharp.
+
+03:22.540 --> 03:26.150
+So to do that I need to select these edges here.
+
+03:28.370 --> 03:35.690
+And now Blendr has several menus based on the component that youre working with.
+
+03:35.690 --> 03:44.040
+So if I'm working with edges I can press control E and there is a menu here for edges.
+
+03:44.120 --> 03:54.380
+I can also press control f if I wanted to get a menu for faces and I can also press control V if I want
+
+03:54.380 --> 04:03.740
+a menu for vertices but since I'm dealing with edges here I'll press control E and right here is a tool
+
+04:03.740 --> 04:08.950
+called Bevell and this will help round out those edges.
+
+04:08.990 --> 04:15.620
+However I need to point out that the tool is based on the scale of the object.
+
+04:15.650 --> 04:21.810
+So if the scale of the object is nonuniform then the Bevil will act strangely in this.
+
+04:21.830 --> 04:24.070
+Let me show you what I mean here.
+
+04:24.220 --> 04:26.460
+Some unclick bevel.
+
+04:26.810 --> 04:33.210
+And as I drag the mouse you can see that it kind of expands the edges.
+
+04:33.350 --> 04:40.760
+I can scroll the mouse wheel and add more edges in here but it's not really behaving like I'd want it
+
+04:40.760 --> 04:41.060
+to.
+
+04:41.060 --> 04:43.120
+I want it to curve the edges.
+
+04:43.110 --> 04:50.890
+It's just pulling these out in a flat kind of a way if I tumble around the side you can see that there's
+
+04:50.930 --> 04:53.360
+no curve here it's just flat.
+
+04:53.360 --> 04:54.820
+How do we fix that.
+
+04:55.160 --> 05:02.330
+Well I'm going to press control or command Z to undo this and then I'm going to come back out of edit
+
+05:02.330 --> 05:05.080
+mode by by pressing the tab key.
+
+05:05.270 --> 05:13.130
+And if I come over here to the properties panel with the End key I can see here that the scale is what
+
+05:13.130 --> 05:15.080
+they call nonuniform.
+
+05:15.080 --> 05:21.440
+In other words it's got multiple values here instead of just all ones.
+
+05:21.440 --> 05:28.850
+And this is because I use this scale tool to stretch and pull the size of this cube and tell it was
+
+05:28.940 --> 05:31.340
+the size of a picket for our picket fence.
+
+05:31.670 --> 05:38.440
+What I'd like is to have this these values be uniform so to do that in Object mode.
+
+05:38.480 --> 05:40.700
+I'm going to press control a.
+
+05:41.030 --> 05:44.600
+And that brings up this apply transforms menu.
+
+05:44.990 --> 05:50.700
+And I will just apply the scale transformations like that.
+
+05:50.930 --> 05:57.110
+And now notice the scale is all ones it's uniform.
+
+05:57.110 --> 05:59.130
+Now let's go back into edit mode.
+
+05:59.150 --> 06:06.340
+And with these edges still selected all press control E and select bevel.
+
+06:06.440 --> 06:14.840
+And now if I do this and drag the mouse out and in until I get something I like here and there we go.
+
+06:14.840 --> 06:18.100
+Just dragging the mouse out.
+
+06:18.130 --> 06:24.610
+Now you'll notice and I can add edge loops here by scrolling the mouse wheel Now you'll notice that
+
+06:24.610 --> 06:28.480
+that bevel is a little bit more like what we were after.
+
+06:28.480 --> 06:37.690
+It's rounded on the edges here and that's what I was after is a rounded edge here I'll I'll go back
+
+06:37.690 --> 06:42.250
+into object mode and you can see that it's kind of a rounded edge.
+
+06:42.250 --> 06:45.620
+So I come over here and do the same thing for the other side.
+
+06:45.620 --> 06:59.260
+So like this edge and these edges here like so and then press control the bevel and pull these out as
+
+06:59.260 --> 07:02.220
+well so.
+
+07:02.740 --> 07:03.280
+OK.
+
+07:03.490 --> 07:09.310
+So that is how to get kind of a rounded edge on your object.
+
+07:09.310 --> 07:16.690
+Now there are other ways to do this and there are some caveats of course like the scale issue we just
+
+07:16.870 --> 07:27.400
+talked about but also if I tumble way down here to the bottom of the object and go into edit mode you
+
+07:27.400 --> 07:35.740
+can see that this face right here if I click on these edges you can see that this is a polygon with
+
+07:36.840 --> 07:39.810
+quite a few sides to it.
+
+07:40.990 --> 07:46.000
+In fact I can see up here where it says Virts edges faces.
+
+07:46.000 --> 07:53.580
+I can see that I have 10 edges selected and in the object there is a total of 94.
+
+07:53.740 --> 07:56.050
+Well this 10 edges on one face.
+
+07:56.050 --> 08:03.520
+Could be a problem if I'm going to try and smooth this or if I'm going to try and sculpt this object
+
+08:03.940 --> 08:09.550
+having faces with more than four edges can be a problem.
+
+08:09.550 --> 08:14.890
+Generally speaking you want to work with quads or four sided polygons.
+
+08:14.890 --> 08:17.080
+This is a 10 sided polygon.
+
+08:17.140 --> 08:24.430
+You can also work with tries three sided polygons or in guns polygons that have more than four sides
+
+08:24.430 --> 08:30.340
+and that's what this is an Ngan now because I'm not going to try and smooth it and I'm not going to
+
+08:30.400 --> 08:32.060
+try and sculpt it.
+
+08:32.080 --> 08:40.750
+This will probably be just fine but I just wanted to warn you about this using the bevel tool can easily
+
+08:40.750 --> 08:43.450
+create in Gonz when you don't mean to.
+
+08:43.660 --> 08:45.510
+So I just wanted to point that out.
+
+08:46.030 --> 08:54.790
+And now what we need to do is create a few more a few more Picketts say maybe we want 12 Picketts in
+
+08:54.790 --> 08:57.570
+this particular fence segment.
+
+08:57.580 --> 09:01.400
+Now we've already seen how to duplicate objects with shift.
+
+09:01.510 --> 09:05.370
+So I could select this object press shift D.
+
+09:05.500 --> 09:11.670
+I'm going to click and I want to move with the move manipulator just over a bit like that.
+
+09:12.030 --> 09:16.040
+And then I could hit shift D and I could move it again.
+
+09:16.090 --> 09:22.170
+But the problem is is I'm not getting exact wits between each of these objects.
+
+09:22.390 --> 09:28.300
+If I press shift D and then click and drag again I can try and get it by but I'm not really getting
+
+09:28.300 --> 09:32.180
+the same distance between each of these.
+
+09:32.230 --> 09:38.000
+So how did duplicate objects and get that consistent distance between them.
+
+09:38.270 --> 09:42.220
+So I'm going to delete these with the x key and choose delete.
+
+09:42.760 --> 09:49.260
+So what I'm going to do is use a tool or a modifier called the array modifier.
+
+09:49.340 --> 09:54.100
+Now modifiers can be found over here under the little wrench icon.
+
+09:54.100 --> 09:55.110
+So when I click that.
+
+09:55.120 --> 09:57.720
+And here is our ADD modifiers menu.
+
+09:57.730 --> 10:03.070
+So I click that and here are all the modifiers that we can use.
+
+10:03.070 --> 10:05.120
+And here is the array here.
+
+10:05.170 --> 10:14.200
+Now each one of these will allow you to add a modifier and be able to adjust it in a nondestructive
+
+10:14.200 --> 10:14.800
+way.
+
+10:15.160 --> 10:21.520
+And then once you have the modifier settings the way you like them then you can apply them and make
+
+10:21.520 --> 10:22.580
+them permanent.
+
+10:22.600 --> 10:26.450
+So I'm going to go ahead and choose the array modifier here.
+
+10:26.860 --> 10:34.600
+And over here we have quite a few settings and things to play with not going to stretch this out a bit
+
+10:34.600 --> 10:40.440
+so we can see this now each modifier has these buttons up here.
+
+10:40.480 --> 10:47.450
+In other words this little camera means that we can see the modifier during the render right.
+
+10:47.490 --> 10:55.330
+We can turn that off and on we can see the modifier in the viewport or not.
+
+10:55.720 --> 11:03.650
+Or we can see the modifier when we're in edit mode These buttons are common to most of the modifiers.
+
+11:03.910 --> 11:05.410
+But let's take a look at this.
+
+11:05.440 --> 11:13.420
+I've got now two pickets Picketts the array modifier has created is created an array of two objects
+
+11:13.660 --> 11:15.540
+based on that original.
+
+11:15.540 --> 11:17.600
+Now I can increase the count here.
+
+11:17.800 --> 11:19.560
+So two three four five.
+
+11:19.690 --> 11:21.210
+And what I want is I want 12.
+
+11:21.210 --> 11:24.410
+So I'm just going to type in 12 and hit enter.
+
+11:24.430 --> 11:30.400
+So now I have 12 Picketts here and remember that this is nondestructive.
+
+11:30.400 --> 11:34.900
+This isn't actually happening this is kind of a preview I can turn this off.
+
+11:34.930 --> 11:36.830
+It isn't actually there.
+
+11:37.150 --> 11:38.820
+I'll turn it back on.
+
+11:38.920 --> 11:43.090
+And now I'm going to change the the offset between these.
+
+11:43.120 --> 11:49.900
+Currently it's at 1 if I just click this arrow and increase that you can see increasing the distance
+
+11:49.900 --> 11:53.870
+between each one but add an equal amount.
+
+11:53.890 --> 12:02.470
+So let's say I want my picket fence to have this much distance between each picket.
+
+12:02.580 --> 12:09.480
+So as I said when you're done adjusting the settings of the modifier you can then apply them by just
+
+12:09.570 --> 12:13.640
+clicking apply and then we have it.
+
+12:13.640 --> 12:16.530
+Now this is all one object.
+
+12:16.760 --> 12:23.140
+I can hit the tab key and see them all in edit mode at the same time.
+
+12:23.270 --> 12:25.880
+And then we have our 12 tickets.

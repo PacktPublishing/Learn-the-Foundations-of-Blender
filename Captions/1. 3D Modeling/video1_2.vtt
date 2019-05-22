@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.790 --> 00:07.180
+That when modeling and Blendr or really any other 3D animation program you've got two modes that you
+
+00:07.180 --> 00:15.460
+use one is object mode and one is edit mode or component mode Blendr calls it edit mode in Object mode
+
+00:15.460 --> 00:22.420
+you deal with the whole object like we've been doing with the scale rotate and move tools but in edit
+
+00:22.420 --> 00:26.650
+mode you actually deal with the components that make up the object.
+
+00:26.650 --> 00:33.940
+So if I come down here and click on this object mode I can click Edit mode and now you can see that
+
+00:33.970 --> 00:36.890
+we've changed the look of the object.
+
+00:37.000 --> 00:40.120
+We get new tools in the Tools panel over here.
+
+00:40.120 --> 00:45.150
+We get some new features over here in the properties panel as well.
+
+00:45.160 --> 00:50.010
+Now everything is selected here and that's one thing I haven't talked about is how do you de-select
+
+00:50.010 --> 00:52.240
+an object or how do you de-select anything.
+
+00:52.270 --> 00:53.840
+And that's the key.
+
+00:53.890 --> 00:58.300
+If you press the key that will toggle selection off.
+
+00:58.480 --> 01:05.050
+And if I press the key again that will toggle your selection back on when you're in Object mode I'll
+
+01:05.050 --> 01:06.790
+switch back to object mode here.
+
+01:07.680 --> 01:13.680
+That will toggle the selection of everything in the scene so if I hit the A key it will toggle the selection
+
+01:13.680 --> 01:14.490
+off.
+
+01:14.490 --> 01:20.040
+But if I hit it again it will toggle the selection of everything in the scene on I'll hit a one more
+
+01:20.040 --> 01:23.390
+time to de-select and then I'll select the cube here.
+
+01:23.400 --> 01:32.730
+Now I can switch back to edit mode here or I can also press the tab key so I hit the tab key I'll toggle
+
+01:32.730 --> 01:34.220
+into edit mode.
+
+01:34.340 --> 01:37.710
+And now I can hit the A key to de-select everything.
+
+01:37.710 --> 01:46.170
+So here you can see that we've got several different buttons down here one is for vertex select select
+
+01:46.490 --> 01:51.660
+phase select and these are the different components that make up every polygon object.
+
+01:51.690 --> 01:58.650
+So I can select a vertex here and now I can move this vertex independently of all the others.
+
+01:58.650 --> 02:02.160
+So I select this one and move it.
+
+02:02.170 --> 02:10.080
+Now I can do the same thing with edges so I could take this edge and move it up some or faces.
+
+02:10.080 --> 02:13.930
+I could take this face and move it up like that.
+
+02:13.950 --> 02:18.870
+Now I can also rotate it and scale it.
+
+02:18.870 --> 02:26.900
+I'll hit the s key and scale that out or scale it in so in edit mode you're dealing with the actual
+
+02:26.900 --> 02:29.650
+components that make up the object.
+
+02:29.650 --> 02:36.230
+A polygon is made up of at least three points so this selected face here is a polygon.
+
+02:36.230 --> 02:37.920
+It's made up of four points.
+
+02:37.940 --> 02:41.420
+So it's a quad or four sided polygon.
+
+02:41.480 --> 02:48.140
+The minimum number of points you can have is three or a try and the lines between each of the vertices
+
+02:48.200 --> 02:52.950
+is an edge and the space between the edges is a face.
+
+02:52.970 --> 03:00.500
+So the geometry of an object is its collection of polygons of vertices edges and faces.
+
+03:00.530 --> 03:07.500
+So the question is then how do we add new geometry if we've got vertices edges and faces.
+
+03:07.580 --> 03:13.400
+We're going to probably need tools to add more of those to our objects so we can create whatever it
+
+03:13.400 --> 03:15.080
+is we're trying to create.
+
+03:15.080 --> 03:19.450
+And one of the most basic tools to do that is the extrude tool.
+
+03:19.640 --> 03:27.380
+So if I select a face here I guess I'll just keep this one face selected here maybe I'll rotated a bit
+
+03:27.380 --> 03:28.190
+like this.
+
+03:29.350 --> 03:36.250
+And to extrude that face when I can do is I can come over here and select the extrude region extrude
+
+03:36.340 --> 03:39.530
+vertex normal's or individual faces.
+
+03:39.730 --> 03:43.330
+I'm going to choose region here and you can see that the shortcut key is e.
+
+03:43.390 --> 03:47.020
+So if I click this and then I just drag the mouse up.
+
+03:47.200 --> 03:53.050
+I create new geometry on my object and then I'll click to confirm the operation.
+
+03:53.050 --> 03:59.280
+So again if I select this and I hit the e key I can click and drag out off of that face.
+
+03:59.290 --> 04:07.750
+Now I can scale it I can rotate it and I can move it around.
+
+04:07.750 --> 04:16.030
+Now one thing you might notice is that when I'm moving this around the move manipulator is still aligned
+
+04:16.030 --> 04:17.740
+to the world axes.
+
+04:17.830 --> 04:22.310
+So the move manipulator is pointing straight up and down.
+
+04:24.600 --> 04:31.500
+Rather than being in line with the angle of the face well that's because currently we're in a global
+
+04:31.500 --> 04:37.880
+transformation we can change that by clicking here and choosing local transformation.
+
+04:38.070 --> 04:45.230
+Or we can change it by choosing normal transformation and look at what happens when I change it to normal.
+
+04:45.240 --> 04:52.050
+Now the manipulator tool is aligned to the actual face that we've extruded.
+
+04:52.050 --> 05:00.210
+And if you notice even if I'm in global mode here if I select a face and hit E for extrude it's going
+
+05:00.210 --> 05:06.520
+to go out in the line of the normal or perpendicular to the face.
+
+05:06.570 --> 05:07.990
+So what's happening here.
+
+05:08.160 --> 05:15.660
+Well there are imaginary things called normal's coming out of each of the faces we can view these imaginary
+
+05:15.660 --> 05:23.720
+lines by scrolling here in the properties panel is scroll down here we can select a view the face normal's
+
+05:23.730 --> 05:27.980
+by clicking this little button right here display face normal's.
+
+05:28.350 --> 05:33.390
+And you can see these little blue green lines coming out of each of the faces.
+
+05:33.410 --> 05:37.970
+I can click and drag the size of these to make them a little bigger.
+
+05:38.080 --> 05:44.510
+But now you can see this is the direction that each face is going to be extruded in.
+
+05:44.520 --> 05:51.960
+So when we change our manipulator tool or our transform orientation from global to normal you can see
+
+05:52.230 --> 05:56.940
+that the manipulator aligns with the face normal.
+
+05:56.940 --> 06:00.580
+All right so let me switch this back to global and I'll turn these off.
+
+06:01.170 --> 06:06.870
+Well we've talked about one modeling tool so far but we can do quite a bit with this.
+
+06:06.880 --> 06:13.830
+I'm going to go ahead and press the end key to get out of the properties panel and I'll press the key
+
+06:13.830 --> 06:20.640
+to select the object I'll press the tab key to go back into object mode and press the x key to delete
+
+06:20.640 --> 06:22.480
+this.
+
+06:22.510 --> 06:27.320
+So now that we know the extrude tool let's go ahead and try and create something.
+
+06:27.320 --> 06:33.910
+Let's maybe create a book when we come over here to the Create tab and I'll just create a cube.
+
+06:35.160 --> 06:36.840
+So here we have our cube.
+
+06:37.060 --> 06:45.630
+I'm going to switch to the scale tool and I'll just scale this until it looks about the size of a book
+
+06:45.810 --> 06:48.930
+say like that.
+
+06:49.070 --> 06:55.950
+Now to begin I'm going to use the extrude tool to extrude in the pages part of this hardcover book someone
+
+06:56.050 --> 06:57.620
+or press the tab key.
+
+06:57.770 --> 07:05.270
+And now I'm going to select this face shift select this one and I'll shift select this one as well so
+
+07:05.270 --> 07:08.460
+I've got three faces selected.
+
+07:08.720 --> 07:17.410
+I'll press the key to extrude and instead of moving the mouse at all I'm going to immediately click
+
+07:18.050 --> 07:23.200
+and that just creates that extra geometry without doing anything with it.
+
+07:23.210 --> 07:24.230
+I haven't moved it.
+
+07:24.230 --> 07:26.000
+I haven't scaled it or anything.
+
+07:26.090 --> 07:33.590
+But now with the scale tool I'm going to click on this Z-axis and kind of scale down just a bit to create
+
+07:33.980 --> 07:37.010
+the hardcover for the book.
+
+07:37.010 --> 07:42.670
+So press the transform manipulator and drag that out just a bit.
+
+07:42.860 --> 07:47.600
+So I've got the top and the back and the bottom of the binding here.
+
+07:49.700 --> 07:54.890
+And now I want to select this face alone and drag it back in.
+
+07:54.890 --> 08:00.700
+So it's even with the rest of the book so it's flat there.
+
+08:01.590 --> 08:06.600
+Now I can use my number pad keys and hit the three key.
+
+08:06.600 --> 08:07.040
+No.
+
+08:07.050 --> 08:08.720
+How about the one key.
+
+08:08.730 --> 08:09.460
+There we go.
+
+08:09.460 --> 08:16.540
+I hit the one key to move to the front of you and I'll press the five key to go to orthographic now
+
+08:16.550 --> 08:21.000
+and now I can see if I've got this lined up.
+
+08:23.060 --> 08:25.390
+So that's the one key on the number pad.
+
+08:25.490 --> 08:31.490
+I can hit the three key now and spin around or I can click the middle mouse button and tumble back around
+
+08:31.490 --> 08:32.420
+here.
+
+08:32.420 --> 08:36.190
+Now you can see by the lack of perspective that I'm in orthographic mode.
+
+08:36.200 --> 08:39.610
+I'll just hit the five key to go back to perspective.
+
+08:40.370 --> 08:47.330
+And then we have the beginnings of our book I'm going to select this face this face and this one again
+
+08:47.330 --> 08:50.310
+by shift selecting these.
+
+08:50.560 --> 08:57.850
+And now what I'd like to do is extrude and push these in to get the sense that there are pages to the
+
+08:57.850 --> 08:58.450
+book.
+
+08:59.970 --> 09:03.890
+So now what I'm going to do is press the key again press.
+
+09:04.290 --> 09:10.750
+And once again I'm not going to move the mouse at all I'm just going to click go to the scale tool.
+
+09:11.160 --> 09:17.090
+And in the y axis here I'm just going to scale in just a hair like so.
+
+09:18.460 --> 09:21.190
+And then I'll select this one face again.
+
+09:21.490 --> 09:25.150
+Go back to the move tool and push in.
+
+09:25.990 --> 09:33.890
+Like that I'm going to press the H key and then I'm to press the tab key to get back into object mode.
+
+09:33.960 --> 09:36.580
+And now we have a book.
+
+09:36.990 --> 09:43.860
+Not tremendously exciting I know but still it's pretty amazing what you can do with just one modeling
+
+09:43.860 --> 09:46.080
+tool just the extrude tool.

@@ -1,0 +1,307 @@
+WEBVTT
+
+00:01.020 --> 00:07.260
+Using the same techniques as we used in the last video I went through and assign materials to the knife
+
+00:07.260 --> 00:08.370
+block here.
+
+00:08.460 --> 00:14.660
+So we have the basic material of the main block and you can see the node tree for that.
+
+00:14.660 --> 00:17.380
+Here we've got the knife handles.
+
+00:17.400 --> 00:24.050
+And here's it's no tree and material for the metal on each of the handles.
+
+00:24.090 --> 00:32.280
+If we zoom in here you can kind of see that each one has pieces of metal on them and one material for
+
+00:32.310 --> 00:33.760
+the knife block feet.
+
+00:33.810 --> 00:35.410
+Right here.
+
+00:35.550 --> 00:40.640
+Now let's take a look at creating the materials for this paper towel holder.
+
+00:40.800 --> 00:44.610
+And in doing so I want to add one more piece to the puzzle.
+
+00:44.610 --> 00:51.920
+I want to see if we can add a little bit of texture to the paper towels themselves.
+
+00:52.140 --> 00:57.540
+So let's select that paper towel holder object and I'll come over here and hit the period key and zoom
+
+00:57.540 --> 00:58.980
+in.
+
+00:59.040 --> 01:01.710
+And now let's think about what we want for this.
+
+01:01.710 --> 01:09.000
+I think what I want is this top part here and this bottom part to be a metallic surface.
+
+01:09.000 --> 01:14.830
+And also I want this piece and this piece on the base to be kind of a black plastic.
+
+01:14.970 --> 01:18.350
+So let's begin with the metal first.
+
+01:18.360 --> 01:20.960
+With that object selected all click new.
+
+01:20.970 --> 01:31.340
+In the materials window and let's call this paper towels metal up here in the note editor I'll go ahead
+
+01:31.370 --> 01:43.060
+and add a new node with Shift A and I'll go to Shater glossy and I'll also add a mix note as well.
+
+01:43.060 --> 01:49.090
+You know we go and I'll bring the glossy into the bottom socket of the mix Shater And here we are we're
+
+01:49.090 --> 01:53.110
+beginning to get a relatively metallic surface here.
+
+01:53.260 --> 02:00.550
+I think what I'll do for this is I think I will actually switch this around I'll change this to a solid
+
+02:00.550 --> 02:06.150
+view and I'll change this view down here to a rendered viewport shading.
+
+02:06.190 --> 02:08.640
+Now we can see it a little better.
+
+02:08.680 --> 02:13.240
+Well that's getting to be what I want but I think it's a little bit too bright.
+
+02:13.240 --> 02:20.850
+I'm going to bring the color down in the diffuse bring that down a bit like so and let's go with that
+
+02:20.850 --> 02:25.770
+for now and see how it looks once we get the other materials on there as well.
+
+02:25.770 --> 02:32.820
+All right now I need to select these other parts of the object in edit mode so I'll go back to solid
+
+02:32.820 --> 02:36.040
+here and go back to rendered up here.
+
+02:36.210 --> 02:42.770
+And now I can tab into edit mode and zoom in to this and select these other pieces.
+
+02:42.780 --> 02:49.350
+So for this I think in face mode I'll press alt and click and edge between two of the faces and press
+
+02:49.350 --> 02:54.470
+control up arrow to select this piece right here.
+
+02:54.600 --> 02:56.780
+I'll then add a material slot.
+
+02:57.210 --> 02:59.170
+Create a new material.
+
+02:59.280 --> 03:03.400
+Call this paper towels.
+
+03:03.540 --> 03:09.580
+I'll call this black plastic so I know what it is.
+
+03:09.580 --> 03:20.900
+A sign that zoom in up here so I can see that material as I work and now in vnode editor lets add a
+
+03:21.200 --> 03:25.660
+glossy shader a mix shader
+
+03:28.660 --> 03:39.310
+combine those two and I'll take the diffuse color down to a more gray or black color I think that's
+
+03:39.310 --> 03:42.130
+a little bit too shiny for plastic.
+
+03:42.130 --> 03:49.950
+I'll take the mix shader down to maybe point two and it's still looking a little metallic.
+
+03:49.960 --> 03:55.570
+And one of the reasons for that is because the specular highlights are white.
+
+03:55.570 --> 04:02.490
+We can change the color of the highlights if we click here and bring this down a little bit more into
+
+04:02.500 --> 04:04.410
+a gray.
+
+04:04.440 --> 04:09.330
+Now that material is beginning to look a little bit more plastic.
+
+04:09.330 --> 04:12.200
+So for materials to look plastic.
+
+04:12.240 --> 04:21.140
+Sometimes what you need is for the specular highlight the gloss to be more the same color as the diffuse.
+
+04:21.240 --> 04:24.810
+So I'll take the roughness down here to maybe point one.
+
+04:25.080 --> 04:31.330
+And we go and I think I'll even bring that glossy color down a little bit more.
+
+04:31.330 --> 04:31.810
+All right.
+
+04:31.960 --> 04:33.530
+Let's go with that.
+
+04:33.900 --> 04:42.610
+What I'll also do is grab this piece down here all hover over it and press the L key since it's a separate
+
+04:42.610 --> 04:43.080
+piece.
+
+04:43.090 --> 04:45.020
+I can select that whole piece.
+
+04:45.370 --> 04:50.760
+And now let's go ahead and assign this material to it.
+
+04:50.860 --> 04:55.520
+So I'll just click a sign and there we go.
+
+04:55.530 --> 04:56.280
+All right.
+
+04:56.280 --> 05:01.480
+So we have our materials set up for the plastic and the metal.
+
+05:01.770 --> 05:03.320
+What about the paper towels here.
+
+05:03.330 --> 05:07.030
+Well this is a little bit different kind of material.
+
+05:07.020 --> 05:13.440
+Let's go ahead and select it with the L key and for this once again I'll create a new material slot
+
+05:14.300 --> 05:22.040
+and new material I'll call this paper towels and we'll click a sign.
+
+05:22.260 --> 05:25.580
+So now that looks a little bit more like paper towels.
+
+05:25.590 --> 05:35.100
+But what I would like to try here is to see if I can get some sort of small texture to this so it so
+
+05:35.100 --> 05:42.570
+it has the sense that it's kind of a rough surface to it like some paper towels are we could leave it
+
+05:42.660 --> 05:44.930
+like this and that would be fine.
+
+05:44.940 --> 05:48.590
+But I think I'd like to try and get a little bit more texture to it.
+
+05:48.600 --> 05:59.430
+So what let's do is bring in a texture node and let's bring in a noise texture now a noise texture is
+
+05:59.550 --> 06:02.630
+just a bunch of colored noise.
+
+06:02.640 --> 06:09.740
+We can feed this into the color channel here of the diffuse and take a look at what it looks like.
+
+06:09.970 --> 06:10.450
+There it is.
+
+06:10.450 --> 06:16.700
+It's just kind of a mess of random colors and patterns and we can change the scale here.
+
+06:16.710 --> 06:26.370
+Maybe let's increase the scale up to say 50 and you can see how it really reduces the size of that pattern.
+
+06:26.390 --> 06:34.450
+Let's take it on up to maybe 100 and maybe this is the size of our pattern that we want for our texture
+
+06:34.870 --> 06:39.450
+but obviously we don't want to feed it in through the color channel.
+
+06:39.520 --> 06:44.250
+What we want to do is feed this in through the displacement.
+
+06:44.380 --> 06:49.780
+However we have a different color socket here for the displacement.
+
+06:49.780 --> 06:56.950
+You can see that we have different colored sockets and usually the same color socket is what you want
+
+06:56.950 --> 06:57.700
+to connect.
+
+06:57.730 --> 07:03.510
+So a green to a green a yellow to a yellow blue to a blue.
+
+07:03.610 --> 07:08.670
+So I'll just grab this and disconnected from that diffuse Shater.
+
+07:08.950 --> 07:15.040
+And now we need to think about converting this color to a black and white image.
+
+07:15.140 --> 07:22.390
+All press shift a and let's bring up the converter menu and let's choose our G.B. to black and white
+
+07:23.460 --> 07:32.050
+and we go and notice it has a color to color socket there so we can feed that color into there.
+
+07:32.100 --> 07:38.390
+Now we can see here that we have a gray value socket and we can feed that into the displacement.
+
+07:38.430 --> 07:46.830
+And when we do we can see the texture on here but that too much and I don't have any way to increase
+
+07:46.890 --> 07:51.780
+or decrease the size or effect of that texture.
+
+07:51.780 --> 07:58.880
+What we need to do is add a node in here that allows us to adjust the strength of the texture.
+
+07:58.920 --> 08:06.270
+So what we can do is press shift a and bring in under the converter menu a math node.
+
+08:06.450 --> 08:14.610
+If I click that I can add that to the chain and I can change this from ADD to multiply.
+
+08:14.610 --> 08:20.990
+Now notice we've got a gray value socket going to our gray socket here.
+
+08:21.270 --> 08:27.410
+And I can take this value in the multiply no down to say point 0 1.
+
+08:27.510 --> 08:29.150
+Something pretty small.
+
+08:29.490 --> 08:34.340
+And now you can just barely see a little bit of texture to this.
+
+08:34.410 --> 08:37.400
+We can of course increase this however much we want.
+
+08:37.530 --> 08:43.800
+But I just wanted something very subtle just to give a sense that the paper towels have just a bit of
+
+08:43.800 --> 08:45.000
+texture.
+
+08:45.000 --> 08:45.390
+All right.
+
+08:45.390 --> 08:52.890
+Let me hit zero over here to go back to our camera view and in the next video what let's do is let's
+
+08:52.890 --> 09:00.930
+take a look at using this same kind of process to maybe texture one of our pieces of fruit say an orange
+
+09:00.930 --> 09:02.350
+here in the bowl.

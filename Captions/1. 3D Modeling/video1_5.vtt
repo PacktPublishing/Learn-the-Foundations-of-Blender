@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.520 --> 00:08.830
+Since the last video I've gone ahead and fleshed out our scene a bit I've added a floor a couple of
+
+00:08.830 --> 00:13.570
+walls and I've also filled in in the bookshelves.
+
+00:13.570 --> 00:20.770
+Now one thing I want to mention is that it's a lot easier to model if your objects are in the center
+
+00:20.770 --> 00:25.690
+of the grid and they're oriented to the world axes.
+
+00:25.690 --> 00:31.630
+What I did in the last video is i moved this over and I angled it a bit just to make it look like it's
+
+00:31.630 --> 00:34.140
+in the corner of a room and that's fine.
+
+00:34.150 --> 00:41.980
+But what I should have done is gone ahead and finished modeling and duplicating and placing all the
+
+00:41.980 --> 00:49.360
+books while the bookshelf was aligned to the x axis or the Y or Z.
+
+00:49.360 --> 00:57.580
+So it's a lot easier to move things along the world axes rather than have them be angled like I did
+
+00:57.580 --> 00:59.410
+with the bookshelf here.
+
+00:59.410 --> 01:04.780
+But having said that there are a couple of organizational things I wanted to show you here what I've
+
+01:04.780 --> 01:08.340
+done is I've created just polygon planes.
+
+01:08.470 --> 01:16.000
+I just went to the Create tab and created a polygon plane and scaled it out to the floor.
+
+01:16.170 --> 01:21.610
+I then duplicated it for the wall and duplicated it again for the wall here.
+
+01:21.610 --> 01:27.580
+Now I've gone through and I've renamed all my main objects like this table.
+
+01:27.790 --> 01:36.120
+If I hover over the outliner here and press the period key on the numpad it will frame up or zoom into
+
+01:36.160 --> 01:39.550
+that particular object and I've named this table.
+
+01:39.900 --> 01:46.330
+If I select the bookshelf you can see I've named this bookshelf and the walls of course.
+
+01:46.510 --> 01:48.810
+Here is the floor.
+
+01:48.920 --> 01:50.260
+Here's the wall.
+
+01:50.260 --> 01:52.210
+And here is the other wall.
+
+01:52.240 --> 02:01.990
+Now I had named this original book book and duplicated it and therefore looks like I've got 83 or 84
+
+02:02.200 --> 02:10.210
+books here all in the bookshelves but it's kind of a mess here in the outliner you can see that they're
+
+02:10.210 --> 02:13.370
+just tons of them.
+
+02:13.370 --> 02:17.970
+And if we were to create a more complex scene this would get even worse.
+
+02:18.020 --> 02:21.310
+So how to organize these in the outliner.
+
+02:21.740 --> 02:26.060
+If you'll remember we created these objects on different layers.
+
+02:26.150 --> 02:33.860
+So here's the bookshelf and on the bookshelf layer I've also created the floor and walls.
+
+02:34.130 --> 02:36.820
+And here's the little layer for the table.
+
+02:37.190 --> 02:39.340
+And here's the one for all the books.
+
+02:39.530 --> 02:43.310
+So I have a relatively easy way to select only the books.
+
+02:43.310 --> 02:47.620
+Now I just choose the layer that they're on and select them.
+
+02:47.810 --> 02:54.770
+A good way to select a large group of objects like this is to press the be key on the keyboard for border
+
+02:54.770 --> 02:59.870
+select and then click and drag and that should select all those objects.
+
+02:59.870 --> 03:06.050
+Now what I'd like to do is to group these all into one group so it isn't filling up the outliner here
+
+03:06.740 --> 03:07.360
+to do that.
+
+03:07.370 --> 03:15.710
+I can press control G and A group has been created I can come over here to the left hand panel and call
+
+03:15.710 --> 03:17.810
+these books.
+
+03:17.840 --> 03:19.780
+Call this Books Group.
+
+03:20.150 --> 03:27.200
+OK so now that all those are in a group what is that done for us.
+
+03:27.240 --> 03:28.680
+Not a lot.
+
+03:28.710 --> 03:30.920
+All the books are still here.
+
+03:30.930 --> 03:37.330
+So my point is that grouping in Blendr may not do exactly what you think it should do.
+
+03:37.350 --> 03:42.270
+We can see our group over here in the scenes this pull down.
+
+03:42.450 --> 03:47.890
+We can change the way we view the outliner from all scenes to groups.
+
+03:47.910 --> 03:54.330
+And there's our group we can select it and select all those objects in a group but it didn't help us
+
+03:54.990 --> 03:57.470
+organize the books in the outliner.
+
+03:57.510 --> 04:00.560
+So really groups are more for selection purposes.
+
+04:00.990 --> 04:05.270
+Well that's great you say but how do I organize the outliner.
+
+04:05.450 --> 04:14.850
+Let's go over here to the Create tab and let's scroll down and create an empty an empty is just an object
+
+04:14.880 --> 04:17.670
+in the scene that has no visibility.
+
+04:17.700 --> 04:20.910
+It only has a location and that's it.
+
+04:20.910 --> 04:25.380
+So when we create this empty it will be created at the point of the 3D cursor.
+
+04:25.500 --> 04:33.060
+Let's go ahead and move that cursor back to the center of the grid by pressing shift s cursor to center
+
+04:33.780 --> 04:38.270
+and let's create the empty click that there are empty.
+
+04:38.390 --> 04:40.390
+And there it is in the outliner.
+
+04:40.400 --> 04:47.150
+So what am I to do is rename this and call it Books Group.
+
+04:47.170 --> 04:52.080
+Now I'm going to press the period on the numpad and it'll zoom to that point.
+
+04:52.090 --> 04:57.760
+So now here is a group type object that we can use in the outliner.
+
+04:57.760 --> 05:05.290
+So now how do we do this what we need to do is de-select everything with the Aiki press the Beaky drag
+
+05:05.290 --> 05:14.040
+select all the books here shift's select the books group and now press control P..
+
+05:14.230 --> 05:19.600
+And what we can do is we can parent all of those objects to that empty.
+
+05:19.870 --> 05:25.470
+And we want to go ahead and keep the transform and there we go.
+
+05:25.500 --> 05:32.360
+Now you can see very clearly that all of those book objects are printed to that empty.
+
+05:32.370 --> 05:39.380
+And what it did is it put them all underneath that books group item in the outliner.
+
+05:39.610 --> 05:42.030
+So that helped us clean up the outliner.
+
+05:42.070 --> 05:47.500
+Now one annoying thing here is all the relationship lines and that's easy to fix.
+
+05:47.500 --> 05:55.210
+I'm going to press the end key and if we scroll down to the display area we can see here in display
+
+05:55.270 --> 05:58.770
+that we've got this setting for relationship lines.
+
+05:58.780 --> 06:00.470
+Let's just uncheck that.
+
+06:00.730 --> 06:07.290
+I keep that off pretty much all the time anyway or press in to close that panel and there you have it.
+
+06:07.300 --> 06:13.450
+We've got now all of our objects here in a group we can select that group.
+
+06:13.450 --> 06:20.290
+Now we could move it around with the G key we could rotate it scale it whatever we want to do.
+
+06:20.500 --> 06:25.450
+But at least now it's a little more organized in the outliner.
+
+06:25.450 --> 06:25.890
+All right.
+
+06:26.020 --> 06:28.600
+Well let's bring back our other objects here.
+
+06:29.480 --> 06:36.980
+And even though this is a series on modeling I think it's important to be able to render something out
+
+06:36.980 --> 06:43.940
+quickly so you can just see how the models look in your scene sometimes just seeing them hear it with
+
+06:43.940 --> 06:47.040
+the gray material isn't very inspiring.
+
+06:47.120 --> 06:50.190
+So let's create a quick render of our scene.
+
+06:50.210 --> 06:57.920
+Now what I'm going to do is use the cycle's render engine so if your blender is set to the blender internal
+
+06:58.550 --> 07:01.880
+go ahead and come up here and change it to the cycle's render engine.
+
+07:01.880 --> 07:05.440
+I think it's a lot better than the blender internal.
+
+07:05.540 --> 07:11.780
+I love what they've been doing with the development of the cycle's render engine and it's a lot of fun
+
+07:11.780 --> 07:13.340
+to use.
+
+07:13.340 --> 07:17.360
+And when I say fun here's one of the fun things I think that is kind of cool.
+
+07:17.480 --> 07:21.320
+You can actually turn an object into a light.
+
+07:21.320 --> 07:29.690
+Now to render the scene we're going to need a light in the scene but we don't have to use these lamps
+
+07:29.690 --> 07:31.220
+here in the create tab.
+
+07:31.220 --> 07:38.840
+We've got a point light a sun spot himi an area light and we can talk about those later in a entire
+
+07:38.900 --> 07:40.670
+lighting series.
+
+07:40.670 --> 07:49.640
+But for now the way I think you can create a quick interesting render of your 3D models is by using
+
+07:49.640 --> 07:56.180
+a polygon plane and assigning it a material that allows it to become a light.
+
+07:56.260 --> 07:57.020
+It's kind of cool.
+
+07:57.020 --> 07:58.370
+So let's do that.
+
+07:58.430 --> 08:01.610
+I'm going to click plane here to create a Polygonum plane.
+
+08:02.680 --> 08:08.140
+And I'm going to just drag this up and move it to one side here.
+
+08:11.940 --> 08:17.610
+And I'll call this light plane so I know what it is.
+
+08:17.620 --> 08:23.950
+Now we have a land in the scene already that's way over here on this layer.
+
+08:23.950 --> 08:31.720
+I don't know if you recall we moved the lamp and the camera over here will need this camera to render
+
+08:31.720 --> 08:36.760
+our scene but we can go ahead and delete the light here quickly.
+
+08:36.760 --> 08:44.020
+If you notice when I select this light the transform manipulator is kind of at an angle because I have
+
+08:44.020 --> 08:48.800
+my transformation orientation here set to local.
+
+08:49.090 --> 08:52.470
+I can change that by just clicking that and changing it to global.
+
+08:52.480 --> 08:56.230
+And now it aligns with the world axes here.
+
+08:56.620 --> 09:02.140
+I'll just delete this by pressing the x key and clicking delete.
+
+09:02.150 --> 09:09.320
+Now if I go back to my scene here here's that Polygram I'm playing that I created I'm going to press
+
+09:09.320 --> 09:11.270
+the ESC key and scale it up a bit.
+
+09:11.330 --> 09:15.930
+So it's relatively big and I will rotate it
+
+09:18.760 --> 09:32.190
+and place it so it's shining down into my seam maybe something like this and we go now that's going
+
+09:32.190 --> 09:34.700
+to be our light to make this a light.
+
+09:34.710 --> 09:41.220
+We need to assign a material to it and then make that material and emission material so it actually
+
+09:41.250 --> 09:43.310
+emits light.
+
+09:43.320 --> 09:49.770
+So over here in the properties panel and to come over to the material area and I'm just going to click
+
+09:49.860 --> 09:53.550
+new for new material and there we go.
+
+09:53.670 --> 10:03.120
+Now it's created a material of type diffuse I'm going to change the name of this to light mission just
+
+10:03.120 --> 10:04.860
+so I know what it is.
+
+10:05.400 --> 10:12.930
+And instead of diffuse material Let's change this to emission.
+
+10:12.960 --> 10:13.580
+All right.
+
+10:13.710 --> 10:21.250
+So now what well blender has a render preview option right down here.
+
+10:21.320 --> 10:27.910
+We can change the type of viewport shading from solid or texture to rendered.
+
+10:28.100 --> 10:30.810
+Let's do that.
+
+10:30.840 --> 10:35.880
+So now you can see that this polygon plane is emitting light into the scene.
+
+10:36.090 --> 10:39.100
+And if we zoom in we can see what's happening here.
+
+10:40.360 --> 10:43.930
+We can increase the strength of the light here.
+
+10:44.080 --> 10:48.330
+Let's say we take it up to three and there we go.
+
+10:48.820 --> 10:55.870
+And now you'll begin to hear the fan in my computer kick on as blender tries to render the scene on
+
+10:55.870 --> 10:57.810
+the fly and that's fine.
+
+10:57.810 --> 10:58.750
+It shouldn't be too loud.
+
+10:58.750 --> 11:06.800
+I hope I'm going to take this light object and select it you can see I've clicked on it.
+
+11:06.820 --> 11:12.730
+You can see that highlighted over here in the outliner and I'll press the G key and just move it up.
+
+11:12.850 --> 11:16.720
+So I can rearrange where the light is coming from.
+
+11:16.720 --> 11:18.100
+Maybe I want it a little brighter.
+
+11:18.110 --> 11:23.810
+Let's see what happens if I get four.
+
+11:23.880 --> 11:25.820
+That's kind of nice.
+
+11:25.830 --> 11:33.090
+So now how do I render a single image of this what I need to do is place the camera here and remember
+
+11:33.090 --> 11:34.270
+the camera.
+
+11:34.270 --> 11:40.420
+If I shift click this layer here the camera is on this layer.
+
+11:40.430 --> 11:46.880
+I'm going to switch back to the shaded view or the solid view real quick and we can see the camera here.
+
+11:46.970 --> 11:47.810
+It's kind of tiny.
+
+11:47.810 --> 11:52.480
+We could scale it up it doesn't really matter how big or small it is.
+
+11:53.000 --> 12:01.010
+But what I'd like to do is move the camera here that we're going to render the scene from to this place
+
+12:01.010 --> 12:07.670
+here where I have the perspective camera to do that I can come over here to the view option the view
+
+12:07.700 --> 12:17.210
+menu go to align view and I can choose a line active camera to view or as you can see here control alt
+
+12:17.330 --> 12:18.890
+numpad zero.
+
+12:19.160 --> 12:26.270
+So I'll just click that and that changes the camera view to the point where I was with the perspective
+
+12:26.270 --> 12:31.720
+camera and that's fine but it's not exactly where I want it to be.
+
+12:31.730 --> 12:36.690
+I've tumbled around I've just used the middle mouse button to tumble out of that view.
+
+12:37.100 --> 12:44.050
+What I think I'll do is create two views one for the render camera and one for perspective camera.
+
+12:44.120 --> 12:50.110
+So to create an extra view I'm just going to grab this little corner part right here and drag it down
+
+12:52.470 --> 12:55.710
+and now we have two views in our interface here.
+
+12:55.950 --> 13:02.460
+We can change one of these to the camera point of view so hovering over this top one all Press Control
+
+13:02.490 --> 13:07.410
+alt and zero and there is our camera perspective.
+
+13:07.470 --> 13:13.890
+Now I can tumble around here and move around in this view while still having the camera perspective
+
+13:13.890 --> 13:15.630
+here up at the top.
+
+13:15.660 --> 13:25.400
+So what I'll do is go to my move tool and this time I want to move in the local access for change from
+
+13:25.400 --> 13:33.860
+global to local and now I can just move this camera around until I get it the way I want it to pull
+
+13:33.860 --> 13:34.350
+out.
+
+13:36.120 --> 13:41.260
+Bring it down a bit.
+
+13:41.290 --> 13:46.900
+All right so once I've got the camera placed Now what I'd like to do is actually render out an image
+
+13:47.590 --> 13:53.660
+to do that I can come over to the render camera here on the properties window.
+
+13:54.280 --> 14:02.080
+And currently I've got when I click render I have the option of having it render out in a new window
+
+14:02.680 --> 14:06.870
+or in the image editor or full screen.
+
+14:07.000 --> 14:09.240
+I like to use a new window.
+
+14:09.410 --> 14:13.600
+It pops a new window up over the interface and I kind of like that.
+
+14:13.750 --> 14:21.440
+So I'm going to choose a new window and then I'll just click render and now it's going to render out
+
+14:22.640 --> 14:24.920
+my scene.
+
+14:24.950 --> 14:26.420
+Now it's kind of grainy here.
+
+14:26.420 --> 14:28.350
+I'd like to clean that up just a bit.
+
+14:29.290 --> 14:33.330
+So I'll close this and to clean up that grain.
+
+14:33.340 --> 14:37.760
+Just a quick way to do that is to scroll down in the render panel here.
+
+14:39.340 --> 14:50.050
+And under sampling this is where I can increase the resolution or the quality of the final render this
+
+14:50.050 --> 14:56.110
+preview is when we use the render viewport shading.
+
+14:56.350 --> 14:58.180
+That's what this preview is.
+
+14:58.450 --> 15:03.190
+But for the final render Let's take this up to say 100.
+
+15:03.340 --> 15:04.960
+See how that works.
+
+15:05.170 --> 15:09.830
+So I'll scroll back up and hit render.
+
+15:09.860 --> 15:15.830
+Now it's going to take a little longer now because it has to work harder but it should clean up some
+
+15:15.830 --> 15:17.390
+of that grain.
+
+15:17.810 --> 15:21.060
+And there we have a simple render of Arsene.
+
+15:21.110 --> 15:29.000
+So in the next video we'll look at using basic objects combining them together to create more complex
+
+15:29.030 --> 15:29.790
+objects.

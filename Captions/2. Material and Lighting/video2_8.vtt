@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.920 --> 00:05.480
+Well let's use our noise texture trick again on this orange here.
+
+00:05.750 --> 00:15.140
+I'll zoom in here and let's go ahead and turn on the rendered viewport shading right here so we can
+
+00:15.140 --> 00:18.650
+see it as we adjust our material.
+
+00:18.740 --> 00:25.960
+Now it is so good so I'll go ahead and add a new material over here and I'll just call it orange.
+
+00:26.040 --> 00:38.250
+In addition I will add a glossy shader here shift a shade or glossy and a mix Shater as well.
+
+00:38.250 --> 00:43.680
+Put that in here and combine those two into our material output.
+
+00:43.680 --> 00:47.860
+So now we can see our oranges a little shiny.
+
+00:47.940 --> 00:52.350
+We need to change it to an orange or the color orange here.
+
+00:52.680 --> 00:58.050
+Let's maybe give it a nice orange color maybe a little bit brighter than that.
+
+00:58.950 --> 01:00.320
+Something like that.
+
+01:00.780 --> 01:05.330
+And also we have this stem here we need to split that out as well.
+
+01:05.370 --> 01:13.830
+So I'll go back to my salad viewport shading go into edit mode and I'll hover over this piece right
+
+01:13.860 --> 01:23.280
+here and select the L key and let's create a new material slot for it and we'll call this orange stem
+
+01:25.290 --> 01:27.540
+and we'll give that a green for now.
+
+01:27.540 --> 01:32.070
+We don't need to have it be anything special quite yet.
+
+01:33.170 --> 01:37.230
+Something like that and I click sign.
+
+01:37.250 --> 01:42.080
+All right so now let's go back to our rendered viewport shading.
+
+01:42.430 --> 01:46.030
+And so there we have our STEM it's a little bit too bright.
+
+01:46.040 --> 01:51.940
+Maybe I'll bring it down to the brown end of the spectrum a little bit.
+
+01:52.630 --> 01:56.460
+Something like that for now we'll work on that here in a bit.
+
+01:56.470 --> 02:04.900
+Let's go back to our Ornge and what I want to do here is try and add some texture to the orange.
+
+02:04.900 --> 02:10.460
+The way we did for the paper towel now it is of course a little bit too shiny here.
+
+02:10.520 --> 02:13.440
+I'll take this down to a point to perhaps.
+
+02:13.480 --> 02:22.320
+And now let's go ahead and add a noise texture with shift a texture noise.
+
+02:22.560 --> 02:32.830
+And also let's add a converter to convert from R.G. to black and white.
+
+02:33.360 --> 02:44.970
+Connect up those color sockets let's also add once again a math note and switch it to multiply and then
+
+02:44.970 --> 02:50.880
+we'll connect those up and this into the displacement socket.
+
+02:51.060 --> 02:52.290
+And here we go.
+
+02:52.530 --> 03:00.790
+That's not quite what I was going for but that's OK we'll take the scale up to say 50.
+
+03:00.810 --> 03:02.840
+See how that works.
+
+03:03.030 --> 03:06.580
+And that's getting there but still not quite what I was wanting.
+
+03:06.780 --> 03:11.980
+Let's take the multiply value down to like point 0 1.
+
+03:12.300 --> 03:13.980
+See if that helps any.
+
+03:14.490 --> 03:18.770
+So now we're getting something that's a little bit more like an orange skin.
+
+03:18.840 --> 03:23.380
+We have that slight bump on our material.
+
+03:23.380 --> 03:28.380
+However one thing that I'm seeing here is that the orange color is too uniform.
+
+03:28.500 --> 03:36.090
+It's too perfect we need a little bit of differentiation in the color of the surface of the orange.
+
+03:36.330 --> 03:40.160
+So to do that let me bring this window down a bit.
+
+03:40.160 --> 03:44.770
+So we have a little bit more room in our node Ed. up here.
+
+03:45.000 --> 03:52.620
+And what I'm looking for is some sort of difference in color here coming in to the diffuse Shater.
+
+03:52.620 --> 04:01.050
+So once again I think we can use a noise texture bring one of those in a noise texture here and if we
+
+04:01.050 --> 04:04.230
+feed it into the color we see we get that.
+
+04:04.590 --> 04:06.710
+And that's not quite what we want.
+
+04:07.020 --> 04:14.910
+What I'd like to do is be able to adjust the color here before it goes into the diffuse shader.
+
+04:14.910 --> 04:24.660
+So let me connect to that and to do that let's bring in a color ramp so shift a and let's go to the
+
+04:24.690 --> 04:28.410
+converter and color ramp.
+
+04:28.410 --> 04:35.940
+And here we have a node that will allow us to mix multiple colors in here on this color ramp.
+
+04:36.240 --> 04:45.590
+So I'll go ahead and connect the gray factor socket to here and the color to here.
+
+04:45.670 --> 04:53.560
+Now you can see we've got the differentiation in color coming from the noise texture but we have it
+
+04:53.590 --> 05:00.810
+just as black and white from the color ramp so we can change our colors here.
+
+05:00.880 --> 05:03.530
+I'll select this color stop.
+
+05:03.730 --> 05:08.410
+And now let's change that color to an orange again.
+
+05:09.280 --> 05:11.050
+Something like this.
+
+05:11.590 --> 05:15.760
+And now we have that orange mixing with the black.
+
+05:15.760 --> 05:18.590
+Defined by our noise texture.
+
+05:18.760 --> 05:29.260
+So maybe I'll select this color stop here and then change its color to maybe a green of some sort.
+
+05:29.260 --> 05:37.000
+Let's try a greenish color like this maybe a little bit darker like that.
+
+05:37.060 --> 05:45.490
+Now you can see we've got the orange and the green mixing together which is OK but I think I want a
+
+05:45.490 --> 05:47.150
+little bit more orange.
+
+05:47.260 --> 05:49.670
+So there are a couple of ways to do this.
+
+05:49.670 --> 05:58.520
+Now we can move from one color stop to the other with this arrow here or we can choose the map here.
+
+05:58.570 --> 06:05.570
+So if I move to the orange color I can take this and I can drag it toward the green.
+
+06:05.590 --> 06:07.680
+We can see what happens there.
+
+06:08.110 --> 06:13.350
+And in doing that the orange almost pushes out completely the green.
+
+06:13.390 --> 06:19.240
+If I move it back toward this way the green begins to come back.
+
+06:19.280 --> 06:29.900
+So maybe what I can do is keep this color stop here add a new one by clicking on the plus and then moving
+
+06:30.200 --> 06:34.220
+this one a little closer to the green.
+
+06:34.220 --> 06:40.220
+Now I kind of like this it's just gives a hint of that green but the orange shine through for the most
+
+06:40.220 --> 06:40.800
+part.
+
+06:41.930 --> 06:43.170
+That's not bad.
+
+06:43.220 --> 06:45.740
+I think it's still a little too shiny.
+
+06:45.770 --> 06:51.680
+We could maybe try and bring the roughness up in the glossy maybe to point three.
+
+06:51.680 --> 07:00.230
+So in this way we can use something like a noise texture for both the bump or displacement of our object
+
+07:00.770 --> 07:04.730
+and we can also use it to add extra color to the object.
+
+07:04.730 --> 07:10.170
+Now I could add more color stops here maybe a brown one.
+
+07:10.490 --> 07:19.100
+We could even maybe take this particular one and make it more of a brown something like something like
+
+07:19.250 --> 07:20.940
+this perhaps.
+
+07:21.260 --> 07:25.520
+Now you get more of that brown in there among the orange and the green.
+
+07:25.520 --> 07:29.580
+We could move this closer to the green and see what happens there.
+
+07:29.720 --> 07:33.140
+We can move it back toward the orange.
+
+07:33.140 --> 07:40.190
+So there's a lot of different possibilities here what I'll do now is go ahead and add this particular
+
+07:40.190 --> 07:43.090
+orange material to the other oranges in the bowl.
+
+07:43.280 --> 07:45.950
+So it looks like this one is an orange.
+
+07:45.950 --> 07:50.750
+Let me just switch over to our salad view.
+
+07:50.750 --> 07:56.000
+It looks like this one is an orange and this one is an orange here.
+
+07:56.160 --> 08:05.100
+So what we can do is if we select this orange shift select this one and then shift select the one with
+
+08:05.100 --> 08:06.900
+the material on it.
+
+08:07.080 --> 08:15.100
+We can then press control L and link our materials to the ones that do not have the material.
+
+08:15.150 --> 08:18.570
+And now these have the same material.
+
+08:18.570 --> 08:23.940
+If we switch back to the rendered viewport we can see that we've added that orange material.
+
+08:23.940 --> 08:30.900
+Now we still need to go into each one and add the green for the stems and we may want to add a color
+
+08:30.900 --> 08:35.160
+ramp and some noise to the stems as well.
+
+08:35.430 --> 08:42.110
+But in that way once we create a material we can add them to other objects very quickly.
+
+08:42.150 --> 08:47.890
+Well I'll go ahead and add some materials to the other objects in the scene and in the next video.
+
+08:48.030 --> 08:55.920
+Let's take a look at some different ways of lighting are seen using both HDR images and using other
+
+08:55.920 --> 08:58.400
+objects as a light source as well.

@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.890 --> 00:08.390
+So we've talked about the importance of making sure that our U-V map isn't stretching the texture because
+
+00:08.420 --> 00:15.680
+any stretching of this test pattern here is telling us that any other texture we put down on this is
+
+00:15.770 --> 00:17.500
+also going to be stretched.
+
+00:17.570 --> 00:26.360
+So if we're putting down a brick texture or concrete texture or actually words on the object it would
+
+00:26.360 --> 00:30.730
+be very obvious if the texture was stretched and we wouldn't want that.
+
+00:31.040 --> 00:37.280
+So in addition to making sure our textures aren't stretched we also need to make sure that there aren't
+
+00:37.310 --> 00:39.570
+any unnecessary seams.
+
+00:39.680 --> 00:48.950
+So if we take a look at this texture here you can see that as the checker pattern wraps around the object
+
+00:49.310 --> 00:57.260
+there's a break there that texture isn't continuous from one side to the other maybe depending on what
+
+00:57.260 --> 01:05.240
+this object is in our scene we need that texture to wrap smoothly around the object without a visible
+
+01:05.250 --> 01:06.830
+seam so.
+
+01:06.860 --> 01:13.840
+Another thing we need to be mindful of when U-V mapping is where to place our seams.
+
+01:14.150 --> 01:22.670
+So let's say we wanted this texture to wrap seamlessly along the edge there we could use Blender's Mark
+
+01:22.670 --> 01:30.170
+seam tool to tell Blendr where to cut the object where to cut the seams so that the important parts
+
+01:30.170 --> 01:32.410
+of the texture are seamless.
+
+01:32.450 --> 01:39.950
+So I'll change over to edge view and then I'll begin marking a few seem so I'll select an edge.
+
+01:39.950 --> 01:42.530
+There may be one there.
+
+01:43.660 --> 01:48.420
+Go on around the object like this.
+
+01:48.420 --> 01:54.460
+So I'll just kind of mark those seams here with those edges selected I'll press control.
+
+01:55.020 --> 01:59.430
+And I'll choose Mark seam from the edges menu.
+
+01:59.430 --> 02:05.490
+Now you can see that there's these red lines telling us that these are where our seems are going to
+
+02:05.490 --> 02:06.120
+be.
+
+02:06.180 --> 02:09.450
+All right so now I'll select everything with the a key.
+
+02:09.450 --> 02:10.740
+I'll press you again.
+
+02:10.740 --> 02:17.870
+And instead of choosing smart U-V project allowing Blendr to choose where to put the seams.
+
+02:17.970 --> 02:25.010
+I'm going to choose unwrap and have Blendr use my choices as to where the seams should be.
+
+02:25.020 --> 02:28.490
+So I click unwrap and there we go.
+
+02:28.510 --> 02:35.140
+Now we see a very different pattern for our U-V islands and less time about of edit mode and take a
+
+02:35.140 --> 02:36.200
+look at this.
+
+02:36.370 --> 02:44.280
+Notice now I was able to get that Checker pattern to wrap seamlessly around the object.
+
+02:44.830 --> 02:53.020
+So U-V mapping can often be a strategic exercise in that you're trying to figure out what is the least
+
+02:53.200 --> 02:55.910
+prominent place to put a seam.
+
+02:56.170 --> 03:02.980
+Where does the texture need to be seamless and where can I hide a seam so it won't be distracting from
+
+03:02.980 --> 03:03.640
+the viewer.
+
+03:04.910 --> 03:12.860
+Now I should also say that the U-V unwrapping process should be done at the end of the modeling process.
+
+03:12.860 --> 03:20.120
+Once you've established your U-V map you shouldn't be doing any more modeling.
+
+03:20.120 --> 03:21.860
+Here let me show you what I mean.
+
+03:22.040 --> 03:31.610
+If we tab into edit mode and go to face mode I'll select this face and I'll extrude it up.
+
+03:31.620 --> 03:34.180
+Now take a look at what's going on here.
+
+03:34.230 --> 03:41.610
+If we select our entire object the U.V. map hasn't changed any but since our object has changed the
+
+03:41.610 --> 03:47.070
+U.V. map is no longer representative of our 3D object.
+
+03:47.400 --> 03:54.300
+So now that I've changed my 3D model I'm going to have to go back and reuse the map the object.
+
+03:54.300 --> 04:01.920
+So if I take a look at this again I can see that these seams we're just split when I extruded these
+
+04:01.920 --> 04:03.100
+up.
+
+04:03.180 --> 04:12.300
+So what I can do is go back to edge mode and select these edges here and press control easy and clear
+
+04:12.300 --> 04:23.030
+those seams and now select these edges to connect those seams back up control the mark seam and now
+
+04:25.340 --> 04:33.320
+if I select everything press you and unwrap you can see that I've re-established that proper relationship
+
+04:33.680 --> 04:38.020
+between the U-V map and the 3D object.
+
+04:38.060 --> 04:47.000
+Now our textures are unstretched and at least in some places hopefully the important places the seams
+
+04:47.150 --> 04:48.670
+are hidden.
+
+04:48.680 --> 04:51.260
+Now there's one more thing you need to watch out for.
+
+04:51.470 --> 04:58.310
+Not only in terms of extruding and inserting edge loops and things like that but you also need to watch
+
+04:58.310 --> 05:00.110
+out for scaling.
+
+05:00.110 --> 05:09.430
+So let's say I had this object and I scaled it in Object mode in the Z-axis something like this pretty
+
+05:09.430 --> 05:10.930
+tall Let's do that.
+
+05:11.700 --> 05:19.770
+Now let me go back into edit mode and hit you and unwrap and look it up here.
+
+05:19.770 --> 05:22.670
+It says object has nonuniform scale.
+
+05:22.740 --> 05:27.730
+Unwrap will operate in a non scaled version of the mesh.
+
+05:27.780 --> 05:36.530
+So what that's telling you is that the U-V unwrap doesn't match with the particular scale of the object.
+
+05:36.540 --> 05:45.180
+So if I hit the end key to bring up the properties panel over on the right and I tab into object mode
+
+05:45.840 --> 05:51.160
+you can see that the scale is five point three and I've got one and one for the x and y.
+
+05:51.240 --> 05:59.190
+This is nonuniform because all of these are not ones to be uniform they would all need to be ones to
+
+05:59.190 --> 05:59.750
+do that.
+
+05:59.760 --> 06:03.690
+I can apply the scale to this object as it is now.
+
+06:03.840 --> 06:05.970
+So I'll press control a.
+
+06:06.060 --> 06:11.960
+And now with the Apply transforms menu I can choose scale.
+
+06:11.990 --> 06:15.280
+Now my scale over here is all ones.
+
+06:15.470 --> 06:26.060
+If I tab back into edit mode and press you and unwrap now are U.V. unwrap is in proportion to the scale
+
+06:26.060 --> 06:27.670
+of our 3D object.
+
+06:28.100 --> 06:35.090
+So not only should you be doing your U-V unwrapping after the model is completely done you should also
+
+06:35.090 --> 06:41.790
+be mindful that the scale needs to be uniform to get the U-V islands to really represent the 3D object.
+
+06:41.810 --> 06:45.290
+And as it is in terms of proportion and scale.

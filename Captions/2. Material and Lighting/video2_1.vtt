@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.420 --> 00:06.270
+In this course we'll take a look at the tools and settings available to us and blender to light your
+
+00:06.270 --> 00:10.220
+scene render it and to set up your materials.
+
+00:10.230 --> 00:15.330
+The first thing I want to mention here is that if you look right up here at the top if you've just opened
+
+00:15.330 --> 00:22.650
+up blender in a new scene you may find that yours is set to Blender rendering engine and that's an older
+
+00:22.710 --> 00:27.510
+render engine that has been around since the very beginnings of Blender.
+
+00:27.540 --> 00:33.710
+Now the newer render engine the cycles render engine is the one I'll be using throughout this course.
+
+00:33.900 --> 00:40.230
+When it first came out several years ago computer processing speeds weren't as good as they are now.
+
+00:40.380 --> 00:47.310
+And so the cycles render I think got a bad rap for being very slow and taking too long.
+
+00:47.310 --> 00:51.410
+But I think they've done some upgrades to it some speed improvements.
+
+00:51.420 --> 00:56.330
+And as always it seems computer processing speeds have only increased.
+
+00:56.610 --> 01:01.400
+So all of this makes it my choice for my default render engine.
+
+01:01.470 --> 01:07.830
+So when I open up a new scene it comes up with the cycles render engine selected already.
+
+01:07.830 --> 01:13.950
+Now if you want to do that too you really need to do is change here to the cycles render engine and
+
+01:13.950 --> 01:23.240
+then come over to file save startup file and that will ensure that every new file you create has this
+
+01:23.240 --> 01:25.530
+same setup.
+
+01:25.530 --> 01:31.240
+Now be sure you do this with the brand new scene where you haven't added anything changed anything.
+
+01:31.290 --> 01:36.960
+If you do it to an existing scene with models and animation and everything else in it those are going
+
+01:36.960 --> 01:42.850
+to be saved in your project as well so be sure you do that in a brand new scene.
+
+01:43.050 --> 01:48.990
+Even though this is a course on materials and lighting I want to begin with something that isn't materials
+
+01:49.050 --> 01:57.000
+and lighting and that's rendering because to be able to see our final lighting and material setup we're
+
+01:57.000 --> 02:04.230
+going to need to know how to render our scene and to do that really the easiest way is just to come
+
+02:04.230 --> 02:13.850
+over here to the render panel and click render and if we do that and that's what we see just the cube
+
+02:14.660 --> 02:21.480
+I'm going to hit the escape key now and go back to my MAME 3-D view.
+
+02:21.480 --> 02:27.030
+When you open up a new scene file in Blender you get this cube you get a camera and you get a point
+
+02:27.030 --> 02:27.800
+light.
+
+02:28.050 --> 02:33.660
+And this is just so that if you hit the render button you don't just see blank a blank screen you at
+
+02:33.660 --> 02:36.810
+least see something when you hit render.
+
+02:36.810 --> 02:42.170
+Now oftentimes when you begin a scene you'll be just deleting all of these things and beginning a new
+
+02:42.210 --> 02:47.110
+and that's fine but they'll be helpful for us as we talk about rendering here.
+
+02:47.130 --> 02:54.420
+Now when you render your scene you can choose to have it come up in the image editor or you can have
+
+02:54.510 --> 02:56.410
+a new window pop up.
+
+02:56.490 --> 03:03.180
+So now that I've chosen that if I hit render a new window will pop up over here and I kind of like that
+
+03:03.210 --> 03:03.980
+honestly.
+
+03:03.990 --> 03:06.670
+So I think I'll leave that the way it is there.
+
+03:06.900 --> 03:12.150
+The size of your render can be adjusted here in the resolution.
+
+03:12.150 --> 03:20.850
+Currently it's at 19:20 by 10 A.D. which is the standard high definition HD resolution now but it's
+
+03:20.850 --> 03:24.070
+at 50 percent so it's half that size.
+
+03:24.150 --> 03:28.700
+That just helps speed up the render a little bit as we're doing tests.
+
+03:28.890 --> 03:36.120
+So if I wanted to render out a final image of my scene I could just click and drag that up to 100 hit
+
+03:36.210 --> 03:37.060
+render.
+
+03:37.230 --> 03:40.040
+And now you can see it's quite a bit bigger.
+
+03:40.200 --> 03:47.700
+I'll just hit escape to cancel that and then I'll close that window and I'll take this back down to
+
+03:47.700 --> 03:48.790
+50 percent.
+
+03:48.980 --> 03:50.150
+There we go.
+
+03:50.430 --> 03:59.070
+Now you have a lot of different render presets here you can render an HDTV 10 eighty which is this 1920
+
+03:59.090 --> 04:07.890
+by 10 2080 resolution you've got the 720 P resolution which is 12 80 by 720 which is the smaller high
+
+04:07.890 --> 04:10.620
+definition resolution.
+
+04:10.890 --> 04:16.770
+And you've got some other presets for NTSC and PAL television down here.
+
+04:16.770 --> 04:20.160
+Your frame range over here has to do with your animation.
+
+04:20.160 --> 04:27.220
+Now when you render out an animation all you're doing is just rendering out individual frames once again.
+
+04:27.240 --> 04:34.980
+In other words when you create an animation down here on your timeline and you play your animation each
+
+04:34.980 --> 04:39.110
+frame of the animation is an individual image.
+
+04:39.150 --> 04:42.450
+So if you've created an animation and want to render it out.
+
+04:42.600 --> 04:44.930
+That's what this would do for you.
+
+04:44.930 --> 04:52.200
+It would render out each individual frame as an individual image to your drive that collection or sequence
+
+04:52.200 --> 04:53.110
+of images.
+
+04:53.160 --> 04:59.250
+You would then be able to take into a video editing program like Adobe Premiere final cut or even to
+
+04:59.430 --> 05:07.950
+something like quick time pro and create a video file from that image sequence to learn more about that
+
+05:07.950 --> 05:08.520
+process.
+
+05:08.520 --> 05:11.770
+Check out Blendr 4:21 animation production.
+
+05:11.790 --> 05:15.960
+We talk more about rendering out an animation in that course.
+
+05:16.050 --> 05:22.320
+Let's do one more thing to our scene here let's add a ground plane so that we can see our shadows a
+
+05:22.320 --> 05:22.860
+little better.
+
+05:22.860 --> 05:30.180
+So I'll come over here to the Create tab click on plane and I'll hit s and scale that up a bit.
+
+05:30.480 --> 05:31.370
+And we go.
+
+05:31.680 --> 05:36.280
+So now I'll grab that cube and move that up a bit.
+
+05:36.340 --> 05:38.810
+We go like this.
+
+05:39.050 --> 05:45.330
+And now it's hit that render button and see what we get.
+
+05:45.330 --> 05:51.750
+So here we go now we've got the plane in the scene and we can begin to see some of the shadows happening
+
+05:51.750 --> 05:53.610
+here from our point light.
+
+05:54.120 --> 06:00.780
+Now one of the important things of any good render coming out of Blendr or any 3-D animation program
+
+06:01.170 --> 06:09.600
+is appropriate shadows shadows really help us ground objects figure out how big they are.
+
+06:09.660 --> 06:17.940
+We live in a world with one star up in the sky one sun and that one light really helps tell us about
+
+06:17.940 --> 06:19.530
+the world around us.
+
+06:19.590 --> 06:23.550
+If an object connects with a shadow it tells us that it's on the ground.
+
+06:23.550 --> 06:29.250
+If an object does not connect with a shadow it tells us that it's above the ground.
+
+06:29.250 --> 06:38.450
+So if I took this and moved it up just a little bit like this and hit render the visual cue here of
+
+06:38.450 --> 06:45.920
+the shadow not fully connecting with the object tells us a tremendous amount about the placement of
+
+06:45.920 --> 06:47.480
+objects in the scene.
+
+06:47.870 --> 06:55.130
+So when youre thinking about creating a scene when you are rendering the scene and setting up the materials
+
+06:55.220 --> 07:02.250
+and the lighting shadows can really be a part of your composition and tell the viewer a lot about it.
+
+07:03.680 --> 07:12.410
+As we talk about materials We'll also discuss specular highlights the shine on something the way the
+
+07:12.590 --> 07:17.330
+the lights in the environment interact with the object that really helps.
+
+07:17.330 --> 07:25.520
+Tell us about the surface of the object as well so shadows and highlights are really important in the
+
+07:25.520 --> 07:27.820
+way you set up your scene.
+
+07:27.830 --> 07:32.250
+All right so we have our scene and weve rendered it out.
+
+07:32.270 --> 07:35.420
+We know we have shadows in our scene which is good.
+
+07:35.420 --> 07:36.550
+We need that.
+
+07:36.740 --> 07:43.340
+So in the next video what lets do is let's begin talking about the different kinds of lights that Blendr
+
+07:43.340 --> 07:45.330
+gives us to light our scene.

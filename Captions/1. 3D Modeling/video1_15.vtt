@@ -1,0 +1,382 @@
+WEBVTT
+
+00:01.080 --> 00:08.520
+Let's now work on the characters hand it looks to me like this is just a cylinder or even a pipe with
+
+00:08.520 --> 00:15.020
+part of it cut out and then an extrusion coming out of the back for the wrist.
+
+00:15.030 --> 00:16.900
+So let's see if we can work on that.
+
+00:18.060 --> 00:23.730
+To begin with I'm going to go to a brand new layer here and then come over to the Create tab and click
+
+00:23.940 --> 00:25.580
+cylinder.
+
+00:25.610 --> 00:32.080
+Now we don't need 32 sides on our cylinder here probably 12 will be enough.
+
+00:32.210 --> 00:38.400
+And also I want to turn off the cap Phil so I'll choose nothing.
+
+00:38.420 --> 00:39.500
+And there we go.
+
+00:39.770 --> 00:45.530
+I'm going to come over here and press the period key on the number pad to zoom in to the selected object
+
+00:46.640 --> 00:54.320
+and let's go ahead and rotate it here around the x axis and you can see it changing over here.
+
+00:54.320 --> 00:58.340
+I'll go ahead and type in 90 degrees in the rotation.
+
+00:59.300 --> 01:02.330
+And now let's scale this in.
+
+01:02.450 --> 01:06.820
+So it's about the same width as our Lego hand there.
+
+01:07.090 --> 01:11.490
+Are go to the scale manipulator and just bring it in about.
+
+01:11.840 --> 01:15.200
+It's just an estimate here about like that.
+
+01:15.230 --> 01:15.740
+All right.
+
+01:15.800 --> 01:22.500
+So now that we have that let's go ahead and delete these bottom faces to make the hole in the hand here.
+
+01:22.700 --> 01:28.140
+I'll tab into Edit Mode press control tab and choose face.
+
+01:28.400 --> 01:36.520
+And let's go ahead and choose these four faces hit the x key and delete faces.
+
+01:36.950 --> 01:42.710
+And now that we have this kind of half cylinder we need to give it some thickness.
+
+01:42.830 --> 01:48.500
+And one way to do that is a modifier called solidify right here.
+
+01:48.500 --> 01:51.620
+So let's turn that on let's add that.
+
+01:51.620 --> 02:00.290
+And here we are down here you see within the solidify modifier we have a thicknesse field let me open
+
+02:00.290 --> 02:07.160
+that up just a bit and if I click and drag on this you can see it adds thickness to our object and I'm
+
+02:07.160 --> 02:10.210
+going to go ahead and add it about like that.
+
+02:10.250 --> 02:16.680
+Maybe a little bit thicker than I think I need it simply because once we smooth it with the subdivision
+
+02:16.680 --> 02:20.600
+surface modifier it's going to get a little bit thinner.
+
+02:20.840 --> 02:29.220
+So I'll make it just a little bit thicker than I think it should be like that and if I tap into edit
+
+02:29.220 --> 02:34.020
+mode you can see that really this is still the original object.
+
+02:34.200 --> 02:40.970
+And this is just kind of a temporary preview of what's going to happen when we click apply.
+
+02:41.240 --> 02:46.350
+So I tab back into object mode and click apply.
+
+02:46.350 --> 02:54.240
+So now if we tap into edit mode you can see it's now all the same geometry it's the effect of the modifier
+
+02:54.240 --> 02:55.680
+has been applied.
+
+02:55.680 --> 02:59.180
+So OK we have our basic shape here.
+
+02:59.280 --> 03:02.640
+What we need now is the wrist.
+
+03:02.790 --> 03:08.060
+And this just looks like it's a piece extruded out of the top of the hand.
+
+03:08.100 --> 03:14.220
+So if I tab into edit mode I think what I'm going to need to do is create a couple of faces up here
+
+03:14.460 --> 03:21.420
+to extrude the wrist out of to do that let's insert a few edge loops I'll press control are and I'll
+
+03:21.420 --> 03:26.460
+scroll the mouse wheel one time and click and then click again.
+
+03:26.460 --> 03:32.670
+And now with our scale to all I'll just expand that out just a little bit to get the thickness of the
+
+03:32.670 --> 03:33.690
+wrist.
+
+03:33.720 --> 03:34.190
+All right.
+
+03:34.200 --> 03:35.160
+So we've done that.
+
+03:35.160 --> 03:43.140
+Let's go back to face mode with control tab and I'll hit the three key now and if I select these two
+
+03:43.170 --> 03:50.260
+faces and hit the e key I can extrude this up to be the wrist and I'll just extruder it up.
+
+03:50.280 --> 03:57.000
+I don't know about that far enough that we can insert it up into the arm here and I'll just click this
+
+03:57.120 --> 04:03.050
+Z-axis scale and drag down and kind of flatten that up a bit.
+
+04:03.160 --> 04:09.170
+Probably not needed since it's going to be up in the arm so that we can go ahead and do that.
+
+04:09.250 --> 04:09.690
+All right.
+
+04:09.700 --> 04:13.420
+So there we have the basic geometry of the hand.
+
+04:13.420 --> 04:21.010
+Now what let's do is once again add a subdivision surface modifier and begin adding some edges.
+
+04:21.190 --> 04:23.700
+So it doesn't collapse into a blob.
+
+04:23.770 --> 04:24.040
+All right.
+
+04:24.040 --> 04:30.820
+So let's add the subdivision surface modifier there it's kind of collapsing now I'll increase the view
+
+04:30.820 --> 04:32.030
+to two.
+
+04:32.490 --> 04:41.860
+I'll come over here to the tools tab and click smooth shading what's tab into edit mode and we can see
+
+04:41.860 --> 04:43.490
+the unsmooth cage.
+
+04:43.540 --> 04:50.220
+Now around the smooth object so we can kind of see where we need to insert our edge loops.
+
+04:50.270 --> 04:59.880
+Press Control are and I'll insert an edge loop up here and another one down here maybe to hold that
+
+04:59.880 --> 05:01.510
+edge.
+
+05:01.680 --> 05:09.570
+We could probably use some to sharpen up the edges along here like this
+
+05:13.390 --> 05:16.980
+and maybe some down here as well like this
+
+05:22.590 --> 05:27.630
+OK and let's tab out of edit mode and yeah that's looking a little better.
+
+05:29.060 --> 05:36.290
+Let's go ahead and turn on the layer where the rest of the character is I'll press shift and click this.
+
+05:36.290 --> 05:45.120
+And now we can see our hand is a little big but that's ok we can scale it down with the Eski and then
+
+05:45.120 --> 05:49.530
+switch to the move manipulator and move it over here into place.
+
+05:51.380 --> 05:58.390
+I'll press the period key on the number pad to zoom into it and let's see if we can put it into place
+
+05:58.390 --> 06:07.290
+here rotated a hair and I can just press g and move it like that.
+
+06:10.050 --> 06:13.300
+Looks like we need to rotate it a bit from this side
+
+06:18.330 --> 06:21.720
+and there we go there we have our characters hand.
+
+06:21.720 --> 06:28.250
+Now we set up the arms so that when we rotate them they rotate around this pivot point.
+
+06:29.080 --> 06:33.070
+But we need the hand to come along with it.
+
+06:33.070 --> 06:39.760
+So one way to do that is to actually combine the hand with the arm so we can select the hand shift select
+
+06:39.760 --> 06:44.820
+the arm and press control J to join the objects into one.
+
+06:44.980 --> 06:46.710
+So a press control J.
+
+06:47.140 --> 06:48.520
+And there we go.
+
+06:48.520 --> 06:57.960
+So now I can rotate the arm at that point where we need the hand over here too.
+
+06:57.990 --> 07:00.950
+And we could copy the hand and move it over and place it.
+
+07:00.990 --> 07:07.110
+I think an easy way to do this would be just a mirror or this whole object over the way we have it.
+
+07:07.170 --> 07:12.060
+So I'm going to select the arm at the x key and just delete it.
+
+07:12.060 --> 07:20.520
+And now if we take this arm move the origin to the center of the grid or where the 3D cursor is currently.
+
+07:20.520 --> 07:26.940
+Now remember that you can move the cursor to the center of the grid by pressing shift s and cursor to
+
+07:26.970 --> 07:33.820
+center and then we can come up here to set origin and origin to 3D cursor.
+
+07:33.830 --> 07:41.350
+Now we can use this to mirror around that origin point so that we can mirror the arm to the other side.
+
+07:41.420 --> 07:50.660
+But we have values over here in the rotation field and if we try and mirror the object with these random
+
+07:50.660 --> 07:55.480
+values here we're going to get some unpredictable results.
+
+07:55.550 --> 07:58.680
+So to ensure that we get the results we want.
+
+07:58.760 --> 08:05.030
+Let's go ahead and apply the rotation for this object to do that all selected in Object mode and press
+
+08:05.030 --> 08:06.880
+control a.
+
+08:06.950 --> 08:10.820
+And now we can apply the rotation to the object.
+
+08:10.820 --> 08:11.680
+And there we go.
+
+08:11.870 --> 08:16.870
+So now all of the values over here in the rotation fields are zeroes.
+
+08:16.910 --> 08:18.030
+That's going to help.
+
+08:18.320 --> 08:23.910
+So I'll come over here to add modifier mirror and there we go.
+
+08:23.910 --> 08:31.210
+There's our other arm but if we rotate it we see that there is a problem here.
+
+08:31.570 --> 08:32.740
+I'll do that.
+
+08:32.840 --> 08:39.950
+We need to do a couple of things we need to separate these pieces out to be their own objects so they
+
+08:39.950 --> 08:43.160
+can rotate around their pivot point at the shoulder.
+
+08:43.610 --> 08:48.900
+So to separate these out first of all we need to apply the mirror modifier.
+
+08:49.110 --> 08:50.210
+Let's do that.
+
+08:50.810 --> 08:56.370
+And then let's tap into edit mode and we need to select one of these and split it out.
+
+08:56.490 --> 08:59.300
+So I'll hover over this one.
+
+08:59.300 --> 09:05.990
+Press the L key to select all linked components and I'll hover over this one and press the L key as
+
+09:05.990 --> 09:07.280
+well.
+
+09:07.280 --> 09:14.900
+Now to split this out we can press the P key and that will bring up the separate menu and I'll choose
+
+09:14.900 --> 09:18.150
+to separate it by what I've selected.
+
+09:18.170 --> 09:19.460
+And there we go.
+
+09:20.000 --> 09:27.860
+So now these are two different objects so I'll make sure that this one is called arm L. and it is but
+
+09:27.860 --> 09:29.790
+this one is also called Armel.
+
+09:29.800 --> 09:36.870
+Let's change this to arm our and we'll change this one back to arm.
+
+09:36.920 --> 09:39.880
+Well there we go.
+
+09:40.010 --> 09:45.830
+Now the pivot points we need to make sure those pivot points are back at the shoulder.
+
+09:45.830 --> 09:53.700
+So to isolate this on its own we can hide all the unselected pieces by pressing shift h.
+
+09:53.720 --> 09:56.280
+So now we can tab into edit mode.
+
+09:56.450 --> 10:05.360
+Choose this point right here and press shift s and move the cursor to the selected and tab out to object
+
+10:05.360 --> 10:09.470
+mode and then move the origin to the 3D cursor.
+
+10:09.670 --> 10:10.270
+And there we go.
+
+10:10.270 --> 10:12.380
+So we have that one done.
+
+10:12.730 --> 10:16.170
+Now let's press alt h to bring everything back.
+
+10:16.360 --> 10:28.540
+Select this other arm shift h tab into edit mode select that point shift s cursor to selected back to
+
+10:28.540 --> 10:34.740
+object mode set origin origin to 3D cursor and there we go.
+
+10:35.000 --> 10:38.580
+Now I'll press alt h to bring everything back.
+
+10:38.960 --> 10:41.670
+And now these arms can move independently.
+
+10:42.900 --> 10:51.960
+Now we'll need to do that for the legs as well and also create a cylinder to fit right between the legs.
+
+10:52.230 --> 10:54.170
+But I'm going to leave those to you.
+
+10:54.540 --> 10:56.190
+I'll go ahead and work on that.
+
+10:56.190 --> 11:02.170
+And in the next video we'll take a look at adding some colors and finishing up our Lego guy.

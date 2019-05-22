@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.740 --> 00:07.130
+Now that we've added a little bit of paint onto our object here we could take it off as well by changing
+
+00:07.130 --> 00:10.780
+the blend mode from mix to subtract.
+
+00:10.880 --> 00:15.510
+And then if we just paint over this you can see it erases what we've done.
+
+00:15.710 --> 00:22.850
+Now we can do the same thing by pressing the control key and drawing as well.
+
+00:22.850 --> 00:28.940
+Notice that the strength is only at point seven if I drag it all the way up to 1 and hold control and
+
+00:28.940 --> 00:29.800
+drag.
+
+00:29.900 --> 00:34.220
+I can erase that whole thing to erase the rest of this a little easier.
+
+00:34.220 --> 00:39.860
+I should increase the size of the brush and to do that I can come over here to the radius and click
+
+00:39.860 --> 00:46.880
+and drag that up a bit and then I can hold control and click and begin erasing this.
+
+00:46.880 --> 00:55.250
+In addition I can tap the F key and change the size of the brush interactively and I can also change
+
+00:55.250 --> 01:01.680
+the strength of the brush by pressing shift F and moving the mouse in and out as well.
+
+01:03.190 --> 01:10.630
+So I'll just go ahead and race this stroke here with control and click and drag and now what I'd like
+
+01:10.630 --> 01:19.050
+to do is fill this whole object with a base color that's kind of like the color of that flour sack.
+
+01:19.060 --> 01:24.910
+So what I need to do is bring in the image of that flour sack to do that I'll come over here and change
+
+01:24.910 --> 01:35.290
+this view from a node editor to a U.V. Image Editor click on open image here and bring in that reference
+
+01:35.290 --> 01:35.730
+image.
+
+01:35.770 --> 01:39.140
+I have it in my images folder here.
+
+01:39.370 --> 01:44.200
+I'll click on this button right here so I can see them so I can see which one I want.
+
+01:44.200 --> 01:50.680
+And I think it's this flour sack for I'll open that up and there it is.
+
+01:50.710 --> 01:55.480
+Now it does have the U-V wires over the image.
+
+01:55.510 --> 01:56.950
+I don't really want that.
+
+01:57.040 --> 02:05.500
+What I can do is change from view to paint and then come over here to view and turn off draw texture
+
+02:05.500 --> 02:06.670
+paint.
+
+02:07.120 --> 02:09.790
+And then I just have the plain image.
+
+02:09.790 --> 02:12.930
+Now I'd like to sample one of these colors here.
+
+02:13.150 --> 02:21.520
+If I hold the key down and move the mouse around you can see hovering over the various colors in the
+
+02:21.520 --> 02:22.320
+image.
+
+02:22.630 --> 02:29.350
+I can click on one of the colors maybe say something like that and that will create a palette in which
+
+02:29.350 --> 02:31.630
+that color will be stored.
+
+02:31.630 --> 02:33.780
+Now it didn't change the color here.
+
+02:33.790 --> 02:37.340
+I need to click on that palette to change to that color.
+
+02:37.810 --> 02:42.330
+And now I can come over here and click and drag and paint on the object.
+
+02:42.440 --> 02:44.790
+However I need it on the whole object.
+
+02:44.800 --> 02:51.670
+And if I came through here and tried to click and drag I could do it I could paint on this whole thing
+
+02:51.670 --> 02:54.920
+and fill this entire object with that color.
+
+02:55.240 --> 02:56.800
+But it might take a while.
+
+02:56.800 --> 03:05.590
+So instead what I can do is come over here to the brush palettes here and choose the fill brush.
+
+03:05.600 --> 03:13.140
+Now once again I need to choose that palette color here and now if I click on the object it will fill
+
+03:13.140 --> 03:14.370
+that entire object.
+
+03:14.580 --> 03:21.090
+But it didn't fill it with quite the right color and the reason why is that the strength is only at
+
+03:21.090 --> 03:22.070
+point five.
+
+03:22.080 --> 03:28.950
+So we're seeing some of the black through the color I can bring that strength up again to one and click
+
+03:28.950 --> 03:32.000
+over here and that fills the whole thing.
+
+03:32.370 --> 03:33.240
+All right.
+
+03:33.240 --> 03:37.920
+So we have the bag at least filled now with a base color.
+
+03:38.190 --> 03:42.210
+I'll click the brush menu again and go back to my texture.
+
+03:42.210 --> 03:43.710
+Draw a brush.
+
+03:43.710 --> 03:47.660
+Notice that the Asterix is back here on the image menu.
+
+03:47.730 --> 03:50.070
+That means we haven't saved yet.
+
+03:50.070 --> 03:56.730
+So if I pressed control or command s to save the scene it's still there.
+
+03:56.730 --> 03:58.600
+It still hasn't been saved.
+
+03:58.830 --> 04:07.500
+What I need to do is save the image here or press alt s so I'll press alt s and there we go.
+
+04:07.500 --> 04:09.150
+Now it's been saved.
+
+04:09.180 --> 04:16.320
+So when texture painting and blender saving is a two step process control or command s to save the scene
+
+04:16.830 --> 04:20.100
+and Allt as to save the image.
+
+04:20.100 --> 04:28.500
+Now let's see if we can lay down a kind of burlap texture on our object as well to do that we'll need
+
+04:28.500 --> 04:32.060
+to bring in a texture for our brush.
+
+04:32.070 --> 04:38.670
+So first of all what I'll do is I'll drag open a new window over here and change this to a propertys
+
+04:38.670 --> 04:39.420
+window.
+
+04:40.580 --> 04:47.160
+Now over here in the materials panel we can see that here is our flour sack material.
+
+04:47.360 --> 04:54.650
+And in addition if we switch over to the texture panel we can see here under this pull down menu we
+
+04:54.650 --> 04:57.290
+have a texture setting for our brush.
+
+04:57.410 --> 05:04.380
+So I click that now in here we can create a new texture for our brush.
+
+05:04.400 --> 05:08.450
+Now this panel can also be seen right over here as well.
+
+05:08.450 --> 05:12.140
+So clicking new here is the same as clicking new here.
+
+05:12.260 --> 05:19.880
+If I click here you can see it created this black here which is the same as this black texture here.
+
+05:22.140 --> 05:30.080
+Now we can add procedural textures to this generated by Blendr or we can bring in images as well.
+
+05:30.240 --> 05:32.840
+And I have an image I'd like to try and use.
+
+05:33.120 --> 05:41.480
+So I'll come over here to the image section of my brush texture click open and I'll browse to that texture.
+
+05:41.490 --> 05:42.220
+Here it is here.
+
+05:42.240 --> 05:49.750
+I have a seamless image of burlap texture so I'll select that and click open image.
+
+05:49.770 --> 05:53.360
+Now that adds that to the image texture here.
+
+05:53.460 --> 05:54.980
+So let's give this a try.
+
+05:54.990 --> 06:00.330
+I'm going to bring the strength down just a little bit so it kind of mixes with that base color.
+
+06:01.270 --> 06:09.190
+And then I'll come over to my 3-D object and just click and drag that's not quite the effect I want
+
+06:09.200 --> 06:19.010
+so I'm going to undo that maybe take this down 2.5 and increase the brush size hit the F key and move
+
+06:19.010 --> 06:24.810
+the mouse a bit and now try painting like this.
+
+06:24.990 --> 06:30.220
+And that's a little more of the size of the texture that I was hoping for.
+
+06:30.390 --> 06:32.270
+Kind of like this.
+
+06:32.760 --> 06:41.830
+I'm going to undo that and if I zoom out you can see that the relative size of the brush now is is bigger.
+
+06:41.850 --> 06:49.790
+So I can click and drag and see now that burlap is going down onto the object quite a bit larger so
+
+06:49.850 --> 06:52.430
+this size in my frame I'll go ahead and try this.
+
+06:52.430 --> 07:00.080
+I will click and drag and move back and forth here and see how it's going to look and that's pretty
+
+07:00.080 --> 07:01.220
+good.
+
+07:01.220 --> 07:07.070
+The problem is is it didn't get all the way over here if I tried to then click and drag over here I
+
+07:07.070 --> 07:14.230
+would see an overlap over here you can see it here in the U-V image editor.
+
+07:14.230 --> 07:21.850
+So if I undo that perhaps what I should do is try and paint over here in the movie image editor and
+
+07:21.850 --> 07:28.750
+I'll just click and drag holding the mouse down so that we get a nice even texture.
+
+07:28.750 --> 07:33.130
+Now you can also use a pen and tablet for this.
+
+07:33.130 --> 07:35.520
+And I would recommend that as well.
+
+07:36.540 --> 07:47.140
+But for this I'll just go ahead and hold the mouse button down and lay that texture all across this
+
+07:47.140 --> 07:49.780
+particular U-V island.
+
+07:49.780 --> 07:53.620
+Now I'll go ahead and do the same thing for the U-V islands up here.
+
+07:53.620 --> 07:57.640
+Up top click and drag.
+
+07:57.810 --> 08:06.630
+So in this way you can paint tile texture so I have the tiled brush mapping selected here and lay a
+
+08:06.630 --> 08:10.230
+texture down over your entire object.
+
+08:10.260 --> 08:16.010
+The last thing I want to do is get some sort of label on the flour sack.
+
+08:16.140 --> 08:22.380
+So in the next video let's take a look at using the stencil feature in Blender's texture painting tools.

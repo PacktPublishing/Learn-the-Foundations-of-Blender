@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.850 --> 00:07.840
+Let's now add some material to the bottom of the cabinets here I'll select that and what I can do is
+
+00:07.840 --> 00:13.430
+just instead of creating a new material I can pull this menu down.
+
+00:13.630 --> 00:16.890
+And it gives me a list of the materials I've already created.
+
+00:16.960 --> 00:24.610
+So if I select the cabinets here you can see that that whole thing is given the cabinets material.
+
+00:24.610 --> 00:27.480
+However I don't want the whole thing to have the cabinet.
+
+00:27.470 --> 00:36.580
+So what we can do is come in here and tab into edit mode and I'm going to change to face mode by pressing
+
+00:36.580 --> 00:39.190
+control tab and hitting the three key.
+
+00:39.250 --> 00:46.360
+And now I just hover over one of these faces and hit the L key and that selects that whole piece.
+
+00:46.360 --> 00:53.980
+So even though these pieces are all one object the lower cabinets here have been split into different
+
+00:53.980 --> 00:55.000
+pieces.
+
+00:55.210 --> 01:01.820
+And by hovering over one of the components and pressing the L key I can select just that piece.
+
+01:01.840 --> 01:07.150
+So now will do is let's create a new material for the countertops.
+
+01:07.210 --> 01:12.130
+I think I'd like this to be kind of a white marble type of material.
+
+01:12.340 --> 01:19.780
+So with this selected one I'm going to do is create a new material slot and we can have multiple material
+
+01:19.780 --> 01:21.760
+slots for each object.
+
+01:21.790 --> 01:27.630
+So this object contains the material for the cabinets down here.
+
+01:27.910 --> 01:35.920
+But let's also create a material slot and click new here for the countertop as well.
+
+01:35.920 --> 01:44.410
+And we are now we can click a sign and that assigns that new material to the countertop.
+
+01:44.410 --> 01:50.470
+Now once again I think I'd like it to be a little bit shiny or so I'll come over here to the node editor
+
+01:50.500 --> 02:01.610
+and let's add a glossy and also a mix Shater.
+
+02:01.870 --> 02:04.400
+I'll add those in.
+
+02:04.580 --> 02:05.160
+And here we go.
+
+02:05.160 --> 02:11.460
+So now you can see we've got some refl. happening for that kitchen counter.
+
+02:11.480 --> 02:15.620
+Now that's not bad but I think I want to increase the roughness here.
+
+02:15.740 --> 02:16.930
+Take that up a bit.
+
+02:19.640 --> 02:20.870
+There we go.
+
+02:21.410 --> 02:27.370
+Now for these handles here I think what I want is some sort of more metallic material.
+
+02:27.410 --> 02:35.750
+So let me just pan up a bit tumble around here and move in a little bit closer to our handles.
+
+02:36.380 --> 02:44.630
+And now I can come through and hovering over each of these press the L key and I'll just select each
+
+02:44.720 --> 02:47.400
+of these little handles.
+
+02:47.630 --> 02:54.080
+Now that those have been selected let's create a new material slot will create a new material in that
+
+02:54.080 --> 02:59.290
+slot and we'll call these drawer handles.
+
+03:00.620 --> 03:05.450
+Now we need to set up our node tree for this particular material.
+
+03:05.450 --> 03:14.270
+I can add a new note up here by pressing shift a and choosing shader glossy.
+
+03:14.580 --> 03:22.160
+And also all press shift a and choose a mix Shater as well and we go.
+
+03:22.340 --> 03:28.920
+Now I need to apply this or a sign that material to the handle's click a sign.
+
+03:29.030 --> 03:30.880
+And there they are.
+
+03:31.070 --> 03:39.680
+Now I think for these I'd like the roughness to come down in the glossy and maybe move that factory
+
+03:39.680 --> 03:45.920
+up 2.6 or something like that so we get a little bit more of a glint off of those handles.
+
+03:45.980 --> 03:53.690
+So not only can you add material to an object but you can add multiple material slots to an object and
+
+03:53.690 --> 04:00.060
+then assign the materials in each slot to collections of faces on the object.
+
+04:00.530 --> 04:04.530
+So let's take a look at this utensil container.
+
+04:04.820 --> 04:11.870
+I'll zoom in and I'll also zoom in over here also selected here and zoom in here as well.
+
+04:13.040 --> 04:17.060
+So let's add a base material first for the container.
+
+04:18.110 --> 04:19.310
+I'll add a material.
+
+04:19.310 --> 04:22.330
+Call it utensil container.
+
+04:22.850 --> 04:32.820
+And for this I want it to be fairly white and fairly shiny so I'll add a glossy and a mix.
+
+04:32.960 --> 04:33.680
+Drop it in
+
+04:36.350 --> 04:38.630
+and I don't think I want it to be that white.
+
+04:38.630 --> 04:47.350
+Maybe I'll bring it down just a little bit in the gray and take that mix shade or down a little bit
+
+04:48.350 --> 04:51.900
+and I'll bring the roughness of the glossy up as well.
+
+04:52.010 --> 04:57.260
+And that kind of spreads out the specular a highlight on the container.
+
+04:57.260 --> 05:05.060
+Now I'll go in and select each of these individual pieces within the utensils container and assign a
+
+05:05.060 --> 05:07.040
+new material slot to them.
+
+05:07.040 --> 05:16.610
+So for this spoon here let me tumble around just a bit so we can see it for this spoon Alt-Tab into
+
+05:16.700 --> 05:18.070
+edit mode.
+
+05:18.080 --> 05:24.540
+I'll hit the L key to choose this whole piece and I'll add a new material slot.
+
+05:24.680 --> 05:28.900
+I'll call this let's call it metal spoon
+
+05:31.300 --> 05:42.480
+assign the material bring in a new glossy as well as a mix
+
+05:45.720 --> 05:47.440
+and connect these up.
+
+05:47.580 --> 05:54.860
+I'll take the roughness down quite a bit and maybe take the mix factor up as well.
+
+05:55.050 --> 05:58.680
+So we get some reflection in that material.
+
+05:58.680 --> 06:07.830
+The next one I'll do is this spatula I'll select that piece of the object with the L key give it a new
+
+06:07.830 --> 06:18.780
+material slot and in New material we'll call it spatula will assign it and we'll give it just a little
+
+06:18.780 --> 06:25.740
+bit of a gloss with a glossy and a mix
+
+06:30.060 --> 06:34.070
+and something like this.
+
+06:34.070 --> 06:38.690
+Now if you'd like to see what material you have on what piece of the object you can always come over
+
+06:38.690 --> 06:47.600
+here and select or de-select the objects I can de-select that spatula choose the metal spoon and select
+
+06:47.600 --> 06:51.940
+it and you can see I only have that material on this object.
+
+06:52.010 --> 07:00.710
+I think I'll try and put a wood colored handle on our spatula handle here or create a new material slot
+
+07:02.330 --> 07:12.520
+new and I'll call this I'll just call this would sign it and let's go ahead and add our nodes Once again
+
+07:13.090 --> 07:17.460
+I'll just bring in a glossy and mix
+
+07:20.250 --> 07:32.300
+and here we go now take the color to kind of a brown ish and I'll take that glossy this way down I can
+
+07:32.300 --> 07:39.710
+also increase the roughness in the diffuse Shater here and that'll give it a little bit more of a texture
+
+07:39.710 --> 07:42.020
+to it or at least the illusion of it.
+
+07:42.020 --> 07:48.930
+Now what we can do is go ahead and add that same material to these other pieces here.
+
+07:49.030 --> 07:55.980
+I'll go ahead and select this this and this with the L key.
+
+07:56.150 --> 08:01.430
+And now let's click a sign with the word material selected.
+
+08:01.720 --> 08:02.850
+And there we go.
+
+08:03.250 --> 08:09.880
+So in this way we can go through and select each of our objects and the pieces within each of our objects
+
+08:10.030 --> 08:12.100
+to assign the materials we want.

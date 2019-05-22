@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.750 --> 00:03.780
+Well we're pretty much done with our Lego guy here.
+
+00:03.960 --> 00:12.600
+Let's do a few more housekeeping chores and then maybe we can render an image out over here in the outliner.
+
+00:12.880 --> 00:20.460
+I've got quite a few objects that are named Kube cylinder etc. and we really need to take care of these
+
+00:20.550 --> 00:24.100
+and clean it up so we know what our objects are.
+
+00:24.120 --> 00:28.980
+This is really important if you're working with other people in a production pipeline.
+
+00:28.980 --> 00:31.070
+No one likes to get a scene.
+
+00:31.080 --> 00:35.910
+Open it up and see things named like cylinder 0 0 2.
+
+00:36.000 --> 00:37.340
+It's just hard to work with.
+
+00:37.340 --> 00:45.830
+So let's be kind to ourselves and our fellow coworkers select the head and rename it head.
+
+00:46.410 --> 00:47.520
+Let's do this.
+
+00:47.520 --> 00:51.890
+This looks like torso.
+
+00:52.170 --> 00:55.200
+This is arm l arm right.
+
+00:55.200 --> 00:57.010
+That looks fine.
+
+00:57.030 --> 00:57.810
+How about this.
+
+00:57.810 --> 01:04.140
+This looks like this could be called hips I guess we can call this just crotch.
+
+01:04.140 --> 01:05.810
+How about that.
+
+01:05.820 --> 01:10.030
+This one we can call leg underscore.
+
+01:10.350 --> 01:17.440
+Well and this one we can call leg underscore our.
+
+01:17.650 --> 01:18.290
+All right.
+
+01:18.290 --> 01:25.790
+That looks like we've got those pieces all named me scroll through here and make sure we haven't missed
+
+01:25.790 --> 01:27.370
+anything.
+
+01:27.380 --> 01:31.940
+There are a couple of objects that have this 0 0 1 on it.
+
+01:31.940 --> 01:36.630
+Those are just the ones that we copied to make a stack of blocks.
+
+01:36.860 --> 01:42.500
+But speaking of our blocks we should probably bring those back and take a look at the difference in
+
+01:42.500 --> 01:43.900
+scale.
+
+01:43.910 --> 01:51.290
+I'm going to press the shift key and select these other layers here and we can see that that's a little
+
+01:51.290 --> 01:53.520
+out of proportion.
+
+01:53.620 --> 01:56.430
+We can go ahead and select these objects here.
+
+01:57.630 --> 02:04.390
+And if we press the key and scale them down we can scale it down to a more reasonable size.
+
+02:04.410 --> 02:07.290
+This looks to be a little bit better.
+
+02:07.400 --> 02:10.370
+Let me ask you know down a tad more.
+
+02:10.380 --> 02:18.720
+Something like this maybe now we can do this because our pivot center is at the median point in other
+
+02:18.720 --> 02:21.570
+words the center of our selection.
+
+02:21.570 --> 02:24.950
+We can change this to individual origins 3D cursor.
+
+02:25.020 --> 02:29.910
+But for now the median point seems to be working pretty well for us.
+
+02:29.910 --> 02:33.540
+So I'm going to bring this down and kind of place it.
+
+02:33.690 --> 02:34.020
+I don't know.
+
+02:34.020 --> 02:35.760
+Somewhere around in here.
+
+02:36.920 --> 02:41.240
+And if we're going to have a little scene here we should probably have a floor.
+
+02:41.430 --> 02:49.110
+So I will click on the Create tab and create a polygon plane and I'll just scale this out so it's a
+
+02:49.110 --> 02:50.430
+little bit bigger.
+
+02:50.670 --> 02:51.970
+Something like this.
+
+02:54.450 --> 03:01.310
+And let's go ahead and create a camera and a light and see if we can render this scene out and see how
+
+03:01.310 --> 03:02.300
+it looks.
+
+03:02.300 --> 03:07.990
+So what I'll do is I'll come down here in the create tab and create a camera right here.
+
+03:09.730 --> 03:18.510
+And there it is it's kind of hard to see if we move it out here we can see it.
+
+03:18.620 --> 03:24.460
+I'll go ahead and create a new window so we can see what the camera sees.
+
+03:24.500 --> 03:29.370
+I'll just click this little tab right here and drag down.
+
+03:29.630 --> 03:31.440
+And now to switch to the camera.
+
+03:31.460 --> 03:37.040
+I'll just press the zero key on the number pad and that will then frame it up.
+
+03:37.040 --> 03:45.830
+So we're seeing through the camera now I can use my manipulator tools to move the camera around and
+
+03:45.830 --> 03:57.910
+frame up the scene so maybe I'll move it over here like this and move that back kind of like this.
+
+03:57.910 --> 03:59.080
+How about this.
+
+03:59.290 --> 04:01.120
+Yeah let's do that.
+
+04:01.120 --> 04:10.050
+Now if we switch to our rendered viewport shading right here you can see that we can't really see much.
+
+04:10.390 --> 04:17.060
+We need to add a light into the scene so let's once again add a polygon plane.
+
+04:17.110 --> 04:18.720
+Scroll up here.
+
+04:19.230 --> 04:25.690
+I'll create a plain and let's move it up and baby to one side.
+
+04:25.700 --> 04:32.540
+I'm going to move it to one side of the camera maybe to the right side of the camera here and click
+
+04:32.660 --> 04:39.050
+the rotate manipulator rotate that into place and scale it up.
+
+04:39.120 --> 04:41.580
+So that will be our light.
+
+04:41.580 --> 04:45.390
+Now you may be able to hear my computer fan begin to kick in.
+
+04:45.390 --> 04:50.850
+My apologies but it's just trying to keep up with the rendered image up here.
+
+04:51.180 --> 05:01.800
+OK so now let's add a material to this polygon plane to turn it into a light and move this up and move
+
+05:01.860 --> 05:09.960
+this up over here so we can see our properties panel and I'll switch to the material window and click
+
+05:10.110 --> 05:19.310
+new with this selected of course and let me change the name to light and I'll change the type of surface
+
+05:19.340 --> 05:24.650
+or material from a diffuse or color to any mission.
+
+05:25.880 --> 05:29.510
+And now we're beginning to see a little bit of light in here.
+
+05:29.600 --> 05:33.530
+I can take the strength up maybe take it up to five Let's see how that works.
+
+05:33.560 --> 05:36.440
+Yeah we're beginning to see something here.
+
+05:36.740 --> 05:39.020
+Let's take it up to 10 and see what happens.
+
+05:39.110 --> 05:40.150
+Maybe a little too much.
+
+05:40.150 --> 05:40.970
+Well that's not bad.
+
+05:40.970 --> 05:42.450
+Let's go with that.
+
+05:42.530 --> 05:49.660
+Now we also have under the world settings here we also have an ambient occlusion setting.
+
+05:49.700 --> 05:50.990
+We can turn this on.
+
+05:51.000 --> 05:56.430
+It'll it'll make things very bright but we can take the slider here and bring it down.
+
+05:56.600 --> 06:02.510
+And what this will do is this will kind of emphasize contacts shadows between the pieces.
+
+06:02.660 --> 06:06.720
+You can see what happens if we turn it off and turn it on here.
+
+06:06.830 --> 06:09.410
+So it just adds a little bit extra to the scene.
+
+06:09.830 --> 06:11.880
+So there we have a light in the scene now.
+
+06:11.880 --> 06:15.550
+There are a couple of problems I can see right up front here.
+
+06:15.560 --> 06:19.870
+First of all these pieces are hovering above the ground just a bit.
+
+06:19.970 --> 06:25.960
+Let me select these and move those down just a hair.
+
+06:27.440 --> 06:28.270
+Like that.
+
+06:28.300 --> 06:29.300
+Let's say.
+
+06:29.560 --> 06:33.620
+And also we don't have any colors for our character here.
+
+06:33.640 --> 06:39.960
+We need to add some materials to him so I'll select the head and come over here.
+
+06:40.190 --> 06:42.210
+And this is going to be a yellow.
+
+06:42.290 --> 06:50.540
+And it doesn't look like we have a yellow yet here so I click new for a new material call this yellow
+
+06:53.900 --> 06:55.840
+and click on the color swatch.
+
+06:56.740 --> 06:59.260
+And change it to yellow.
+
+07:01.100 --> 07:01.880
+All right.
+
+07:02.120 --> 07:07.410
+So we have that let's do the same thing for the arms and the legs.
+
+07:07.490 --> 07:14.500
+We can click the arm and add yellow do the same thing here.
+
+07:15.410 --> 07:16.690
+And on the legs
+
+07:19.700 --> 07:24.100
+OK so we have that looks like we need it on the hips as well.
+
+07:25.750 --> 07:26.980
+And here we go.
+
+07:26.980 --> 07:29.750
+Now we need a read on the torso.
+
+07:29.960 --> 07:32.960
+We can choose that from the list.
+
+07:33.020 --> 07:34.320
+There we go.
+
+07:34.780 --> 07:40.150
+Now we can render this image out if we like we can go back to the render window.
+
+07:40.450 --> 07:50.440
+And if I scroll down here I can see that under the sampling section the Render is the same as the preview.
+
+07:50.440 --> 07:56.980
+So this right here is what we're seeing as the preview and it's got some grain in it and isn't quite
+
+07:56.980 --> 07:59.200
+as good as what I'd like.
+
+07:59.200 --> 08:07.450
+So for the Render I will take this up to maybe 100 instead of 10 and let's scroll back up.
+
+08:07.450 --> 08:15.080
+And when I render this out I'd like it to render in a new window right here.
+
+08:15.160 --> 08:18.520
+Now this is our render settings right down here.
+
+08:18.520 --> 08:24.150
+Notice it's set for just half resolution as we render test or scene.
+
+08:24.220 --> 08:26.070
+I'll just leave it there for now.
+
+08:26.260 --> 08:31.760
+We can always increase that to bring it up to a full 19:20 by 10 80.
+
+08:31.960 --> 08:34.430
+But now let's give this a try.
+
+08:34.450 --> 08:44.110
+I'll just click the render button a window will open up and we can see our scene.
+
+08:44.270 --> 08:51.770
+Now if we want to save the image out to show the world we can come down here to image save as image.
+
+08:51.770 --> 08:57.870
+Give it a name and click save.
+
+08:58.480 --> 08:59.760
+And there we go.
+
+09:00.160 --> 09:01.410
+I finished 18.
+
+09:01.870 --> 09:05.980
+Well thank you for joining me for this introduction to blender in 3D modeling.
+
+09:05.980 --> 09:11.050
+We've come a long way since the beginning of the course we began with the fundamentals of Blender's
+
+09:11.050 --> 09:13.030
+interface and navigation.
+
+09:13.240 --> 09:18.160
+And then we talked about Blender's core editing tools like extrude and loop cut.
+
+09:18.160 --> 09:23.980
+We discussed how to look for the primitive shapes in any object and how to build up complex models with
+
+09:23.980 --> 09:25.240
+basic shapes.
+
+09:25.510 --> 09:32.720
+We created round extrusions from a surface with square polygons and learn how to join objects apply
+
+09:32.740 --> 09:36.390
+transformations and mirror objects along an axis.
+
+09:36.400 --> 09:40.190
+These are core skills that you'll build upon as you continue learning blender.
+
+09:40.300 --> 09:46.570
+So join me in the next course in our curriculum Blendr 111 materials and lighting as we talked more
+
+09:46.570 --> 09:50.680
+about creating compelling renderers of our 3D scenes.
+
+09:50.680 --> 09:52.840
+Thanks again and see you soon.

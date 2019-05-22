@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.770 --> 00:06.750
+For this video I've created a little scene here kind of replicating this image I found out on the Internet.
+
+00:06.930 --> 00:11.230
+So it's just a flour sack in front of some wood paneling.
+
+00:11.280 --> 00:18.660
+I've already gone through and U-V mapped and textured the floor and the wall in the same way that we
+
+00:18.660 --> 00:20.900
+did in previous videos.
+
+00:21.000 --> 00:30.420
+In addition I've changed the aspect ratio of the camera here by just clicking and dragging the y axis
+
+00:30.420 --> 00:35.750
+here just to try and get it to look somewhat like the image here.
+
+00:36.030 --> 00:43.890
+I've also added an area light and if we come over here and change our viewport shading to rendered we
+
+00:43.890 --> 00:47.940
+can see that we're getting the texture of the wood planks in here.
+
+00:48.300 --> 00:57.060
+So what I'd like to do is just lay down a simple burlap texture for the bag here to do that however
+
+00:57.060 --> 01:03.450
+I'm going to need to use the map at first because even though we're going to be painting on the 3D model
+
+01:03.900 --> 01:08.070
+it's still in the end going to be a two dimensional image.
+
+01:08.280 --> 01:14.610
+So I'll go ahead and isolate it on Layer 1 all selected and frame it up.
+
+01:15.150 --> 01:22.650
+If I tab into edit mode we can see that I have not yet placed any seams here and I think what I want
+
+01:22.650 --> 01:26.700
+to do is split it out so the same is in the back.
+
+01:26.700 --> 01:29.550
+I know the camera is going to be here in the front.
+
+01:29.610 --> 01:35.790
+This is just going to be a static image maybe for a magazine ad or something like that.
+
+01:36.150 --> 01:45.240
+So I'll switch to edge mode and I think what I want to do is select this edge all the way around the
+
+01:45.240 --> 01:46.370
+bottom here.
+
+01:47.270 --> 01:56.920
+And then I'll press control and Mark seem up here I will select this edge right here.
+
+02:00.260 --> 02:03.780
+And I will mark a seam there as well.
+
+02:03.890 --> 02:08.750
+I think I'll want to split out the top piece here with control.
+
+02:08.840 --> 02:11.520
+And Mark seem.
+
+02:11.610 --> 02:21.670
+And lastly I think I'll split out this edge right along the back so I'll select this edge and then I'll
+
+02:21.670 --> 02:31.110
+control click this edge and it selects all the edges in between those two press control E and Marxian.
+
+02:31.340 --> 02:37.900
+I think one last edge that we're going to need is this one right in the middle here.
+
+02:37.910 --> 02:44.620
+It's kind of hard to see all hit the Z key to go into wireframe and I think we'll need this one right
+
+02:44.620 --> 02:48.590
+here to split out that top piece from the rest of the bag.
+
+02:48.910 --> 02:52.580
+So all press control the mark seam there as well.
+
+02:52.900 --> 03:00.460
+And now that we have our seam selected Let's go back over to the U-V editing screen layout we're seeing
+
+03:00.460 --> 03:01.870
+through the object here.
+
+03:01.870 --> 03:05.070
+I can turn that off by just clicking this here.
+
+03:06.350 --> 03:11.730
+Now I'll I'll press a you and unwrap and there we go.
+
+03:11.780 --> 03:19.130
+And we can try changing the unwrap method from angle based to conformal.
+
+03:19.220 --> 03:23.710
+Now up here you can see it says object has non-uniform scale.
+
+03:23.840 --> 03:32.870
+What we should probably do is tab into object mode press control a and apply our scale.
+
+03:32.870 --> 03:34.490
+Now let's try again.
+
+03:34.490 --> 03:37.590
+I see you and unwrap.
+
+03:37.700 --> 03:39.010
+That's pretty good.
+
+03:39.110 --> 03:47.190
+We'll go back to angle based just to make sure I kind of like conformal a little better.
+
+03:47.640 --> 03:54.730
+So now that we have our U-V map done we need to create a palette or a canvas to paint on.
+
+03:54.840 --> 04:02.730
+Because even though it will look as if we're painting on the 3D object or actually painting on the map.
+
+04:02.760 --> 04:07.440
+So we need some sort of canvas underneath here to paint on.
+
+04:07.440 --> 04:14.610
+So to do that I'll click new and here I'll call this flour sack.
+
+04:14.970 --> 04:19.110
+I'll change my width and height to 2048.
+
+04:19.110 --> 04:28.410
+Giving me twice the resolution and I'll leave the generated type at blank and the color that black and
+
+04:28.410 --> 04:29.890
+I'll click OK.
+
+04:30.450 --> 04:31.170
+And here we are.
+
+04:31.170 --> 04:35.310
+This is our canvas that will be painting on.
+
+04:35.310 --> 04:43.020
+Now down here there is a little asterisks by image and what that's telling us is that this black canvas
+
+04:43.110 --> 04:46.480
+image has not yet been saved to the hard drive.
+
+04:46.650 --> 04:55.260
+And unlike a program like GIMP or Photoshop these images are not saved within the main Blendr document.
+
+04:55.260 --> 04:59.260
+So we have to save them separately to our hard drive.
+
+04:59.430 --> 05:08.510
+So our Click image save as image and I'll put this in my textures folder.
+
+05:08.550 --> 05:09.770
+There we go.
+
+05:09.810 --> 05:16.160
+Now we need to create a material for this object and assign our new texture to it.
+
+05:16.170 --> 05:17.910
+So in the note editor I'll click.
+
+05:17.910 --> 05:19.440
+Use nodes.
+
+05:19.470 --> 05:22.430
+This is our material on our stack here.
+
+05:22.450 --> 05:32.640
+I'll call this flour sack again and let's go ahead and add an image note here texture image texture
+
+05:34.280 --> 05:37.970
+and drop that here I'll connect it up.
+
+05:38.450 --> 05:45.970
+Click open and go to my textures folder and grab that flour sack image.
+
+05:45.980 --> 05:53.680
+Now if I change from shaded view to texture you can see here is the black image.
+
+05:53.690 --> 06:02.600
+Now we can change from object mode to texture paint and you can see we get a brush here with our cursor.
+
+06:02.600 --> 06:08.800
+We get our texture paint panel with our color and our brush type.
+
+06:09.040 --> 06:16.810
+And if I click and drag on the object you can see I create a paint image directly on the object and
+
+06:16.810 --> 06:19.750
+it's over here in the U-V image window as well.
+
+06:19.930 --> 06:29.180
+If I click and drag over here nothing happens because I've selected view if I change from view to paint.
+
+06:29.290 --> 06:36.570
+Now if I click and drag I get the same effect but on the U.V. map.
+
+06:36.580 --> 06:43.480
+So now that we've set up our interface to do a little texture painting in the next video let's begin
+
+06:43.480 --> 06:45.460
+to lay down a few colors.

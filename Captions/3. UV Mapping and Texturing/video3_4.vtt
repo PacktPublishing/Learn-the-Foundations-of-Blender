@@ -1,0 +1,277 @@
+WEBVTT
+
+00:00.890 --> 00:05.810
+Now let's take a look at the other parts of the object Alt-Tab back into object mode and I'll press
+
+00:05.900 --> 00:12.580
+alt h to bring everything else back and let's take a look at one of these doorknobs.
+
+00:12.680 --> 00:17.850
+I'll select it press shift H and frame it up with the period key.
+
+00:17.900 --> 00:20.750
+Now for this object I'll tab into edit mode.
+
+00:20.750 --> 00:22.930
+Let's take a look at this.
+
+00:23.180 --> 00:27.370
+If I zoom in a little bit too much there I get some clipping issues.
+
+00:27.380 --> 00:31.800
+We can press the N key and adjust the clipping.
+
+00:31.820 --> 00:33.110
+Start here.
+
+00:33.140 --> 00:34.450
+It's currently at point 1.
+
+00:34.460 --> 00:38.070
+I could set it to point 0 1 and see if that helps.
+
+00:38.240 --> 00:41.930
+And it does hit the in key again there.
+
+00:41.990 --> 00:49.160
+Now this object is really two pieces if I hover over this part and press the L key you can see that
+
+00:49.160 --> 00:58.400
+it only selects that piece and if I then hover over this piece and press the key it only selects that
+
+00:58.400 --> 01:01.600
+piece so we can break this up into two parts.
+
+01:01.640 --> 01:06.950
+I'll go ahead and select this and press you and unwrap and that's what we get.
+
+01:06.980 --> 01:08.540
+That's not too bad.
+
+01:08.540 --> 01:15.890
+You can see some of the stretching happening here in the light blue area but I don't think that's going
+
+01:15.890 --> 01:22.220
+to be a problem since this will probably be a fairly uniform texture that goes onto this.
+
+01:22.460 --> 01:26.140
+I'll hit the A key to de-select that and then I'll press the L key.
+
+01:26.150 --> 01:33.160
+And now for this part we could go ahead and try and press you and unwrap and see what happens.
+
+01:33.170 --> 01:40.250
+But we've got quite a bit of green here and that may be stretching that could be unacceptable even with
+
+01:40.280 --> 01:42.260
+a relatively uniform texture.
+
+01:42.410 --> 01:48.540
+But one way to test that is to apply our U-V test material and texture to this object.
+
+01:48.740 --> 01:55.190
+So I'll just come over here and pull down this menu in the note editor and I'll just click U-V test.
+
+01:55.190 --> 02:02.600
+Now if we tab into object mode we can see what's happening here on our object that's not looking very
+
+02:02.600 --> 02:03.530
+good.
+
+02:03.680 --> 02:08.260
+So we need to come up with a different solution for this door knob.
+
+02:08.510 --> 02:12.260
+So if we tab back into edit mode let's think about this.
+
+02:12.320 --> 02:16.620
+I'm going to press alt Z to go back to solid shading.
+
+02:18.960 --> 02:22.480
+And here's where we can begin to think about hiding our seams.
+
+02:22.500 --> 02:31.160
+So maybe we want to split this out at this seam here control E. and Mark seam.
+
+02:31.320 --> 02:37.320
+Once we do that though this is now going to be a cylindrical piece and we'll want to split this up so
+
+02:37.320 --> 02:38.970
+it lays down flat.
+
+02:39.030 --> 02:44.250
+So I'll go ahead and assign a seam here as well.
+
+02:44.250 --> 02:47.820
+Now we may need to split out this piece here.
+
+02:48.090 --> 02:55.230
+We can create a seam there even though that's right up front and in our view that may be acceptable
+
+02:55.230 --> 02:58.660
+in terms of this particular object.
+
+02:58.710 --> 03:02.190
+And then I think I'll select an edge right down here
+
+03:05.170 --> 03:07.690
+and de-select this piece right there.
+
+03:07.690 --> 03:11.770
+So that's going to be split as a cylinder and lay down flat.
+
+03:11.770 --> 03:13.630
+Let's give it a try.
+
+03:13.660 --> 03:18.560
+I'll hit l you and enwrap.
+
+03:18.560 --> 03:25.760
+So now are you the islands are laying down a little bit flatter without as much stretching let's press
+
+03:25.850 --> 03:32.300
+alt Z and go back to our textured view and see what we think.
+
+03:32.550 --> 03:34.320
+It's looking better.
+
+03:34.320 --> 03:40.590
+In fact this may be just fine in terms of our uniform metal texture.
+
+03:40.590 --> 03:47.700
+If this were an object where there were text or words written across this area right here we may not
+
+03:47.700 --> 03:55.290
+be able to have that seem right there because it would break up that word but with a metallic texture
+
+03:55.950 --> 03:57.700
+that might just work.
+
+03:57.720 --> 04:02.220
+So let's go back into edit mode and let's select everything.
+
+04:02.230 --> 04:09.800
+Now we can see here that we've got our U-V islands overlapping each other within our zero to one space.
+
+04:09.990 --> 04:13.590
+And that's not good if we laid down a texture on this.
+
+04:13.590 --> 04:17.790
+We would have the same texture happening in multiple U-V islands.
+
+04:17.790 --> 04:19.710
+And we want to avoid that.
+
+04:19.770 --> 04:25.410
+So some nice tools that Blendr offers us is down here under the UVA's menu.
+
+04:25.500 --> 04:33.240
+We've got these two average Island scale and pack islands average Island scale will take all of these
+
+04:33.240 --> 04:40.500
+U-V islands and scale them so they're proportionally the same size as the same pieces over in the 3D
+
+04:40.500 --> 04:41.690
+object.
+
+04:41.760 --> 04:44.530
+So to do that I'll go ahead and press control a.
+
+04:44.550 --> 04:46.860
+Which is our shortcut key for that.
+
+04:47.130 --> 04:53.040
+And then we went to pack them into this zero to one space as we talked about previously and to do that
+
+04:53.080 --> 04:57.870
+we can press control P and that packs the man.
+
+04:57.870 --> 05:05.210
+So we'll be using these tools quite a bit as we put together the final U-V map of our object here.
+
+05:05.220 --> 05:07.270
+So let's try another piece.
+
+05:07.350 --> 05:13.980
+I will tab back into object mode press alt H and let's take a look at this piece right here.
+
+05:14.050 --> 05:15.450
+Press shift H.
+
+05:15.840 --> 05:18.550
+And this is a pretty simple piece.
+
+05:18.600 --> 05:23.020
+It's just a plate with the back face deleted.
+
+05:23.190 --> 05:27.740
+We could go ahead and just select this and press you and unwrap and see what happens.
+
+05:27.750 --> 05:30.300
+And because these corners are connected.
+
+05:30.300 --> 05:35.060
+They're pulling quite a bit as it tries to lay it out flat.
+
+05:35.070 --> 05:40.330
+So what I can do is select these individual edges here.
+
+05:44.330 --> 05:56.070
+Mark seems and then when we U-V unwrap again we should see those corners relaxing a bit and there we
+
+05:56.070 --> 05:57.210
+go.
+
+05:57.210 --> 06:01.660
+I'm going to press control up arrow so we can see it full screen.
+
+06:02.760 --> 06:09.360
+And you can see here that those corners have been split apart which allows this whole piece to lay down
+
+06:09.360 --> 06:12.440
+flat without any stretching and that's good.
+
+06:12.580 --> 06:15.110
+I want to hit Control up arrow again.
+
+06:15.510 --> 06:21.570
+And so there we have our pieces U-V Matt press alt H.
+
+06:21.600 --> 06:25.460
+And now you may be wondering what about this piece over here.
+
+06:25.740 --> 06:35.940
+Well we could use the map this again or we could just selected delete it and then duplicate and mirror
+
+06:36.270 --> 06:38.080
+this object over.
+
+06:38.130 --> 06:44.400
+So let's try that with this selected I'll go ahead and press control up arrow so we can see it a little
+
+06:44.400 --> 06:44.980
+better.
+
+06:46.000 --> 06:54.640
+With this selected press shift D and hit enter and then I'll come down here to the object menu choose
+
+06:54.850 --> 07:03.300
+mirror and then I'll choose the Y global axis here I'll choose Y and hit enter and there we go.
+
+07:03.300 --> 07:07.330
+So now we have our object mirrored over to the other side.
+
+07:07.540 --> 07:15.880
+And this work too because our pivot point or object origin was down here in the center of the grid in
+
+07:15.880 --> 07:17.350
+the center of the door.
+
+07:18.150 --> 07:18.930
+All right.
+
+07:19.170 --> 07:26.370
+So now our press control up arrow once again in the next video what let's do is let's combine all of
+
+07:26.370 --> 07:33.740
+these into one object and then use our scale and pack tools to pack it into the 0 to 1 space.

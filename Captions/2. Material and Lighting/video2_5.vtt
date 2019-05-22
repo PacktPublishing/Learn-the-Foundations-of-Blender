@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00.790 --> 00:06.520
+Well we've looked at rendering and our camera we've looked at lighting and seen scale.
+
+00:06.520 --> 00:10.530
+Now we can actually begin assigning materials to our scene.
+
+00:10.660 --> 00:17.440
+So for the first object to assign a material it's maybe like this bullheadedness like this and hit the
+
+00:17.440 --> 00:21.240
+period key on the numpad and zoom into it.
+
+00:21.550 --> 00:28.000
+If we come over here to the materials panel in the Properties window right here we can see that we have
+
+00:28.000 --> 00:30.730
+no materials on this whatsoever.
+
+00:30.730 --> 00:33.540
+So to create a material we just need to click new.
+
+00:34.090 --> 00:35.560
+And there we go.
+
+00:35.590 --> 00:42.220
+Now this has an actual material that reacts to light in a specific way.
+
+00:42.220 --> 00:48.790
+So I'll go ahead and switch over to the viewport shading rendered view and we don't see much of a difference
+
+00:48.790 --> 00:49.680
+here.
+
+00:49.750 --> 00:53.830
+Let me select it here and go ahead and zoom in as well.
+
+00:53.980 --> 00:55.700
+Right over here.
+
+00:56.430 --> 01:01.420
+And let's keep a close eye on this as we adjust our materials.
+
+01:01.420 --> 01:05.450
+Now so far there isn't much of a difference here for the ball.
+
+01:05.570 --> 01:12.670
+And let's go ahead and change the name of this material to bowl just so we know what it is.
+
+01:12.700 --> 01:15.220
+The basic diffuse Shater is pretty bland.
+
+01:15.220 --> 01:16.510
+There isn't much to it.
+
+01:16.510 --> 01:18.200
+It's kind of like a piece of paper.
+
+01:18.350 --> 01:23.070
+There's no reflection or secularity no highlights to it.
+
+01:23.140 --> 01:25.940
+It's just kind of a flat matte color.
+
+01:25.990 --> 01:29.130
+We can change the color here in our color swatch.
+
+01:29.320 --> 01:32.740
+Maybe we want this to be kind of a green.
+
+01:33.070 --> 01:34.340
+And there we go.
+
+01:34.960 --> 01:42.140
+And you can see now with the cycle's lighting how even some of that green is being reflected off onto
+
+01:42.160 --> 01:43.420
+the counter.
+
+01:43.420 --> 01:51.030
+So this is what I meant by how the lights react in a real world way as they bounce around the scene.
+
+01:51.040 --> 01:58.450
+So OK so if we have our green bowl here what if we wanted to make it a little bit shiny or maybe have
+
+01:58.660 --> 02:02.140
+some highlights or even a little reflection.
+
+02:02.380 --> 02:04.900
+Let's take a look at how to do that.
+
+02:04.930 --> 02:11.230
+I'm going to open up a new window here by clicking in this tab right here and dragging down.
+
+02:11.230 --> 02:14.540
+Now we have these two 3-D view windows.
+
+02:14.660 --> 02:20.380
+I'm going to hit the T key up here to close that tool's panel and then what I'll do is help change this
+
+02:20.380 --> 02:25.040
+window type from a 3D view to a note editor.
+
+02:25.720 --> 02:26.760
+And here we go.
+
+02:26.830 --> 02:30.640
+These are the nodes that make up our materials.
+
+02:30.760 --> 02:36.630
+And once again I am in the cycle's render engine if you aren't this Windu is going to look a bit different.
+
+02:36.760 --> 02:38.950
+Now just to be sure we're all on the same page here.
+
+02:38.950 --> 02:43.270
+I have the shader no type selected.
+
+02:43.270 --> 02:48.370
+We also have a composite ing nodes and texture nodes.
+
+02:48.370 --> 02:55.460
+But here we want our material because we want to be able to see the shader or material that we're building.
+
+02:55.480 --> 02:58.540
+In addition I have used nodes selected.
+
+02:58.720 --> 03:03.730
+So be sure you have that selected to be able to see the nodes up here in the window.
+
+03:03.730 --> 03:10.420
+All right so we know we have this diffuse Shater and this is mainly just the color of the object.
+
+03:10.540 --> 03:19.150
+That's all that is if we want to add any Specularia any highlights any reflection anything else to this
+
+03:19.150 --> 03:20.030
+material.
+
+03:20.080 --> 03:22.060
+We're going to need to add a new node.
+
+03:22.240 --> 03:28.120
+So let's come down here and click on Add And now we have all these nodes that we can choose from.
+
+03:28.120 --> 03:36.400
+There's quite a few However let's come down to Shater and choose a glossy shader.
+
+03:36.820 --> 03:44.510
+I'm going to move my mouse up to here and click and now I can place that glossy shader in the node window.
+
+03:44.530 --> 03:51.460
+Now I can grab one of these sockets and click it and drag it and put it in another socket over here
+
+03:51.550 --> 03:54.010
+into the material output.
+
+03:54.010 --> 04:00.700
+And if I do that it cuts off the green and just gives me the glossy Shater and now you can see it looks
+
+04:00.700 --> 04:03.200
+kind of like a brushed metal.
+
+04:03.610 --> 04:09.160
+I can increase the roughness and it will become just a gray matte finish.
+
+04:09.520 --> 04:16.630
+Or I can take the roughness all the way down and it becomes like like a mirror and reflects the other
+
+04:16.630 --> 04:18.450
+objects in the scene.
+
+04:18.460 --> 04:24.820
+However this isn't quite what I was looking for what I want is a green ball with just a little bit of
+
+04:24.820 --> 04:26.310
+shine to it.
+
+04:26.320 --> 04:34.340
+So what we need to do is bring these two nodes into the material output to do that we need to mix them.
+
+04:34.360 --> 04:40.070
+So I'll come up here to add Shater and choose a mix shader.
+
+04:40.540 --> 04:42.240
+I'll put that here between the two.
+
+04:42.250 --> 04:49.680
+And as I hover over that connection it highlights and if I click it will automatically connect it.
+
+04:49.690 --> 04:57.270
+So now I'm going to put this connection on the bottom Shater socket and take the diffuse to the top
+
+04:58.500 --> 04:59.510
+and there we go.
+
+04:59.730 --> 05:07.320
+Now we've got a green bowl that has some reflection on it and we can adjust how much of each of these
+
+05:07.320 --> 05:13.830
+is coming through to our material output by adjusting the mix factor here if I take this all the way
+
+05:13.830 --> 05:14.870
+up to one.
+
+05:14.940 --> 05:17.640
+We see no green whatsoever.
+
+05:17.650 --> 05:20.840
+And I take it all the way down we only see the green.
+
+05:21.000 --> 05:26.220
+Now I think I'm going to take it back up to oh something like point three.
+
+05:26.220 --> 05:34.560
+And I'll also increase the roughness a bit on the glossy Shater so it isn't quite so shiny.
+
+05:34.560 --> 05:37.420
+So let's see what we think about this.
+
+05:37.560 --> 05:44.820
+Now we've got our green bowl but with a little bit of shine to it we can kind of see some highlights
+
+05:44.820 --> 05:52.050
+and a little bit of reflection happening inside the bowl and of course how you want to adjust this is
+
+05:52.050 --> 05:53.040
+totally up to you.
+
+05:53.040 --> 05:57.680
+I'm going to maybe bring this up a little bit more so we can see the reflection in the bowl.
+
+05:58.800 --> 06:00.210
+Let's try another one.
+
+06:00.240 --> 06:08.820
+I'm going to zoom out here and what I'll do is go ahead and hit the zero key in this view and I'll switch
+
+06:08.820 --> 06:16.060
+this view back to the solid view and I'll come over here and change this from the solid to rendered.
+
+06:16.090 --> 06:18.350
+And now we can work in this view.
+
+06:18.510 --> 06:24.210
+I'll zoom out and let's think about the color of the cabinets.
+
+06:24.210 --> 06:31.220
+I'm thinking that the cabinets up here should probably be like a gray like maybe a deep gray.
+
+06:31.230 --> 06:33.390
+Let's give that a try.
+
+06:33.390 --> 06:39.080
+So I'll select the cabinets up here and you can see they've been selected because it says cabinets here.
+
+06:39.180 --> 06:45.040
+Create a new material click new and call this cabinets.
+
+06:45.360 --> 06:54.750
+I'll change the color from a white to kind of a medium gray here maybe something like that.
+
+06:55.620 --> 07:08.750
+And then I'll add a glossy shader to it add Shater glossy and I'll also add a mix Shater as well.
+
+07:08.750 --> 07:13.690
+Connect those two up and see how it looks.
+
+07:13.730 --> 07:17.250
+I think I'd like it to be a little bit darker than this.
+
+07:17.330 --> 07:23.930
+I can choose the color swatch here on the diffuse Shater or I can come back over here and you can see
+
+07:23.930 --> 07:29.060
+our two nodes listed here in the surface area of the materials panel.
+
+07:29.060 --> 07:36.200
+So if I just open up this little plus right here I have access to the color here so I can click that
+
+07:36.800 --> 07:40.950
+and maybe I'll take it down just a little bit.
+
+07:42.220 --> 07:52.400
+Kind of like that and I'm not sure I need that much shine on it so maybe I'll bring the mix factor down
+
+07:52.400 --> 07:54.640
+maybe two point three.
+
+07:54.640 --> 08:03.380
+I can actually type in point three here and if I want to I can take the roughness up just a bit and
+
+08:03.380 --> 08:04.890
+see how that looks.
+
+08:06.300 --> 08:11.040
+So that's the basic process of adding and setting up our materials on our objects.
+
+08:11.070 --> 08:19.560
+Now we can add multiple materials to an object and also we have many more shader nodes to choose from
+
+08:19.560 --> 08:20.870
+here as well.
+
+08:21.240 --> 08:24.580
+So in the next video we'll take a look at using a few of those.

@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.930 --> 00:08.580
+Before we begin painting our shadows like we can see here on our image let's work a bit on adjusting
+
+00:08.580 --> 00:11.990
+the color of our flour sack so to do that.
+
+00:12.000 --> 00:22.350
+I think I'll switch at least temporarily from a movie image view to a note Ed. view here and what we
+
+00:22.350 --> 00:31.740
+can do is add an R G B curves node to our image texture here so what I'll do is press a shift a and
+
+00:31.740 --> 00:39.340
+then I'll bring in under Color an R G B curves node and I'll drop that right here.
+
+00:39.360 --> 00:45.810
+Now with this I can click and add a point here and then I can take that point on the graph and move
+
+00:45.810 --> 00:49.830
+it around a bit and change the color of our set.
+
+00:49.830 --> 00:57.290
+Now I need to switch to the rendered viewport shading view before I can see any change.
+
+00:57.300 --> 01:06.150
+But now if I move this around you can see I can just adjust these a bit and get a little bit different
+
+01:06.150 --> 01:06.950
+color.
+
+01:06.960 --> 01:17.470
+So with that now I can think about creating a new image texture to paint on for our shadows and highlights.
+
+01:18.000 --> 01:27.060
+I'll change back to the textured viewport shading and I'm going to need my U-V image editor back so
+
+01:27.060 --> 01:33.870
+I'll hit the in key to close this panel and I'm going to grab this and drag it on over so I can have
+
+01:33.930 --> 01:37.070
+another U-V editor here in this panel.
+
+01:37.080 --> 01:45.350
+Go ahead and create a new image and I'll call this flour sack shade.
+
+01:45.370 --> 01:52.660
+So I know what that is and I'll click OK to create that image and then we have our black image just
+
+01:52.660 --> 01:54.930
+like we did before.
+
+01:54.940 --> 02:03.510
+I'll go ahead and save this to my hard drive by clicking on image and going to save as image.
+
+02:03.550 --> 02:05.860
+Now I'll switch to paint mode.
+
+02:05.860 --> 02:07.060
+It's already there.
+
+02:07.120 --> 02:14.870
+That's good and I'll make sure that draw texture paint UVA's is off.
+
+02:14.870 --> 02:22.580
+Now what let's do is bring in this new image into our code editor so I'll press shift A and bring in
+
+02:22.580 --> 02:26.130
+a texture node image texture.
+
+02:26.330 --> 02:34.500
+And in this I will pull this menu down and choose that flower section and now to combine these two images
+
+02:34.500 --> 02:40.100
+I'll press shift A and under Color I'll choose a mix R G B.
+
+02:40.560 --> 02:46.590
+And from here we can go ahead and mix these two textures.
+
+02:46.830 --> 02:48.830
+So I'll take this down to here.
+
+02:50.250 --> 02:53.310
+And I'll grab this and bring it over here.
+
+02:53.400 --> 02:57.120
+Now I'll feed that back into the diffused Shater.
+
+02:57.510 --> 03:05.320
+I'll just refresh the view by switching over to object mode and then back to texture paint.
+
+03:05.520 --> 03:11.150
+And now you can see our black image for our flour sack shade.
+
+03:11.280 --> 03:17.450
+Let me switch back to my flour sack over here so we can see that reference image.
+
+03:17.490 --> 03:21.370
+Now I'll remove the texture from the brush.
+
+03:21.720 --> 03:25.000
+And let's go back to this fill color here.
+
+03:25.290 --> 03:27.390
+Maybe I'll take it up a little bit lighter.
+
+03:28.390 --> 03:35.670
+Change to my Phil brush and click in here and that fills that whole thing.
+
+03:35.680 --> 03:42.460
+Now if we switch over to our rendered viewport shading we can maybe get a sense of how this is going
+
+03:42.460 --> 03:43.470
+to look.
+
+03:43.540 --> 03:51.940
+So if I take this all the way over we can get a sense that there is our original flour sack image with
+
+03:51.940 --> 03:53.380
+the R.G. B curves.
+
+03:53.590 --> 03:55.350
+If I click and drag all the way over.
+
+03:55.360 --> 03:56.970
+Notice that it's black.
+
+03:57.130 --> 04:00.460
+It should be that full color here.
+
+04:00.460 --> 04:06.490
+Well it should be but the problem is is once again we haven't saved this image to the hard drive.
+
+04:06.490 --> 04:14.800
+So if I go ahead and click save image here and now drag the slider back and forth to refresh the image
+
+04:14.800 --> 04:21.060
+we can see now that flour sack shaid image in our 3-D view.
+
+04:21.110 --> 04:26.610
+I'll go ahead and bring this down just a bit so we can see that other image in there.
+
+04:27.810 --> 04:32.920
+Maybe I'll bring this down to a point too for now so we can see it.
+
+04:33.060 --> 04:35.760
+You can see the combination of these two images.
+
+04:35.760 --> 04:42.960
+Now we can change the way we are mixing these from nicks to multiply.
+
+04:42.960 --> 04:49.060
+We can try screen or Dodge.
+
+04:49.120 --> 04:55.090
+We can try a lot of different things here if we want but for now I'll just come back to mix and what
+
+04:55.090 --> 05:00.280
+I'm going to do is switch over from the mouse to a pen and tablet.
+
+05:00.280 --> 05:08.860
+I have a way come into this pen and tablet and I'll switch to that to be able to do a little painting
+
+05:08.860 --> 05:11.110
+here from our image.
+
+05:11.110 --> 05:20.790
+I'll switch back to our textured viewport shading and now I can see just that shade image.
+
+05:20.800 --> 05:28.510
+I'll come over here to my reference image and making sure that we are in in fact using the paint mode.
+
+05:28.510 --> 05:35.450
+I'll hover over here press the ESC key and find a nice darker color to use for our shadows.
+
+05:35.470 --> 05:38.000
+Maybe like this.
+
+05:38.260 --> 05:40.750
+I'll select that from the palette.
+
+05:41.020 --> 05:50.520
+I'll switch my brush from Phil to texture draw all reduce the size of my brush and notice now that I've
+
+05:50.520 --> 05:51.780
+changed my brush.
+
+05:51.780 --> 05:54.170
+I need to re select that color.
+
+05:54.450 --> 05:57.050
+I'll bring the strength down quite a bit.
+
+05:57.240 --> 06:04.740
+I'll change my blend mode to mix and then I'll come in and just begin to do a little bit of painting
+
+06:04.740 --> 06:09.670
+here trying to replicate what we're seeing in the reference image.
+
+06:09.690 --> 06:15.390
+So it looks like there's quite a bit of dark down here.
+
+06:15.400 --> 06:18.350
+I can go ahead and paint this down here a bit.
+
+06:19.380 --> 06:28.180
+And it looks like there's some shadow coming through here so I'll paint some of this and maybe some
+
+06:28.180 --> 06:29.660
+up here as well.
+
+06:31.270 --> 06:32.670
+I'll turn on the tablet.
+
+06:32.680 --> 06:39.910
+Pressure sensitivity for the radius of the brush so I can get a little bit of differentiation within
+
+06:39.910 --> 06:50.760
+the stroke as I push down on the brush something like that perhaps be one up here let's fill in up in
+
+06:50.760 --> 06:54.360
+here as if this is a little bit darker in here.
+
+06:57.000 --> 06:58.010
+Yes.
+
+06:58.410 --> 07:08.550
+And around the base of the tied up area here let's get some of that now I'll come in and some of the
+
+07:08.850 --> 07:14.570
+lighter highlights as well I'll go back to that fill color and make it a little bit brighter.
+
+07:14.580 --> 07:18.930
+Let's go in and add some of that up just on top of each of these
+
+07:22.350 --> 07:33.400
+and then maybe I'll also do one a little bit lighter not quite as strong shift F to reduce the strength
+
+07:33.400 --> 07:42.110
+just a bit and then maybe put another line of the dark just on top of here to give a sense that that's
+
+07:42.110 --> 07:45.830
+kind of bulging out.
+
+07:49.390 --> 07:54.530
+All right so now that we have that done let's go ahead and save our image.
+
+07:56.390 --> 08:05.580
+Now if we come back to our rendered view we can see some of that light and dark in our image here.
+
+08:05.580 --> 08:10.430
+We can turn the mix up or down.
+
+08:10.790 --> 08:12.890
+We can change the way we mix.
+
+08:12.890 --> 08:21.890
+Maybe we try the Dodge blend mode I'll maybe take this up to point to and then we can maybe adjust the
+
+08:22.360 --> 08:24.390
+B curves here as well.
+
+08:25.420 --> 08:32.620
+So you can see there are quite a few options when we combine our texture painting with our note editor
+
+08:33.100 --> 08:39.290
+as well as our brush texture and our stencil when we're texturing objects in Blender.
+
+08:39.340 --> 08:45.730
+So in the next video let's take a look at adding a bit of bump displacement using our image textures
+
+08:46.180 --> 08:47.190
+in the note editor.

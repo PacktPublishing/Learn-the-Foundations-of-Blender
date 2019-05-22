@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.750 --> 00:07.680
+So since the last video I've gone ahead and changed the mix R.G. be known here to overlay.
+
+00:07.680 --> 00:13.020
+And I think I'm getting a nicer mix between the two textures here.
+
+00:13.020 --> 00:16.250
+I like the way we can see the creases there.
+
+00:16.260 --> 00:24.780
+Now if I wanted to emphasize those creases a little bit more I could use a bump map and a map is nothing
+
+00:24.780 --> 00:32.910
+more than a black and white image a greyscale image in which Blender's sees the white parts of the image
+
+00:33.000 --> 00:38.270
+as something to push out and the black parts as something to pull in.
+
+00:38.340 --> 00:44.940
+So medium gray in the image is just flat white pushes out black pulls in.
+
+00:44.940 --> 00:52.440
+So what we can try is we could try and take this image here convert it to a black and white image and
+
+00:52.650 --> 00:58.460
+the lighter parts will appear to push out and the darker parts will appear to push in.
+
+00:58.860 --> 01:00.540
+So let's give that a try.
+
+01:01.050 --> 01:04.960
+So here's that image of the painted shading here.
+
+01:05.220 --> 01:13.650
+What I'll do is first of all convert the color to black and white so I'll press shift A and go to converter
+
+01:14.100 --> 01:21.930
+and choose an R G B to black and white so will want to convert it first and then we're going to take
+
+01:21.930 --> 01:28.170
+that value coming out of that G B node into the material output.
+
+01:28.170 --> 01:32.590
+So I'm going to press control up arrow just so we can see this a little bit better.
+
+01:32.730 --> 01:37.790
+And notice I've tried to match the color of the sockets for each of the nodes.
+
+01:37.800 --> 01:40.740
+The color is the yellow sockets.
+
+01:40.740 --> 01:45.930
+This BSD to the material output is green.
+
+01:45.930 --> 01:52.980
+I've got a yellow socket here so I can take this and drag it and connect it to here.
+
+01:52.980 --> 01:59.190
+Now here I have a gray socket a value and that can go straight into the displacement.
+
+01:59.190 --> 02:05.740
+But if I do that I'm not going to have any way to control the strength of the bump so to do that lets
+
+02:05.820 --> 02:10.240
+press shift A and bring in a math node.
+
+02:10.560 --> 02:14.970
+And with this I can change it to multiply.
+
+02:14.970 --> 02:24.000
+And now I can use the value of this node to adjust the strength of the displacement so I'll connect
+
+02:24.000 --> 02:30.570
+this value to here and this value to this great socket here.
+
+02:30.600 --> 02:33.430
+All right so I'll press control up arrow again.
+
+02:33.950 --> 02:35.550
+And let's take a look at what's happened here.
+
+02:35.550 --> 02:38.410
+We can see just a little bit of a difference here.
+
+02:38.430 --> 02:46.680
+Now I'm in the rendered viewport shading and we can see just a bit of a difference if I click and drag
+
+02:46.680 --> 02:49.870
+this a little higher lets drag it way up.
+
+02:50.070 --> 02:57.570
+We can see that the dark parts here on our image are being pushed in and the brighter parts are being
+
+02:57.600 --> 02:58.690
+pushed out.
+
+02:59.100 --> 03:00.840
+So that's a little bit too much.
+
+03:00.840 --> 03:04.830
+Let's take it down to maybe 1.0 and see how that works.
+
+03:04.830 --> 03:12.270
+That's pretty good but it's still a little bit too much I think I'll take it down to maybe point eight.
+
+03:12.300 --> 03:17.020
+Let's try that yeah I think that's looking pretty good.
+
+03:17.040 --> 03:23.170
+It's giving the sense that this bag has some creases and folds in it.
+
+03:23.430 --> 03:28.590
+And here let me pull this off so you can see the difference I'll pull that off.
+
+03:28.590 --> 03:35.850
+And now you can see that before which is pretty good with just the paint going through into the color.
+
+03:35.850 --> 03:42.400
+Now add this back and we can see we get just a little bit more of a bump there.
+
+03:42.420 --> 03:42.780
+All right.
+
+03:42.780 --> 03:47.660
+Well let's do that to the wood paneling back here if I select the wall.
+
+03:47.670 --> 03:51.840
+Now here's our no tree for the wall.
+
+03:51.840 --> 04:01.770
+If I did the same thing here I can press shift A and bring in a R.G. be too black and white node and
+
+04:01.770 --> 04:04.560
+I'll bring in a math node.
+
+04:04.980 --> 04:14.130
+I'll change the math no to multiply and now connect these up color to color or yellow socket to yellow
+
+04:14.130 --> 04:19.670
+socket and the value to the value here.
+
+04:19.820 --> 04:25.190
+Now let's take a look at the wall we currently have it at point five if I click and drag that way up
+
+04:25.190 --> 04:28.430
+you can see that's that's a bit too much.
+
+04:28.520 --> 04:32.200
+But you can see the effect that it's having.
+
+04:32.210 --> 04:35.170
+I'll take it down to maybe one point though again.
+
+04:35.180 --> 04:37.130
+Let's see how that works.
+
+04:37.670 --> 04:43.950
+Yeah that looks pretty good it gives a little bit of displacement to the image so it feels like there's
+
+04:43.970 --> 04:45.610
+some texture there.
+
+04:45.620 --> 04:55.000
+Once again I'll just click this out so you can see the difference there is before and after.
+
+04:55.220 --> 05:01.670
+So being able to add a little bit of bump is really helpful to giving the image a little bit more texture.
+
+05:01.670 --> 05:05.570
+All right so let's say we have our image the way we want it.
+
+05:05.570 --> 05:08.520
+Now let's go ahead and render this out.
+
+05:08.750 --> 05:12.610
+I'll go back to the render panel here.
+
+05:12.890 --> 05:19.730
+Make sure that my render resolution is at 100 percent I'll take a look at my sampling.
+
+05:19.880 --> 05:24.130
+And currently my Rynders sample is at 128.
+
+05:24.260 --> 05:25.190
+That may not be bad.
+
+05:25.190 --> 05:28.990
+We can try it here and see how it looks.
+
+05:29.030 --> 05:34.150
+I'll come up here and I'll click render and here it goes.
+
+05:34.170 --> 05:41.670
+Now if you'd like to learn more about rendering and lighting and materials please check out Blendr 201
+
+05:41.760 --> 05:49.600
+introduction to materials and lighting here at Blendr 101 dot com and there is our final rendered image.
+
+05:49.610 --> 05:54.030
+I'll go ahead and come down here to image and save as image.
+
+05:54.110 --> 05:56.600
+And now I can save it here to my hard drive.
+
+05:56.600 --> 06:07.140
+I'll call this flour sack and I'll save it as a PNB.
+
+06:07.150 --> 06:08.200
+There we go.
+
+06:08.700 --> 06:13.460
+Well I hope this introduction to U-V mapping and texturing has been helpful for you.
+
+06:13.470 --> 06:15.090
+I've certainly enjoyed it.
+
+06:15.120 --> 06:20.070
+And please check out the other great blender tutorials here at Blender 101 dot com.
+
+06:20.370 --> 06:22.320
+Well thanks again and take care.

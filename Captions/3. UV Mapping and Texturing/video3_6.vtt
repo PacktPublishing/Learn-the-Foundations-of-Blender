@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.720 --> 00:08.100
+All right here in Gamp we're going to bring in our exported U-V map and lay a few textures down on it
+
+00:08.100 --> 00:11.120
+so we can import them back into blender.
+
+00:11.190 --> 00:16.820
+So if you haven't used it before you can find it here at Gip dot org.
+
+00:16.830 --> 00:17.910
+It's open source.
+
+00:17.910 --> 00:22.640
+It's free and it's available for just about any operating system.
+
+00:22.650 --> 00:33.210
+So let's go ahead and bring in our U-V map or go to File Open and I will browse to my project and other
+
+00:33.210 --> 00:34.380
+textures.
+
+00:34.380 --> 00:39.520
+Here is my door open that up are U-V.
+
+00:39.520 --> 00:43.120
+Map is represented by these shaded islands.
+
+00:43.240 --> 00:50.110
+We can put images underneath this layer and we'll still be able to see them and place them where we
+
+00:50.110 --> 00:51.640
+need them to be.
+
+00:51.670 --> 00:58.760
+So I'll go ahead and come up to file and open and let's find a texture we want to use.
+
+00:58.840 --> 01:09.850
+I have a texture folder with lots of textures here that we could maybe use I'm thinking this would texture
+
+01:09.850 --> 01:10.450
+right here.
+
+01:10.460 --> 01:16.900
+It's a seamless texture which means we should be able to tile it or put it in the end and the seams
+
+01:16.960 --> 01:19.600
+should be practically invisible.
+
+01:19.750 --> 01:21.340
+So let's give this a try.
+
+01:21.340 --> 01:26.030
+Click open and there it is.
+
+01:26.230 --> 01:29.970
+I'll select everything with control or command a.
+
+01:30.040 --> 01:31.520
+I will copy it.
+
+01:31.540 --> 01:39.580
+Go to edit copy and then I'll come over here and paste it here with edit paste.
+
+01:40.790 --> 01:44.690
+Now when it comes in you'll have this floating selection.
+
+01:44.690 --> 01:51.890
+We can right click on that and click two new layer and that will create a new layer that we can edit
+
+01:52.040 --> 01:53.290
+and modify.
+
+01:53.330 --> 01:57.010
+I'll zoom out a bit and here is the outline of our texture.
+
+01:57.870 --> 02:05.420
+I want to drag this down below the UVA's layer so we're seeing it through the I'll come over here to
+
+02:05.420 --> 02:08.810
+the rotate tool and the lips.
+
+02:09.050 --> 02:19.220
+Click on the image and type in 9 0 and click rotate and now click the scale tool.
+
+02:19.340 --> 02:26.720
+Click over here on the image and I want to make sure that my height and width are linked together so
+
+02:26.720 --> 02:28.170
+when I click that.
+
+02:28.370 --> 02:34.520
+And then I'll come over here to one of these corners and click and drag and bring this down to about
+
+02:34.520 --> 02:39.700
+the size or width of one of these U-V islands.
+
+02:39.710 --> 02:48.080
+I'll hit enter then I'll come over to the move tool here and click and drag and try and put it in place.
+
+02:49.440 --> 03:00.120
+And when you go hit the Z key to zoom in and once again the scale tool click and I'll bring this down
+
+03:00.120 --> 03:03.890
+just a bit and tell it's the width of that U-V Island.
+
+03:05.040 --> 03:06.670
+Go.
+
+03:07.390 --> 03:16.000
+Now I'd like to duplicate this layer and drag it down so shift command d press the end key for the move
+
+03:16.000 --> 03:25.900
+tool and bring this down I'll zoom in so I can take a look at the edges here and I should be able just
+
+03:25.900 --> 03:35.080
+to if I go to move to I can just press the arrow keys and kind of nudge the image into place I'll press
+
+03:35.140 --> 03:43.810
+shift command J to zoom out again shift command d to duplicate again and this time with the move tool
+
+03:43.860 --> 03:52.030
+selected I can hold the shift key down and press the down arrow and that'll move that all the way down
+
+03:52.030 --> 03:53.210
+there.
+
+03:54.070 --> 04:05.450
+And now I can just use the individual arrow key with out the shift key and nudge it into place and I
+
+04:05.450 --> 04:10.090
+would go zoom back out with shift command J.
+
+04:10.460 --> 04:19.670
+Now I will hide the use of these layer and merge these together with right click and merge visible layers
+
+04:20.090 --> 04:21.950
+and merge.
+
+04:22.020 --> 04:26.400
+And now I can take that one layer and duplicate it again.
+
+04:27.270 --> 04:32.480
+So I can also right click over here and choose duplicate layer.
+
+04:32.740 --> 04:40.600
+And now I can move this one over so I'll go back to the moved tool and shift to an arrow and move that
+
+04:40.600 --> 04:43.600
+over right about there.
+
+04:44.820 --> 04:52.950
+And it looks like we'll need one more duplicate shift arrow and move these over here.
+
+04:54.510 --> 05:03.090
+OK so now that we have our wood texture in let's now make room for the texture of the door handle We
+
+05:03.090 --> 05:08.640
+need to erase the areas over the door handle so I'll zoom in with the Z key.
+
+05:08.640 --> 05:19.090
+Here come over to the rectangular select tool click and drag this area and then I'll press command X
+
+05:20.200 --> 05:22.500
+I'll zoom out again shift command.
+
+05:22.560 --> 05:34.550
+Jay zoom in appere do the same thing click the rectangular select tool again drag a selection control
+
+05:34.640 --> 05:36.390
+or command X.
+
+05:36.540 --> 05:37.520
+Here we go.
+
+05:38.300 --> 05:43.100
+Now I want to de-selected this area go to select none.
+
+05:43.160 --> 05:53.530
+And now let's bring in some sort of a brass texture to put on the door knobs or go to File Open and
+
+05:53.530 --> 06:01.660
+in here and my textures folder I'll grab this brass image here and I can just click and drag this straight
+
+06:01.660 --> 06:09.210
+in right there and it'll create a new layer for me right into layer stack click Cancel.
+
+06:09.410 --> 06:14.850
+I click the scale tool click on the image and scale it down quite a bit.
+
+06:17.230 --> 06:23.390
+Hit scale and then I'll press the key and move it over here like that.
+
+06:23.500 --> 06:26.210
+So it encompasses this area.
+
+06:26.210 --> 06:32.150
+This group of islands Let me zoom in and make sure I have everything there.
+
+06:32.270 --> 06:33.280
+It looks like I do.
+
+06:33.280 --> 06:34.110
+OK.
+
+06:34.510 --> 06:37.240
+So now what I need to do is duplicate this
+
+06:40.250 --> 06:42.640
+and move it down to here.
+
+06:44.410 --> 06:45.480
+There we go.
+
+06:45.970 --> 06:53.500
+Well now take these brass layers and drag them down beneath the wood like that and I could also
+
+06:56.240 --> 07:06.630
+take these two and merge these together merge visible layers right there and I could do the same with
+
+07:06.630 --> 07:08.250
+the wood as well.
+
+07:08.280 --> 07:14.340
+Why not merge these together to.
+
+07:14.350 --> 07:20.560
+All right so now I have my door knob Lehre and my wood layer.
+
+07:20.560 --> 07:21.700
+This would work OK.
+
+07:21.700 --> 07:24.490
+But I think I want to clean it up just a little bit.
+
+07:25.410 --> 07:29.140
+So to do that I'm going to select that UVA's layer.
+
+07:29.170 --> 07:37.050
+I'll come over to the fuzzy selection tool and I'll click anywhere outside of a U-V island that will
+
+07:37.050 --> 07:39.730
+select everything outside the U-V islands.
+
+07:39.750 --> 07:42.150
+I'll zoom in so we can see this here.
+
+07:42.420 --> 07:52.620
+And we go now or come over to select and shrink and I'm going to shrink this selection by say two pixels
+
+07:53.270 --> 08:00.270
+I'll click OK and you can see how it's kind of expanded out beyond the U-V islands.
+
+08:00.270 --> 08:06.240
+I'm just trying to give it a little bit of room to breathe there and I'll press shift command Jay to
+
+08:06.600 --> 08:16.550
+zoom back out or click on the wood layer and press command X and that deletes everything on the wood
+
+08:16.550 --> 08:23.050
+layer and then I'll click on the brass lever and press command X and that deletes everything there as
+
+08:23.050 --> 08:23.610
+well.
+
+08:24.830 --> 08:35.330
+Now I'll add a new layer by going to Leyre new layer and I'll put this on on the bottom and grab my
+
+08:35.390 --> 08:41.750
+paint bucket tool and since my color is black here I'll go ahead and leave it at that and I'll click
+
+08:41.750 --> 08:47.650
+anywhere and fill in the background in black.
+
+08:47.660 --> 08:52.920
+Now there we have our color map for our door.
+
+08:53.050 --> 08:58.900
+Now we just need to export it out or go to file export as.
+
+08:59.470 --> 09:01.510
+And I'll call this door
+
+09:04.190 --> 09:07.400
+underscore C for color map.
+
+09:07.400 --> 09:09.500
+I'll make sure I have a p n g image.
+
+09:09.500 --> 09:12.510
+That's a pretty good format to use here.
+
+09:12.860 --> 09:18.340
+And our Click export.
+
+09:18.350 --> 09:19.120
+All right.
+
+09:19.220 --> 09:25.690
+So in the next video we'll go back to Blendr and apply our new texture to our object.

@@ -1,0 +1,307 @@
+WEBVTT
+
+00:01.040 --> 00:07.910
+So I want to hide this away I want to keep this safe in a layer so we can duplicate it and use it again
+
+00:07.910 --> 00:08.870
+and again.
+
+00:08.900 --> 00:14.390
+So what I'll do is press the End key to bring up the move to layer panel.
+
+00:14.630 --> 00:17.850
+And I'll just move it to this layer way over here.
+
+00:18.780 --> 00:20.930
+So now it's way over here.
+
+00:21.450 --> 00:26.540
+Hopefully going to stay safe so we don't have to recreate this every single time.
+
+00:26.760 --> 00:35.640
+So all duplicate this with shift D and click and now I'll press him to move to layer and move it back
+
+00:35.640 --> 00:38.630
+to the first layer here.
+
+00:38.640 --> 00:46.370
+OK so now we have one here and one way down here our template This one here now.
+
+00:46.410 --> 00:55.110
+I'll change the name of this or call this one tops and this is going to be our one top Lego block.
+
+00:55.110 --> 00:59.270
+Now let's work on creating the rest of the Lego block.
+
+00:59.400 --> 01:07.080
+So I'm going to hit the N key on the keyboard to open up the properties panel and now I can see as I
+
+01:07.080 --> 01:14.760
+move this object up I can see how far moving it here in the z axis.
+
+01:14.760 --> 01:19.860
+So I'll move it up well let's just type in one.
+
+01:19.860 --> 01:22.490
+I'll just type in one and hit enter.
+
+01:22.740 --> 01:27.300
+And now we've moved it up a one unit along the z axis.
+
+01:27.300 --> 01:30.870
+Now it's kind of difficult to tell if that's going to be high enough.
+
+01:31.080 --> 01:34.730
+If we moved it up to let's see how high that was.
+
+01:35.190 --> 01:37.780
+That may be a little bit too big.
+
+01:37.800 --> 01:42.610
+Let's use one and let's work with it from here.
+
+01:42.730 --> 01:49.750
+But what we can do is we can actually bring in a reference image to Blendr and have it up on our screen
+
+01:50.110 --> 01:51.010
+while we model.
+
+01:51.010 --> 01:53.550
+To help us get the proportions correct.
+
+01:53.620 --> 01:59.860
+So what I'm going to do is I'm going to come over here to the Properties window and there's a little
+
+01:59.890 --> 02:04.060
+corner tab right here if I click on that and I drag down.
+
+02:04.060 --> 02:14.590
+I can create a brand new window and in this new window here I can change it to any type of window that
+
+02:14.590 --> 02:24.910
+blender has available so I can click here and change it from the properties panel to a 3D view or a
+
+02:24.910 --> 02:29.240
+graph editor or a U.V. image editor.
+
+02:29.290 --> 02:36.280
+This allows us to bring in images so we can see them here in blender so I click on the open button here
+
+02:37.630 --> 02:44.680
+and I'll browse to the folder where I have my reference images and if I click on this button right here
+
+02:45.280 --> 02:51.890
+I can display thumbnails for the images so click here and here you have the reference images.
+
+02:51.970 --> 02:56.350
+Select this one and click open image.
+
+02:56.360 --> 03:03.510
+So now we have a visual reference of what we're trying to create right here in our blender interface.
+
+03:03.530 --> 03:07.900
+So this is the one that I'm trying to create right here.
+
+03:07.940 --> 03:14.690
+So the question is is this tall enough and it doesn't seem like it is to me it seems like if I move
+
+03:14.690 --> 03:21.640
+it up like this or maybe even a little higher that looks a little better.
+
+03:21.640 --> 03:28.230
+So what I can do is actually type a 1.5 here into the z axis and let's go with that.
+
+03:28.240 --> 03:33.600
+Let's see if this works I'll press the tab key to go into edit mode.
+
+03:33.730 --> 03:39.400
+And now what we want to do is we want to use our extrude tool but this time we're not going to extrude
+
+03:39.520 --> 03:40.620
+faces.
+
+03:40.780 --> 03:42.520
+We're going to extrude edges.
+
+03:42.550 --> 03:50.950
+So if you select an edge of course you can then press shift select to add to that selection or what
+
+03:50.950 --> 03:58.600
+you can do is you can also hover over an edge press the alt key and click and that will select an entire
+
+03:58.660 --> 03:59.720
+edge.
+
+04:00.040 --> 04:07.300
+So I can tumble around here and hold the shift key and then Allt and click and that will now select
+
+04:07.300 --> 04:12.120
+this entire edge and I can do the same thing for these as well.
+
+04:12.130 --> 04:14.810
+Shift alt click shift alt.
+
+04:14.890 --> 04:15.850
+Click.
+
+04:15.880 --> 04:21.400
+So now we've selected the edges around our one top template here.
+
+04:21.400 --> 04:28.450
+I'll now press the e key and I'll immediately hit the enter key and what that did.
+
+04:28.450 --> 04:30.230
+Is it extruded those edges.
+
+04:30.250 --> 04:32.680
+But it didn't move them at all.
+
+04:32.680 --> 04:34.820
+Now what I can do is come to my move.
+
+04:34.840 --> 04:43.270
+Manipulator here and click and drag down and now we're creating all new faces based on the edges that
+
+04:43.270 --> 04:44.240
+we selected.
+
+04:45.160 --> 04:53.640
+So I'm going to come right down here to the grid floor and it still doesn't look like that's tall enough
+
+04:53.640 --> 04:54.070
+here.
+
+04:54.150 --> 04:58.210
+Does it mean to go out and move it all the way down.
+
+04:59.850 --> 05:04.710
+To negative to and that's looking a little bit better.
+
+05:04.770 --> 05:06.930
+Maybe even a little bit farther like that.
+
+05:07.950 --> 05:14.940
+I'm just trying to get the scale and proportion to match the image now so that the bottom isn't left
+
+05:15.030 --> 05:17.380
+just unfinished here.
+
+05:17.400 --> 05:22.010
+I think what I'll do is I'll hit the key one more time to extrude these edges.
+
+05:22.050 --> 05:29.280
+Let me and then I'll hit the enter key and now what I'll do is I'll press the s key and then I'll move
+
+05:29.430 --> 05:36.720
+the mouse and scale these in just a little bit like that to create kind of an edge or a lip there at
+
+05:36.720 --> 05:44.160
+the bottom of the block and then I think all I need to do is just hit me and click or press the enter
+
+05:44.160 --> 05:50.820
+key and then I'm going to drag up like that just to kind of close it off up there.
+
+05:50.850 --> 05:57.630
+I don't think we'll ever be seeing all the way up into the block but that at least gives us some geometry
+
+05:57.630 --> 05:59.300
+here at the bottom.
+
+05:59.300 --> 06:03.050
+All right so there is our Lego block.
+
+06:03.180 --> 06:06.060
+Now it's a little well blocky.
+
+06:06.150 --> 06:12.330
+It would be nice if we could get these slightly curved edges the way you see them here.
+
+06:12.360 --> 06:16.860
+Nothing in the real world is exactly 90 degrees sharp.
+
+06:17.070 --> 06:23.460
+You can see the way that these slightly curved edges kind of catch the light and that really helps provide
+
+06:23.790 --> 06:31.470
+more realism to our objects so what we can do is add a subdivision surface modifier to them and that
+
+06:31.470 --> 06:36.670
+will help smooth out and round out the edges of the object.
+
+06:36.690 --> 06:43.290
+So what I'll do is come down to our existing subdivision surface modifier and turn it on so we can see
+
+06:43.290 --> 06:44.490
+it in the viewport.
+
+06:45.270 --> 06:46.800
+And there it is.
+
+06:46.950 --> 06:52.390
+Now we need to add more edge loops to hold those edges a little bit sharper.
+
+06:52.680 --> 06:59.700
+So once again I'm going to turn off the subdivision surface modifier for a moment and I'll begin adding
+
+06:59.700 --> 07:05.670
+some edge loops around these edges to hold them a little tighter so to do that I'll press control our
+
+07:06.700 --> 07:18.200
+and I'll place one here and control are in place one here and I'll just do the same thing around the
+
+07:18.250 --> 07:18.930
+edges.
+
+07:21.690 --> 07:25.450
+Here and one here
+
+07:28.680 --> 07:41.020
+I'll also place an edge up here and control our and click and drag down to the bottom and click here.
+
+07:41.960 --> 07:43.420
+Let's see how that works.
+
+07:43.490 --> 07:45.880
+I'll turn on the modifier again.
+
+07:46.980 --> 07:48.070
+And there we go.
+
+07:48.080 --> 07:55.620
+And hit the tab key and you can see I'm beginning to get these rounded edges that allow us to catch
+
+07:55.620 --> 08:00.270
+the light of the scene making it a little bit more realistic.
+
+08:00.270 --> 08:03.320
+All right so I'll tab back into edit mode.
+
+08:03.540 --> 08:10.840
+Turn off the modifier for a moment and then I'll add a few more edge loops down here at the bottom.
+
+08:11.220 --> 08:12.820
+So control are.
+
+08:12.960 --> 08:19.860
+And now that I have an edge placed here what I can do is I can scroll the mouse We'll just roll the
+
+08:19.860 --> 08:24.090
+mouse wheel and you can see as I do it adds edge loops.
+
+08:24.090 --> 08:29.520
+So I just scroll the mouse wheel so I get two edges here and click and click again.
+
+08:30.490 --> 08:38.550
+And then I'll add an edge loop up in here like that let's see how that works.
+
+08:38.740 --> 08:42.160
+Turn on the modifier hit the tab key.
+
+08:43.280 --> 08:46.680
+And then we go it's looking pretty good.
+
+08:46.800 --> 08:55.110
+Now in the next video we'll take a look at using our template to create a two top Lego with two tabs
+
+08:55.110 --> 08:57.050
+on top just like this one.

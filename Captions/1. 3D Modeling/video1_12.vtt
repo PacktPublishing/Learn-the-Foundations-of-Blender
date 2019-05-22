@@ -1,0 +1,445 @@
+WEBVTT
+
+00:01.210 --> 00:07.300
+Well now let's take our new found Lego abilities and work on something a little bit more complicated
+
+00:07.300 --> 00:14.410
+like one of the Lego people I'm going to bring in a new reference image over here.
+
+00:14.410 --> 00:21.440
+I'm just going to click on the open button and let's bring in this Lego man reference image.
+
+00:21.510 --> 00:24.170
+I click open and there he is.
+
+00:24.250 --> 00:27.280
+Now this is just a little key chain.
+
+00:27.280 --> 00:33.430
+I'm not going to make the light on the bottom of the foot but I thought this was a good reference image
+
+00:33.430 --> 00:37.760
+to use to kind of build up the basics of a Lego person.
+
+00:37.960 --> 00:41.700
+So let's think about this in terms of what we've already done.
+
+00:41.710 --> 00:48.400
+I'm going to press control up arrow and that will maximize the screen that my mouse was hovering over.
+
+00:48.400 --> 00:55.810
+So here we have them we've got the body that is just really a cube a block that's scaled in on the top
+
+00:55.810 --> 00:57.030
+a bit.
+
+00:57.040 --> 01:03.250
+You can tell we'd want to put a subdivision surface modifier on this because it has slightly rounded
+
+01:03.250 --> 01:05.530
+edges here for the head.
+
+01:05.530 --> 01:12.510
+It looks like it's just a cylinder with an extruded top and an extruded bottom for the neck.
+
+01:12.850 --> 01:15.340
+The hips here just looks like a cube.
+
+01:15.610 --> 01:21.380
+The more complex pieces of this will be the arms the hands and the legs.
+
+01:21.610 --> 01:26.090
+But I think with the tools we've already gone over we can build all of this.
+
+01:26.110 --> 01:27.190
+So let's give it a try.
+
+01:27.190 --> 01:31.650
+I'm going to press control up arrow again to minimize that
+
+01:34.820 --> 01:37.910
+and let's begin with this torso.
+
+01:38.180 --> 01:41.110
+So I'm going to go to a brand new layer here.
+
+01:42.460 --> 01:51.100
+And one thing I found when I model is that the default camera focal length for Blender is kind of distorting
+
+01:51.100 --> 01:57.490
+and you can see that here see how the grid is kind of stretched when modeling this can kind of distort
+
+01:57.520 --> 01:59.050
+your proportions.
+
+01:59.050 --> 02:06.310
+So what I'm going to do is come over here to the properties panel and under the View area in the lens
+
+02:06.340 --> 02:16.120
+angle I'm going to change this from 35 to 50 and that gives me a little bit more of an undistorted view
+
+02:16.120 --> 02:17.220
+of my model.
+
+02:17.500 --> 02:22.180
+It's really just personal preference but I wanted to just mention that before we began.
+
+02:22.180 --> 02:22.470
+All right.
+
+02:22.470 --> 02:30.700
+So let's start over here with the Create tab and let's just create a cube and there is the beginnings
+
+02:30.790 --> 02:32.050
+of our torso.
+
+02:32.290 --> 02:38.300
+So going across the period key on the number pad to zoom into it and to frame it up.
+
+02:38.440 --> 02:49.110
+So I tumbled around it and I'll go to my scale manipulator right here and I'll begin just collapsing
+
+02:49.110 --> 02:50.590
+that in this way.
+
+02:50.820 --> 02:53.170
+Maybe bring it out a bit like that.
+
+02:54.130 --> 03:02.680
+I'm just trying to get this cube to be about the same size as the torso on our reference image.
+
+03:02.730 --> 03:05.260
+So something like that maybe.
+
+03:05.580 --> 03:14.520
+And then I'll tab into edit mode and press control tab and choose face then I'll select this face and
+
+03:14.520 --> 03:21.220
+just scale it in a bit something like that and maybe even move it down some.
+
+03:21.540 --> 03:24.460
+So I'm just trying to get that basic shape.
+
+03:24.480 --> 03:31.050
+All right so if I tab back into edit mode let's call that good I'll move it down a bit to just kind
+
+03:31.050 --> 03:37.170
+of get it in place it's going to be hard to know until we begin building up the hips and the legs how
+
+03:37.500 --> 03:39.630
+high this should be off the grid.
+
+03:40.140 --> 03:43.260
+But I think that's generally pretty good.
+
+03:43.260 --> 03:48.610
+All right so I had mentioned before that we had these kind of rounded edges.
+
+03:48.690 --> 03:57.000
+We can do that by adding a subdivision surface modifier again a quick add modifier subdivision surface.
+
+03:57.210 --> 04:00.500
+And of course it collapses into ugliness.
+
+04:00.720 --> 04:02.490
+But we can fix that.
+
+04:02.490 --> 04:09.940
+I'm going to increase the view to two here and now if I hit the tab key I can tap into edit mode and
+
+04:09.940 --> 04:14.900
+we can see both the smooth object and the unsmooth.
+
+04:15.130 --> 04:19.740
+If I turn this on it will just show us the smoothed object.
+
+04:19.810 --> 04:24.440
+But if I turn it off we can see both at the same time as we work.
+
+04:24.970 --> 04:31.680
+So what I'll do is go ahead and begin inserting some loops here so I'll press control r and insert an
+
+04:31.680 --> 04:38.890
+edge loop and I'll click and then I'll drag it up near the top and press control again and do that down
+
+04:38.890 --> 04:45.790
+here on the bottom and we need a couple of more running vertically here.
+
+04:45.850 --> 04:49.760
+So I'll click and drag one over here.
+
+04:51.900 --> 04:55.440
+And click and drag one over here.
+
+04:55.440 --> 05:02.600
+I think we need two more one here and one here.
+
+05:06.250 --> 05:07.690
+Something like that.
+
+05:07.690 --> 05:13.510
+All right so I tab back into object mode and you can see we've got those rounded corners.
+
+05:13.510 --> 05:16.010
+Now those rounded edges.
+
+05:16.750 --> 05:20.460
+I'm going to come over here to the tools tab and click on smooth.
+
+05:20.620 --> 05:28.180
+We can still see the faceted polygons here but if I click smooth and kind of smooth those out.
+
+05:28.900 --> 05:33.430
+All right we've got that part of the Lego guy.
+
+05:34.060 --> 05:36.430
+Let's now work on the head the head.
+
+05:36.430 --> 05:39.000
+It looks like is just a cylinder.
+
+05:39.130 --> 05:47.380
+So I'll come over here to the Create tab click cylinder and I don't think we need so many polygons on
+
+05:47.380 --> 05:53.960
+this if I pull this up here we can see the number of sides that our cylinder has.
+
+05:54.040 --> 05:57.360
+And right now it's got 32 and that's a bit too much.
+
+05:57.460 --> 06:00.950
+Let's take it down to 12 like that.
+
+06:01.630 --> 06:05.240
+And we also have a cap on this.
+
+06:05.260 --> 06:09.720
+That's an n gone and I don't know that we want an end gun on this.
+
+06:10.000 --> 06:18.550
+Let's change that from an n gon which is a polygon with more than four sides to a triangle fan which
+
+06:18.550 --> 06:22.160
+is just a fan of three sided polygons.
+
+06:22.270 --> 06:24.580
+So there we go we've got those.
+
+06:25.060 --> 06:29.270
+And let's pull this up into place and try and scale it to size.
+
+06:29.290 --> 06:35.220
+So I'll go to my move tool and move this up.
+
+06:35.640 --> 06:38.340
+I'll hit the key and scale that down a bit.
+
+06:39.590 --> 06:49.250
+And let's see if we can get it about the right size I'll hit s and Z to just scale in the z axis and
+
+06:49.250 --> 06:52.950
+maybe ask for the whole thing and scale it and just a bit as well.
+
+06:53.220 --> 07:00.110
+OK so now I've got what I think is a pretty good size for the Lego head.
+
+07:01.250 --> 07:09.200
+What I'll do is select these faces up here on top all press control tab and hit the three key to go
+
+07:09.200 --> 07:10.620
+to face mode.
+
+07:11.810 --> 07:19.820
+And I'll select these faces up on top to do that I can press the C key for the circle select tool I
+
+07:19.820 --> 07:27.740
+can scroll the mouse wheel to change the size of the Select brush and then I can just click and drag
+
+07:28.040 --> 07:31.730
+around to the top to select all of those faces.
+
+07:31.970 --> 07:34.170
+I'll hit the right mouse button.
+
+07:34.430 --> 07:43.220
+And now I've got all those selected I'll press e and click and then I'll hit the s key and scale those
+
+07:43.220 --> 07:53.800
+in some something like that maybe and then I'll hit the e key again and pull straight up for the top
+
+07:53.800 --> 07:55.170
+piece of the head.
+
+07:57.080 --> 07:59.770
+All right let's try that on the bottom now for the neck.
+
+08:00.790 --> 08:05.110
+Press the C key select all of those faces.
+
+08:06.090 --> 08:13.920
+Well I've still got these selected I better hit the key first and then press C and select all of those.
+
+08:14.090 --> 08:26.250
+And now it's hit E and click and S and scale in and then e and pull down something like that all right.
+
+08:26.260 --> 08:33.340
+So if I tab back into object mode and add a subdivision surface modifier on this you can see once again
+
+08:33.340 --> 08:35.970
+it collapses but that's OK.
+
+08:36.160 --> 08:44.820
+We can hit the tab key to see it in both smooth and unsmooth and begin inserting our edge loops here.
+
+08:44.830 --> 08:53.350
+So for this part our press control our and scroll the mouse wheel one time and then click and click
+
+08:53.350 --> 08:54.070
+again.
+
+08:54.220 --> 09:00.250
+And now if I press S and Z I can scale these up like that.
+
+09:01.600 --> 09:08.470
+Now we need to insert some edge loops appear on the top and press control r and click and pull out a
+
+09:08.470 --> 09:13.060
+bit and another one in here toward the center.
+
+09:14.050 --> 09:19.900
+And maybe two more in here with that scaling in the Z.
+
+09:20.030 --> 09:21.590
+So.
+
+09:22.320 --> 09:23.660
+All right.
+
+09:23.780 --> 09:27.650
+And let's go do that on the bottom as well.
+
+09:27.650 --> 09:31.930
+So all press control our on here
+
+09:34.670 --> 09:44.550
+one here and then to here s z and scale.
+
+09:44.560 --> 09:45.880
+All right.
+
+09:45.880 --> 09:53.550
+Now let's come over here to the tools tab and click the smooth shading.
+
+09:53.550 --> 09:53.910
+All right.
+
+09:53.910 --> 09:57.240
+It's looking pretty good although it looks a little too tall now doesn't it.
+
+09:57.240 --> 10:00.950
+So all press S and Z and scale it down just a hair.
+
+10:01.260 --> 10:08.040
+But now I think I need to move this top part up a bit and it looks to me like these edges now aren't
+
+10:08.130 --> 10:11.070
+too sharp compared to these edges over here.
+
+10:11.070 --> 10:13.510
+This looks more rounded.
+
+10:13.830 --> 10:21.210
+So I'm going to tab back into edit mode and I'll press alt and click to select this edge and shift alt
+
+10:21.420 --> 10:27.410
+and click to select that edge and I'll press S and Z again and I'll scale these back in.
+
+10:27.570 --> 10:28.650
+And that helps.
+
+10:28.650 --> 10:32.900
+That's going to help it round out just a bit there on the edges.
+
+10:33.120 --> 10:41.190
+If I do that and also if I come in here and select these edges and scale these and this will help round
+
+10:41.190 --> 10:50.750
+those out a bit as well to isolate this one and scale that in just a hair.
+
+10:50.800 --> 10:51.690
+There we go.
+
+10:52.270 --> 10:55.990
+But I'd like to pull that top piece up a little bit more.
+
+10:56.110 --> 11:02.770
+So I'm going to go to face mode and press C and select all of these.
+
+11:03.160 --> 11:06.320
+And I just want to bring all of those up a bit.
+
+11:06.570 --> 11:09.760
+Well I think I want to bring this edge with it.
+
+11:09.850 --> 11:16.840
+This row of faces along so to do that I can actually expand my selection.
+
+11:16.990 --> 11:25.090
+I can press control and the Plus key and the number pad and expand my selection and I can press control
+
+11:25.150 --> 11:28.240
+plus again and you can see how it can expand.
+
+11:28.240 --> 11:33.550
+Now if I had control minus I can contract the selection and I'll just pull this up.
+
+11:33.550 --> 11:36.290
+Now just a little bit more.
+
+11:36.360 --> 11:37.290
+There we go.
+
+11:38.350 --> 11:40.390
+All right we have our torso in our head.
+
+11:40.400 --> 11:43.500
+Let's work on this hips piece right here.
+
+11:43.570 --> 11:50.110
+That should be fairly easy we'll just go to the Create tab and click on cube and we can just bring this
+
+11:50.110 --> 11:53.000
+up and scale this to size.
+
+11:53.170 --> 12:00.790
+So I switched to my scale manipulator and I will just collapse this down until we get it about the way
+
+12:00.790 --> 12:01.960
+we want it.
+
+12:06.360 --> 12:07.430
+There we go.
+
+12:07.650 --> 12:15.650
+And once again we should add our subdivision surface modifier to this so go to add a modifier.
+
+12:15.650 --> 12:24.540
+So division surface will hit our tab key and now we can add a few loops so press control our scroll
+
+12:24.540 --> 12:28.530
+the mouse wheel click and click again and scale these out.
+
+12:30.100 --> 12:39.130
+And I'll do the same thing horizontally control our scroll the mouse wheel click click again and I'll
+
+12:39.130 --> 12:43.960
+just expand these up and we'll do that over here as well.
+
+12:48.130 --> 12:51.430
+All right so there we have the block for the hips.
+
+12:51.680 --> 12:58.930
+I'll go over to the Tools tab and smooth that will in the next video let's work on the pieces that are
+
+12:58.930 --> 13:02.920
+going to be a little bit more complicated like the arms and the legs.

@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.830 --> 00:03.060
+So here we are back in Gimp.
+
+00:03.260 --> 00:12.590
+What we need to do is just take our beer can label and our can top and place them here on our U.V. map.
+
+00:12.590 --> 00:14.920
+So I'll grab this one here.
+
+00:14.930 --> 00:20.830
+I'll select everything and copy it and I'll come over here and I'll paste it in.
+
+00:20.840 --> 00:22.810
+Now it's a little too big.
+
+00:22.910 --> 00:28.340
+Zoom out a bit with the minus key and we can see the outline of the image here.
+
+00:28.550 --> 00:34.010
+I need to make this pasted layer into an actual layer that we can edit.
+
+00:34.010 --> 00:38.200
+So all right click and choose two new layer.
+
+00:38.280 --> 00:42.530
+I'll give this layer a name or call it label.
+
+00:43.560 --> 00:46.670
+Now let's come over here to the scale tool right here.
+
+00:46.670 --> 00:49.600
+Click on the image and click and drag this.
+
+00:49.610 --> 00:57.080
+But first I need to lock the aspect ratio here with the width than the height click and drag this and
+
+00:57.080 --> 00:57.770
+get it down.
+
+00:57.770 --> 01:02.530
+So it's a little bit more reasonable for our U-V map.
+
+01:02.600 --> 01:03.870
+I'll hit enter.
+
+01:04.040 --> 01:08.360
+Go to the move tool and try and move this in place.
+
+01:08.450 --> 01:10.880
+So I've pretty much got it there.
+
+01:10.940 --> 01:12.290
+That's not bad.
+
+01:12.350 --> 01:19.340
+I'll take this layer and move it down below the U-V islands and get dizzy and zoom in so he can see
+
+01:19.340 --> 01:19.880
+it.
+
+01:20.240 --> 01:25.790
+Now if I click here and drag you can see I'm dragging the U-V layer here I don't want to do that.
+
+01:25.790 --> 01:27.020
+I'll hit command Z.
+
+01:27.020 --> 01:32.090
+I can come over here to the tool options and choose Move Active layer.
+
+01:32.090 --> 01:40.060
+And now with the label layer active I can click and drag that around and I kind of want to get it right
+
+01:40.870 --> 01:47.580
+there go back to my scale and let's move this out just a bit.
+
+01:49.070 --> 01:53.550
+So now let's go grab that beer can image or the beer can top.
+
+01:53.550 --> 02:00.730
+I'll grab this and select it with command D command C and let's come back over here and paste it onto
+
+02:00.760 --> 02:01.960
+our image.
+
+02:01.970 --> 02:07.280
+Let's also right click and choose two new layer and then we go.
+
+02:07.280 --> 02:12.550
+We can also select this white area around the can.
+
+02:12.620 --> 02:17.090
+I'll come over here to the Fuzzy's select tool and click in the white area.
+
+02:17.090 --> 02:25.110
+Now press commander control X and get rid of that de-select everything.
+
+02:25.160 --> 02:26.990
+Select none.
+
+02:27.130 --> 02:30.710
+And now maybe we can scale it down and get it in place.
+
+02:30.720 --> 02:37.980
+But let me drag it beneath the movies there first and then I'll scale it down.
+
+02:38.180 --> 02:42.950
+Let's get it a little bit smaller.
+
+02:43.050 --> 02:44.680
+Let's try that.
+
+02:44.760 --> 02:47.550
+Go to the move tool and get it in place.
+
+02:49.300 --> 02:55.630
+It looks like it's just a little bit skewed up and down so I can go back to my scale tool and click
+
+02:55.630 --> 03:06.810
+on the image and I will and these on link these and just move them a bit up and down.
+
+03:06.810 --> 03:08.400
+All right well let's give that a try.
+
+03:08.400 --> 03:14.880
+I'll go ahead and create a new layer here for the other part of the can the bottom of the can create
+
+03:14.880 --> 03:22.770
+a new layer here come over and choose our ellipse tool and press shift and click and drag and let's
+
+03:22.770 --> 03:26.970
+try and drag this over our circle here.
+
+03:28.980 --> 03:40.120
+And I'll move it into place something like this kind of squish it a bit so it just encompasses that
+
+03:41.100 --> 03:43.120
+part of the map.
+
+03:44.210 --> 03:52.700
+Then I'll come over to my color picker select the can top layer and pick a color off of there and I'll
+
+03:52.700 --> 03:59.990
+come back over to my paint bucket tool switch back to that layer with the selection on it and click
+
+03:59.990 --> 04:07.590
+there and that'll fill that circular selection up seems like it could be a little more silver.
+
+04:07.610 --> 04:11.020
+Let me drag this over just a bit.
+
+04:11.120 --> 04:13.580
+See if we can get it to be a little more gray.
+
+04:14.400 --> 04:16.250
+And then paint it again.
+
+04:16.500 --> 04:18.410
+Yeah I'll go with that.
+
+04:18.420 --> 04:25.080
+So this is the this layer here is our Can top.
+
+04:25.530 --> 04:35.180
+This is our Can bottom I'll create a new layer for the background.
+
+04:35.180 --> 04:37.560
+Drag that down to the bottom.
+
+04:38.410 --> 04:40.490
+Switch this back to black.
+
+04:40.770 --> 04:42.770
+Let's use the paint bucket tool.
+
+04:42.930 --> 04:45.280
+And if I come over here and try and click I can't click.
+
+04:45.280 --> 04:51.610
+I need to de-select that circular selection so I go to select none.
+
+04:51.880 --> 04:57.430
+And now I can come over here in an empty part of the image and click and that'll lay the black down
+
+04:57.430 --> 04:58.370
+there.
+
+04:58.420 --> 05:07.120
+So now I'll turn off that U.V. map and there is our image I'll press shift command J to see at full
+
+05:07.120 --> 05:08.490
+screen there.
+
+05:08.500 --> 05:18.520
+All right so let's export this now or go to file export as an instead of beer can you go ahead and change
+
+05:18.520 --> 05:25.030
+this to a beer can underscore see for color map and I'll export this out.
+
+05:25.030 --> 05:27.550
+So now let's go back to blender and apply our texture.

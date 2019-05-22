@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.640 --> 00:08.560
+Well in a previous installment of this series we talked about smoothing or rounding off edges using
+
+00:08.680 --> 00:09.780
+the bevelled tool.
+
+00:10.030 --> 00:11.940
+Well there's another way to do that of course.
+
+00:11.950 --> 00:18.980
+There's always another way to do everything by using one of the modifiers in Blender called the subdivision
+
+00:18.980 --> 00:21.160
+surface modifier.
+
+00:21.160 --> 00:24.080
+So let's just take a look at this cube here.
+
+00:24.220 --> 00:33.010
+If I came over here to the modifiers panel and went to the ADD modifier menu and shows subdivision surface
+
+00:33.910 --> 00:37.490
+that modifier would actually try and smooth that object.
+
+00:37.620 --> 00:40.900
+And you can increase the subdivisions here in the view.
+
+00:40.900 --> 00:47.620
+So if I increase that to two or three you can see that it's beginning to smooth that object.
+
+00:47.650 --> 00:53.970
+Now another way of smoothing is to come over here under the Tools tab and use smooth shading.
+
+00:54.220 --> 00:58.400
+If I click that we get quite a smooth object there.
+
+00:58.450 --> 01:07.210
+Now if I hit the Z key on the keyboard you can see the geometry in there that the modifier is creating.
+
+01:07.210 --> 01:15.130
+Now if I hit the tab key to go into edit mode you can see that actually it's still just a cube to make
+
+01:15.130 --> 01:16.330
+these changes permanent.
+
+01:16.330 --> 01:23.590
+I'd have to click apply on the modifier so I'll bring this subdivisions down in the view here a couple
+
+01:23.590 --> 01:24.470
+of levels.
+
+01:24.490 --> 01:27.670
+Let's say I want the subdivisions at two.
+
+01:27.780 --> 01:31.550
+Now the subdivision here is affecting the entire object.
+
+01:31.620 --> 01:35.120
+What if I wanted this edge appear to be a little smoother.
+
+01:35.300 --> 01:41.500
+Let me I'm going to click on this guy right here this adjust at it cage and if I click on that you can
+
+01:41.500 --> 01:48.510
+see in edit mode here we can now see the smoothing that's happening.
+
+01:48.700 --> 01:56.410
+But what if I wanted this top part to be a little tighter in other words instead of it just being a
+
+01:56.410 --> 02:04.140
+ball maybe I want it to be like a drum maybe I want this top part to be a little flatter.
+
+02:04.450 --> 02:10.930
+Well what I can do is I can press control are to insert an edge loop here and if I click and drag up
+
+02:11.440 --> 02:19.990
+you can see that the closer that this edge gets to that top edge the tighter and more sharp that edge
+
+02:19.990 --> 02:20.880
+is.
+
+02:20.890 --> 02:27.730
+So if I move it up to here let's say and click now I've got something that's beginning to look kind
+
+02:27.730 --> 02:34.600
+of like a drum here and notice that down here at the bottom because there isn't an edge to hold this
+
+02:34.690 --> 02:35.710
+part down here.
+
+02:35.710 --> 02:39.350
+This is still very rounded.
+
+02:39.480 --> 02:46.020
+So let's say I wanted to make these edges a little sharper up here when I could do is insert more edge
+
+02:46.020 --> 02:54.880
+loops I'll press control r and maybe scroll the mouse wheel wants to create two edges and click.
+
+02:55.120 --> 03:01.720
+And now you can see that that edge is getting tighter and tighter up here now not going to insert two
+
+03:01.780 --> 03:03.060
+edges over here.
+
+03:03.160 --> 03:11.880
+Scroll the mouse wheel and click and now you can see that what we're getting is something that's actually
+
+03:11.880 --> 03:19.590
+a little bit more realistic since there isn't really any absolutely sharp edges in the world.
+
+03:19.830 --> 03:23.550
+They're oftentimes just a little bit curved.
+
+03:23.550 --> 03:26.890
+We're beginning to get more of a realistic edge here.
+
+03:27.030 --> 03:30.390
+And when you have an edge like this it's just a little bit curved.
+
+03:30.390 --> 03:38.230
+It'll catch the light in your scene and provide a little more interest and a little more realism.
+
+03:38.310 --> 03:41.130
+So how can we use this in our modeling.
+
+03:41.300 --> 03:48.040
+Well what I'd like to do is go over the process of creating a couple of Lego pieces.
+
+03:48.360 --> 03:55.200
+I think this is a great exercise to go through to think about how to get these sharp but slightly rounded
+
+03:55.200 --> 03:58.260
+edges on something like a Lego block.
+
+03:58.260 --> 04:07.260
+And in addition it introduces the concept of extruding a circular piece out of a square or block object.
+
+04:07.500 --> 04:14.000
+And that's a tool or a process that you can use a lot when you're modeling.
+
+04:14.010 --> 04:16.220
+So let's take a look at how to do that.
+
+04:16.260 --> 04:24.210
+First of all I'll get rid of this object here I'll just select it press the x key and hit delete.
+
+04:24.230 --> 04:28.980
+I will also delete the camera and the point light here in the scene.
+
+04:29.090 --> 04:35.610
+We don't need those right now as we're modeling so I'll press the x key and click delete.
+
+04:35.720 --> 04:43.580
+So the first thing I think I'd like to do is create one of these one tops just this little one singular
+
+04:43.580 --> 04:51.800
+piece with the one round extrusion on it and then from this one we can use it as a template to create
+
+04:52.070 --> 04:54.100
+all the other pieces.
+
+04:54.170 --> 04:58.390
+So to begin with let's start with a polygon plane.
+
+04:58.440 --> 05:05.180
+I'm going to come over here to the Create tab choose plain and I'll zoom in.
+
+05:05.180 --> 05:08.750
+And what we need here is a little more resolution.
+
+05:08.750 --> 05:10.290
+We need more polygons.
+
+05:10.400 --> 05:13.890
+What I'd like is four by four on here.
+
+05:14.150 --> 05:16.630
+So to do that I'm going to tab into edit mode.
+
+05:16.640 --> 05:22.870
+Hitting the tab key and then I'm going to press the W key for the specials menu.
+
+05:23.000 --> 05:25.900
+And I'm going to come up here and choose subdivide.
+
+05:25.970 --> 05:35.180
+So if I click that it subdivides it into four polygons and if I pull this panel up I can choose the
+
+05:35.270 --> 05:38.120
+number of cuts and currently it's at 1.
+
+05:38.150 --> 05:45.290
+If I click here to increase it to two I get three by three polygons and if I click this one more time
+
+05:45.680 --> 05:49.590
+I get four by four polygons and that's what I want.
+
+05:49.640 --> 05:55.130
+Now what I'd like to do is delete the four faces in the center here.
+
+05:55.130 --> 06:02.450
+So I'm going to press control tab click face in the mesh select menu here and now I'm just going to
+
+06:02.450 --> 06:05.330
+select these four faces.
+
+06:06.060 --> 06:11.310
+And hit X and choose delete faces.
+
+06:11.310 --> 06:18.820
+All right so now I have a hole in this polygon plane that has one two three four five six seven eight
+
+06:19.090 --> 06:20.320
+sides in it.
+
+06:20.500 --> 06:28.370
+And what I'd like to do is this is the whole in which I want to extrude a round circular piece.
+
+06:28.480 --> 06:33.360
+So what I need is a round piece that has eight sides.
+
+06:33.370 --> 06:39.750
+So to do that I'll come back over to my Create tab tab back into object mode.
+
+06:39.920 --> 06:48.940
+I'll come over here to the Create tab click on cylinder and for the cylinder I don't need 32 sides I
+
+06:48.940 --> 06:51.070
+only need 8.
+
+06:51.220 --> 06:58.560
+And in addition I don't want the cap filled to be an end and I don't want it to be an eight sided polygon.
+
+06:58.630 --> 07:01.780
+I just want it to be a triangle fan.
+
+07:03.000 --> 07:06.200
+So there is my cylinder No.
+
+07:06.210 --> 07:10.710
+The interesting thing about this is I only need the top part.
+
+07:10.740 --> 07:14.960
+I mean hit the ESC key and scale this down to size here.
+
+07:15.750 --> 07:22.620
+And if I hit the tab key now I can select only the parts that I do not need.
+
+07:22.620 --> 07:24.660
+So I want to keep this top part.
+
+07:24.660 --> 07:28.210
+So all de-selected these with Schiff's select.
+
+07:28.450 --> 07:31.780
+And then I'm going to press X and delete faces.
+
+07:31.810 --> 07:38.950
+Now I have a circular piece that I can extrude out of this but I need to move it down in line with this
+
+07:38.950 --> 07:41.950
+polygon plane so I'll tab out of edit mode.
+
+07:42.160 --> 07:48.330
+I will come over here and I want to move this pivot point to the center of this object.
+
+07:48.370 --> 07:56.340
+So I go to tools and set origin to geometry and we go.
+
+07:56.340 --> 08:01.320
+Now I want to move this object to the center of the grid or to the 3D cursor.
+
+08:01.320 --> 08:03.770
+Now I have the 3D cursor already there.
+
+08:03.830 --> 08:10.350
+I'm going to press shift S and I can of course move the cursor to the center of the grid here and then
+
+08:10.350 --> 08:16.020
+I can press shift s and move the selection to the cursor.
+
+08:16.140 --> 08:21.290
+And now it's pop down there in line with the polygon plane.
+
+08:21.330 --> 08:26.490
+Now to connect these two pieces up I need to join them together into one object.
+
+08:26.490 --> 08:29.780
+There currently a plane and a cylinder.
+
+08:29.820 --> 08:33.900
+I'm going to select both of these and press control J.
+
+08:34.290 --> 08:37.980
+And that will join them into one object.
+
+08:37.980 --> 08:45.530
+Now if I tab back into edit mode I can see that the whole thing now is all one object I'll press control
+
+08:45.540 --> 08:48.880
+tab go to vertex mode.
+
+08:49.110 --> 08:56.220
+And now what I'd like to do is connect up the polygon plane to the cylinder and I want to connect it
+
+08:56.340 --> 09:00.990
+this way so that this round piece stays round.
+
+09:01.050 --> 09:10.860
+So I get to select a vertex shift select another one and press Allt him and choose to merge at the last
+
+09:10.860 --> 09:12.350
+vertex I selected.
+
+09:12.360 --> 09:18.230
+So it's going to move this one to the circular object so wealths like this vertex.
+
+09:18.240 --> 09:21.840
+And this one Allt in at last.
+
+09:21.930 --> 09:29.650
+It's like these two alt in him at last and I'll just go around and do this.
+
+09:29.740 --> 09:33.480
+And lastly allt him and at last.
+
+09:33.480 --> 09:38.890
+Now I have a circular object in a square shape.
+
+09:39.010 --> 09:39.970
+That's good.
+
+09:39.970 --> 09:42.690
+However these are kind of stretched.
+
+09:42.730 --> 09:47.800
+I'd like to scale this up so these are more uniform.
+
+09:47.800 --> 09:55.960
+So in a press control tab go to face mode press the see key to go to the circle select tool and you
+
+09:55.960 --> 10:03.580
+can see here that I've got this round brush type thing and I'm going to scroll the mouse wheel up or
+
+10:03.580 --> 10:10.180
+down with the scroll wheel and just click and drag and select those faces to get out of the circle select
+
+10:10.180 --> 10:10.520
+tool.
+
+10:10.520 --> 10:19.290
+All right click and now I've got these faces selected so I'll just hit the s key and scale up and tell
+
+10:19.300 --> 10:21.900
+these polygons are more uniform.
+
+10:21.940 --> 10:28.040
+I'm looking for the ones on the corners here to be 90 degree angles.
+
+10:28.120 --> 10:28.740
+All right.
+
+10:28.780 --> 10:35.590
+Now I have that circular piece ready to be extruded out of that flat plain.
+
+10:35.590 --> 10:44.000
+So with these faces selected I'll just press the e key and drag straight up and there we have the top
+
+10:44.210 --> 10:51.910
+of our Lego piece now here's where our subdivision surface modifier comes into play.
+
+10:52.040 --> 10:59.800
+So I'll come over here to the Add modifiers menu and I'll choose this subdivision surfaces.
+
+10:59.980 --> 11:08.350
+And now you can see it's beginning to smooth it all take the view up to Alt-Tab back into object mode
+
+11:08.380 --> 11:15.190
+and you can see the polygons here that is beginning to create in the tools tab or click the smooth shading
+
+11:15.220 --> 11:18.410
+button and that smooths it out some.
+
+11:18.430 --> 11:26.450
+And now over here I'm going to select the adjust edit cage button and I'll tab back into edit mode and
+
+11:26.450 --> 11:32.000
+now you can see the cage has been molded to the smooth object.
+
+11:32.000 --> 11:36.690
+If I turn this off you can see the unsmooth cage.
+
+11:36.880 --> 11:43.280
+What am I to do is go ahead and press control r and create an edge loop right in here and I can move
+
+11:43.280 --> 11:44.680
+that up or down.
+
+11:44.690 --> 11:53.220
+Maybe I'll move it down to here or create another edge loop right above that to hold this top edge.
+
+11:53.350 --> 11:54.400
+There we go.
+
+11:54.680 --> 12:01.340
+Now what if I wanted to insert an edge loop right up here so that it would hold this top edge a little
+
+12:01.340 --> 12:02.260
+tighter.
+
+12:02.480 --> 12:09.080
+If I came up here and press control r and hovered over one of these edges it doesn't give me a preview.
+
+12:09.080 --> 12:13.320
+Now if I hover over one of these edges it does or over these edges it does.
+
+12:13.400 --> 12:15.590
+But up here it won't.
+
+12:15.620 --> 12:23.360
+The reason why it won't do that is because it can only insert edges through quads or through four sided
+
+12:23.360 --> 12:32.330
+polygons it can't insert edges through tries three sided polygons or in guns any polygons that have
+
+12:32.330 --> 12:34.260
+more than four sides.
+
+12:34.520 --> 12:39.590
+So what we need to do is figure out a way to insert an edge loop without actually inserting an edge
+
+12:39.590 --> 12:40.090
+loop.
+
+12:40.250 --> 12:46.660
+And the easiest way to do that I think is just to extrude these faces and then scale them in a bit.
+
+12:46.670 --> 12:56.360
+So if I control tab here to bring up the mesh select menu and choose face I'll then hit the C key circle
+
+12:56.360 --> 12:57.650
+select these.
+
+12:57.650 --> 13:06.710
+Now if I hit extrude and click I can scale this in or out and you can see I've created essentially a
+
+13:06.710 --> 13:10.580
+new Angelou pier that I can adjust in and out.
+
+13:10.580 --> 13:17.780
+So if I put this right about here you can see I have some control now over how tight that edge is.
+
+13:17.780 --> 13:25.680
+So I can go to control tab choose edges to choose this edge all the way around I'll press Alt click
+
+13:26.300 --> 13:33.940
+and now I can move this edge up and down and just how tight that corner needs to be.
+
+13:33.950 --> 13:37.720
+So let's say I wanted to be about like that.
+
+13:37.780 --> 13:38.280
+All right.
+
+13:38.290 --> 13:43.000
+So there is the top of our Lego piece.
+
+13:43.000 --> 13:49.310
+Now we can look at our object without the subdivisions enabled here by just clicking this little eye.
+
+13:49.500 --> 13:58.060
+The display modifier in viewport button I'll just click that and you can see it's gone back to the unsmooth
+
+13:58.180 --> 13:59.440
+view.
+
+13:59.500 --> 14:05.260
+So now I'm going to call this in the outline or I'll change the name and I'll call this template and
+
+14:05.260 --> 14:10.850
+this is going to be the template that we'll use for every subsequent Lego block.

@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.930 --> 00:08.130
+Now let's take a look at how we can use the stencil feature to add a label to our flour sack in Gimp.
+
+00:08.130 --> 00:14.180
+I've gone ahead and brought up an image that I'd like to use for the logo here.
+
+00:14.390 --> 00:23.130
+I'll press shift command J to zoom in and what I need to do is remove the white from this image and
+
+00:23.130 --> 00:30.330
+have an alpha channel or transparency around the letters to do that I'll come over here to the layer
+
+00:30.360 --> 00:34.590
+and right click and I'll choose an alpha channel.
+
+00:34.830 --> 00:41.760
+And now that I've done that that will allow me to erase the white if I come over here to the erase tool
+
+00:41.760 --> 00:46.730
+and I can click and drag here you can see now we can see through that area.
+
+00:46.920 --> 00:53.820
+So to make things a little quicker I'll choose the fuzzy select tool and click out here in the white
+
+00:54.570 --> 01:01.650
+and then once I've done that I'll just press command X and that will remove the white from that area
+
+01:02.610 --> 01:06.780
+I'll press shift command a to de-select everything.
+
+01:06.780 --> 01:14.040
+And now if I zoom out just a bit with the minus key I can come over here to the rectangle select tool
+
+01:14.070 --> 01:22.880
+and click and drag out here press control or command X shift command a to de-select and then I'll drag
+
+01:22.880 --> 01:27.790
+select this area over here as well and remove that.
+
+01:28.070 --> 01:34.610
+Now that we have this I think I probably need to clean it up just a little bit more so maybe down here
+
+01:35.030 --> 01:44.780
+I could use that fuzzy select tool and just select the white here and remove that and also maybe I'll
+
+01:44.780 --> 01:49.050
+remove some of the white from this area as well.
+
+01:55.250 --> 02:01.280
+All right so now that we have that taken care of I think we can save this out as a P and G that we can
+
+02:01.280 --> 02:02.950
+use now as a stencil.
+
+02:03.170 --> 02:11.450
+So I'll go to file export and I'll save this out as a P N G.
+
+02:12.720 --> 02:17.690
+Back here in Blendr we need to bring that stencil into our texture here.
+
+02:17.700 --> 02:25.170
+Now if I go over to the texture panel in the Properties window I currently have the image texture selected
+
+02:25.180 --> 02:29.920
+So this is the image over here of our painted texture.
+
+02:29.980 --> 02:34.090
+I need to switch this from image to brush texture.
+
+02:34.500 --> 02:43.640
+And now instead of this burlap seamless I'll bring in that flour sack logo stencil and there it is now
+
+02:43.640 --> 02:51.580
+to be able to get this onto our image we need to switch our brush mapping from tiled to Stenzel And
+
+02:51.580 --> 02:56.450
+now if I hover over here you can see it appearing in the 3-D view right here.
+
+02:56.590 --> 03:03.520
+Now to move this around instead of using the middle mouse button the way we do to move into 3-D view
+
+03:03.820 --> 03:10.600
+we use the right mouse button to click and drag and move this around to where we want it.
+
+03:10.600 --> 03:16.280
+So I think I'll kind of tumble around like this.
+
+03:16.570 --> 03:24.310
+And now I can move this around and I can press shift and right mouse button and click and drag and increase
+
+03:24.310 --> 03:26.360
+the size of that.
+
+03:26.520 --> 03:32.370
+Now I'll just kind of move it around until I think something like this.
+
+03:32.440 --> 03:39.310
+I can also press the control button and the right mouse button and rotate it just a little bit like
+
+03:39.310 --> 03:40.590
+that.
+
+03:40.720 --> 03:46.630
+Now that it's in place I want to choose a color I'll choose a blue color here and then I'll switch my
+
+03:46.630 --> 03:49.520
+Blin mode to multiply.
+
+03:49.600 --> 03:52.080
+I'll also bring the strength down a bit to maybe.
+
+03:52.080 --> 03:55.930
+Let's type in point five and try that.
+
+03:55.930 --> 04:02.410
+Now come back over here to the 3D view and just click and drag and let's see how it works.
+
+04:03.210 --> 04:08.730
+I'll just paint over all of this area as well as the 25 pound area down here.
+
+04:09.870 --> 04:10.950
+And here we go.
+
+04:11.310 --> 04:18.510
+Now switch from stencil to tiled and now we can see the texture on our SAC.
+
+04:18.510 --> 04:22.070
+Now it's a little bit dark for me.
+
+04:22.230 --> 04:24.770
+Maybe I'll bring it down to point seven for the strength.
+
+04:24.780 --> 04:31.020
+And now let's come over here and go ahead and click and drag and see what we can paint on here.
+
+04:31.020 --> 04:39.510
+Now if I switch my brush mapping from stencil to tiled again you can see we've got our logo stenciled
+
+04:39.510 --> 04:40.610
+on the bag.
+
+04:40.740 --> 04:47.280
+And if we zoom in I can see it's actually kind of conforming to our texture as well which is really
+
+04:47.280 --> 04:48.260
+nice.
+
+04:48.780 --> 04:56.430
+So now that we have that painted on in our next video let's work on painting in some of the shading
+
+04:56.430 --> 05:00.180
+here on the bag as well as adjusting the colors.
+
+05:00.180 --> 05:01.940
+I think this is a little dark.
+
+05:01.950 --> 05:06.690
+We can work on adjusting the colors in the note editor as well.

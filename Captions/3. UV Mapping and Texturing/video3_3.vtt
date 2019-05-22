@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.910 --> 00:07.000
+Let's now try putting our U-V tools to the test by trying to map this object a adore.
+
+00:07.000 --> 00:14.230
+This is from the Blendr 401 creating a game environment course here on Blendr 101 dot com.
+
+00:14.440 --> 00:19.170
+And the store as it was modeled is currently made up of four different objects.
+
+00:19.180 --> 00:26.150
+We've got the main door panel two door knobs and the door plate here at the edge.
+
+00:26.170 --> 00:30.490
+So let's work on U-V mapping this main door piece.
+
+00:30.490 --> 00:38.830
+First I'm going to go over to my U-V editing screen that lay out and notice I already have a node editor
+
+00:38.920 --> 00:46.650
+window pulled down here that's going to make my life a little easier as we apply our U-V test grid.
+
+00:46.660 --> 00:53.830
+So with the door selected I'll go ahead and press shift h to isolate it to kind of hide all the other
+
+00:53.830 --> 00:56.910
+objects and Alt-Tab into edit mode.
+
+00:56.920 --> 00:58.760
+And let's take a look at this.
+
+00:58.900 --> 01:06.220
+Now this is going to be one of those wood veneer wood panel kind of doors so I think what we can do
+
+01:06.250 --> 01:11.660
+is just break each of the faces out into their own U-V Island.
+
+01:11.980 --> 01:21.910
+So if I go to edge mode and I'll just select each of these edges all the way around like this and maybe
+
+01:21.910 --> 01:23.210
+this as well.
+
+01:24.510 --> 01:30.340
+I'll go ahead and mark these seams with control E and Mark seam.
+
+01:30.450 --> 01:34.920
+Now I grab those edges here at the corners as well.
+
+01:34.920 --> 01:40.190
+Go ahead and mark those and down here at the bottom.
+
+01:43.140 --> 01:49.450
+Control easy mark seem so I've just gone through and marked every seam on the object.
+
+01:49.740 --> 01:56.020
+I'll select everything with the Aiki press you and unwrap and here's what we get.
+
+01:56.060 --> 02:01.410
+Now here in the panel in the tools panel if we press t we can see it here.
+
+02:01.520 --> 02:07.730
+I have the option to use angle based or conformal for my U-V map.
+
+02:07.730 --> 02:12.920
+And you'll notice here that there really isn't a difference between either one of them.
+
+02:13.040 --> 02:16.580
+And that tells us that our scale is uniform.
+
+02:16.580 --> 02:23.720
+If I hit the in key and come over here to our properties panel and tab into object mode you can see
+
+02:23.720 --> 02:26.380
+that the scale here is all ones.
+
+02:26.540 --> 02:31.230
+Currently the rotation has a 90 degree turn in the x axis.
+
+02:31.520 --> 02:34.550
+But that's not really going to affect us too much.
+
+02:34.550 --> 02:40.030
+I can go ahead and press control a and apply the rotation as well.
+
+02:40.040 --> 02:48.590
+Now this is all zeros scale all ones we can try it again and see if that makes any difference at all.
+
+02:49.490 --> 02:56.180
+And it makes a slight difference in the rotation and placement of the islands but ultimately their scale
+
+02:56.180 --> 02:57.610
+hasn't changed any.
+
+02:57.620 --> 03:04.900
+So as we did before let's go ahead and create a U-V test pattern to apply to this to see how we're doing.
+
+03:05.040 --> 03:13.880
+I'll come down here and click new and I'll call this U.V. test and let's generate a U.V. grid pattern
+
+03:14.890 --> 03:16.230
+click OK.
+
+03:16.240 --> 03:17.690
+And there we go.
+
+03:17.740 --> 03:20.980
+Now I need to apply a material to this object.
+
+03:20.980 --> 03:27.420
+I click new and for this let's just call this material U-V test as well.
+
+03:27.490 --> 03:33.660
+I'll go ahead and press shift a bring in an image texture right here.
+
+03:34.060 --> 03:41.210
+And for this I'll just grab this pull down menu and select U-V test.
+
+03:41.250 --> 03:47.940
+I'll connect the nodes and come down here and choose texture viewport shading.
+
+03:47.950 --> 03:53.590
+Now we can see whether our U-V islands will stretch our texture or not.
+
+03:53.590 --> 03:55.900
+And it's looking pretty good actually.
+
+03:56.080 --> 03:58.440
+I think this is pretty usable.
+
+03:58.600 --> 04:01.160
+I'll hit the A key and take a look at it over here.
+
+04:01.390 --> 04:05.910
+Let's turn on that stretch coloration right here.
+
+04:06.660 --> 04:08.980
+So we can see the islands a little better.
+
+04:09.150 --> 04:18.150
+Now I know that I'm going to need a wood texture a wood texture grain to apply to this U-V map and to
+
+04:18.150 --> 04:19.860
+make my life easier.
+
+04:20.100 --> 04:27.780
+I should probably arrange these the islands in the same direction so that when I apply that wood texture
+
+04:28.110 --> 04:33.660
+I can apply it in one direction and it'll work for all my U-V islands.
+
+04:33.660 --> 04:41.880
+So if I come over here and choose U-V Island selection like that there and select one of these U-V islands
+
+04:42.480 --> 04:47.870
+I can now rotate it by pressing r 9 0 and hit enter.
+
+04:47.950 --> 04:54.060
+And now I can hit G and move it around in place next to the other U-V island.
+
+04:54.150 --> 05:00.660
+I can also do the same for these I can click these and shift select that and move these over here as
+
+05:00.660 --> 05:02.100
+well.
+
+05:02.100 --> 05:06.620
+And for these I can select these empresse are 9 0.
+
+05:06.960 --> 05:11.800
+Rotate those around and move these into place here.
+
+05:11.800 --> 05:12.900
+There we go.
+
+05:13.330 --> 05:20.970
+So now we have our U-V map of our door in place now to maximize our resolution in our U-V space here.
+
+05:21.010 --> 05:28.980
+It's a good idea to select everything and scale them up so they fit as tightly as possible within this
+
+05:29.020 --> 05:30.720
+zero to one space.
+
+05:30.720 --> 05:32.870
+However I've still got more to do.
+
+05:32.880 --> 05:40.200
+I've still got the door knobs and the door plate to do so I'll just undo this and wait to scale that
+
+05:40.200 --> 05:41.110
+up.
+
+05:41.130 --> 05:49.510
+Now I call this the zero to one space because just like on a graph here at this corner is zero zero
+
+05:49.890 --> 05:51.990
+and up here is 1 1.
+
+05:52.140 --> 05:56.030
+Over here is 0 1 and 1 0.
+
+05:56.040 --> 06:02.610
+If we take a look at the cursor settings here I'm just going to scroll a couple of these up so we can
+
+06:02.610 --> 06:04.920
+see the cursor settings.
+
+06:05.040 --> 06:06.060
+Here it is.
+
+06:06.060 --> 06:10.690
+You can see that the cursor here is at zero zero.
+
+06:10.710 --> 06:17.590
+I'm going to turn on normalized so that our coordinates are from 0 to 1 here.
+
+06:17.610 --> 06:18.910
+Turn that on.
+
+06:18.960 --> 06:27.960
+Now if I change this y to one you can see that the cursor snaps appear to coordinate 0 1.
+
+06:27.960 --> 06:38.390
+If I change the X to 1 the cursor snaps appear to 1 1 and if I change the Y to zero it snaps down here
+
+06:38.720 --> 06:41.150
+to 1 0.
+
+06:41.150 --> 06:48.310
+Now if I turn off normalized you can see that it gives the coordinates in the pixel resolution 10:24.
+
+06:48.340 --> 06:56.050
+If I type in 10:24 here that will put the cursor up there but generally speaking this is called the
+
+06:56.050 --> 07:02.330
+zero to one space because the coordinates go from zero to 1.
+
+07:02.900 --> 07:09.130
+So when we're U-V mapping our objects it's a good idea to keep all of the U.V. islands inside this is
+
+07:09.140 --> 07:13.250
+zero to one the space before we finalize the U.V. map.
+
+07:13.250 --> 07:19.000
+Now you can of course grab one of these and move them outside that zero to one space.
+
+07:19.010 --> 07:24.790
+And this is fine as you're creating and working with the U-V map.
+
+07:24.920 --> 07:32.840
+However not all 3D applications are going to be able to see U-V islands outside of the zero to one space.
+
+07:32.840 --> 07:40.160
+Some can some can't but to be safe it's a good idea to keep everything inside the zero to one space
+
+07:41.180 --> 07:46.580
+in the next video will continue U.V. mapping our door working on the door knobs and the door plate.
